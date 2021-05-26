@@ -1,0 +1,306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0051)http://www.timotheecour.com/software/ncut/ncut.html -->
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+  
+
+  <link rel="File-List" href="http://www.timotheecour.com/software/ncut/ncut_multiscale_files/filelist.xml">
+  <title>demo2</title>
+
+
+<!--[if !mso]> <style> v\:* { behavior: url(#default#VML) } o\:* { behavior: url(#default#VML) } .shape { behavior: url(#default#VML) } span.moz-txt-tag {} table.MsoNormalTable {mso-style-parent:""; font-size:11.0pt; font-family:"Calibri","sans-serif"; } </style> <![endif]--><!--[if gte mso 9]> <xml><o:shapedefaults v:ext="edit" spidmax="1027"/> </xml><![endif]-->
+</head>
+
+
+<body class="vsc-initialized">
+
+<div style="text-align: center;">
+<div style="text-align: left;"><big style="font-weight: bold;"><big><big><small>Normalized
+Cuts
+Segmentation Code, for MATLAB</small><br>
+
+</big></big></big><br>
+
+Code written by:&nbsp;<a href="http://www.seas.upenn.edu/~timothee/">Timothee Cour</a>
+(INRIA), <a href="http://www.cs.bc.edu/~syu/">Stella Yu</a>
+(Boston College), <a href="http://www.cis.upenn.edu/~jshi/">Jianbo
+Shi</a> (UPENN)<br>
+
+(c) 2004 University of Pennsylvania, Computer and Information Science
+Department.<br>
+
+<br>
+
+This is a Matlab/C++ implementation of Normalized Cuts for image
+segmentation and Data Clustering. <span style="color: rgb(255, 0, 0);"><br>
+
+</span>
+<p class="MsoNormal" style="text-align: left;"><b><font size="5">Download</font></b></p>
+
+<p class="MsoNormal" style="text-align: left;"><a href="http://www.timotheecour.com/software/ncut/Ncut_9.zip">download Ncuts code (ncut_9.zip)</a><span style="color: rgb(255, 0, 0);"> &nbsp; new (January 22,
+2010): release of all c++ source mex files compatible with matlab
+R2009b.</span></p>
+
+<span style="font-weight: bold; color: rgb(255, 0, 0);"></span>
+<p class="MsoNormal" style="text-align: left;"><strong></strong>This
+software is made publicly for research use only. It may be modified and
+redistributed under the terms of the <a href="http://www.gnu.org/copyleft/gpl.html">GNU General
+Public License</a>. </p>
+
+<span style="font-weight: bold; color: rgb(255, 0, 0);"></span><span style="font-weight: bold; color: rgb(255, 0, 0);"></span>
+<p class="MsoNormal" style="text-align: left;">see
+also<b><a href="http://www.seas.upenn.edu/~timothee/software/ncut_multiscale/ncut_multiscale.html">
+linear time multiscale normalized cut image segmentation</a>.</b></p>
+
+<b><font size="5">Citation</font></b></div>
+
+<p class="MsoNormal" style="text-align: left;">Normalized
+Cuts and Image Segmentation, Jianbo Shi and Jitendra
+Malik, IEEE Transactions on Pattern Analysis and Machine
+Intelligence(PAMI) 2000</p>
+
+<p class="MsoNormal" style="text-align: left;"><b><font size="5">Description</font></b>&nbsp;</p>
+
+<table style="text-align: left; width: 686px;" border="1" cellpadding="2" cellspacing="2">
+
+  <tbody>
+
+    <tr>
+
+      <td><img src="./demo2_files/5.JPG" border="0" height="103" width="184"></td>
+
+      <td style="width: 483px;">
+      <div style="text-align: left;"><font color="#0000ff"><strong><big>Data Clustering
+with Normalized Cuts</big></strong><br>
+
+      </font></div>
+
+      <br>
+
+      <a href="http://www.timotheecour.com/software/ncut/demo1.html">Demo step by step</a><br>
+
+      <br>
+
+Given a weighted graph, W, find a graph partition with
+Normalized Cuts.&nbsp;</td>
+
+    </tr>
+
+    <tr>
+
+      <td><img style="width: 185px; height: 146px;" alt="image segmentation" src="./demo2_files/3.jpg"><br>
+
+      <img style="width: 183px; height: 33px;" alt="eigenvectors" src="./demo2_files/4.jpg"></td>
+
+      <td style="width: 483px;">
+      <div style="text-align: left; width: 441px;"><font color="#0000ff"><strong><big>Image Segmentation
+with Normalized Cuts</big></strong><br>
+
+      <br>
+
+      </font></div>
+
+      <big><small><a href="http://www.timotheecour.com/software/ncut/demo2.html"><big><small>Demo
+step by step</small></big></a></small></big><br>
+
+      <br>
+
+Given an input image I, construct a pixel-pixel
+pair-wise similarity matrix W based on Intervening Contours. Output the
+image segmentation with Normalized Cuts.</td>
+
+    </tr>
+
+  </tbody>
+</table>
+
+<br>
+
+<div align="left">
+<div class="project">
+<p class="MsoNormal"><b><font size="5">Installation
+instructions</font></b></p>
+
+</div>
+
+</div>
+
+<p class="MsoNormal" style="text-align: left;">Make
+sure you have Matlab (it was tested under R2009b but should probably
+work in other versions as well). Certain functions might require the
+Matlab Image Processing Toolbox. </p>
+
+<div style="text-align: left;">1) After you unzipped the
+files to mydir, <br>
+
+&nbsp;&nbsp; put the Current Directory in Matlab to mydir<br>
+
+<br>
+
+2) In the matlab command prompt,<br>
+
+&nbsp;&nbsp; type compileDir_simple to compile the mex files
+(ignore the error on the C++ non-mex file; needs to be done once)<br>
+
+<br>
+
+</div>
+
+<p class="MsoNormal" style="text-align: left;"><b><font size="5">Synopsis</font></b>
+</p>
+
+</div>
+
+<div align="left">
+<table class="MsoNormalTable" style="width: 89%; border-collapse: collapse;" id="table6" border="1" cellpadding="0" cellspacing="0">
+
+  <tbody>
+
+    <tr>
+
+      <td style="padding: 0.75pt; font-weight: bold; width: 201px;" valign="top">demoNcutImage</td>
+
+      <td style="padding: 0.75pt; width: 778px;" valign="top">
+      <p class="MsoNormal">script that shows a demo of
+image segmentation</p>
+
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td style="padding: 0.75pt; font-weight: bold; width: 201px;" valign="top">
+      <p class="MsoNormal">demoNcutClustering</p>
+
+      </td>
+
+      <td style="padding: 0.75pt; width: 778px;" valign="top">
+      <p class="MsoNormal">script that shows a demo of
+point cloud clustering</p>
+
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td style="padding: 0.75pt; width: 201px;" valign="top">
+      <p class="MsoNormal">NcutImage</p>
+
+      </td>
+
+      <td style="padding: 0.75pt; width: 778px;" valign="top">
+      <p class="MsoNormal">given image "I", segment it
+into "nbSegments" segments<br>
+
+&nbsp;&nbsp;&nbsp;
+[SegLabel,NcutDiscrete,NcutEigenvectors,NcutEigenvalues,W]=
+NcutImage(I,nbSegments);</p>
+
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td style="padding: 0.75pt; width: 201px;" valign="top">
+      <p class="MsoNormal">ICgraph</p>
+
+      </td>
+
+      <td style="padding: 0.75pt; width: 778px;" valign="top">
+      <p class="MsoNormal">compute Intervening Contour
+based pixel similarity matrix W<br>
+
+&nbsp;&nbsp;&nbsp; W = ICgraph(I);</p>
+
+      </td>
+
+    </tr>
+
+    <tr>
+
+      <td style="padding: 0.75pt; width: 201px;" valign="top">
+      <p class="MsoNormal">ncutW</p>
+
+      </td>
+
+      <td style="padding: 0.75pt; width: 778px;" valign="top">
+      <p class="MsoNormal">Given a similarity graph "W",
+computes Ncut clustering on the graph into "nbSegments" groups;<br>
+
+&nbsp;&nbsp;&nbsp;
+[NcutDiscrete,NcutEigenvectors,NcutEigenvalues] = ncutW(W,nbSegments);</p>
+
+      </td>
+
+    </tr>
+
+  </tbody>
+</table>
+
+&nbsp;<br>
+
+<p class="MsoNormal" style="text-align: left;"><b><font size="5">Release notes</font></b></p>
+
+2010, January 22: release version 9: release of all c++ source mex
+files compatible with matlab R2009b<br>
+
+2006, May 04: release version 8: fixed incompatibility issues with new
+matlab<br>
+
+2004, June 18: release version 7: initial release<br>
+
+<br>
+
+Maintained by Timothee Cour, timothee&nbsp;dot
+cour at gmail dot com
+<br>
+
+Last updated: January 22, 2010.</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script src="./demo2_files/ga.js.&#19979;&#36733;" type="text/javascript"></script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3390178-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script><!-- Site Meter -->
+<script type="text/javascript" src="./demo2_files/counter.js.&#19979;&#36733;">
+</script>
+<noscript><a
+href="http://s33.sitemeter.com/stats.asp?site=s33timcodencut"
+target="_top">
+<img src="http://s33.sitemeter.com/meter.asp?site=s33timcodencut"
+alt="Site Meter" border="0"/></a>
+</noscript>
+
+<!-- Copyright (c)2009 Site Meter --><!-- Start of StatCounter Code -->
+
+
+<script type="text/javascript">
+var sc_project=5511975; var sc_invisible=1; var sc_partition=60; var sc_click_stat=1; var sc_security="6de084b6"; </script>
+<script type="text/javascript" src="./demo2_files/counter.js(1).&#19979;&#36733;"></script>
+<noscript><div
+class="statcounter"><a title="counter for iweb"
+href="http://www.statcounter.com/iweb/" target="_blank"><img
+class="statcounter"
+src="http://c.statcounter.com/5511975/0/6de084b6/1/"
+alt="counter for iweb" ></a></div></noscript>
+
+<!-- End of StatCounter Code -->
+
+
+<div id="fatkun-drop-panel">
+        <a id="fatkun-drop-panel-close-btn">×</a>
+            <div id="fatkun-drop-panel-inner">
+                <div class="fatkun-content">
+                    <svg class="fatkun-icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5892"><path d="M494.933333 782.933333c2.133333 2.133333 4.266667 4.266667 8.533334 6.4h8.533333c6.4 0 10.666667-2.133333 14.933333-6.4l2.133334-2.133333 275.2-275.2c8.533333-8.533333 8.533333-21.333333 0-29.866667-8.533333-8.533333-21.333333-8.533333-29.866667 0L533.333333 716.8V128c0-12.8-8.533333-21.333333-21.333333-21.333333s-21.333333 8.533333-21.333333 21.333333v588.8L249.6 475.733333c-8.533333-8.533333-21.333333-8.533333-29.866667 0-8.533333 8.533333-8.533333 21.333333 0 29.866667l275.2 277.333333zM853.333333 874.666667H172.8c-12.8 0-21.333333 8.533333-21.333333 21.333333s8.533333 21.333333 21.333333 21.333333H853.333333c12.8 0 21.333333-8.533333 21.333334-21.333333s-10.666667-21.333333-21.333334-21.333333z" p-id="5893"></path></svg>
+                    <div class="fatkun-title">&#25302;&#25341;&#21040;&#27492;&#22788;</div>
+                    <div class="fatkun-desc">&#22270;&#29255;&#23558;&#23436;&#25104;&#19979;&#36733;</div>
+                </div>
+            </div>
+    </div></body></html>
