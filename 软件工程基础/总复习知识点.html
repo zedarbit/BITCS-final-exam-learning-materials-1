@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>
+        Software Engineering - HedgeDoc
+    </title>
+    <link rel="apple-touch-icon" sizes="180x180" href="https://demo.hedgedoc.org/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://demo.hedgedoc.org/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://demo.hedgedoc.org/icons/favicon-16x16.png">
+    <link rel="manifest" href="https://demo.hedgedoc.org/icons/site.webmanifest">
+    <link rel="mask-icon" href="https://demo.hedgedoc.org/icons/safari-pinned-tab.svg" color="#b51f08">
+    <link rel="shortcut icon" href="https://demo.hedgedoc.org/icons/favicon.ico">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.0/css/bootstrap.min.css" integrity="sha256-H0KfTigpUV+0/5tn2HXC0CPwhhDhWgSawJdnFd0CGCo=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fork-awesome/1.1.3/css/fork-awesome.min.css" integrity="sha256-ZhApazu+kejqTYhMF+1DzNKjIzP7KXu6AzyXcC1gMus=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" integrity="sha256-3iu9jgsy9TpTwXKb7bNQzqWekRX7pPK+2OLj3R922fo=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.min.css" integrity="sha256-vtR0hSWRc3Tb26iuN2oZHt3KRUomwTufNIf5/4oeCyg=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github-gist.min.css" integrity="sha256-tAflq+ymku3Khs+I/WcAneIlafYgDiOQ9stIHH985Wo=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/css/basic/emojify.min.css" integrity="sha256-UOrvMOsSDSrW6szVLe8ZDZezBxh5IoIfgTwdNDgTjiU=" crossorigin="anonymous" />
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic,300italic,300|Source+Serif+Pro|Source+Code+Pro:400,300,500&subset=latin,latin-ext);.markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;font-size:16px;line-height:1.5;word-wrap:break-word}.markdown-body:after,.markdown-body:before{display:table;content:""}.markdown-body:after{clear:both}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body .absent{color:#c00}.markdown-body .anchor{float:left;padding-right:4px;margin-left:-20px;line-height:1}.markdown-body .anchor:focus{outline:none}.markdown-body blockquote,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-top:0;margin-bottom:16px}.markdown-body hr{height:.25em;padding:0;margin:24px 0;background-color:#e7e7e7;border:0}.markdown-body blockquote{padding:0 1em;color:#777;border-left:.25em solid #ddd}.night .markdown-body blockquote{color:#bcbcbc}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body .loweralpha{list-style-type:lower-alpha}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{margin-top:24px;margin-bottom:16px;font-weight:600;line-height:1.25}.night .markdown-body h1,.night .markdown-body h2,.night .markdown-body h3,.night .markdown-body h4,.night .markdown-body h5,.night .markdown-body h6{color:#ddd}.markdown-body h1 .fa-link,.markdown-body h2 .fa-link,.markdown-body h3 .fa-link,.markdown-body h4 .fa-link,.markdown-body h5 .fa-link,.markdown-body h6 .fa-link{color:#000;vertical-align:middle;visibility:hidden;font-size:16px}.night .markdown-body h1 .fa-link,.night .markdown-body h2 .fa-link,.night .markdown-body h3 .fa-link,.night .markdown-body h4 .fa-link,.night .markdown-body h5 .fa-link,.night .markdown-body h6 .fa-link{color:#fff}.markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{text-decoration:none}.markdown-body h1:hover .anchor .fa-link,.markdown-body h2:hover .anchor .fa-link,.markdown-body h3:hover .anchor .fa-link,.markdown-body h4:hover .anchor .fa-link,.markdown-body h5:hover .anchor .fa-link,.markdown-body h6:hover .anchor .fa-link{visibility:visible}.markdown-body h1 code,.markdown-body h1 tt,.markdown-body h2 code,.markdown-body h2 tt,.markdown-body h3 code,.markdown-body h3 tt,.markdown-body h4 code,.markdown-body h4 tt,.markdown-body h5 code,.markdown-body h5 tt,.markdown-body h6 code,.markdown-body h6 tt{font-size:inherit}.markdown-body h1{font-size:2em}.markdown-body h1,.markdown-body h2{padding-bottom:.3em;border-bottom:1px solid #eee}.markdown-body h2{font-size:1.5em}.markdown-body h3{font-size:1.25em}.markdown-body h4{font-size:1em}.markdown-body h5{font-size:.875em}.markdown-body h6{font-size:.85em;color:#777}.markdown-body ol,.markdown-body ul{padding-left:2em}.markdown-body ol.no-list,.markdown-body ul.no-list{padding:0;list-style-type:none}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-top:0;margin-bottom:0}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dl{padding:0}.markdown-body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}.markdown-body dl dd{padding:0 16px;margin-bottom:16px}.markdown-body table{display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}.markdown-body table th{font-weight:700}.markdown-body table td,.markdown-body table th{padding:6px 13px;border:1px solid #ddd}.markdown-body table tr{background-color:#fff;border-top:1px solid #ccc}.night .markdown-body table tr{background-color:#5f5f5f}.markdown-body table tr:nth-child(2n){background-color:#f8f8f8}.night .markdown-body table tr:nth-child(2n){background-color:#4f4f4f}.markdown-body img{max-width:100%;box-sizing:content-box;background-color:#fff}.markdown-body img[align=right]{padding-left:20px}.markdown-body img[align=left]{padding-right:20px}.markdown-body .emoji{max-width:none;vertical-align:text-top;background-color:transparent}.markdown-body span.frame{display:block;overflow:hidden}.markdown-body span.frame>span{display:block;float:left;width:auto;padding:7px;margin:13px 0 0;overflow:hidden;border:1px solid #ddd}.markdown-body span.frame span img{display:block;float:left}.markdown-body span.frame span span{display:block;padding:5px 0 0;clear:both;color:#333}.markdown-body span.align-center{display:block;overflow:hidden;clear:both}.markdown-body span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}.markdown-body span.align-center span img{margin:0 auto;text-align:center}.markdown-body span.align-right{display:block;overflow:hidden;clear:both}.markdown-body span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}.markdown-body span.align-right span img{margin:0;text-align:right}.markdown-body span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}.markdown-body span.float-left span{margin:13px 0 0}.markdown-body span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}.markdown-body span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}.markdown-body code,.markdown-body tt{padding:.2em 0;margin:0;font-size:85%;background-color:rgba(0,0,0,.04);border-radius:3px}.night .markdown-body code,.night .markdown-body tt{color:#eee;background-color:hsla(0,0%,90.2%,.36)}.markdown-body code:after,.markdown-body code:before,.markdown-body tt:after,.markdown-body tt:before{letter-spacing:-.2em;content:"\00a0"}.markdown-body code br,.markdown-body tt br{display:none}.markdown-body del code{text-decoration:inherit}.markdown-body pre{word-wrap:normal}.markdown-body pre>code{padding:0;margin:0;font-size:100%;word-break:normal;white-space:pre;background:transparent;border:0}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{padding:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:#f7f7f7;border-radius:3px}.markdown-body pre code,.markdown-body pre tt{display:inline;max-width:auto;padding:0;margin:0;overflow:visible;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}.markdown-body pre code:after,.markdown-body pre code:before,.markdown-body pre tt:after,.markdown-body pre tt:before{content:normal}.markdown-body .csv-data td,.markdown-body .csv-data th{padding:5px;overflow:hidden;font-size:12px;line-height:1;text-align:left;white-space:nowrap}.markdown-body .csv-data .blob-line-num{padding:10px 8px 9px;text-align:right;background:#fff;border:0}.markdown-body .csv-data tr{border-top:0}.markdown-body .csv-data th{font-weight:700;background:#f8f8f8;border-top:0}.markdown-body kbd{display:inline-block;padding:3px 5px;font-size:11px;line-height:10px;color:#555;vertical-align:middle;background-color:#fcfcfc;border:1px solid;border-color:#ccc #ccc #bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb}.news .alert .markdown-body blockquote{padding:0 0 0 40px;border:0}.activity-tab .news .alert .commits,.activity-tab .news .markdown-body blockquote{padding-left:0}.task-list-item{list-style-type:none}.task-list-item label{font-weight:400}.task-list-item.enabled label{cursor:pointer}.task-list-item+.task-list-item{margin-top:3px}.task-list-item-checkbox{float:left;margin:.31em 0 .2em -1.3em!important;vertical-align:middle;cursor:default!important}.markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;padding-top:40px;padding-bottom:40px;max-width:758px;overflow:visible!important}.markdown-body pre{border:inherit!important}.night .markdown-body pre{filter:invert(100%)}.markdown-body code{color:inherit!important}.markdown-body pre code .wrapper{display:-webkit-inline-flex;display:-moz-inline-flex;display:-ms-inline-flex;display:-o-inline-flex;display:inline-flex}.markdown-body pre code .gutter{float:left;overflow:hidden;-webkit-user-select:none;user-select:none}.markdown-body pre code .gutter.linenumber{text-align:right;position:relative;display:inline-block;cursor:default;z-index:4;padding:0 8px 0 0;min-width:20px;box-sizing:content-box;color:#afafaf!important;border-right:3px solid #6ce26c!important}.markdown-body pre code .gutter.linenumber>span:before{content:attr(data-linenumber)}.markdown-body pre code .code{float:left;margin:0 0 0 16px}.markdown-body .gist .line-numbers{border-left:none;border-top:none;border-bottom:none}.markdown-body .gist .line-data{border:none}.markdown-body .gist table{border-spacing:0;border-collapse:inherit!important}.night .markdown-body .gist table tr:nth-child(2n){background-color:#ddd}.markdown-body code[data-gist-id]{background:none;padding:0;filter:invert(100%)}.markdown-body code[data-gist-id]:after,.markdown-body code[data-gist-id]:before{content:""}.markdown-body code[data-gist-id] .blob-num{border:unset}.markdown-body code[data-gist-id] table{overflow:unset;margin-bottom:unset}.markdown-body code[data-gist-id] table tr{background:unset}.markdown-body[dir=rtl] pre{direction:ltr}.markdown-body[dir=rtl] code{direction:ltr;unicode-bidi:embed}.markdown-body .alert>p{margin-bottom:0}.markdown-body pre.abc,.markdown-body pre.flow-chart,.markdown-body pre.graphviz,.markdown-body pre.mermaid,.markdown-body pre.sequence-diagram{text-align:center;background-color:inherit;border-radius:0;white-space:inherit}.night .markdown-body pre.graphviz .graph>polygon{fill:#333}.night .markdown-body pre.mermaid .sectionTitle,.night .markdown-body pre.mermaid .titleText,.night .markdown-body pre.mermaid text{fill:#fff}.markdown-body pre.abc>code,.markdown-body pre.flow-chart>code,.markdown-body pre.graphviz>code,.markdown-body pre.mermaid>code,.markdown-body pre.sequence-diagram>code{text-align:left}.markdown-body pre.abc>svg,.markdown-body pre.flow-chart>svg,.markdown-body pre.graphviz>svg,.markdown-body pre.mermaid>svg,.markdown-body pre.sequence-diagram>svg{max-width:100%;height:100%}.night .markdown-body .abc path{fill:#eee}.night .markdown-body .abc path.note_selected{fill:##4DD0E1}.night tspan{fill:#fefefe}.night pre rect{fill:transparent}.night pre.flow-chart path,.night pre.flow-chart rect{stroke:#fff}.markdown-body pre>code.wrap{white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word}.markdown-body .alert>p,.markdown-body .alert>ul{margin-bottom:0}.markdown-body summary{display:list-item}.markdown-body summary:focus{outline:none}.markdown-body details summary{cursor:pointer}.markdown-body details:not([open])>:not(summary){display:none}.markdown-body figure{margin:1em 40px}.markdown-body img{background-color:transparent}.vimeo,.youtube{cursor:pointer;display:table;text-align:center;background-position:50%;background-repeat:no-repeat;background-size:contain;background-color:#000;overflow:hidden}.vimeo,.youtube{position:relative;width:100%}.youtube{padding-bottom:56.25%}.vimeo img{width:100%;object-fit:contain;z-index:0}.youtube img{object-fit:cover;z-index:0}.vimeo iframe,.youtube iframe,.youtube img{width:100%;height:100%;position:absolute;top:0;left:0}.vimeo iframe,.youtube iframe{vertical-align:middle;z-index:1}.vimeo .icon,.youtube .icon{position:absolute;height:auto;width:auto;top:50%;left:50%;transform:translate(-50%,-50%);color:#fff;opacity:.3;-webkit-transition:opacity .2s;transition:opacity .2s;z-index:0}.vimeo:hover .icon,.youtube:hover .icon{opacity:.6;-webkit-transition:opacity .2s;transition:opacity .2s}.slideshare .inner,.speakerdeck .inner{position:relative;width:100%}.slideshare .inner iframe,.speakerdeck .inner iframe{position:absolute;top:0;bottom:0;left:0;right:0;width:100%;height:100%}.MJX_Assistive_MathML{display:none}.ui-infobar{position:relative;z-index:2;max-width:758px;margin-top:25px;margin-bottom:-25px;color:#777}.toc .invisable-node{list-style-type:none}.ui-toc{position:fixed;bottom:20px;z-index:10000}.ui-toc-label{opacity:.3;background-color:#ccc;border:none}.ui-toc-label,.ui-toc .open .ui-toc-label{-webkit-transition:opacity .2s;transition:opacity .2s}.ui-toc .open .ui-toc-label{opacity:1;color:#fff}.ui-toc-label:focus{opacity:.3;background-color:#ccc;color:#000}.ui-toc-label:hover{opacity:1;background-color:#ccc;-webkit-transition:opacity .2s;transition:opacity .2s}.ui-toc-dropdown{margin-top:23px;margin-bottom:20px;padding-left:10px;padding-right:10px;max-width:45vw;width:25vw;max-height:70vh;overflow:auto;text-align:inherit}.ui-toc-dropdown>.toc{max-height:calc(70vh - 100px);overflow:auto}.ui-toc-dropdown[dir=rtl] .nav{padding-right:0;letter-spacing:.0029em}.ui-toc-dropdown a{overflow:hidden;text-overflow:ellipsis;white-space:pre}.ui-toc-dropdown .nav>li>a{display:block;padding:4px 20px;font-size:13px;font-weight:500;color:#767676}.ui-toc-dropdown .nav>li:first-child:last-child>ul,.ui-toc-dropdown .toc.expand ul{display:block}.ui-toc-dropdown .nav>li>a:focus,.ui-toc-dropdown .nav>li>a:hover{padding-left:19px;color:#000;text-decoration:none;background-color:transparent;border-left:1px solid #000}.night .ui-toc-dropdown .nav>li>a:focus,.night .ui-toc-dropdown .nav>li>a:hover{color:#fff;border-left-color:#fff}.ui-toc-dropdown[dir=rtl] .nav>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav>li>a:hover{padding-right:19px;border-left:none;border-right:1px solid #000}.ui-toc-dropdown .nav>.active:focus>a,.ui-toc-dropdown .nav>.active:hover>a,.ui-toc-dropdown .nav>.active>a{padding-left:18px;font-weight:700;color:#000;background-color:transparent;border-left:2px solid #000}.night .ui-toc-dropdown .nav>.active:focus>a,.night .ui-toc-dropdown .nav>.active:hover>a,.night .ui-toc-dropdown .nav>.active>a{color:#fff;border-left:2px solid #fff}.ui-toc-dropdown[dir=rtl] .nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav>.active>a{padding-right:18px;border-left:none;border-right:2px solid #000}.ui-toc-dropdown .nav .nav{display:none;padding-bottom:10px}.ui-toc-dropdown .nav>.active>ul{display:block}.ui-toc-dropdown .nav .nav>li>a{padding-top:1px;padding-bottom:1px;padding-left:30px;font-size:12px;font-weight:400}.night .ui-toc-dropdown .nav>li>a{color:#aaa}.ui-toc-dropdown[dir=rtl] .nav .nav>li>a{padding-right:30px}.ui-toc-dropdown .nav .nav>li>ul>li>a{padding-top:1px;padding-bottom:1px;padding-left:40px;font-size:12px;font-weight:400}.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a{padding-right:40px}.ui-toc-dropdown .nav .nav>li>a:focus,.ui-toc-dropdown .nav .nav>li>a:hover{padding-left:29px}.ui-toc-dropdown[dir=rtl] .nav .nav>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav .nav>li>a:hover{padding-right:29px}.ui-toc-dropdown .nav .nav>li>ul>li>a:focus,.ui-toc-dropdown .nav .nav>li>ul>li>a:hover{padding-left:39px}.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a:hover{padding-right:39px}.ui-toc-dropdown .nav .nav>.active:focus>a,.ui-toc-dropdown .nav .nav>.active:hover>a,.ui-toc-dropdown .nav .nav>.active>a{padding-left:28px;font-weight:500}.ui-toc-dropdown[dir=rtl] .nav .nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>a{padding-right:28px}.ui-toc-dropdown .nav .nav>.active>.nav>.active:focus>a,.ui-toc-dropdown .nav .nav>.active>.nav>.active:hover>a,.ui-toc-dropdown .nav .nav>.active>.nav>.active>a{padding-left:38px;font-weight:500}.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active>a{padding-right:38px}.markdown-body[lang^=ja]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ ゴシック,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}.ui-toc-dropdown[lang^=ja]{font-family:Source Sans Pro,Helvetica,Arial,Meiryo UI,MS PGothic,ＭＳ Ｐゴシック,sans-serif}.markdown-body[lang=zh-tw]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}.ui-toc-dropdown[lang=zh-tw]{font-family:Source Sans Pro,Helvetica,Arial,Microsoft JhengHei UI,微軟正黑UI,sans-serif}.markdown-body[lang=zh-cn]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol}.ui-toc-dropdown[lang=zh-cn]{font-family:Source Sans Pro,Helvetica,Arial,Microsoft YaHei UI,微软雅黑UI,sans-serif}.ui-affix-toc{position:fixed;top:0;max-width:15vw;max-height:70vh;overflow:auto}.back-to-top,.expand-toggle,.go-to-bottom{display:block;padding:4px 10px;margin-top:10px;margin-left:10px;font-size:12px;font-weight:500;color:#999}.back-to-top:focus,.back-to-top:hover,.expand-toggle:focus,.expand-toggle:hover,.go-to-bottom:focus,.go-to-bottom:hover{color:#563d7c;text-decoration:none}.back-to-top,.go-to-bottom{margin-top:0}.ui-user-icon{width:20px;height:20px;display:block;border-radius:3px;margin-top:2px;margin-bottom:2px;margin-right:5px;background-position:50%;background-repeat:no-repeat;background-size:contain}.ui-user-icon.small{width:18px;height:18px;display:inline-block;vertical-align:middle;margin:0 0 .2em}small span{line-height:22px}small .dropdown{display:inline-block}small .dropdown a:focus,small .dropdown a:hover{text-decoration:none}.unselectable{-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none;-o-user-select:none;user-select:none}.night .navbar{background:#333;border-bottom-color:#333;color:#eee}.night .navbar a{color:#eee}.markdown-body h1[id]:before,.markdown-body h2[id]:before,.markdown-body h3[id]:before,.markdown-body h4[id]:before,.markdown-body h5[id]:before,.markdown-body h6[id]:before{display:block;content:" ";margin-top:-55px;height:55px;visibility:hidden}@media print{blockquote,div,img,pre,table{page-break-inside:avoid!important}a[href]:after{font-size:12px!important}}.markdown-body.slides{position:relative;z-index:1;color:#222}.markdown-body.slides:before{content:"";display:block;position:absolute;top:0;left:0;right:0;bottom:0;z-index:-1;background-color:currentColor;box-shadow:0 0 0 50vw}.markdown-body.slides section[data-markdown]{position:relative;margin-bottom:1.5em;background-color:#fff;text-align:center}.markdown-body.slides section[data-markdown] code{text-align:left}.markdown-body.slides section[data-markdown]:before{content:"";display:block;padding-bottom:56.23%}.markdown-body.slides section[data-markdown]>div:first-child{position:absolute;top:50%;left:1em;right:1em;transform:translateY(-50%);max-height:100%;overflow:hidden}.markdown-body.slides section[data-markdown]>ul{display:inline-block}.markdown-body.slides>section>section+section:after{content:"";position:absolute;top:-1.5em;right:1em;height:1.5em;border:3px solid #777}.markdown-body.slides aside.notes{display:none}.markdown-body.slides ol,.markdown-body.slides ul{display:inline-block;text-align:left;margin:0 0 0 1em;padding:0}.markdown-body.slides table{width:50%;margin:0 auto;border-collapse:collapse;border-spacing:0;display:table}.markdown-body.slides table td,.markdown-body.slides table th{text-align:left;padding:.2em .5em;border:none;border-bottom:1px solid}.markdown-body.slides table tr{border-top:0;background-color:#fff}.markdown-body.slides table tr:nth-child(2n){background-color:inherit}.markdown-body.slides table tbody tr:last-child td,.markdown-body.slides table tbody tr:last-child th{border-bottom:none}.markdown-body.slides h1,.markdown-body.slides h2{border-bottom:0}.night .markdown-body.slides h1,.night .markdown-body.slides h2,.night .markdown-body.slides h3,.night .markdown-body.slides h4,.night .markdown-body.slides h5,.night .markdown-body.slides h6{color:#000}.markdown-body section>section:last-child{margin-bottom:1.5em!important}.ui-view-area.black{background-color:#000!important}body{font-smoothing:subpixel-antialiased!important;-webkit-font-smoothing:subpixel-antialiased!important;-moz-osx-font-smoothing:auto!important;text-shadow:0 0 1em transparent,1px 1px 1.2px rgba(0,0,0,.004);-webkit-overflow-scrolling:touch;font-family:Source Sans Pro,Helvetica,Arial,sans-serif;letter-spacing:.025em}.focus,:focus{outline:none!important}::-moz-focus-inner{border:0!important}body.modal-open{overflow-y:auto;padding-right:0!important}
+    </style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha256-g6iAfvZp+nDQ2TdTR/VVKJf3bGro4ub5fvWSWVRi2NE=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js" integrity="sha256-8E4Is26QH0bD52WoQpcB+R/tcWQtpzlCojrybUd7Mxo=" crossorigin="anonymous"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="doc" class="markdown-body container-fluid"><h1 id="Software-Engineering"><a class="anchor hidden-xs" href="#Software-Engineering" title="Software-Engineering"><i class="fa fa-link"></i></a>Software Engineering</h1><blockquote>
+<p>维护规则<br>
+① 新增条目：先把自己写的条目在本地md编辑器编辑好，然后在本在线文档进行粘贴<br>
+② 修改他人的条目：通过注释 ‘&gt;’ 的方式来对条目进行增改，待原作者采纳<br>
+③ 求助：标题后带有 ‘(?)’ 标识的条目，说明编辑者对该条目存在疑问或困难</p>
+</blockquote><p></p><div class="toc"><ul>
+<li><a href="#Software-Engineering" title="Software Engineering">Software Engineering</a></li>
+<li><a href="#Part-1（填空）" title="Part 1（填空）">Part 1（填空）</a><ul>
+<li><a href="#1---基本软件过程的3个模型-Software-Process-Models" title="1 - 基本软件过程的3个模型 Software Process Models">1 - 基本软件过程的3个模型 Software Process Models</a><ul>
+<li><a href="#瀑布模型-Waterfall" title="瀑布模型 Waterfall">瀑布模型 Waterfall</a></li>
+<li><a href="#迭代开发模型-RUP" title="迭代开发模型 RUP">迭代开发模型 RUP</a></li>
+<li><a href="#增量式开发-Incremental" title="增量式开发 Incremental">增量式开发 Incremental</a></li>
+<li><a href="#面向复用的软件工程-Reuse-oriented" title="面向复用的软件工程 Reuse oriented">面向复用的软件工程 Reuse oriented</a></li>
+</ul>
+</li>
+<li><a href="#2---软件工程和其它工程的差异" title="2 - 软件工程和其它工程的差异">2 - 软件工程和其它工程的差异</a><ul>
+<li><a href="#和计算机科学的差异" title="和计算机科学的差异">和计算机科学的差异</a></li>
+<li><a href="#和系统工程的差异" title="和系统工程的差异">和系统工程的差异</a></li>
+</ul>
+</li>
+<li><a href="#3---风险评估-Risk-Analysis" title="3 - 风险评估 Risk Analysis">3 - 风险评估 Risk Analysis</a></li>
+<li><a href="#4---风险规划-Risk-Planning" title="4 - 风险规划 Risk Planning">4 - 风险规划 Risk Planning</a></li>
+<li><a href="#5---需求工程过程-Requirement-Engineering-Processes" title="5 - 需求工程过程 Requirement Engineering Processes">5 - 需求工程过程 Requirement Engineering Processes</a></li>
+<li><a href="#6---软件产品的属性-Product-Characteristics" title="6 - 软件产品的属性  Product Characteristics">6 - 软件产品的属性  Product Characteristics</a></li>
+<li><a href="#7---什么是软件系统？包含什么" title="7 - 什么是软件系统？包含什么">7 - 什么是软件系统？包含什么</a></li>
+<li><a href="#8---缺陷测试（？PDF223-228）" title="8 - 缺陷测试（？PDF223 228）">8 - 缺陷测试（？PDF223 228）</a></li>
+<li><a href="#9---软件开发工具CASE-tools的功能-gt" title="9 - 软件开发工具(CASE tools)的功能 >">9 - 软件开发工具(CASE tools)的功能 &gt;</a></li>
+<li><a href="#10---组件接口" title="10 - 组件接口">10 - 组件接口</a></li>
+<li><a href="#11---Reengineering-软件再工程-gt" title="11 - Reengineering 软件再工程 >">11 - Reengineering 软件再工程 &gt;</a></li>
+<li><a href="#12---Project-Management-项目管理" title="12 - Project Management 项目管理">12 - Project Management 项目管理</a></li>
+<li><a href="#13---CORBA-Standard" title="13 - CORBA Standard">13 - CORBA Standard</a></li>
+<li><a href="#14---三类-people-management-（叶语霄添加）" title="14 - 三类 people management （叶语霄添加）">14 - 三类 people management （叶语霄添加）</a></li>
+<li><a href="#15---Software-Reuse-（软件复用）的好处" title="15 - Software Reuse （软件复用）的好处">15 - Software Reuse （软件复用）的好处</a></li>
+<li><a href="#16---两种-evolutionary-development-叶语霄添加" title="16 - 两种 evolutionary development (叶语霄添加)">16 - 两种 evolutionary development (叶语霄添加)</a></li>
+<li><a href="#17---conventional-structure-design-有什么（周祐超添加）（？）" title="17 - conventional structure design 有什么（周祐超添加）（？）">17 - conventional structure design 有什么（周祐超添加）（？）</a><ul>
+<li><a href="#静态模型" title="静态模型">静态模型</a></li>
+<li><a href="#动态模型" title="动态模型">动态模型</a></li>
+</ul>
+</li>
+<li><a href="#18---OO-Design-面向对象设计方法-周祐超添加（？）" title="18 - OO Design 面向对象设计方法 (周祐超添加)（？）">18 - OO Design 面向对象设计方法 (周祐超添加)（？）</a></li>
+<li><a href="#19---Iterative-Model-迭代式开发过程模型-（2种）-周祐超-PPT-4-8页-gt" title="19 - Iterative Model 迭代式开发过程模型 （2种） (周祐超 PPT 4-8页) >">19 - Iterative Model 迭代式开发过程模型 （2种） (周祐超 PPT 4-8页) &gt;</a></li>
+<li><a href="#20---Verification-and-Validation-检验和有效性验证" title="20 - Verification and Validation 检验和有效性验证">20 - Verification and Validation 检验和有效性验证</a></li>
+<li><a href="#21-P-CMM模型的五个level" title="21 P-CMM模型的五个level">21 P-CMM模型的五个level</a></li>
+</ul>
+</li>
+<li><a href="#Part-2（概念解释）" title="Part 2（概念解释）">Part 2（概念解释）</a><ul>
+<li><a href="#1---功能需求与非功能需求（叶语霄添加）" title="1 - 功能需求与非功能需求（叶语霄添加）">1 - 功能需求与非功能需求（叶语霄添加）</a></li>
+<li><a href="#2---软件产品线的特化（叶语霄添加）" title="2 - 软件产品线的特化（叶语霄添加）">2 - 软件产品线的特化（叶语霄添加）</a></li>
+<li><a href="#3---设计模式（周祐超添加）" title="3 - 设计模式（周祐超添加）">3 - 设计模式（周祐超添加）</a></li>
+<li><a href="#4---增量式开发（周祐超添加）" title="4 - 增量式开发（周祐超添加）">4 - 增量式开发（周祐超添加）</a></li>
+<li><a href="#5---分布式组件体系结构（叶语霄添加）" title="5 - 分布式组件体系结构（叶语霄添加）">5 - 分布式组件体系结构（叶语霄添加）</a></li>
+<li><a href="#6---checklist-周祐超添加" title="6 - checklist (周祐超添加)">6 - checklist (周祐超添加)</a></li>
+<li><a href="#7---UML-时序图（sequence-diagram（周祐超添加）（gt-叶语霄改）" title="7 - UML 时序图（sequence diagram)（周祐超添加）（> 叶语霄改）">7 - UML 时序图（sequence diagram)（周祐超添加）（&gt; 叶语霄改）</a></li>
+<li><a href="#8---中间件提供哪些服务？（叶语霄添加）" title="8 - 中间件提供哪些服务？（叶语霄添加）">8 - 中间件提供哪些服务？（叶语霄添加）</a></li>
+</ul>
+</li>
+<li><a href="#Part-3（论述题）" title="Part 3（论述题）">Part 3（论述题）</a><ul>
+<li><a href="#1---Middleware-Services-提供哪些分布式服务？（周祐超添加）" title="1 - Middleware Services 提供哪些分布式服务？（周祐超添加）">1 - Middleware Services 提供哪些分布式服务？（周祐超添加）</a></li>
+<li><a href="#2---configuration-management——change-management变更管理，实现了什么关键的功能？-周祐超" title="2 - configuration management——change management变更管理，实现了什么关键的功能？ (周祐超)">2 - configuration management——change management变更管理，实现了什么关键的功能？ (周祐超)</a></li>
+<li><a href="#3---软件复用的优点与问题（周祐超添加）" title="3 - 软件复用的优点与问题（周祐超添加）">3 - 软件复用的优点与问题（周祐超添加）</a><ul>
+<li><a href="#31优势：" title="3.1优势：">3.1优势：</a></li>
+<li><a href="#32-问题" title="3.2 问题">3.2 问题</a></li>
+</ul>
+</li>
+<li><a href="#4---OO-design的关键活动（5个）（周祐超添加）" title="4 - OO design的关键活动（5个）（周祐超添加）">4 - OO design的关键活动（5个）（周祐超添加）</a><ul>
+<li><a href="#41-系统上下文和交互" title="4.1 系统上下文和交互">4.1 系统上下文和交互</a></li>
+<li><a href="#42-体系结构的设计" title="4.2 体系结构的设计">4.2 体系结构的设计</a></li>
+<li><a href="#43-主要对象的识别" title="4.3 主要对象的识别">4.3 主要对象的识别</a></li>
+<li><a href="#44-设计模型" title="4.4 设计模型">4.4 设计模型</a></li>
+<li><a href="#45-接口设计" title="4.5 接口设计">4.5 接口设计</a></li>
+</ul>
+</li>
+<li><a href="#5---Software-Re-engineering-包括哪些活动？" title="5 - Software Re-engineering 包括哪些活动？">5 - Software Re-engineering 包括哪些活动？</a></li>
+<li><a href="#6---黑盒测试amp根据等价划分原则构造测试用例（叶语霄添加）（？）" title="6 - 黑盒测试&amp;根据等价划分原则构造测试用例（叶语霄添加）（？）">6 - 黑盒测试&amp;根据等价划分原则构造测试用例（叶语霄添加）（？）</a></li>
+<li><a href="#7---紧急变更（emergency-changes）" title="7 - 紧急变更（emergency changes）">7 - 紧急变更（emergency changes）</a></li>
+<li><a href="#8---独立路径（Independent-Path）（叶语霄添加）" title="8 - 独立路径（Independent Path）（叶语霄添加）">8 - 独立路径（Independent Path）（叶语霄添加）</a></li>
+<li><a href="#9---客户机服务器结构（ClientServer-Architecture）（叶语霄添加）" title="9 - 客户机/服务器结构（Client/Server Architecture）（叶语霄添加）">9 - 客户机/服务器结构（Client/Server Architecture）（叶语霄添加）</a><ul>
+<li><a href="#CS结构-（对应教材182节）" title="C/S结构 （对应教材18.2节）">C/S结构 （对应教材18.2节）</a></li>
+<li><a href="#两层CS结构-（对应教材1832节）" title="两层C/S结构 （对应教材18.3.2节）">两层C/S结构 （对应教材18.3.2节）</a></li>
+<li><a href="#多层CS结构-（对应教材1833节）" title="多层C/S结构 （对应教材18.3.3节）">多层C/S结构 （对应教材18.3.3节）</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div><p></p><h1 id="Part-1（填空）"><a class="anchor hidden-xs" href="#Part-1（填空）" title="Part-1（填空）"><i class="fa fa-link"></i></a>Part 1（填空）</h1><h2 id="1---基本软件过程的3个模型-Software-Process-Models"><a class="anchor hidden-xs" href="#1---基本软件过程的3个模型-Software-Process-Models" title="1---基本软件过程的3个模型-Software-Process-Models"><i class="fa fa-link"></i></a>1 - 基本软件过程的3个模型 Software Process Models</h2><p>中文版 P17</p><p>英文版 P29 （PDF47)</p><h3 id="瀑布模型-Waterfall"><a class="anchor hidden-xs" href="#瀑布模型-Waterfall" title="瀑布模型-Waterfall"><i class="fa fa-link"></i></a>瀑布模型 Waterfall</h3><p><strong>也即软件的生命周期模型</strong>。该模型将基本的过程活动，包括描述、开发、有效性验证和进化，看成是一些界限分明的独立的过程阶段。</p><p>五个阶段：<strong>需求分析和定义、系统和软件设计、实现和单元测试、集成和系统测试、运行和维护</strong>。</p><img src="https://gitee.com/cabinz/blog-imgs/raw/master/image-20210123142548419.png" alt="image-20210123142646355" style="zoom: 80%;"><h3 id="迭代开发模型-RUP"><a class="anchor hidden-xs" href="#迭代开发模型-RUP" title="迭代开发模型-RUP"><i class="fa fa-link"></i></a>迭代开发模型 RUP</h3><blockquote>
+<p>zyc觉得（这个似乎不是基本模型，是一个比较新的模型）</p>
+</blockquote><h3 id="增量式开发-Incremental"><a class="anchor hidden-xs" href="#增量式开发-Incremental" title="增量式开发-Incremental"><i class="fa fa-link"></i></a>增量式开发 Incremental</h3><p><strong>增量式开发的思想是先开发出一个初始的实现，给用户使用并听取用户的使用意见和建议，通过对多个版本的不断修改直到产生一个充分的系统。</strong></p><p>描述、开发和有效性验证等活动不是分离的而是交织在一起。同时让这些活动之间都能得到快速的反馈信息传递。系统的开发是建立一系列的版本（增量)，每个版本添加部分功能到先前的版本中。</p><img src="https://gitee.com/cabinz/blog-imgs/raw/master/image-20210123142646355.png" alt="image-20210123142548419" style="zoom: 67%;"><h3 id="面向复用的软件工程-Reuse-oriented"><a class="anchor hidden-xs" href="#面向复用的软件工程-Reuse-oriented" title="面向复用的软件工程-Reuse-oriented"><i class="fa fa-link"></i></a>面向复用的软件工程 Reuse oriented</h3><p><strong>该方法是基于已存在的大量可复用的组件。系统开发过程着重于集成这些组件到新系统中，而非从头开发。</strong></p><p><strong>需求描述、组件分析、需求修改（需求对应已有组件做出妥协）、使用复用的系统设计、开发和集成、系统有效性验证</strong></p><img src="https://gitee.com/cabinz/blog-imgs/raw/master/image-20210123142753586.png" alt="image-20210123142753586" style="zoom: 80%;"><h2 id="2---软件工程和其它工程的差异"><a class="anchor hidden-xs" href="#2---软件工程和其它工程的差异" title="2---软件工程和其它工程的差异"><i class="fa fa-link"></i></a>2 - 软件工程和其它工程的差异</h2><p>中文版 P3</p><p>英文版 P5 （PDF23）</p><h3 id="和计算机科学的差异"><a class="anchor hidden-xs" href="#和计算机科学的差异" title="和计算机科学的差异"><i class="fa fa-link"></i></a>和计算机科学的差异</h3><p>计算机科学侧重理论和基础，而软件工程侧重<strong>软件开发</strong>和<strong>交付</strong>的实际活动。</p><h3 id="和系统工程的差异"><a class="anchor hidden-xs" href="#和系统工程的差异" title="和系统工程的差异"><i class="fa fa-link"></i></a>和系统工程的差异</h3><p>系统工程侧重于计算机系统的开发的所有方面，包括<strong>硬件、软件和过程工程</strong>，软件工程只是这个总体过程中的一部分。涉及开发系统中的软件基础设施、控制、应用程序和数据库。</p><h2 id="3---风险评估-Risk-Analysis"><a class="anchor hidden-xs" href="#3---风险评估-Risk-Analysis" title="3---风险评估-Risk-Analysis"><i class="fa fa-link"></i></a>3 - 风险评估 Risk Analysis</h2><p>中文版 P379</p><p>英文版 P599 （PDF 616）</p><ol>
+<li>
+<p>对风险出现的<strong>可能性</strong>（probability of the risk）进行评估，可能的结果有3+2种：</p>
+<p>风险出现的可能性非常低（&lt;10%)、低( 10% ~25%)、中等（25% ~50%)、高（ 50% ~75%）或非常高（&gt;75%)。</p>
+</li>
+<li>
+<p>对风险的<strong>严重性</strong>（effects of the risk）进行评估，可能的结果有4种：</p>
+<p>灾难性的（严重威胁项目的存活）、严重的（可能引起很大的延迟）、可以容忍的（可能引起小的延迟）和可以忽略的。</p>
+</li>
+</ol><p>（very low、low、moderate、high、very high）<br>
+（catastrophic、serious、tolerable、insignificant）</p><h2 id="4---风险规划-Risk-Planning"><a class="anchor hidden-xs" href="#4---风险规划-Risk-Planning" title="4---风险规划-Risk-Planning"><i class="fa fa-link"></i></a>4 - 风险规划 Risk Planning</h2><p>英文版 P601（PDF 618）</p><p>中文版 P381</p><p>在风险规划过程中，项目管理者要考虑已经识别出的每一个重大风险，并确定处理这些风险的策略。</p><p>应对策略</p><ol>
+<li>
+<p><strong>规避策略 Avoidance strategies</strong></p>
+<p>采用这些策略就会降低风险出现的可能性。（降低发生可能性）</p>
+<p>图22-5中处理有缺陷的组件策略就是一个例子。</p>
+</li>
+<li>
+<p><strong>最小化策略 Minimization strategies</strong></p>
+<p>采用这些策略就会减小风险的影响。（削弱后果）</p>
+<p>图22-5中解决职员生病问题的策略就属于这一种。</p>
+</li>
+<li>
+<p><strong>应急计划 Contingency plans</strong></p>
+<p>采用这些策略，就算最坏的事情发生，我们也是有bear来，有适当的对策处理它。（发生了就去应对它）</p>
+<p>图22-5中应对机构的财务问题的策略就属于这一类。</p>
+</li>
+</ol><h2 id="5---需求工程过程-Requirement-Engineering-Processes"><a class="anchor hidden-xs" href="#5---需求工程过程-Requirement-Engineering-Processes" title="5---需求工程过程-Requirement-Engineering-Processes"><i class="fa fa-link"></i></a>5 - 需求工程过程 Requirement Engineering Processes</h2><p>英文版 P38 P99（PDF 116）</p><p>中文版 P61</p><p><strong>需求工程过程</strong>包括有4个高层活动：</p><p>评估系统是否对业务有用（<strong>系统可行性研究</strong>)，需求发现（<strong>需求导出和分析</strong>)，将需求转变为某种标准格式描述(<strong>需求描述</strong>)，以及检验需求是否正确地定义了客户所希望的系统（<strong>需求有效性验证</strong>)。</p><img src="https://gitee.com/cabinz/blog-imgs/raw/master/image-20210124081553070.png" alt="image-20210124081553070" style="zoom:80%;"><p>在图中已经按照过程顺序显示了这些活动。然而，在实际中需求工程是一个活动相互交错的迭代过程。</p><img src="https://gitee.com/cabinz/blog-imgs/raw/master/image-20210123140616017.png" alt="image-20210123140616017" style="zoom: 80%;"><img src="https://gitee.com/cabinz/blog-imgs/raw/master/image-20210123140433861.png" alt="image-20210123140433861" style="zoom: 67%;"><h2 id="6---软件产品的属性-Product-Characteristics"><a class="anchor hidden-xs" href="#6---软件产品的属性-Product-Characteristics" title="6---软件产品的属性-Product-Characteristics"><i class="fa fa-link"></i></a>6 - 软件产品的属性  Product Characteristics</h2><p>英文版 P8 （PDF 25）</p><p>中文版 P4</p><p>（优良软件的特点：可维护、可靠、可用）</p><ul>
+<li>
+<p><strong>Maintainability 可维护性</strong></p>
+<p>能够不断进化，满足需求的变化。是软件产品的<u>最根本特性</u>。</p>
+</li>
+<li>
+<p><strong>Dependability and security 可依赖性和安全性</strong></p>
+<p>在系统失败的情况下不会导致物理性损害和经济损失，有恶意的人员不能访问或破坏系统。</p>
+</li>
+<li>
+<p><strong>Efficiency 有效性</strong></p>
+<p>响应时间、处理时间和内存利用率等方面。不浪费资源。</p>
+</li>
+<li>
+<p><strong>Acceptability 可用性</strong></p>
+<p>简单易用，① 容易被用户接受，且 ② 与其它系统兼容。</p>
+</li>
+</ul><h2 id="7---什么是软件系统？包含什么"><a class="anchor hidden-xs" href="#7---什么是软件系统？包含什么" title="7---什么是软件系统？包含什么"><i class="fa fa-link"></i></a>7 - 什么是软件系统？包含什么</h2><p>英文版 P6 （PDF 23）</p><p>中文版 P3</p><blockquote>
+<p>Computer programs and associated documentation.<br>
+Software products may be developed for a particular<br>
+customer or may be developed for a general market.</p>
+</blockquote><p>① <strong>计算机程序</strong> 和 ② <strong>相关文档。</strong></p><p>软件产品可针对特定客户开发或为通用市场开发</p><p><strong>软件系统</strong>：软件产品可针对特：软件系统通常由多个独立的程序、用于设置这些程序的配置文件、描述系统结构的系统文档和解释如何使用系统和网站供用户下载最新产品信息的用户文档组成<br>
+<strong>Software system</strong>:A software system usually consists of a number of separate programs, configuration files, which are used to set up these programs, system documentation, which describes the structure of the system, and user documentation, which explains how to use the system and web sites fbr users to download recent product information.</p><p>中文版的书中如是写到：系统通常包含一些单独的程序、用于设置这些程序的配置文件，可能还包括描述系统结构的系统文档、如何使用该系统的用户文档，以及告知用户下载最新产品信息的web站点</p><h2 id="8---缺陷测试（？PDF223-228）"><a class="anchor hidden-xs" href="#8---缺陷测试（？PDF223-228）" title="8---缺陷测试（？PDF223-228）"><i class="fa fa-link"></i></a>8 - 缺陷测试（？PDF223 228）</h2><p>主要应该是V&amp;V这个内容<br>
+<strong>defect testing</strong>：为了发现错误（也即verification）<br>
+<strong>validation testing</strong>：为了验证系统是成功有效的</p><h2 id="9---软件开发工具CASE-tools的功能-gt"><a class="anchor hidden-xs" href="#9---软件开发工具CASE-tools的功能-gt" title="9---软件开发工具CASE-tools的功能-gt"><i class="fa fa-link"></i></a>9 - 软件开发工具(CASE tools)的功能 &gt;</h2><p>英文版 P37 （PDF 54）</p><p>中文版 P22</p><p>软件开发工具（有时也叫计算机辅助软件工程或CASE工具）是用来支持软件工程过程活动的程序，这些工具包括如：设计编辑器、数据字典、编译器、调试器、系统生成工具等。<br>
+软件工具通过自动化某些过程活动和提供正被开发的软件的信息来支持软件过程。可以自动化的活动的例子包括：</p><ul>
+<li>作为需求描述和软件设计中的一部分的图形系统模型的开发。</li>
+<li>从这些图形模型生成代码。</li>
+<li>通过由用户交互创建的图形界面描述来产生用户界面。</li>
+<li>通过提供执行的程序的信息进行程序调试。</li>
+<li>程序的自动转换，将使用旧语言版本的程序转换成一个新版本语言的程序。</li>
+</ul><p>多种工具可能被整合在一个被称为交互式软件环境 <strong>(叶语霄改：交互式开发环境)</strong> 的框架中，也称为IDE。这就为不同的工具提供了一个共同的可用的设施集合，使之更容易在集成的方式下通信和运行。人们广泛使用ICLIPSE IDE，它嵌入了很多不同类型的软件工具。</p><p>programs that are used to support software engineering process activities<br>
+比如：<br>
+Graphical editors for system model development; （模型的图的建立与编辑）<br>
+Data dictionary to manage design entities; （数据管理）<br>
+Graphical UI builder for user interface construction; （GUI建立）<br>
+Debuggers to support program fault finding; （程序调试功能）<br>
+Automated translators to generate new versions of a program.（版本生成）</p><h2 id="10---组件接口"><a class="anchor hidden-xs" href="#10---组件接口" title="10---组件接口"><i class="fa fa-link"></i></a>10 - 组件接口</h2><p>英文版 P457 （PDF 474)</p><p>中文版 P</p><ul>
+<li>组件
+<ol>
+<li>组件是一种软件元素，与某个组件模型要求相一致，按照组成标准无需修改即可独立进行部署和组合。（基于标准）</li>
+<li>组件是具有合同定义的接口和显式的上下文依赖，可独立进行部署的并服从于第三方的组成的软件单元。（基于关键特征）</li>
+</ol>
+</li>
+</ul><p>可复用组件的2个关键特征：</p><p>1．组件是独立可执行的实体，这是由它的接口定义的。你不必知道组件的源代码的任何信息来使用它。它可能作为一种外部服务来引用，也可能直接包含在一个程序中<br>
+2．组件所提供的服务可以通过其接口得到，而且所有的交互都是通过接口实现的。组件接口表现为参数化的过程，其内部状态是不会暴露出来的。</p><ul>
+<li>组件接口
+<ul>
+<li><strong>提供接口 Provides Interface</strong>：提供接口定义了组件所提供的服务。</li>
+<li><strong>需要接口 Requires Interface</strong>：需要接口如果一个组件要进行正确的操作，指定系统其他组件必须提供哪些服务。</li>
+</ul>
+</li>
+</ul><img src="https://gitee.com/cabinz/blog-imgs/raw/master/image-20210124082505554.png" alt="image-20210124082505554" style="zoom:80%;"><h2 id="11---Reengineering-软件再工程-gt"><a class="anchor hidden-xs" href="#11---Reengineering-软件再工程-gt" title="11---Reengineering-软件再工程-gt"><i class="fa fa-link"></i></a>11 - Reengineering 软件再工程 &gt;</h2><ul>
+<li>英文 P248</li>
+<li>中文 P158</li>
+</ul><p>对于很多系统，特别是遗留的老系统，它们很难理解和进行变更。这些程序可能最初牺牲了一些可理解性来换取在性能上或空间利用上的改善，另外，随着时间的推移最初的程序结构经过一系列的变更后已被破坏了。<br>
+为了使得遗留系统的维护问题变得更简单，你可以再工程这些系统以增强它们的结构性和可理解性。</p><p><strong>再工程包括</strong></p><ol>
+<li><strong>对系统重新建立文档、</strong></li>
+<li><strong>重构系统体系结构、</strong></li>
+<li><strong>用一种更先进的程序设计语言转换系统、</strong></li>
+<li><strong>修改和更新系统的数据结构和系统的数据取值。</strong></li>
+</ol><p>一般来讲，软件的功能不会改变，也应当避免对系统体系架构的大的改动。</p><p>（叶语霄补）<u>再工程过程中的活动如下</u>：</p><ol>
+<li><strong>源代码转换。</strong> 使用转换工具，将程序从旧的程序设计语言转换到相同语言的较新版本或另一种语言。</li>
+<li><strong>反向工程</strong> 。对代码进行分析，抽取其组织结构和功能。该过程通常是全自动完成的。</li>
+<li><strong>程序结构改善。</strong> 对程序的控制结构进行分析和修改，使它更容易读和理解。</li>
+<li><strong>程序模块化。</strong> 程序的相关部分被收集在一起，在一定程度上消除冗余。在某些情况下，这个阶段可能包括体系结构的重构。</li>
+<li><strong>数据再工程。</strong> 改变程序处理的数据以反映程序变更。</li>
+</ol><p><img src="https://codimd.s3.shivering-isles.com/demo/uploads/upload_8b09b6f0fbca7ea6af12a5c6e906654b.png" alt=""></p><h2 id="12---Project-Management-项目管理"><a class="anchor hidden-xs" href="#12---Project-Management-项目管理" title="12---Project-Management-项目管理"><i class="fa fa-link"></i></a>12 - Project Management 项目管理</h2><p>英文版：P594</p><p>中文版：P376</p><p>项目管理包括</p><ul>
+<li>风险管理</li>
+<li>人员管理</li>
+</ul><h4 id="风险管理-Risk-Management"><a class="anchor hidden-xs" href="#风险管理-Risk-Management" title="风险管理-Risk-Management"><i class="fa fa-link"></i></a>风险管理 Risk Management</h4><p><strong>风险管理要求项目管理者：能预见可能影响正开发的软件的项目进度或产品质量的风险，并采取行动避免这些风险，是项目管理者的一项重要任务。</strong></p><ol>
+<li>
+<p>项目风险(Project Risk)︰是影响项目<u>进度或项目资源</u>的风险。</p>
+<p>比如失去一位经验丰富的设计师。寻找一位经验和技能满足要求的替代者可能需要很长一段时间，而这带来的直接后果就是软件的设计需要更长的时间才能完成。</p>
+</li>
+<li>
+<p>产品风险(Product Risk)：是影响开发中<u>软件的质量或性能</u>的风险。</p>
+<p>例如，购买的组件不能达到预期目标。这可能会影响到整个系统的性能，导致整个系统运行速度下降。</p>
+</li>
+<li>
+<p>业务风险(Business Risk)：是影响软件开发<u>机构</u>或软件产品<u>购买机构</u>的风险。</p>
+<p>例如，竞争对手推出了新的产品。竞争产品的推出可能预示着先前做出的关于现有软件产品的销售情况可能过于乐观。</p>
+</li>
+</ol><p>当然，这种分类方式会有重叠。如果富有经验的程序设计师离职，由此带来的风险可能是项目风险。即使能立刻找到替代人员，进度也将受到影响。新来的项目成员不可避免要花一些时间来熟悉这个项目，并不能立刻高效地投入工作。因此，系统的交付可能延期。同时这也会是产品风险，因为继任者可能不如前者有经验，因而可能犯错误。最后，它也会是业务风险，因为有经验的程序员是取得新的合同的关键。</p><h4 id="人员管理-Managing-People"><a class="anchor hidden-xs" href="#人员管理-Managing-People" title="人员管理-Managing-People"><i class="fa fa-link"></i></a>人员管理 Managing People</h4><ol>
+<li>
+<p>一致性：对项目组的每个人应该同等对待。</p>
+<p>虽然没有人会期望每个人的报酬都相同，但是却能感觉自己对机构的贡献遭到低估。</p>
+</li>
+<li>
+<p>尊重︰不同的人有着不同的技能，管理者应尊重这些差异。</p>
+<p>团队的所有成员都应有机会做出贡献。当然在某些情况下你会发现某个人根本不适合在这个团队，所以也不能够继续下去，但重要的是不要匆忙得出这样的结论。</p>
+</li>
+<li>
+<p>包容：当人们觉得其他人能够倾听并能采纳自己的建议时，他们能更有效地工作。</p>
+<p>很重要的一点是创造一种工作环境，在这种工作环境下，所有的见解，甚至是最底层员工的意见都会得到考虑。</p>
+</li>
+<li>
+<p>诚实︰作为一个管理者，必须对项目组中好的情况和不好的情况保持诚实的态度。</p>
+<p>应当诚实地对待自己的技术知识水平，并且在必要的时候乐于服从更博学的员工。如果掩盖存在的问题和自己的无知，最终将被发现并且失去团队的尊敬。</p>
+</li>
+</ol><p>工作动力：</p><ol>
+<li>
+<p>满足员工的社会需求：给员工提供与同事交往的时间和场所。</p>
+</li>
+<li>
+<p>满足员工的受尊重需要：让员工们感觉到他们在开发机构中很受尊重。成绩认同、薪资反馈等。</p>
+</li>
+<li>
+<p>满足员工的自我实现需要：让员工对自己的工作负起责任，分配给他们比较难的（但不是不能完成的）任务，并给他们提供培训计划以提高他们的技能。</p>
+</li>
+</ol><p><strong>对项目进行衡量的标准：</strong><br>
+<strong>里程碑（deliverables）</strong>：过程活动的终点（往往是各种report, design, requirement）<br>
+<strong>可交付文档（milestone）</strong>：交付给顾客的成果</p><h2 id="13---CORBA-Standard"><a class="anchor hidden-xs" href="#13---CORBA-Standard" title="13---CORBA-Standard"><i class="fa fa-link"></i></a>13 - CORBA Standard</h2><p>英文版：P482</p><p>中文版：P303</p><p>PDF(pp12v2)</p><p><strong>CORBA（Common Object Request Broker Architecture公共对象请求代理体系结构）<strong>是一个闻名的</strong>对中间件系统的描述</strong>，它的<strong>目标是建立一个开放标准允许开发中间件支持分布的组件通信和执行，也提供一系列被这些组件使用的标准服务。</strong><br>
+已经有了CORBA的多个实现，但是系统从未达到过临界规模。用户倾向于使用专用的系统或是投向面向服务的体系结构。</p><p><strong>CORBA 标准</strong>：<br>
+①An object model for application objects：<br>
+A CORBA object is an encapsulation of state with a well-defined, language-neutral interface defined in an IDL (interface definition language).<br>
+②An object request broker that manages requests for object services.<br>
+③A set of general object services of use to many distributed applications.<br>
+④A set of common components built on top of these services.</p><h2 id="14---三类-people-management-（叶语霄添加）"><a class="anchor hidden-xs" href="#14---三类-people-management-（叶语霄添加）" title="14---三类-people-management-（叶语霄添加）"><i class="fa fa-link"></i></a>14 - 三类 people management （叶语霄添加）</h2><p>职业人士可分为3种类型：</p><ol>
+<li>
+<p><u>面向任务型（Task-oriented）</u></p>
+<p>这类人的动力来自于他们所从事的工作。软件开发智力上的挑战激发了他们的工作热情。</p>
+</li>
+<li>
+<p><u>面向自我型（Self-oriented）</u></p>
+<p>这类人的动力主要来自于个人成功和得到认可。他们更乐于把软件开发视为达到自己目标的手段。</p>
+</li>
+<li>
+<p><u>面向交互型（Interaction-oriented）</u></p>
+<p>这类人的动力来自于同事们的存在和协作。</p>
+</li>
+</ol><p>第三类人员喜欢小组作业，而前两类人员喜欢独自工作。女人比男人更容易称为第三类人员，她们常是更有效的交流者。</p><p>每个个体的工作动力由各种因素组成，但在任一时刻总是只有一种动力处于支配地位，并且可能会发生改变。</p><h2 id="15---Software-Reuse-（软件复用）的好处"><a class="anchor hidden-xs" href="#15---Software-Reuse-（软件复用）的好处" title="15---Software-Reuse-（软件复用）的好处"><i class="fa fa-link"></i></a>15 - Software Reuse （软件复用）的好处</h2><p>中文版 P271</p><ul>
+<li>
+<p>增加可靠性</p>
+<p>在运行着的系统中，已经投入使用的组件可能已经经过各种环境的测试，故已经投入的组件比新组建的可靠性高。</p>
+</li>
+<li>
+<p>降低过程风险</p>
+<p>如果组件已经存在，复用组件的成本比新开发组件的成本不确定性减少。特别是大规模组件（子系统复用）的复用，极大降低了项目管理中项目成本估计的不确定性。</p>
+</li>
+<li>
+<p>专家的有效使用</p>
+<p>不用开发者（专家）重复工作，而是通过开发可复用的组件，在其中封装他们的知识。</p>
+</li>
+<li>
+<p>标准一致</p>
+<p>用某些标准（如用户界面标准）来规范化实现一组标准组件，增强可靠性。因为用户面对相同的操作界面，出现错误的可能性降低。</p>
+</li>
+<li>
+<p>加速开发</p>
+<p>加速了系统产品的形成，缩短了开发和有效性验证的时间。</p>
+</li>
+</ul><h2 id="16---两种-evolutionary-development-叶语霄添加"><a class="anchor hidden-xs" href="#16---两种-evolutionary-development-叶语霄添加" title="16---两种-evolutionary-development-叶语霄添加"><i class="fa fa-link"></i></a>16 - 两种 evolutionary development (叶语霄添加)</h2><p>中文版P27</p><p>英文版P45 （PDF 62）</p><p>PPT04 Slide9</p><p>进化式开发有两种方式：</p><ul>
+<li>
+<p>探索式开发（Exploratory development）</p>
+<p>目标是与用户一起工作，并从最初的概要发展成最终的系统。应该从被良好理解的（well-understood）需求开始，并根据用户的建议添加新特性。</p>
+</li>
+<li>
+<p>抛弃式原型（Throw-away prototyping）</p>
+<p>目的是了解系统需求。应该从理解不透彻的需求开始，以阐明用户真正需要的是什么。</p>
+</li>
+</ul><h2 id="17---conventional-structure-design-有什么（周祐超添加）（？）"><a class="anchor hidden-xs" href="#17---conventional-structure-design-有什么（周祐超添加）（？）" title="17---conventional-structure-design-有什么（周祐超添加）（？）"><i class="fa fa-link"></i></a>17 - conventional structure design 有什么（周祐超添加）（？）</h2><p>xdm，我尽力了。。<br>
+PPT 《An Introduction to Structured Analysis and Design》</p><h3 id="静态模型"><a class="anchor hidden-xs" href="#静态模型" title="静态模型"><i class="fa fa-link"></i></a>静态模型</h3><ul>
+<li>
+<p><strong>data modeling 数据模型</strong></p>
+<ul>
+<li>
+<p><strong>ERD（entity-relationship diagram）</strong></p>
+<p>也就是数据库的那个ER图</p>
+</li>
+</ul>
+</li>
+</ul><h3 id="动态模型"><a class="anchor hidden-xs" href="#动态模型" title="动态模型"><i class="fa fa-link"></i></a>动态模型</h3><ul>
+<li>
+<p><strong>functional and information modeling 功能和信息建模</strong></p>
+<ul>
+<li>
+<p><strong>DFD(data flow diagram)</strong> Slide 24<br>
+<img src="https://codimd.s3.shivering-isles.com/demo/uploads/upload_1746e92968f7f36d79495fda0c67aaac.png" alt=""></p>
+<p>Data flow diagram is a graphical representation that depicts information flow and the transforms that are applied as data move from input to output. （数据流图是一种图形表示。它描述信息流，以及数据从输入移动到输出时所施加的转换）</p>
+<p>Level  0 DFD also called fundamental system model or context model, represents the entire software elements as a single bubble with input and output data indicated by incoming and outgoing arrows respectively;  Partition it to reveal more detail.（0级DFD也称为基本系统模型或上下文模型，将整个软件元素表示为单个气泡，输入和输出数据分别由输入和输出箭头表示；对它进行分割可以显示更多的细节。）</p>
+<p>Level 1 DFD might contain five or six bubbles with interconnecting arrows.（1级DFD可能包含5或6个带有相互连接的箭头的气泡。）</p>
+<p>The subfunctions are represented by the processes in level 1 DFD.（子函数由1级DFD中的流程表示。）</p>
+<p>Each of the bubbles may be refined or layered to depict more detail.（每一个气泡都可以被细化或分层来描绘更多的细节。）</p>
+</li>
+<li>
+<p><strong>CFD(control flow diagram)</strong></p>
+<p>没找到。。。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>behaviour modeling 行为建模</strong></p>
+<ul>
+<li>
+<p><strong>STD(state transitition diagram)</strong></p>
+<p>好像就是UML中的状态图（？）</p>
+</li>
+</ul>
+</li>
+</ul><h2 id="18---OO-Design-面向对象设计方法-周祐超添加（？）"><a class="anchor hidden-xs" href="#18---OO-Design-面向对象设计方法-周祐超添加（？）" title="18---OO-Design-面向对象设计方法-周祐超添加（？）"><i class="fa fa-link"></i></a>18 - OO Design 面向对象设计方法 (周祐超添加)（？）</h2><blockquote>
+<p>似乎是OO设计方法的一些模型？<br>
+中文版 PDF131 （Page117）<br>
+一般可能用到的设计模型：<br>
+1.结构模型：通过系统对象类之间的关系描述静态结构，比如继承、组合、使用/被使用关系<br>
+具体地说，有类模型、泛化模型、关联模型、子系统模型<br>
+2.动态模型：描述系统对象的动态交互，有系统发出的服务请求序列，以及由这些对象交互触发的状态变化；<br>
+具体地说，有状态机模型、时序模型</p>
+</blockquote><p>在设计过程的早期阶段，有3个模型特别有助于增加用例和体系结构的细节<br>
+1.子系统模型：给出对象的逻辑分组<br>
+2.时序模型：说明对象交互的序列<br>
+3.状态机模型：说明单个对象对于事件的相应；</p><h2 id="19---Iterative-Model-迭代式开发过程模型-（2种）-周祐超-PPT-4-8页-gt"><a class="anchor hidden-xs" href="#19---Iterative-Model-迭代式开发过程模型-（2种）-周祐超-PPT-4-8页-gt" title="19---Iterative-Model-迭代式开发过程模型-（2种）-周祐超-PPT-4-8页-gt"><i class="fa fa-link"></i></a>19 - Iterative Model 迭代式开发过程模型 （2种） (周祐超 PPT 4-8页) &gt;</h2><ul>
+<li>探索式开发（Exploratory development）</li>
+<li>抛弃式原型（Throw-away prototyping）</li>
+</ul><p>Iterative process models present the software process as a cycle of activities. The advantage of this approach is that it avoids premature commitments to a specification or design.<br>
+Examples of Iterative models include incremental development and the spiral model.（第八版书）</p><h2 id="20---Verification-and-Validation-检验和有效性验证"><a class="anchor hidden-xs" href="#20---Verification-and-Validation-检验和有效性验证" title="20---Verification-and-Validation-检验和有效性验证"><i class="fa fa-link"></i></a>20 - Verification and Validation 检验和有效性验证</h2><p>中文版 P132</p><p>测试是一个软件更广泛的检验和有效性验证（V&amp;V）过程的一部分。</p><ul>
+<li>
+<p>检验：我们在建立正确的产品吗？</p>
+</li>
+<li>
+<p>有效性验证：我们建立的产品正确吗？</p>
+</li>
+</ul><p>检验和有效性验证过程是关于审查被开发的软件是否满足它的描述和符合购买用户所需要的功能。这些审查过程在一有需求时就开始了，并贯穿整个开发过程。</p><p><strong>有效性验证(Validation)的目的是审查软件满足它的所规定的功能和非功能性需求。</strong><br>
+<strong>然而，检验(Verification)是一个更一般的过程。检验的目的是确保软件符合用户的期望。</strong></p><p>为了证明这个软件的确可以做到用户所期望的，不简单地是看它是否与需求描述是一致的，还要看它是否真的是客户所期待地那样去执行的。检验是必要的，因为正如第4章中所讨论的，需求描述不可能一直反映用户和使用者的真实愿望和系统需求。</p><h2 id="21-P-CMM模型的五个level"><a class="anchor hidden-xs" href="#21-P-CMM模型的五个level" title="21-P-CMM模型的五个level"><i class="fa fa-link"></i></a>21 P-CMM模型的五个level</h2><p>①Initial. Ad-hoc people management 临时的、不统一的人员管理措施</p><p>②Repeatable. Policies developed for capability improvemen 建立了员工能力提升的政策</p><p>③Defined. Standardised people management across the organisation 整个组织的标准化人员管理</p><p>④Managed. Quantitative goals for people management in place 有对人员管理的定量目标</p><p>⑤Optimizing. Continuous focus on improving individual competence and workforce motivation 持续关注提高个人能力和员工积极性</p><h1 id="Part-2（概念解释）"><a class="anchor hidden-xs" href="#Part-2（概念解释）" title="Part-2（概念解释）"><i class="fa fa-link"></i></a>Part 2（概念解释）</h1><h2 id="1---功能需求与非功能需求（叶语霄添加）"><a class="anchor hidden-xs" href="#1---功能需求与非功能需求（叶语霄添加）" title="1---功能需求与非功能需求（叶语霄添加）"><i class="fa fa-link"></i></a>1 - 功能需求与非功能需求（叶语霄添加）</h2><p>中文版P52<br>
+英文版P84（PDF 101）</p><ul>
+<li>
+<p>功能需求</p>
+<p>包括对系统应该提供的服务、如何对特殊输入作出反应、系统在特定条件下的行为的描述。某些情况下功能需求还需声明系统不应该做什么。</p>
+</li>
+</ul><p>①系统应该提供的服务语句，系统应该如何响应特定的输入，以及系统在特定情况下应该如何行为。<br>
+②描述功能或系统服务。<br>
+③取决于类型的软件,将用户和系统的类型所使用的软件。<br>
+④功能用户需求可能是高层陈述了系统应该做什么,但功能系统需求应该详细描述系统服务。</p><ul>
+<li>
+<p>非功能需求</p>
+<p>不直接关系到系统向用户提供的具体服务的一类需求。它们与系统的总体特性相关，如可靠性、响应时间和存储空间占用等。</p>
+<p>是对系统提供的服务或功能给出的约束，包括时间约束、开发过程的约束和所受到的标准的约束。非功能需求经常适用于整个系统，而不是个别的系统功能或服务。</p>
+</li>
+</ul><p>①对系统提供的服务或功能的限制，例如时间限制、开发过程的限制、标准等。<br>
+②这些定义了系统属性和约束，例如可靠性、响应时间和存储要求。约束是I/O设备能力、系统表示等。<br>
+③流程需求也可能指定要求一个特定情况下系统,编程语言和开发方法。<br>
+④非功能性需求比功能需求可能更重要。如果不满足这些条件，系统就没有用处</p><h2 id="2---软件产品线的特化（叶语霄添加）"><a class="anchor hidden-xs" href="#2---软件产品线的特化（叶语霄添加）" title="2---软件产品线的特化（叶语霄添加）"><i class="fa fa-link"></i></a>2 - 软件产品线的特化（叶语霄添加）</h2><p>中文版P276<br>
+英文版P436（PDF 453）</p><p>对待开发的软件产品线的各类特化处理包括：</p><ol>
+<li>
+<p><u>平台特化</u>（Platform Specialization）</p>
+<p>为不同平台开发应用的不同版本，例如一个应用程序可能存在Windows、Mac OS、Linux等各种平台的版本。</p>
+</li>
+<li>
+<p><u>环境特化</u>（Environment Specialization）</p>
+<p>创建不同版本，以处理<strong>特定</strong> <em>（不老师翻译错，原文为particular）</em> 的操作环境和外部设备。</p>
+</li>
+<li>
+<p><u>功能特化</u>（Functional Specialization）</p>
+<p>为不同需求的用户创建不同的版本。举例来说，图书馆自动化系统需要根据是用于公共图书馆、工具书图书馆 <em>（不老师翻译错，原文为reference library，指书籍仅供查阅不供外借）</em> 还是大学图书馆来修改。</p>
+</li>
+<li>
+<p><u>过程特化</u>（Process Specialization）</p>
+<p>调整系统，使之与特殊的业务过程（business process）配套。</p>
+</li>
+</ol><h2 id="3---设计模式（周祐超添加）"><a class="anchor hidden-xs" href="#3---设计模式（周祐超添加）" title="3---设计模式（周祐超添加）"><i class="fa fa-link"></i></a>3 - 设计模式（周祐超添加）</h2><p>中文版PDF134<br>
+英文版PDF207，208</p><p>As well as being tested solutions to common problems, they have become a vocabulary for talking about a design. You can therefore explain your design by describing the patterns<br>
+that you have used.</p><p>设计模式主要有4个元素：</p><ul>
+<li>名字：是模式中的一个有意义的指代；</li>
+<li>问题域的描述：即什么情况下模式可以应用</li>
+<li>对部分设计的解决方案描述：描述设计方案的各个部分，以及其之间的关系和职责。不是一个具体的设计描述，而是一个设计方案的模板，可以用不同的方式将模式实例化。</li>
+<li>结果陈述：说明应用该模式的结果和副作用，用来帮助设计者了解一个模式在特定环境下是有效的。</li>
+</ul><h2 id="4---增量式开发（周祐超添加）"><a class="anchor hidden-xs" href="#4---增量式开发（周祐超添加）" title="4---增量式开发（周祐超添加）"><i class="fa fa-link"></i></a>4 - 增量式开发（周祐超添加）</h2><p>英文版 P33(PDF 50)<br>
+中文版 P19</p><p>增量式软件开发属于快速开发的一部分。<br>
+增量式开发反映了我们解决问题的办法，因为我们很少能一次性地完成完整的问题解决方案，而是逐步地逼近解决方案，在意识到问题的出现后进行回溯修改。<br>
+系统的每一个增量版本都包括用户所需要的一部分功能，早期的增量可能包括用户需求中最核心、最紧急的功能，使得用户能够在早期开发中评估系统，判定当前需求增量是否需要改变，并为下一个增量修改做出决策。</p><p><strong>Incremental development 优点</strong><br>
+①Customer value can be delivered with each increment so system functionality is available earlier.<br>
+②Early increments act as a prototype to help elicit requirements for later increments.<br>
+③Lower risk of overall project failure.<br>
+④The highest priority system services tend to receive the most testing</p><h2 id="5---分布式组件体系结构（叶语霄添加）"><a class="anchor hidden-xs" href="#5---分布式组件体系结构（叶语霄添加）" title="5---分布式组件体系结构（叶语霄添加）"><i class="fa fa-link"></i></a>5 - 分布式组件体系结构（叶语霄添加）</h2><p>中文版P313<br>
+英文版P495（PDF 512）</p><p>与Client/Server结构不同的是，不生硬地区分客户机和服务器。每个实体都是一个组件，为其他组件提供服务，也接收来自其他组件的服务。<strong>综上，是一种比Client/Server更通用的结构，但自然也更加复杂。</strong>（本段内容来自不老师ppt。pp12，slide26）</p><p>分布式组件系统依赖于<u>中间件</u>来管理组件间的交互。每个组件给出它所提供的服务的接口，其他组件通过中间件来调用这些服务。</p><p>分布式组件体系结构的好处：</p><ul>
+<li><u>允许设计者延迟决断在哪个逻辑层提供服务。</u>没必要实现决定一个服务是属于数据管理层的一部分还是应用层的一部分。</li>
+<li><u>是非常开放的体系结构</u>，系统很容易添加新的服务。</li>
+<li><u>灵活，可扩展</u>。（flexible and scalable）</li>
+<li><u>可以通过组件在网络上的移动，达到系统的动态配置</u>（reconfigure the system dynamically）。例如将提供服务的组件移动请求服务的计算机上，改善系统性能。</li>
+</ul><h2 id="6---checklist-周祐超添加"><a class="anchor hidden-xs" href="#6---checklist-周祐超添加" title="6---checklist-周祐超添加"><i class="fa fa-link"></i></a>6 - checklist (周祐超添加)</h2><p>英文版PDF683 （书本666）<br>
+中文版PDF436 （书本421）<br>
+PPT chapter22-26页<br>
+checklists即常见编程错误的检查表，应用于“程序审查”部分。主要是用于同行评审部分。这份检查表基于的是来自书本的实例和个别应用领域的错误经验。对于不同的编程语言应该有不同的检查表；注意，这个并不同于编译器的报错，可以看中文版书PDF436的例子；</p><p><strong>Checklist：</strong><br>
+①应使用常见错误清单来驱动检查。<br>
+②错误检查表依赖于编程语言，反映语言中可能出现的特征错误。<br>
+③一般来说，类型检查越弱，检查表就越大。<br>
+④例如:初始化、常量命名、循环终止、数组边界等。</p><h2 id="7---UML-时序图（sequence-diagram（周祐超添加）（gt-叶语霄改）"><a class="anchor hidden-xs" href="#7---UML-时序图（sequence-diagram（周祐超添加）（gt-叶语霄改）" title="7---UML-时序图（sequence-diagram（周祐超添加）（gt-叶语霄改）"><i class="fa fa-link"></i></a>7 - UML 时序图（sequence diagram)（周祐超添加）（&gt; 叶语霄改）</h2><p>PPT chapter 14v2<br>
+①它们显示在用户与系统交互期间发生的事件序列。<br>
+②从上到下阅读它们，以查看发生的动作的顺序。<br>
+③example：从ATM中提取现金：<br>
+验证银行卡;处理请求;完成交易。</p><p>书上似乎没有专门说UML的地方，但是有两个关于图的实例与一定的解释。<br>
+英文版PDF152（P135)</p><p>时序图：（叶语霄改）<br>
+中文版P118<br>
+英文版PDF203（P186）<br>
+时序模型说明对象交互的序列。使用UML时序图或协作图来表示。时序模型是动态模型。</p><p>下图是一个时序模型的例子，表示一个外部系统向气象站请求汇总数据时发生的交互序列。</p><p><img src="https://codimd.s3.shivering-isles.com/demo/uploads/upload_f0ffcd36b12f3e1af21d41c532dc6708.png" alt=""><br>
+主要作用：主要展示系统内各部分的交互，表示在特定用例中的交互发生的顺序<br>
+绘画要点：<br>
+①最上方列出涉及的对象（矩形框）和参与者（小人）<br>
+②虚线向下延伸出的矩形长条是生命线，表示交互的时间<br>
+③时序为从上到下，也即依次序从上向下画箭头<br>
+④实线箭头上的注释表示对对象的调用函数、它们的参数；虚线箭头上的注释为返回值（交互对象的回应？）<br>
+⑤用ALT框框住选择分支，并用虚线隔开分支，中括号表示触发条件（写在较前的位置）</p><h2 id="8---中间件提供哪些服务？（叶语霄添加）"><a class="anchor hidden-xs" href="#8---中间件提供哪些服务？（叶语霄添加）" title="8---中间件提供哪些服务？（叶语霄添加）"><i class="fa fa-link"></i></a>8 - 中间件提供哪些服务？（叶语霄添加）</h2><p>中文版 P307<br>
+英文版 P487（PDF 504）</p><p><em>在分布式系统中，不同的组件可能用不同语言实现，数据模型、信息表示法、通信协议可能不一样…因此需要某种软件来管理这些部分，确保它们能通信和交换数据。</em></p><p>中间件就是这样一种软件，位于应用程序和操作系统中间一层。</p><p><strong>中间件是一种通用软件，不是由开发人员为系统专门编写，而是购买现成的（off-the-shelf）。</strong> 例如数据转换器（data converters）、通信控制器（communication controller）等。</p><p>在分布式系统中，中间件通常提供两种不同类型的支持（support）：</p><ol>
+<li><u>交互支持</u>，协调系统不同组件间的交互。中间件提供位置透明性，即组件不需要知道其他组件的物理位置。</li>
+<li><u>提供公共服务</u>，提供很多组件都需要的公共服务的复用实现，例如安全服务（身份验证）、通知服务等。</li>
+</ol><p>（补充）<br>
+①在逻辑通信层，中间件允许不同计算机上的对象交换数据和控制信息<br>
+②在组件级，中间件为开发兼容的组件提供了基础。<br>
+③分布式对象系统需要中间件来处理对象通信以及添加和删除系统对象。</p><h1 id="Part-3（论述题）"><a class="anchor hidden-xs" href="#Part-3（论述题）" title="Part-3（论述题）"><i class="fa fa-link"></i></a>Part 3（论述题）</h1><h2 id="1---Middleware-Services-提供哪些分布式服务？（周祐超添加）"><a class="anchor hidden-xs" href="#1---Middleware-Services-提供哪些分布式服务？（周祐超添加）" title="1---Middleware-Services-提供哪些分布式服务？（周祐超添加）"><i class="fa fa-link"></i></a>1 - Middleware Services 提供哪些分布式服务？（周祐超添加）</h2><p>（PPT chapter12）<br>
+英文版PDF504 P487<br>
+中文版PDF322 P308</p><p>一般在两个层次上提供服务：（PPT关于Corba的说法）<br>
+在逻辑层面上，中间件使得在不同电脑上的对象交换和控制信息；<br>
+在组件层面上，中间件提供了创建可兼容组件的基础cc</p><p>书本说法：<br>
+中间件提供两种不同类型的支持：<br>
+交互支持：中间件协调系统中不同组件之间的交互，<br>
+提供公共服务：中间件提供对服务的可复用的实现。</p><h2 id="2---configuration-management——change-management变更管理，实现了什么关键的功能？-周祐超"><a class="anchor hidden-xs" href="#2---configuration-management——change-management变更管理，实现了什么关键的功能？-周祐超" title="2---configuration-management——change-management变更管理，实现了什么关键的功能？-周祐超"><i class="fa fa-link"></i></a>2 - configuration management——change management变更管理，实现了什么关键的功能？ (周祐超)</h2><p>中文433页，PDF447</p><p>补：PPT 29 Slide 45<br>
+<strong>Change management tools</strong></p><ul>
+<li>Form editor to support processing the change request forms  表单编辑器，用于处理变更请求表单</li>
+<li>Workflow system to define who does what and to automate information transfer 工作流系统，定义谁做什么并使信息传递自动化</li>
+<li>Change database that manages change proposals and is linked to a VM system 变更数据库，管理变更建议并与VM系统相连接</li>
+<li>Change reporting system that generates management reports on the status of change requests. 变更报告系统，生成变更请求状态的管理报告。</li>
+</ul><h2 id="3---软件复用的优点与问题（周祐超添加）"><a class="anchor hidden-xs" href="#3---软件复用的优点与问题（周祐超添加）" title="3---软件复用的优点与问题（周祐超添加）"><i class="fa fa-link"></i></a>3 - 软件复用的优点与问题（周祐超添加）</h2><p>中文书P271 （PDF285）表格里都有解释</p><h3 id="31优势："><a class="anchor hidden-xs" href="#31优势：" title="31优势："><i class="fa fa-link"></i></a>3.1优势：</h3><ul>
+<li>增加可靠性<br>
+已经运行的系统中的组件往往比新开发一个组件的可靠性要高，因为它们已经得到了各种环境的使用和测试；</li>
+<li>降低过程风险<br>
+复用组件的成本不确定性比新开发低，这在现目管理中是一项重要因素；</li>
+<li>专家工作的高效使用<br>
+避免专家总是在做重复的工作，只需要封装他们的知识就行；</li>
+<li>标准的一致化<br>
+比如GUI界面的菜单栏组件等等，可以实现为一组标准组件，使得用户在使用上更遍历</li>
+<li>开发的加速<br>
+毋庸置疑，加快了系统产品的形成，无论是开发还是有效性验证的时间都缩短了；</li>
+</ul><h3 id="32-问题"><a class="anchor hidden-xs" href="#32-问题" title="32-问题"><i class="fa fa-link"></i></a>3.2 问题</h3><ul>
+<li>增加维护成本<br>
+当组件的源代码不可得的时候，如果系统维护成本增加，那么系统复用部分的不相容性必然再增加</li>
+<li>缺乏工具支持<br>
+CASE工具集没有对复用的支持，而将这些工具与组件库系统集成是困难甚至是不可能的。</li>
+<li>人员因素<br>
+由于有的程序员更喜欢按照自己的思路重新写一个组件，并且觉得自己有能力去改善这个复用的组件</li>
+<li>需要创建并维护一个组件库<br>
+填充组件库，使得组件可用，并保证软件人员能够使用组件库非常耗费财力</li>
+<li>寻找并理解可重用组件<br>
+组件本身也需要被寻找，理解，并做一些适当的调整才能使得组件完全适应当前的环境</li>
+</ul><h2 id="4---OO-design的关键活动（5个）（周祐超添加）"><a class="anchor hidden-xs" href="#4---OO-design的关键活动（5个）（周祐超添加）" title="4---OO-design的关键活动（5个）（周祐超添加）"><i class="fa fa-link"></i></a>4 - OO design的关键活动（5个）（周祐超添加）</h2><p>PPT chapter 14 26页<br>
+英文版178页 PDF195<br>
+中文版PDF127</p><ul>
+<li>了解、定义系统上下文和与外部系统的交互</li>
+<li>设计系统体系结构</li>
+<li>识别系统中的主要对象</li>
+<li>开发设计模型</li>
+<li>定义对象接口</li>
+</ul><p>具体地如下：</p><h3 id="41-系统上下文和交互"><a class="anchor hidden-xs" href="#41-系统上下文和交互" title="41-系统上下文和交互"><i class="fa fa-link"></i></a>4.1 系统上下文和交互</h3><p>确定如何提供系统所需要的功能以及如何构成系统，以便它能够有效地与环境进行交互，并建立系统边界。<br>
+-系统上下文的建模产生一个结构模型，描述开发中的系统所处环境中的其它系统<br>
+-交互建模描述的是一个动态过程，表明系统在运行过程中如何与环境进行交互；</p><h3 id="42-体系结构的设计"><a class="anchor hidden-xs" href="#42-体系结构的设计" title="42-体系结构的设计"><i class="fa fa-link"></i></a>4.2 体系结构的设计</h3><p>结合第一步所得的信息，以及体系结构设计的一般方法和具体的领域知识，设计结构。比如根据组成系统的主要部件以及他们之间的交互，并运用一种体系结构模式（C-S或者分层模式）组织这些组件。</p><h3 id="43-主要对象的识别"><a class="anchor hidden-xs" href="#43-主要对象的识别" title="43-主要对象的识别"><i class="fa fa-link"></i></a>4.3 主要对象的识别</h3><p>可以利用一些用例来识别系统中的对象，可以使用“文法分析”、“分析具体实体”、“基于脚本分析识别出系统使用的各个脚本方法”。同时，运用一些具</p><h3 id="44-设计模型"><a class="anchor hidden-xs" href="#44-设计模型" title="44-设计模型"><i class="fa fa-link"></i></a>4.4 设计模型</h3><p>表示系统中包含的对象，并且描述了实体间的关联与关系。我们需要对模型抽象，避免琐碎的细节，并恰到好处的提供知识便于程序员做出、实现决策。</p><p>使用UML帮助设计时，通常需要如下两类设计模型：<br>
+1.结构模型：通过系统对象类之间的关系描述静态结构，比如继承、组合、使用/被使用关系<br>
+2.动态模型：描述系统对象的动态交互，有系统发出的服务请求序列，以及由这些对象交互触发的状态变化；</p><p>在设计过程的早期阶段，有3个模型特别有助于增加用例和体系结构的细节<br>
+1.子系统模型：给出对象的逻辑分组<br>
+2.时序模型：说明对象交互的序列<br>
+3.状态机模型：说明单个对象对于事件的相应；</p><h3 id="45-接口设计"><a class="anchor hidden-xs" href="#45-接口设计" title="45-接口设计"><i class="fa fa-link"></i></a>4.5 接口设计</h3><p>主要指的是定义关于一个或一组对象的详细接口信息，也就是定义对象或对象组所提供的服务标记、语义。<br>
+注意，不能含有数据表示的细节，因为接口描述中没有属性的定义，但需要包含能够访问和更新这些数据的操作。并且接口使得其它对象能方便的进行使用与交互，对于数据具体表示是隐藏的。</p><h2 id="5---Software-Re-engineering-包括哪些活动？"><a class="anchor hidden-xs" href="#5---Software-Re-engineering-包括哪些活动？" title="5---Software-Re-engineering-包括哪些活动？"><i class="fa fa-link"></i></a>5 - Software Re-engineering 包括哪些活动？</h2><p>（参见 part1.11）</p><h2 id="6---黑盒测试amp根据等价划分原则构造测试用例（叶语霄添加）（？）"><a class="anchor hidden-xs" href="#6---黑盒测试amp根据等价划分原则构造测试用例（叶语霄添加）（？）" title="6---黑盒测试amp根据等价划分原则构造测试用例（叶语霄添加）（？）"><i class="fa fa-link"></i></a>6 - 黑盒测试&amp;根据等价划分原则构造测试用例（叶语霄添加）（？）</h2><p>英文版 P213（PDF 230）<br>
+中文版 P136</p><p>测试是非常昂贵和费时的。测试案例设计的一个系统化的方法就是对系统或组件<u>识别所有输入和输出的等价划分</u>，被测试的程序应该以同样的方式处理一个输入等价划分中的所有数据。<br>
+<img src="https://codimd.s3.shivering-isles.com/demo/uploads/upload_b27a70765b89a12cfeff9bf0e51d5848.png" alt=""></p><p>一旦找出了划分集合，我们就可以从每一个这些划分中选择测试案例。一个选择测试案例的好的经验法则是：在<u>划分的边界上</u>和<u>靠近划分中间点的地方</u>选择测试案例。</p><ul>
+<li>划分的中心点是典型值。设计者和程序员在开发系统时倾向于考虑输入典型值。</li>
+<li>边界值通常是非典型值（例如零和其他非负数的行为是不同的）。有时被开发者忽视掉，程序经常在运行这些非典型值时失败。</li>
+</ul><p>当使用<u>程序描述或用户文档</u>来识别划分，这被称为<strong>白盒测试（？）</strong>。白盒测试对黑盒测试是一个很好的补充，我们可以看到程序代码来发现可能的测试;当使用<u>系统描述</u>来确定等价划分，这被称为<strong>黑盒测试</strong>。这时我们不必了解系统是如何工作的。</p><h2 id="7---紧急变更（emergency-changes）"><a class="anchor hidden-xs" href="#7---紧急变更（emergency-changes）" title="7---紧急变更（emergency-changes）"><i class="fa fa-link"></i></a>7 - 紧急变更（emergency changes）</h2><p>英文版 P239 （PDF 256）<br>
+中文版 P152<br>
+有下面几个原因使得紧急变更会发生：</p><ol>
+<li>有严重的系统缺陷发生，那么必须修补而使正常的操作继续。</li>
+<li>系统操作环境的变更中有不期望的情况发生，就会破坏正常的操作。</li>
+<li>系统上运行的业务有意料之外的改变发生，比如有新的竞争对手出现或有新的法律生效并影响到了系统。</li>
+</ol><p>在这些情况下，就需要做出快速的变更，也意味着你不能遵循正常的变更分析过程。不是按正常的过程去修改需求和设计，而是对程序做紧急的修补来解决突发问题（如下图）。</p><p><img src="https://codimd.s3.shivering-isles.com/demo/uploads/upload_dc206666a9118fb8299f78ce3075982f.png" alt=""></p><p>这样做的危险是使得需求、软件设计和代码逐渐变得不一致。<br>
+如何解决这个问题？请看例题：<strong>（对应不老师划的重点）</strong></p><p><img src="https://codimd.s3.shivering-isles.com/demo/uploads/upload_8c5100ff3c0117c8181e493aaae8155d.png" alt=""></p><p><img src="https://codimd.s3.shivering-isles.com/demo/uploads/upload_91e454b5b50c2e5854970ba14e29a964.png" alt=""></p><h2 id="8---独立路径（Independent-Path）（叶语霄添加）"><a class="anchor hidden-xs" href="#8---独立路径（Independent-Path）（叶语霄添加）" title="8---独立路径（Independent-Path）（叶语霄添加）"><i class="fa fa-link"></i></a>8 - 独立路径（Independent Path）（叶语霄添加）</h2><p>英文版P216（PDF 233）<br>
+中文版P138</p><p>路径测试是一种测试策略，其目标是要执行组件或程序中的每一条执行路径。如果每一条<strong>独立路径</strong>都执行过，那么组件中的每条语句就肯定至少执行过一遍。此外，所有条件语句的真值状态和假值状态都经过了测试。在面向对象的开发过程中，路径测试在测试对象中的方法时常会用到。<br>
+<img src="https://codimd.s3.shivering-isles.com/demo/uploads/upload_5e273639bfa40b5894c3a93ccdad5c81.png" alt=""></p><h2 id="9---客户机服务器结构（ClientServer-Architecture）（叶语霄添加）"><a class="anchor hidden-xs" href="#9---客户机服务器结构（ClientServer-Architecture）（叶语霄添加）" title="9---客户机服务器结构（ClientServer-Architecture）（叶语霄添加）"><i class="fa fa-link"></i></a>9 - 客户机/服务器结构（Client/Server Architecture）（叶语霄添加）</h2><p>英文版 P488 (PDF 505)<br>
+中文版 P308</p><h3 id="CS结构-（对应教材182节）"><a class="anchor hidden-xs" href="#CS结构-（对应教材182节）" title="CS结构-（对应教材182节）"><i class="fa fa-link"></i></a>C/S结构 （对应教材18.2节）</h3><p>在client-server模型中，应用被建模为<u>由服务器所提供的一系列服务</u>。</p><p>客户机需要知道服务器的存在，而不需要知道其他客户机的存在；服务器也不需要知道客户机的存在。</p><p>单个处理器上会运行多个客户机进程。下图说明了12个逻辑的客户机进程运行在6台计算机上的情况：</p><p><img src="https://codimd.s3.shivering-isles.com/demo/uploads/upload_a1d543eaaa4bcd17e49ef7bddf983c26.png" alt=""></p><p>C/S系统依赖于清晰地分离了信息表示和信息计算（presentation &amp; computation）。我们让信息表示和信息计算分布在不同的逻辑分层上，层与层之间有明确的接口。这种设计允许每一层分布在不同的物理计算机上。将应用分解为如下四层：</p><ul>
+<li>表示层（presentation layer）。呈现信息给用户，接收用户的交互。</li>
+<li>应用处理层（Application processing layer）。应用逻辑的底层实现。</li>
+<li>数据管理层（Data management layer）。管理传给客户机和来自客户机的数据。</li>
+<li>数据库层（Database layer）。存储数据。</li>
+</ul><h3 id="两层CS结构-（对应教材1832节）"><a class="anchor hidden-xs" href="#两层CS结构-（对应教材1832节）" title="两层CS结构-（对应教材1832节）"><i class="fa fa-link"></i></a>两层C/S结构 （对应教材18.3.2节）</h3><p>系统实现为一个独立的逻辑服务器，加上不确定数目的客户机。可分为以下两种形式：</p><ul>
+<li>
+<p><u>瘦客户机模型</u>（Thin-client model）。<u>表示层</u>在客户机端实现，其他层（应用处理层、数据管理层、数据库层）在服务器上实现。</p>
+<p>缺点是<strong>将繁重的计算压力都放在了服务器端</strong>，导致C、S之间的网络上有很大的流量。</p>
+</li>
+<li>
+<p><u>胖客户机模型</u>（Fat-client model）。<u>表示层+部分或所有应用处理层</u>在客户机端实现。</p>
+<p><img src="https://codimd.s3.shivering-isles.com/demo/uploads/upload_dbbf6930bb9437eee9a26eaa9a438fdb.png" alt=""></p>
+</li>
+</ul><p>例子是银行的ATM系统。服务器运行客户账户的数据库，ATM（客户机）上的软件执行很多与用户相关的处理，如提供现金等交易。缺点是<strong>系统管理复杂</strong>。软件的新版本要在所有客户机上进行更新。</p><h3 id="多层CS结构-（对应教材1833节）"><a class="anchor hidden-xs" href="#多层CS结构-（对应教材1833节）" title="多层CS结构-（对应教材1833节）"><i class="fa fa-link"></i></a>多层C/S结构 （对应教材18.3.3节）</h3><p>优点：<strong>便于管理</strong>，不同的逻辑层在不同的处理机上执行；<strong>可扩展性更好</strong>，当客户数量增加时，增加服务器数量相对容易。</p><p>例子是互联网银行系统。这个系统中有3级：大型计算机提供<u>数据库服务</u>；web服务器提供<u>数据管理</u>（管理账户）和<u>应用处理服务</u>（现金转账、生成工资单等）；用户计算机和浏览器构成客户机（<u>表示层</u>）。<br>
+<img src="https://codimd.s3.shivering-isles.com/demo/uploads/upload_ca46e9939acf4f0592867ff9b429c080.png" alt=""></p></div>
+    <div class="ui-toc dropup unselectable hidden-print" style="display:none;">
+        <div class="pull-right dropdown">
+            <a id="tocLabel" class="ui-toc-label btn btn-default" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" title="Table of content">
+                <i class="fa fa-bars"></i>
+            </a>
+            <ul id="ui-toc" class="ui-toc-dropdown dropdown-menu" aria-labelledby="tocLabel">
+                <div class="toc"><ul class="nav">
+<li class=""><a href="#Software-Engineering" title="Software Engineering">Software Engineering</a></li>
+<li class=""><a href="#Part-1（填空）" title="Part 1（填空）">Part 1（填空）</a><ul class="nav">
+<li class=""><a href="#1---基本软件过程的3个模型-Software-Process-Models" title="1 - 基本软件过程的3个模型 Software Process Models">1 - 基本软件过程的3个模型 Software Process Models</a><ul class="nav">
+<li class=""><a href="#瀑布模型-Waterfall" title="瀑布模型 Waterfall">瀑布模型 Waterfall</a></li>
+<li class=""><a href="#迭代开发模型-RUP" title="迭代开发模型 RUP">迭代开发模型 RUP</a></li>
+<li class=""><a href="#增量式开发-Incremental" title="增量式开发 Incremental">增量式开发 Incremental</a></li>
+<li class=""><a href="#面向复用的软件工程-Reuse-oriented" title="面向复用的软件工程 Reuse oriented">面向复用的软件工程 Reuse oriented</a></li>
+</ul>
+</li>
+<li class=""><a href="#2---软件工程和其它工程的差异" title="2 - 软件工程和其它工程的差异">2 - 软件工程和其它工程的差异</a><ul class="nav">
+<li class=""><a href="#和计算机科学的差异" title="和计算机科学的差异">和计算机科学的差异</a></li>
+<li class=""><a href="#和系统工程的差异" title="和系统工程的差异">和系统工程的差异</a></li>
+</ul>
+</li>
+<li class=""><a href="#3---风险评估-Risk-Analysis" title="3 - 风险评估 Risk Analysis">3 - 风险评估 Risk Analysis</a></li>
+<li class=""><a href="#4---风险规划-Risk-Planning" title="4 - 风险规划 Risk Planning">4 - 风险规划 Risk Planning</a></li>
+<li class=""><a href="#5---需求工程过程-Requirement-Engineering-Processes" title="5 - 需求工程过程 Requirement Engineering Processes">5 - 需求工程过程 Requirement Engineering Processes</a></li>
+<li class=""><a href="#6---软件产品的属性-Product-Characteristics" title="6 - 软件产品的属性  Product Characteristics">6 - 软件产品的属性  Product Characteristics</a></li>
+<li class=""><a href="#7---什么是软件系统？包含什么" title="7 - 什么是软件系统？包含什么">7 - 什么是软件系统？包含什么</a></li>
+<li class=""><a href="#8---缺陷测试（？PDF223-228）" title="8 - 缺陷测试（？PDF223 228）">8 - 缺陷测试（？PDF223 228）</a></li>
+<li class=""><a href="#9---软件开发工具CASE-tools的功能-gt" title="9 - 软件开发工具(CASE tools)的功能 >">9 - 软件开发工具(CASE tools)的功能 &gt;</a></li>
+<li class=""><a href="#10---组件接口" title="10 - 组件接口">10 - 组件接口</a></li>
+<li class=""><a href="#11---Reengineering-软件再工程-gt" title="11 - Reengineering 软件再工程 >">11 - Reengineering 软件再工程 &gt;</a></li>
+<li class=""><a href="#12---Project-Management-项目管理" title="12 - Project Management 项目管理">12 - Project Management 项目管理</a></li>
+<li class=""><a href="#13---CORBA-Standard" title="13 - CORBA Standard">13 - CORBA Standard</a></li>
+<li><a href="#14---三类-people-management-（叶语霄添加）" title="14 - 三类 people management （叶语霄添加）">14 - 三类 people management （叶语霄添加）</a></li>
+<li class=""><a href="#15---Software-Reuse-（软件复用）的好处" title="15 - Software Reuse （软件复用）的好处">15 - Software Reuse （软件复用）的好处</a></li>
+<li><a href="#16---两种-evolutionary-development-叶语霄添加" title="16 - 两种 evolutionary development (叶语霄添加)">16 - 两种 evolutionary development (叶语霄添加)</a></li>
+<li class=""><a href="#17---conventional-structure-design-有什么（周祐超添加）（？）" title="17 - conventional structure design 有什么（周祐超添加）（？）">17 - conventional structure design 有什么（周祐超添加）（？）</a><ul class="nav">
+<li class=""><a href="#静态模型" title="静态模型">静态模型</a></li>
+<li class=""><a href="#动态模型" title="动态模型">动态模型</a></li>
+</ul>
+</li>
+<li class=""><a href="#18---OO-Design-面向对象设计方法-周祐超添加（？）" title="18 - OO Design 面向对象设计方法 (周祐超添加)（？）">18 - OO Design 面向对象设计方法 (周祐超添加)（？）</a></li>
+<li><a href="#19---Iterative-Model-迭代式开发过程模型-（2种）-周祐超-PPT-4-8页-gt" title="19 - Iterative Model 迭代式开发过程模型 （2种） (周祐超 PPT 4-8页) >">19 - Iterative Model 迭代式开发过程模型 （2种） (周祐超 PPT 4-8页) &gt;</a></li>
+<li class=""><a href="#20---Verification-and-Validation-检验和有效性验证" title="20 - Verification and Validation 检验和有效性验证">20 - Verification and Validation 检验和有效性验证</a></li>
+<li><a href="#21-P-CMM模型的五个level" title="21 P-CMM模型的五个level">21 P-CMM模型的五个level</a></li>
+</ul>
+</li>
+<li class=""><a href="#Part-2（概念解释）" title="Part 2（概念解释）">Part 2（概念解释）</a><ul class="nav">
+<li><a href="#1---功能需求与非功能需求（叶语霄添加）" title="1 - 功能需求与非功能需求（叶语霄添加）">1 - 功能需求与非功能需求（叶语霄添加）</a></li>
+<li class=""><a href="#2---软件产品线的特化（叶语霄添加）" title="2 - 软件产品线的特化（叶语霄添加）">2 - 软件产品线的特化（叶语霄添加）</a></li>
+<li class=""><a href="#3---设计模式（周祐超添加）" title="3 - 设计模式（周祐超添加）">3 - 设计模式（周祐超添加）</a></li>
+<li class=""><a href="#4---增量式开发（周祐超添加）" title="4 - 增量式开发（周祐超添加）">4 - 增量式开发（周祐超添加）</a></li>
+<li class=""><a href="#5---分布式组件体系结构（叶语霄添加）" title="5 - 分布式组件体系结构（叶语霄添加）">5 - 分布式组件体系结构（叶语霄添加）</a></li>
+<li class=""><a href="#6---checklist-周祐超添加" title="6 - checklist (周祐超添加)">6 - checklist (周祐超添加)</a></li>
+<li class=""><a href="#7---UML-时序图（sequence-diagram（周祐超添加）（gt-叶语霄改）" title="7 - UML 时序图（sequence diagram)（周祐超添加）（> 叶语霄改）">7 - UML 时序图（sequence diagram)（周祐超添加）（&gt; 叶语霄改）</a></li>
+<li class=""><a href="#8---中间件提供哪些服务？（叶语霄添加）" title="8 - 中间件提供哪些服务？（叶语霄添加）">8 - 中间件提供哪些服务？（叶语霄添加）</a></li>
+</ul>
+</li>
+<li class=""><a href="#Part-3（论述题）" title="Part 3（论述题）">Part 3（论述题）</a><ul class="nav">
+<li class=""><a href="#1---Middleware-Services-提供哪些分布式服务？（周祐超添加）" title="1 - Middleware Services 提供哪些分布式服务？（周祐超添加）">1 - Middleware Services 提供哪些分布式服务？（周祐超添加）</a></li>
+<li class=""><a href="#2---configuration-management——change-management变更管理，实现了什么关键的功能？-周祐超" title="2 - configuration management——change management变更管理，实现了什么关键的功能？ (周祐超)">2 - configuration management——change management变更管理，实现了什么关键的功能？ (周祐超)</a></li>
+<li class=""><a href="#3---软件复用的优点与问题（周祐超添加）" title="3 - 软件复用的优点与问题（周祐超添加）">3 - 软件复用的优点与问题（周祐超添加）</a><ul class="nav">
+<li class=""><a href="#31优势：" title="3.1优势：">3.1优势：</a></li>
+<li class=""><a href="#32-问题" title="3.2 问题">3.2 问题</a></li>
+</ul>
+</li>
+<li class=""><a href="#4---OO-design的关键活动（5个）（周祐超添加）" title="4 - OO design的关键活动（5个）（周祐超添加）">4 - OO design的关键活动（5个）（周祐超添加）</a><ul class="nav">
+<li class=""><a href="#41-系统上下文和交互" title="4.1 系统上下文和交互">4.1 系统上下文和交互</a></li>
+<li><a href="#42-体系结构的设计" title="4.2 体系结构的设计">4.2 体系结构的设计</a></li>
+<li class=""><a href="#43-主要对象的识别" title="4.3 主要对象的识别">4.3 主要对象的识别</a></li>
+<li><a href="#44-设计模型" title="4.4 设计模型">4.4 设计模型</a></li>
+<li><a href="#45-接口设计" title="4.5 接口设计">4.5 接口设计</a></li>
+</ul>
+</li>
+<li class=""><a href="#5---Software-Re-engineering-包括哪些活动？" title="5 - Software Re-engineering 包括哪些活动？">5 - Software Re-engineering 包括哪些活动？</a></li>
+<li class=""><a href="#6---黑盒测试amp根据等价划分原则构造测试用例（叶语霄添加）（？）" title="6 - 黑盒测试&amp;根据等价划分原则构造测试用例（叶语霄添加）（？）">6 - 黑盒测试&amp;根据等价划分原则构造测试用例（叶语霄添加）（？）</a></li>
+<li class=""><a href="#7---紧急变更（emergency-changes）" title="7 - 紧急变更（emergency changes）">7 - 紧急变更（emergency changes）</a></li>
+<li class=""><a href="#8---独立路径（Independent-Path）（叶语霄添加）" title="8 - 独立路径（Independent Path）（叶语霄添加）">8 - 独立路径（Independent Path）（叶语霄添加）</a></li>
+<li class=""><a href="#9---客户机服务器结构（ClientServer-Architecture）（叶语霄添加）" title="9 - 客户机/服务器结构（Client/Server Architecture）（叶语霄添加）">9 - 客户机/服务器结构（Client/Server Architecture）（叶语霄添加）</a><ul class="nav">
+<li class=""><a href="#CS结构-（对应教材182节）" title="C/S结构 （对应教材18.2节）">C/S结构 （对应教材18.2节）</a></li>
+<li class=""><a href="#两层CS结构-（对应教材1832节）" title="两层C/S结构 （对应教材18.3.2节）">两层C/S结构 （对应教材18.3.2节）</a></li>
+<li class=""><a href="#多层CS结构-（对应教材1833节）" title="多层C/S结构 （对应教材18.3.3节）">多层C/S结构 （对应教材18.3.3节）</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div><div class="toc-menu"><a class="expand-toggle" href="#">Expand all</a><a class="back-to-top" href="#">Back to top</a><a class="go-to-bottom" href="#">Go to bottom</a></div>
+            </ul>
+        </div>
+    </div>
+    <div id="ui-toc-affix" class="ui-affix-toc ui-toc-dropdown unselectable hidden-print" data-spy="affix" style="top:17px;display:none;"  >
+        <div class="toc"><ul class="nav">
+<li class=""><a href="#Software-Engineering" title="Software Engineering">Software Engineering</a></li>
+<li class=""><a href="#Part-1（填空）" title="Part 1（填空）">Part 1（填空）</a><ul class="nav">
+<li class=""><a href="#1---基本软件过程的3个模型-Software-Process-Models" title="1 - 基本软件过程的3个模型 Software Process Models">1 - 基本软件过程的3个模型 Software Process Models</a><ul class="nav">
+<li class=""><a href="#瀑布模型-Waterfall" title="瀑布模型 Waterfall">瀑布模型 Waterfall</a></li>
+<li class=""><a href="#迭代开发模型-RUP" title="迭代开发模型 RUP">迭代开发模型 RUP</a></li>
+<li class=""><a href="#增量式开发-Incremental" title="增量式开发 Incremental">增量式开发 Incremental</a></li>
+<li class=""><a href="#面向复用的软件工程-Reuse-oriented" title="面向复用的软件工程 Reuse oriented">面向复用的软件工程 Reuse oriented</a></li>
+</ul>
+</li>
+<li class=""><a href="#2---软件工程和其它工程的差异" title="2 - 软件工程和其它工程的差异">2 - 软件工程和其它工程的差异</a><ul class="nav">
+<li class=""><a href="#和计算机科学的差异" title="和计算机科学的差异">和计算机科学的差异</a></li>
+<li class=""><a href="#和系统工程的差异" title="和系统工程的差异">和系统工程的差异</a></li>
+</ul>
+</li>
+<li class=""><a href="#3---风险评估-Risk-Analysis" title="3 - 风险评估 Risk Analysis">3 - 风险评估 Risk Analysis</a></li>
+<li class=""><a href="#4---风险规划-Risk-Planning" title="4 - 风险规划 Risk Planning">4 - 风险规划 Risk Planning</a></li>
+<li class=""><a href="#5---需求工程过程-Requirement-Engineering-Processes" title="5 - 需求工程过程 Requirement Engineering Processes">5 - 需求工程过程 Requirement Engineering Processes</a></li>
+<li class=""><a href="#6---软件产品的属性-Product-Characteristics" title="6 - 软件产品的属性  Product Characteristics">6 - 软件产品的属性  Product Characteristics</a></li>
+<li class=""><a href="#7---什么是软件系统？包含什么" title="7 - 什么是软件系统？包含什么">7 - 什么是软件系统？包含什么</a></li>
+<li class=""><a href="#8---缺陷测试（？PDF223-228）" title="8 - 缺陷测试（？PDF223 228）">8 - 缺陷测试（？PDF223 228）</a></li>
+<li class=""><a href="#9---软件开发工具CASE-tools的功能-gt" title="9 - 软件开发工具(CASE tools)的功能 >">9 - 软件开发工具(CASE tools)的功能 &gt;</a></li>
+<li class=""><a href="#10---组件接口" title="10 - 组件接口">10 - 组件接口</a></li>
+<li class=""><a href="#11---Reengineering-软件再工程-gt" title="11 - Reengineering 软件再工程 >">11 - Reengineering 软件再工程 &gt;</a></li>
+<li class=""><a href="#12---Project-Management-项目管理" title="12 - Project Management 项目管理">12 - Project Management 项目管理</a></li>
+<li class=""><a href="#13---CORBA-Standard" title="13 - CORBA Standard">13 - CORBA Standard</a></li>
+<li><a href="#14---三类-people-management-（叶语霄添加）" title="14 - 三类 people management （叶语霄添加）">14 - 三类 people management （叶语霄添加）</a></li>
+<li class=""><a href="#15---Software-Reuse-（软件复用）的好处" title="15 - Software Reuse （软件复用）的好处">15 - Software Reuse （软件复用）的好处</a></li>
+<li><a href="#16---两种-evolutionary-development-叶语霄添加" title="16 - 两种 evolutionary development (叶语霄添加)">16 - 两种 evolutionary development (叶语霄添加)</a></li>
+<li class=""><a href="#17---conventional-structure-design-有什么（周祐超添加）（？）" title="17 - conventional structure design 有什么（周祐超添加）（？）">17 - conventional structure design 有什么（周祐超添加）（？）</a><ul class="nav">
+<li class=""><a href="#静态模型" title="静态模型">静态模型</a></li>
+<li class=""><a href="#动态模型" title="动态模型">动态模型</a></li>
+</ul>
+</li>
+<li class=""><a href="#18---OO-Design-面向对象设计方法-周祐超添加（？）" title="18 - OO Design 面向对象设计方法 (周祐超添加)（？）">18 - OO Design 面向对象设计方法 (周祐超添加)（？）</a></li>
+<li><a href="#19---Iterative-Model-迭代式开发过程模型-（2种）-周祐超-PPT-4-8页-gt" title="19 - Iterative Model 迭代式开发过程模型 （2种） (周祐超 PPT 4-8页) >">19 - Iterative Model 迭代式开发过程模型 （2种） (周祐超 PPT 4-8页) &gt;</a></li>
+<li class=""><a href="#20---Verification-and-Validation-检验和有效性验证" title="20 - Verification and Validation 检验和有效性验证">20 - Verification and Validation 检验和有效性验证</a></li>
+<li><a href="#21-P-CMM模型的五个level" title="21 P-CMM模型的五个level">21 P-CMM模型的五个level</a></li>
+</ul>
+</li>
+<li class=""><a href="#Part-2（概念解释）" title="Part 2（概念解释）">Part 2（概念解释）</a><ul class="nav">
+<li><a href="#1---功能需求与非功能需求（叶语霄添加）" title="1 - 功能需求与非功能需求（叶语霄添加）">1 - 功能需求与非功能需求（叶语霄添加）</a></li>
+<li class=""><a href="#2---软件产品线的特化（叶语霄添加）" title="2 - 软件产品线的特化（叶语霄添加）">2 - 软件产品线的特化（叶语霄添加）</a></li>
+<li class=""><a href="#3---设计模式（周祐超添加）" title="3 - 设计模式（周祐超添加）">3 - 设计模式（周祐超添加）</a></li>
+<li class=""><a href="#4---增量式开发（周祐超添加）" title="4 - 增量式开发（周祐超添加）">4 - 增量式开发（周祐超添加）</a></li>
+<li class=""><a href="#5---分布式组件体系结构（叶语霄添加）" title="5 - 分布式组件体系结构（叶语霄添加）">5 - 分布式组件体系结构（叶语霄添加）</a></li>
+<li class=""><a href="#6---checklist-周祐超添加" title="6 - checklist (周祐超添加)">6 - checklist (周祐超添加)</a></li>
+<li class=""><a href="#7---UML-时序图（sequence-diagram（周祐超添加）（gt-叶语霄改）" title="7 - UML 时序图（sequence diagram)（周祐超添加）（> 叶语霄改）">7 - UML 时序图（sequence diagram)（周祐超添加）（&gt; 叶语霄改）</a></li>
+<li class=""><a href="#8---中间件提供哪些服务？（叶语霄添加）" title="8 - 中间件提供哪些服务？（叶语霄添加）">8 - 中间件提供哪些服务？（叶语霄添加）</a></li>
+</ul>
+</li>
+<li class=""><a href="#Part-3（论述题）" title="Part 3（论述题）">Part 3（论述题）</a><ul class="nav">
+<li class=""><a href="#1---Middleware-Services-提供哪些分布式服务？（周祐超添加）" title="1 - Middleware Services 提供哪些分布式服务？（周祐超添加）">1 - Middleware Services 提供哪些分布式服务？（周祐超添加）</a></li>
+<li class=""><a href="#2---configuration-management——change-management变更管理，实现了什么关键的功能？-周祐超" title="2 - configuration management——change management变更管理，实现了什么关键的功能？ (周祐超)">2 - configuration management——change management变更管理，实现了什么关键的功能？ (周祐超)</a></li>
+<li class=""><a href="#3---软件复用的优点与问题（周祐超添加）" title="3 - 软件复用的优点与问题（周祐超添加）">3 - 软件复用的优点与问题（周祐超添加）</a><ul class="nav">
+<li class=""><a href="#31优势：" title="3.1优势：">3.1优势：</a></li>
+<li class=""><a href="#32-问题" title="3.2 问题">3.2 问题</a></li>
+</ul>
+</li>
+<li class=""><a href="#4---OO-design的关键活动（5个）（周祐超添加）" title="4 - OO design的关键活动（5个）（周祐超添加）">4 - OO design的关键活动（5个）（周祐超添加）</a><ul class="nav">
+<li class=""><a href="#41-系统上下文和交互" title="4.1 系统上下文和交互">4.1 系统上下文和交互</a></li>
+<li><a href="#42-体系结构的设计" title="4.2 体系结构的设计">4.2 体系结构的设计</a></li>
+<li class=""><a href="#43-主要对象的识别" title="4.3 主要对象的识别">4.3 主要对象的识别</a></li>
+<li><a href="#44-设计模型" title="4.4 设计模型">4.4 设计模型</a></li>
+<li><a href="#45-接口设计" title="4.5 接口设计">4.5 接口设计</a></li>
+</ul>
+</li>
+<li class=""><a href="#5---Software-Re-engineering-包括哪些活动？" title="5 - Software Re-engineering 包括哪些活动？">5 - Software Re-engineering 包括哪些活动？</a></li>
+<li class=""><a href="#6---黑盒测试amp根据等价划分原则构造测试用例（叶语霄添加）（？）" title="6 - 黑盒测试&amp;根据等价划分原则构造测试用例（叶语霄添加）（？）">6 - 黑盒测试&amp;根据等价划分原则构造测试用例（叶语霄添加）（？）</a></li>
+<li class=""><a href="#7---紧急变更（emergency-changes）" title="7 - 紧急变更（emergency changes）">7 - 紧急变更（emergency changes）</a></li>
+<li class=""><a href="#8---独立路径（Independent-Path）（叶语霄添加）" title="8 - 独立路径（Independent Path）（叶语霄添加）">8 - 独立路径（Independent Path）（叶语霄添加）</a></li>
+<li class=""><a href="#9---客户机服务器结构（ClientServer-Architecture）（叶语霄添加）" title="9 - 客户机/服务器结构（Client/Server Architecture）（叶语霄添加）">9 - 客户机/服务器结构（Client/Server Architecture）（叶语霄添加）</a><ul class="nav">
+<li class=""><a href="#CS结构-（对应教材182节）" title="C/S结构 （对应教材18.2节）">C/S结构 （对应教材18.2节）</a></li>
+<li class=""><a href="#两层CS结构-（对应教材1832节）" title="两层C/S结构 （对应教材18.3.2节）">两层C/S结构 （对应教材18.3.2节）</a></li>
+<li class=""><a href="#多层CS结构-（对应教材1833节）" title="多层C/S结构 （对应教材18.3.3节）">多层C/S结构 （对应教材18.3.3节）</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div><div class="toc-menu"><a class="expand-toggle" href="#">Expand all</a><a class="back-to-top" href="#">Back to top</a><a class="go-to-bottom" href="#">Go to bottom</a></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.0/js/bootstrap.min.js" integrity="sha256-kJrlY+s09+QoWjpkOrXXwhxeaoDz9FW5SaxF8I0DibQ=" crossorigin="anonymous" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.6.0/gist-embed.min.js" integrity="sha256-KyF2D6xPIJUW5sUDSs93vWyZm+1RzIpKCexxElmxl8g=" crossorigin="anonymous" defer></script>
+    <script>
+        var markdown = $(".markdown-body");
+        //smooth all hash trigger scrolling
+        function smoothHashScroll() {
+            var hashElements = $("a[href^='#']").toArray();
+            for (var i = 0; i < hashElements.length; i++) {
+                var element = hashElements[i];
+                var $element = $(element);
+                var hash = element.hash;
+                if (hash) {
+                    $element.on('click', function (e) {
+                        // store hash
+                        var hash = this.hash;
+                        if ($(hash).length <= 0) return;
+                        // prevent default anchor click behavior
+                        e.preventDefault();
+                        // animate
+                        $('body, html').stop(true, true).animate({
+                            scrollTop: $(hash).offset().top
+                        }, 100, "linear", function () {
+                            // when done, add hash to url
+                            // (default click behaviour)
+                            window.location.hash = hash;
+                        });
+                    });
+                }
+            }
+        }
+
+        smoothHashScroll();
+        var toc = $('.ui-toc');
+        var tocAffix = $('.ui-affix-toc');
+        var tocDropdown = $('.ui-toc-dropdown');
+        //toc
+        tocDropdown.click(function (e) {
+            e.stopPropagation();
+        });
+
+        var enoughForAffixToc = true;
+
+        function generateScrollspy() {
+            $(document.body).scrollspy({
+                target: ''
+            });
+            $(document.body).scrollspy('refresh');
+            if (enoughForAffixToc) {
+                toc.hide();
+                tocAffix.show();
+            } else {
+                tocAffix.hide();
+                toc.show();
+            }
+            $(document.body).scroll();
+        }
+
+        function windowResize() {
+            //toc right
+            var paddingRight = parseFloat(markdown.css('padding-right'));
+            var right = ($(window).width() - (markdown.offset().left + markdown.outerWidth() - paddingRight));
+            toc.css('right', right + 'px');
+            //affix toc left
+            var newbool;
+            var rightMargin = (markdown.parent().outerWidth() - markdown.outerWidth()) / 2;
+            //for ipad or wider device
+            if (rightMargin >= 133) {
+                newbool = true;
+                var affixLeftMargin = (tocAffix.outerWidth() - tocAffix.width()) / 2;
+                var left = markdown.offset().left + markdown.outerWidth() - affixLeftMargin;
+                tocAffix.css('left', left + 'px');
+            } else {
+                newbool = false;
+            }
+            if (newbool != enoughForAffixToc) {
+                enoughForAffixToc = newbool;
+                generateScrollspy();
+            }
+        }
+        $(window).resize(function () {
+            windowResize();
+        });
+        $(document).ready(function () {
+            windowResize();
+            generateScrollspy();
+        });
+
+        //remove hash
+        function removeHash() {
+            window.location.hash = '';
+        }
+
+        var backtotop = $('.back-to-top');
+        var gotobottom = $('.go-to-bottom');
+
+        backtotop.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            if (scrollToTop)
+                scrollToTop();
+            removeHash();
+        });
+        gotobottom.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            if (scrollToBottom)
+                scrollToBottom();
+            removeHash();
+        });
+
+        var toggle = $('.expand-toggle');
+        var tocExpand = false;
+
+        checkExpandToggle();
+        toggle.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            tocExpand = !tocExpand;
+            checkExpandToggle();
+        })
+
+        function checkExpandToggle () {
+            var toc = $('.ui-toc-dropdown .toc');
+            var toggle = $('.expand-toggle');
+            if (!tocExpand) {
+                toc.removeClass('expand');
+                toggle.text('Expand all');
+            } else {
+                toc.addClass('expand');
+                toggle.text('Collapse all');
+            }
+        }
+
+        function scrollToTop() {
+            $('body, html').stop(true, true).animate({
+                scrollTop: 0
+            }, 100, "linear");
+        }
+
+        function scrollToBottom() {
+            $('body, html').stop(true, true).animate({
+                scrollTop: $(document.body)[0].scrollHeight
+            }, 100, "linear");
+        }
+    </script>
+</body>
+
+</html>
