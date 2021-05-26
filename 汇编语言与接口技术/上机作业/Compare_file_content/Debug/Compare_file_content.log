@@ -1,0 +1,4 @@
+﻿  Assembling main.asm...
+C:\masm32\include\masm32rt.inc(33): warning A4011: multiple .MODEL directives found : .MODEL ignored
+main.asm(202): warning A6004: procedure argument or local not referenced : structRect
+  Compare_file_content.vcxproj -> C:\study\汇编语言与接口技术\code\Compare_file_content\Debug\Compare_file_content.exe

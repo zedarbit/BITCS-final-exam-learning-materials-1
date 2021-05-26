@@ -1,0 +1,2 @@
+C:\study\汇编语言与接口技术\code\Compare_file_content\Debug\Compare_file_content.exe
+C:\study\汇编语言与接口技术\code\Compare_file_content\Debug\Compare_file_content.pdb

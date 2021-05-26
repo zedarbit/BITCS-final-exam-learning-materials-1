@@ -1,0 +1,2 @@
+C:\study\汇编语言与接口技术\code\multiple_cycle_program\Debug\multiple_cycle_program.exe
+C:\study\汇编语言与接口技术\code\multiple_cycle_program\Debug\multiple_cycle_program.pdb

@@ -1,0 +1,2 @@
+C:\study\汇编语言与接口技术\code\Multiply_large_numbers\Debug\Multiply_large_numbers.exe
+C:\study\汇编语言与接口技术\code\Multiply_large_numbers\Debug\Multiply_large_numbers.pdb
