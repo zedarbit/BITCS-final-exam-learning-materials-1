@@ -1,0 +1,39 @@
+[BITS 16]	;我们的代码以[BITS 16]开始，这是一个汇编指令。这将告诉汇编器我们的代码是16位代码
+[ORG 0x7C00]	;然后我们使用了[ORG 0x7C00]，它告诉汇编器从原始的0x7C00开始汇编指令。BIOS在物理地址0x7C00加载引导装载程序，因此我们从那个位置开始组装引导装载程序
+
+MOV SI, HelloString ;存储字符串指针到SI调用打印字符串
+CALL PrintString	;调用打印字符串程序
+JMP $ 		;JMP在$位置意味着跳转到相同的位置。因此，这只是一个无限循环。我们只是想把代码挂在这里
+
+
+PrintCharacter:	;在屏幕上打印字符串的过程
+	;假设ASCII值在寄存器AL中
+MOV AH, 0x0E	;告诉BIOS我们需要在屏幕上打印一个字符
+MOV BH, 0x00	;
+MOV BL, 0x07	;文本属性0x07是黑色背景上的浅灰色字体
+
+INT 0x10	;设置终端
+RET		;返回调用过程
+
+
+
+PrintString:	;在屏幕上打印字符串的过程
+	;假设字符串的起始指针在寄存器SI中
+
+next_character:	;标签可以从字符串中获取下一个字符
+MOV AL, [SI]	;从字符串中获取一个字节并存储在AL寄存器中
+INC SI		;SI指针增加
+OR AL, AL	;检查AL中的值是否为零(字符串结束)
+JZ exit_function ;如果是结尾我们返回
+CALL PrintCharacter ;否则打印字符是在AL寄存器
+JMP next_character	;从字符串中获取下一个字符
+exit_function:	;结束的label
+RET		;从程序返回
+
+
+;Data
+HelloString db 'Hello World', 0	;HelloWorld字符串以0结尾
+
+TIMES 510 - ($ - $$) db 0	;由于bootloader的长度总是512字节，我们的代码不适合这个大小，因为它很小。我们需要使用剩余的内存，因此我们使用时间指令清除它。$代表指令开始
+DW 0xAA55			;这是启动签名。这告诉BIOS这是一个有效的引导加载程序。如果bios在引导加载程序的末尾没有得到0x55和0xAA，那么它将认为引导加载程序无效。因此，我们在引导加载器的末尾提供这两个字节
+

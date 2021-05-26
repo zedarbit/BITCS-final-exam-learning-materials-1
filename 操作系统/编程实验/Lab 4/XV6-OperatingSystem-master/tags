@@ -1,0 +1,2129 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALT	kbd.h	11;"	d
+ALT	xv6-public/kbd.h	11;"	d
+AS	Makefile	/^AS = $(TOOLPREFIX)gas$/;"	m
+AS	xv6-public/Makefile	/^AS = $(TOOLPREFIX)gas$/;"	m
+ASFLAGS	Makefile	/^ASFLAGS = -m32 -gdwarf-2 -Wa,-divide$/;"	m
+ASFLAGS	xv6-public/Makefile	/^ASFLAGS = -m32 -gdwarf-2 -Wa,-divide$/;"	m
+ASSERT	lapic.c	25;"	d	file:
+ASSERT	xv6-public/lapic.c	25;"	d	file:
+Align	umalloc.c	/^typedef long Align;$/;"	t	file:
+Align	xv6-public/umalloc.c	/^typedef long Align;$/;"	t	file:
+BACK	sh.c	12;"	d	file:
+BACK	xv6-public/sh.c	12;"	d	file:
+BACKSPACE	console.c	127;"	d	file:
+BACKSPACE	xv6-public/console.c	127;"	d	file:
+BBLOCK	fs.h	48;"	d
+BBLOCK	xv6-public/fs.h	48;"	d
+BCAST	lapic.c	28;"	d	file:
+BCAST	xv6-public/lapic.c	28;"	d	file:
+BIG	usertests.c	1451;"	d	file:
+BIG	xv6-public/usertests.c	1452;"	d	file:
+BPB	fs.h	45;"	d
+BPB	xv6-public/fs.h	45;"	d
+BSIZE	fs.h	6;"	d
+BSIZE	xv6-public/fs.h	6;"	d
+BUSY	lapic.c	29;"	d	file:
+BUSY	xv6-public/lapic.c	29;"	d	file:
+B_DIRTY	buf.h	13;"	d
+B_DIRTY	xv6-public/buf.h	13;"	d
+B_VALID	buf.h	12;"	d
+B_VALID	xv6-public/buf.h	12;"	d
+C	console.c	189;"	d	file:
+C	kbd.h	32;"	d
+C	xv6-public/console.c	189;"	d	file:
+C	xv6-public/kbd.h	32;"	d
+CAPSLOCK	kbd.h	13;"	d
+CAPSLOCK	xv6-public/kbd.h	13;"	d
+CC	Makefile	/^CC = $(TOOLPREFIX)gcc$/;"	m
+CC	xv6-public/Makefile	/^CC = $(TOOLPREFIX)gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -fno-pic -static -fno-builtin -fno-strict-aliasing -O2 -Wall -MD -ggdb -m32 -Werror -fno-omit-frame-pointer$/;"	m
+CFLAGS	xv6-public/Makefile	/^CFLAGS = -fno-pic -static -fno-builtin -fno-strict-aliasing -O2 -Wall -MD -ggdb -m32 -Werror -fno-omit-frame-pointer$/;"	m
+CMOS_PORT	lapic.c	123;"	d	file:
+CMOS_PORT	xv6-public/lapic.c	123;"	d	file:
+CMOS_RETURN	lapic.c	124;"	d	file:
+CMOS_RETURN	xv6-public/lapic.c	124;"	d	file:
+CMOS_STATA	lapic.c	163;"	d	file:
+CMOS_STATA	xv6-public/lapic.c	163;"	d	file:
+CMOS_STATB	lapic.c	164;"	d	file:
+CMOS_STATB	xv6-public/lapic.c	164;"	d	file:
+CMOS_UIP	lapic.c	165;"	d	file:
+CMOS_UIP	xv6-public/lapic.c	165;"	d	file:
+COM1	uart.c	15;"	d	file:
+COM1	xv6-public/uart.c	15;"	d	file:
+CONSOLE	file.h	37;"	d
+CONSOLE	xv6-public/file.h	37;"	d
+CONV	lapic.c	214;"	d	file:
+CONV	lapic.c	221;"	d	file:
+CONV	xv6-public/lapic.c	214;"	d	file:
+CONV	xv6-public/lapic.c	221;"	d	file:
+CPUS	Makefile	/^CPUS := 2$/;"	m
+CPUS	xv6-public/Makefile	/^CPUS := 2$/;"	m
+CR0_AM	mmu.h	35;"	d
+CR0_AM	xv6-public/mmu.h	35;"	d
+CR0_CD	mmu.h	37;"	d
+CR0_CD	xv6-public/mmu.h	37;"	d
+CR0_EM	mmu.h	30;"	d
+CR0_EM	xv6-public/mmu.h	30;"	d
+CR0_ET	mmu.h	32;"	d
+CR0_ET	xv6-public/mmu.h	32;"	d
+CR0_MP	mmu.h	29;"	d
+CR0_MP	xv6-public/mmu.h	29;"	d
+CR0_NE	mmu.h	33;"	d
+CR0_NE	xv6-public/mmu.h	33;"	d
+CR0_NW	mmu.h	36;"	d
+CR0_NW	xv6-public/mmu.h	36;"	d
+CR0_PE	mmu.h	28;"	d
+CR0_PE	xv6-public/mmu.h	28;"	d
+CR0_PG	mmu.h	38;"	d
+CR0_PG	xv6-public/mmu.h	38;"	d
+CR0_TS	mmu.h	31;"	d
+CR0_TS	xv6-public/mmu.h	31;"	d
+CR0_WP	mmu.h	34;"	d
+CR0_WP	xv6-public/mmu.h	34;"	d
+CR4_PSE	mmu.h	40;"	d
+CR4_PSE	xv6-public/mmu.h	40;"	d
+CRTPORT	console.c	128;"	d	file:
+CRTPORT	xv6-public/console.c	128;"	d	file:
+CTL	kbd.h	10;"	d
+CTL	xv6-public/kbd.h	10;"	d
+DAY	lapic.c	170;"	d	file:
+DAY	xv6-public/lapic.c	170;"	d	file:
+DEASSERT	lapic.c	26;"	d	file:
+DEASSERT	xv6-public/lapic.c	26;"	d	file:
+DELIVS	lapic.c	24;"	d	file:
+DELIVS	xv6-public/lapic.c	24;"	d	file:
+DEVSPACE	memlayout.h	5;"	d
+DEVSPACE	xv6-public/memlayout.h	5;"	d
+DIRSIZ	fs.h	51;"	d
+DIRSIZ	xv6-public/fs.h	51;"	d
+DPL_USER	mmu.h	81;"	d
+DPL_USER	xv6-public/mmu.h	81;"	d
+Disassembly	bootblock.asm	/^Disassembly of section .text:$/;"	l
+E0ESC	kbd.h	17;"	d
+E0ESC	xv6-public/kbd.h	17;"	d
+ELF_MAGIC	elf.h	3;"	d
+ELF_MAGIC	xv6-public/elf.h	3;"	d
+ELF_PROG_FLAG_EXEC	elf.h	40;"	d
+ELF_PROG_FLAG_EXEC	xv6-public/elf.h	40;"	d
+ELF_PROG_FLAG_READ	elf.h	42;"	d
+ELF_PROG_FLAG_READ	xv6-public/elf.h	42;"	d
+ELF_PROG_FLAG_WRITE	elf.h	41;"	d
+ELF_PROG_FLAG_WRITE	xv6-public/elf.h	41;"	d
+ELF_PROG_LOAD	elf.h	37;"	d
+ELF_PROG_LOAD	xv6-public/elf.h	37;"	d
+EMBRYO	proc.h	/^enum procstate { UNUSED, EMBRYO, SLEEPING, RUNNABLE, RUNNING, ZOMBIE };$/;"	e	enum:procstate
+EMBRYO	xv6-public/proc.h	/^enum procstate { UNUSED, EMBRYO, SLEEPING, RUNNABLE, RUNNING, ZOMBIE };$/;"	e	enum:procstate
+ENABLE	lapic.c	19;"	d	file:
+ENABLE	xv6-public/lapic.c	19;"	d	file:
+EOI	lapic.c	17;"	d	file:
+EOI	xv6-public/lapic.c	17;"	d	file:
+ERROR	lapic.c	38;"	d	file:
+ERROR	xv6-public/lapic.c	38;"	d	file:
+ESR	lapic.c	20;"	d	file:
+ESR	xv6-public/lapic.c	20;"	d	file:
+EXEC	sh.c	8;"	d	file:
+EXEC	xv6-public/sh.c	8;"	d	file:
+EXTMEM	memlayout.h	3;"	d
+EXTMEM	xv6-public/memlayout.h	3;"	d
+EXTRA	Makefile	/^EXTRA=\\$/;"	m
+EXTRA	xv6-public/Makefile	/^EXTRA=\\$/;"	m
+FD_INODE	file.h	/^  enum { FD_NONE, FD_PIPE, FD_INODE } type;$/;"	e	enum:file::__anon3
+FD_INODE	xv6-public/file.h	/^  enum { FD_NONE, FD_PIPE, FD_INODE } type;$/;"	e	enum:file::__anon6
+FD_NONE	file.h	/^  enum { FD_NONE, FD_PIPE, FD_INODE } type;$/;"	e	enum:file::__anon3
+FD_NONE	xv6-public/file.h	/^  enum { FD_NONE, FD_PIPE, FD_INODE } type;$/;"	e	enum:file::__anon6
+FD_PIPE	file.h	/^  enum { FD_NONE, FD_PIPE, FD_INODE } type;$/;"	e	enum:file::__anon3
+FD_PIPE	xv6-public/file.h	/^  enum { FD_NONE, FD_PIPE, FD_INODE } type;$/;"	e	enum:file::__anon6
+FILES	Makefile	/^FILES = $(shell grep -v '^\\#' runoff.list)$/;"	m
+FILES	xv6-public/Makefile	/^FILES = $(shell grep -v '^\\#' runoff.list)$/;"	m
+FIXED	lapic.c	30;"	d	file:
+FIXED	xv6-public/lapic.c	30;"	d	file:
+FL_AC	mmu.h	22;"	d
+FL_AC	xv6-public/mmu.h	22;"	d
+FL_AF	mmu.h	7;"	d
+FL_AF	xv6-public/mmu.h	7;"	d
+FL_CF	mmu.h	5;"	d
+FL_CF	xv6-public/mmu.h	5;"	d
+FL_DF	mmu.h	12;"	d
+FL_DF	xv6-public/mmu.h	12;"	d
+FL_ID	mmu.h	25;"	d
+FL_ID	xv6-public/mmu.h	25;"	d
+FL_IF	mmu.h	11;"	d
+FL_IF	xv6-public/mmu.h	11;"	d
+FL_IOPL_0	mmu.h	15;"	d
+FL_IOPL_0	xv6-public/mmu.h	15;"	d
+FL_IOPL_1	mmu.h	16;"	d
+FL_IOPL_1	xv6-public/mmu.h	16;"	d
+FL_IOPL_2	mmu.h	17;"	d
+FL_IOPL_2	xv6-public/mmu.h	17;"	d
+FL_IOPL_3	mmu.h	18;"	d
+FL_IOPL_3	xv6-public/mmu.h	18;"	d
+FL_IOPL_MASK	mmu.h	14;"	d
+FL_IOPL_MASK	xv6-public/mmu.h	14;"	d
+FL_NT	mmu.h	19;"	d
+FL_NT	xv6-public/mmu.h	19;"	d
+FL_OF	mmu.h	13;"	d
+FL_OF	xv6-public/mmu.h	13;"	d
+FL_PF	mmu.h	6;"	d
+FL_PF	xv6-public/mmu.h	6;"	d
+FL_RF	mmu.h	20;"	d
+FL_RF	xv6-public/mmu.h	20;"	d
+FL_SF	mmu.h	9;"	d
+FL_SF	xv6-public/mmu.h	9;"	d
+FL_TF	mmu.h	10;"	d
+FL_TF	xv6-public/mmu.h	10;"	d
+FL_VIF	mmu.h	23;"	d
+FL_VIF	xv6-public/mmu.h	23;"	d
+FL_VIP	mmu.h	24;"	d
+FL_VIP	xv6-public/mmu.h	24;"	d
+FL_VM	mmu.h	21;"	d
+FL_VM	xv6-public/mmu.h	21;"	d
+FL_ZF	mmu.h	8;"	d
+FL_ZF	xv6-public/mmu.h	8;"	d
+FSSIZE	param.h	13;"	d
+FSSIZE	xv6-public/param.h	13;"	d
+GDBPORT	Makefile	/^GDBPORT = $(shell expr `id -u` % 5000 + 25000)$/;"	m
+GDBPORT	xv6-public/Makefile	/^GDBPORT = $(shell expr `id -u` % 5000 + 25000)$/;"	m
+HOURS	lapic.c	169;"	d	file:
+HOURS	xv6-public/lapic.c	169;"	d	file:
+Header	umalloc.c	/^typedef union header Header;$/;"	t	typeref:union:header	file:
+Header	xv6-public/umalloc.c	/^typedef union header Header;$/;"	t	typeref:union:header	file:
+IBLOCK	fs.h	42;"	d
+IBLOCK	xv6-public/fs.h	42;"	d
+ICRHI	lapic.c	31;"	d	file:
+ICRHI	xv6-public/lapic.c	31;"	d	file:
+ICRLO	lapic.c	21;"	d	file:
+ICRLO	xv6-public/lapic.c	21;"	d	file:
+ID	lapic.c	14;"	d	file:
+ID	xv6-public/lapic.c	14;"	d	file:
+IDE_BSY	ide.c	17;"	d	file:
+IDE_BSY	xv6-public/ide.c	17;"	d	file:
+IDE_CMD_RDMUL	ide.c	24;"	d	file:
+IDE_CMD_RDMUL	xv6-public/ide.c	24;"	d	file:
+IDE_CMD_READ	ide.c	22;"	d	file:
+IDE_CMD_READ	xv6-public/ide.c	22;"	d	file:
+IDE_CMD_WRITE	ide.c	23;"	d	file:
+IDE_CMD_WRITE	xv6-public/ide.c	23;"	d	file:
+IDE_CMD_WRMUL	ide.c	25;"	d	file:
+IDE_CMD_WRMUL	xv6-public/ide.c	25;"	d	file:
+IDE_DF	ide.c	19;"	d	file:
+IDE_DF	xv6-public/ide.c	19;"	d	file:
+IDE_DRDY	ide.c	18;"	d	file:
+IDE_DRDY	xv6-public/ide.c	18;"	d	file:
+IDE_ERR	ide.c	20;"	d	file:
+IDE_ERR	xv6-public/ide.c	20;"	d	file:
+INIT	lapic.c	22;"	d	file:
+INIT	xv6-public/lapic.c	22;"	d	file:
+INPUT_BUF	console.c	181;"	d	file:
+INPUT_BUF	xv6-public/console.c	181;"	d	file:
+INT_ACTIVELOW	ioapic.c	22;"	d	file:
+INT_ACTIVELOW	xv6-public/ioapic.c	22;"	d	file:
+INT_DISABLED	ioapic.c	20;"	d	file:
+INT_DISABLED	xv6-public/ioapic.c	20;"	d	file:
+INT_LEVEL	ioapic.c	21;"	d	file:
+INT_LEVEL	xv6-public/ioapic.c	21;"	d	file:
+INT_LOGICAL	ioapic.c	23;"	d	file:
+INT_LOGICAL	xv6-public/ioapic.c	23;"	d	file:
+IOAPIC	ioapic.c	9;"	d	file:
+IOAPIC	xv6-public/ioapic.c	9;"	d	file:
+IO_PIC1	picirq.c	6;"	d	file:
+IO_PIC1	xv6-public/picirq.c	6;"	d	file:
+IO_PIC2	picirq.c	7;"	d	file:
+IO_PIC2	xv6-public/picirq.c	7;"	d	file:
+IPB	fs.h	39;"	d
+IPB	xv6-public/fs.h	39;"	d
+IRQ_COM1	traps.h	34;"	d
+IRQ_COM1	xv6-public/traps.h	34;"	d
+IRQ_ERROR	traps.h	36;"	d
+IRQ_ERROR	xv6-public/traps.h	36;"	d
+IRQ_IDE	traps.h	35;"	d
+IRQ_IDE	xv6-public/traps.h	35;"	d
+IRQ_KBD	traps.h	33;"	d
+IRQ_KBD	xv6-public/traps.h	33;"	d
+IRQ_SPURIOUS	traps.h	37;"	d
+IRQ_SPURIOUS	xv6-public/traps.h	37;"	d
+IRQ_TIMER	traps.h	32;"	d
+IRQ_TIMER	xv6-public/traps.h	32;"	d
+KBDATAP	kbd.h	5;"	d
+KBDATAP	xv6-public/kbd.h	5;"	d
+KBSTATP	kbd.h	3;"	d
+KBSTATP	xv6-public/kbd.h	3;"	d
+KBS_DIB	kbd.h	4;"	d
+KBS_DIB	xv6-public/kbd.h	4;"	d
+KERNBASE	memlayout.h	8;"	d
+KERNBASE	xv6-public/memlayout.h	8;"	d
+KERNLINK	memlayout.h	9;"	d
+KERNLINK	xv6-public/memlayout.h	9;"	d
+KEY_DEL	kbd.h	29;"	d
+KEY_DEL	xv6-public/kbd.h	29;"	d
+KEY_DN	kbd.h	23;"	d
+KEY_DN	xv6-public/kbd.h	23;"	d
+KEY_END	kbd.h	21;"	d
+KEY_END	xv6-public/kbd.h	21;"	d
+KEY_HOME	kbd.h	20;"	d
+KEY_HOME	xv6-public/kbd.h	20;"	d
+KEY_INS	kbd.h	28;"	d
+KEY_INS	xv6-public/kbd.h	28;"	d
+KEY_LF	kbd.h	24;"	d
+KEY_LF	xv6-public/kbd.h	24;"	d
+KEY_PGDN	kbd.h	27;"	d
+KEY_PGDN	xv6-public/kbd.h	27;"	d
+KEY_PGUP	kbd.h	26;"	d
+KEY_PGUP	xv6-public/kbd.h	26;"	d
+KEY_RT	kbd.h	25;"	d
+KEY_RT	xv6-public/kbd.h	25;"	d
+KEY_UP	kbd.h	22;"	d
+KEY_UP	xv6-public/kbd.h	22;"	d
+KSTACKSIZE	param.h	2;"	d
+KSTACKSIZE	xv6-public/param.h	2;"	d
+LD	Makefile	/^LD = $(TOOLPREFIX)ld$/;"	m
+LD	xv6-public/Makefile	/^LD = $(TOOLPREFIX)ld$/;"	m
+LEVEL	lapic.c	27;"	d	file:
+LEVEL	xv6-public/lapic.c	27;"	d	file:
+LINT0	lapic.c	36;"	d	file:
+LINT0	xv6-public/lapic.c	36;"	d	file:
+LINT1	lapic.c	37;"	d	file:
+LINT1	xv6-public/lapic.c	37;"	d	file:
+LIST	sh.c	11;"	d	file:
+LIST	xv6-public/sh.c	11;"	d	file:
+LOGSIZE	param.h	11;"	d
+LOGSIZE	xv6-public/param.h	11;"	d
+MASKED	lapic.c	39;"	d	file:
+MASKED	xv6-public/lapic.c	39;"	d	file:
+MAXARG	param.h	9;"	d
+MAXARG	xv6-public/param.h	9;"	d
+MAXARGS	sh.c	14;"	d	file:
+MAXARGS	xv6-public/sh.c	14;"	d	file:
+MAXFILE	fs.h	26;"	d
+MAXFILE	xv6-public/fs.h	26;"	d
+MAXOPBLOCKS	param.h	10;"	d
+MAXOPBLOCKS	xv6-public/param.h	10;"	d
+MEMFSOBJS	Makefile	/^MEMFSOBJS = $(filter-out ide.o,$(OBJS)) memide.o$/;"	m
+MEMFSOBJS	xv6-public/Makefile	/^MEMFSOBJS = $(filter-out ide.o,$(OBJS)) memide.o$/;"	m
+MINS	lapic.c	168;"	d	file:
+MINS	xv6-public/lapic.c	168;"	d	file:
+MONTH	lapic.c	171;"	d	file:
+MONTH	xv6-public/lapic.c	171;"	d	file:
+MPBOOT	mp.h	34;"	d
+MPBOOT	xv6-public/mp.h	34;"	d
+MPBUS	mp.h	50;"	d
+MPBUS	xv6-public/mp.h	50;"	d
+MPIOAPIC	mp.h	51;"	d
+MPIOAPIC	xv6-public/mp.h	51;"	d
+MPIOINTR	mp.h	52;"	d
+MPIOINTR	xv6-public/mp.h	52;"	d
+MPLINTR	mp.h	53;"	d
+MPLINTR	xv6-public/mp.h	53;"	d
+MPPROC	mp.h	49;"	d
+MPPROC	xv6-public/mp.h	49;"	d
+N	forktest.c	8;"	d	file:
+N	xv6-public/forktest.c	8;"	d	file:
+NBUF	param.h	12;"	d
+NBUF	xv6-public/param.h	12;"	d
+NCPU	param.h	3;"	d
+NCPU	xv6-public/param.h	3;"	d
+NDEV	param.h	7;"	d
+NDEV	xv6-public/param.h	7;"	d
+NDIRECT	fs.h	24;"	d
+NDIRECT	xv6-public/fs.h	24;"	d
+NELEM	defs.h	191;"	d
+NELEM	xv6-public/defs.h	190;"	d
+NFILE	param.h	5;"	d
+NFILE	xv6-public/param.h	5;"	d
+NINDIRECT	fs.h	25;"	d
+NINDIRECT	xv6-public/fs.h	25;"	d
+NINODE	param.h	6;"	d
+NINODE	xv6-public/param.h	6;"	d
+NINODES	mkfs.c	18;"	d	file:
+NINODES	xv6-public/mkfs.c	18;"	d	file:
+NO	kbd.h	7;"	d
+NO	xv6-public/kbd.h	7;"	d
+NOFILE	param.h	4;"	d
+NOFILE	xv6-public/param.h	4;"	d
+NPDENTRIES	mmu.h	123;"	d
+NPDENTRIES	xv6-public/mmu.h	123;"	d
+NPROC	param.h	1;"	d
+NPROC	xv6-public/param.h	1;"	d
+NPTENTRIES	mmu.h	124;"	d
+NPTENTRIES	xv6-public/mmu.h	124;"	d
+NSEGS	mmu.h	50;"	d
+NSEGS	xv6-public/mmu.h	50;"	d
+NUMLOCK	kbd.h	14;"	d
+NUMLOCK	xv6-public/kbd.h	14;"	d
+OBJCOPY	Makefile	/^OBJCOPY = $(TOOLPREFIX)objcopy$/;"	m
+OBJCOPY	xv6-public/Makefile	/^OBJCOPY = $(TOOLPREFIX)objcopy$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP = $(TOOLPREFIX)objdump$/;"	m
+OBJDUMP	xv6-public/Makefile	/^OBJDUMP = $(TOOLPREFIX)objdump$/;"	m
+OBJS	Makefile	/^OBJS = \\$/;"	m
+OBJS	xv6-public/Makefile	/^OBJS = \\$/;"	m
+O_CREATE	fcntl.h	4;"	d
+O_CREATE	xv6-public/fcntl.h	4;"	d
+O_RDONLY	fcntl.h	1;"	d
+O_RDONLY	xv6-public/fcntl.h	1;"	d
+O_RDWR	fcntl.h	3;"	d
+O_RDWR	xv6-public/fcntl.h	3;"	d
+O_WRONLY	fcntl.h	2;"	d
+O_WRONLY	xv6-public/fcntl.h	2;"	d
+P2V	memlayout.h	12;"	d
+P2V	xv6-public/memlayout.h	12;"	d
+P2V_WO	memlayout.h	15;"	d
+P2V_WO	xv6-public/memlayout.h	15;"	d
+PCINT	lapic.c	35;"	d	file:
+PCINT	xv6-public/lapic.c	35;"	d	file:
+PDX	mmu.h	114;"	d
+PDX	xv6-public/mmu.h	114;"	d
+PDXSHIFT	mmu.h	129;"	d
+PDXSHIFT	xv6-public/mmu.h	129;"	d
+PERIODIC	lapic.c	34;"	d	file:
+PERIODIC	xv6-public/lapic.c	34;"	d	file:
+PGADDR	mmu.h	120;"	d
+PGADDR	xv6-public/mmu.h	120;"	d
+PGROUNDDOWN	mmu.h	132;"	d
+PGROUNDDOWN	xv6-public/mmu.h	132;"	d
+PGROUNDUP	mmu.h	131;"	d
+PGROUNDUP	xv6-public/mmu.h	131;"	d
+PGSHIFT	mmu.h	127;"	d
+PGSHIFT	xv6-public/mmu.h	127;"	d
+PGSIZE	mmu.h	125;"	d
+PGSIZE	xv6-public/mmu.h	125;"	d
+PHYSTOP	memlayout.h	4;"	d
+PHYSTOP	xv6-public/memlayout.h	4;"	d
+PIPE	sh.c	10;"	d	file:
+PIPE	xv6-public/sh.c	10;"	d	file:
+PIPESIZE	pipe.c	11;"	d	file:
+PIPESIZE	xv6-public/pipe.c	11;"	d	file:
+PRINT	Makefile	/^PRINT = runoff.list runoff.spec README toc.hdr toc.ftr $(FILES)$/;"	m
+PRINT	xv6-public/Makefile	/^PRINT = runoff.list runoff.spec README toc.hdr toc.ftr $(FILES)$/;"	m
+PTE_A	mmu.h	140;"	d
+PTE_A	xv6-public/mmu.h	140;"	d
+PTE_ADDR	mmu.h	146;"	d
+PTE_ADDR	xv6-public/mmu.h	146;"	d
+PTE_D	mmu.h	141;"	d
+PTE_D	xv6-public/mmu.h	141;"	d
+PTE_FLAGS	mmu.h	147;"	d
+PTE_FLAGS	xv6-public/mmu.h	147;"	d
+PTE_MBZ	mmu.h	143;"	d
+PTE_MBZ	xv6-public/mmu.h	143;"	d
+PTE_P	mmu.h	135;"	d
+PTE_P	xv6-public/mmu.h	135;"	d
+PTE_PCD	mmu.h	139;"	d
+PTE_PCD	xv6-public/mmu.h	139;"	d
+PTE_PS	mmu.h	142;"	d
+PTE_PS	xv6-public/mmu.h	142;"	d
+PTE_PWT	mmu.h	138;"	d
+PTE_PWT	xv6-public/mmu.h	138;"	d
+PTE_U	mmu.h	137;"	d
+PTE_U	xv6-public/mmu.h	137;"	d
+PTE_W	mmu.h	136;"	d
+PTE_W	xv6-public/mmu.h	136;"	d
+PTX	mmu.h	117;"	d
+PTX	xv6-public/mmu.h	117;"	d
+PTXSHIFT	mmu.h	128;"	d
+PTXSHIFT	xv6-public/mmu.h	128;"	d
+QEMU	Makefile	/^QEMU = $(shell if which qemu > \/dev\/null; \\$/;"	m
+QEMU	xv6-public/Makefile	/^QEMU = $(shell if which qemu > \/dev\/null; \\$/;"	m
+QEMUGDB	Makefile	/^QEMUGDB = $(shell if $(QEMU) -help | grep -q '^-gdb'; \\$/;"	m
+QEMUGDB	xv6-public/Makefile	/^QEMUGDB = $(shell if $(QEMU) -help | grep -q '^-gdb'; \\$/;"	m
+QEMUOPTS	Makefile	/^QEMUOPTS = -drive file=fs.img,index=1,media=disk,format=raw -drive file=xv6.img,index=0,media=disk,format=raw -smp $(CPUS) -m 512 $(QEMUEXTRA)$/;"	m
+QEMUOPTS	xv6-public/Makefile	/^QEMUOPTS = -drive file=fs.img,index=1,media=disk,format=raw -drive file=xv6.img,index=0,media=disk,format=raw -smp $(CPUS) -m 512 $(QEMUEXTRA)$/;"	m
+REDIR	sh.c	9;"	d	file:
+REDIR	xv6-public/sh.c	9;"	d	file:
+REG_ID	ioapic.c	11;"	d	file:
+REG_ID	xv6-public/ioapic.c	11;"	d	file:
+REG_TABLE	ioapic.c	13;"	d	file:
+REG_TABLE	xv6-public/ioapic.c	13;"	d	file:
+REG_VER	ioapic.c	12;"	d	file:
+REG_VER	xv6-public/ioapic.c	12;"	d	file:
+ROOTDEV	param.h	8;"	d
+ROOTDEV	xv6-public/param.h	8;"	d
+ROOTINO	fs.h	5;"	d
+ROOTINO	xv6-public/fs.h	5;"	d
+RTC_ADDR	usertests.c	1700;"	d	file:
+RTC_ADDR	xv6-public/usertests.c	1701;"	d	file:
+RTC_DATA	usertests.c	1701;"	d	file:
+RTC_DATA	xv6-public/usertests.c	1702;"	d	file:
+RUNNABLE	proc.h	/^enum procstate { UNUSED, EMBRYO, SLEEPING, RUNNABLE, RUNNING, ZOMBIE };$/;"	e	enum:procstate
+RUNNABLE	xv6-public/proc.h	/^enum procstate { UNUSED, EMBRYO, SLEEPING, RUNNABLE, RUNNING, ZOMBIE };$/;"	e	enum:procstate
+RUNNING	proc.h	/^enum procstate { UNUSED, EMBRYO, SLEEPING, RUNNABLE, RUNNING, ZOMBIE };$/;"	e	enum:procstate
+RUNNING	xv6-public/proc.h	/^enum procstate { UNUSED, EMBRYO, SLEEPING, RUNNABLE, RUNNING, ZOMBIE };$/;"	e	enum:procstate
+SCROLLLOCK	kbd.h	15;"	d
+SCROLLLOCK	xv6-public/kbd.h	15;"	d
+SECS	lapic.c	167;"	d	file:
+SECS	xv6-public/lapic.c	167;"	d	file:
+SECTOR_SIZE	ide.c	16;"	d	file:
+SECTOR_SIZE	xv6-public/ide.c	16;"	d	file:
+SECTSIZE	bootmain.c	12;"	d	file:
+SECTSIZE	xv6-public/bootmain.c	13;"	d	file:
+SEG	mmu.h	71;"	d
+SEG	xv6-public/mmu.h	71;"	d
+SEG16	mmu.h	75;"	d
+SEG16	xv6-public/mmu.h	75;"	d
+SEG_ASM	asm.h	11;"	d
+SEG_ASM	xv6-public/asm.h	11;"	d
+SEG_KCODE	mmu.h	43;"	d
+SEG_KCODE	xv6-public/mmu.h	43;"	d
+SEG_KDATA	mmu.h	44;"	d
+SEG_KDATA	xv6-public/mmu.h	44;"	d
+SEG_NULLASM	asm.h	5;"	d
+SEG_NULLASM	xv6-public/asm.h	5;"	d
+SEG_TSS	mmu.h	47;"	d
+SEG_TSS	xv6-public/mmu.h	47;"	d
+SEG_UCODE	mmu.h	45;"	d
+SEG_UCODE	xv6-public/mmu.h	45;"	d
+SEG_UDATA	mmu.h	46;"	d
+SEG_UDATA	xv6-public/mmu.h	46;"	d
+SETGATE	mmu.h	215;"	d
+SETGATE	xv6-public/mmu.h	215;"	d
+SHIFT	kbd.h	9;"	d
+SHIFT	xv6-public/kbd.h	9;"	d
+SLEEPING	proc.h	/^enum procstate { UNUSED, EMBRYO, SLEEPING, RUNNABLE, RUNNING, ZOMBIE };$/;"	e	enum:procstate
+SLEEPING	xv6-public/proc.h	/^enum procstate { UNUSED, EMBRYO, SLEEPING, RUNNABLE, RUNNING, ZOMBIE };$/;"	e	enum:procstate
+STARTUP	lapic.c	23;"	d	file:
+STARTUP	xv6-public/lapic.c	23;"	d	file:
+STA_A	asm.h	21;"	d
+STA_A	mmu.h	89;"	d
+STA_A	xv6-public/asm.h	21;"	d
+STA_A	xv6-public/mmu.h	89;"	d
+STA_C	asm.h	18;"	d
+STA_C	mmu.h	86;"	d
+STA_C	xv6-public/asm.h	18;"	d
+STA_C	xv6-public/mmu.h	86;"	d
+STA_E	asm.h	17;"	d
+STA_E	mmu.h	85;"	d
+STA_E	xv6-public/asm.h	17;"	d
+STA_E	xv6-public/mmu.h	85;"	d
+STA_R	asm.h	20;"	d
+STA_R	mmu.h	88;"	d
+STA_R	xv6-public/asm.h	20;"	d
+STA_R	xv6-public/mmu.h	88;"	d
+STA_W	asm.h	19;"	d
+STA_W	mmu.h	87;"	d
+STA_W	xv6-public/asm.h	19;"	d
+STA_W	xv6-public/mmu.h	87;"	d
+STA_X	asm.h	16;"	d
+STA_X	mmu.h	84;"	d
+STA_X	xv6-public/asm.h	16;"	d
+STA_X	xv6-public/mmu.h	84;"	d
+STS_CG16	mmu.h	95;"	d
+STS_CG16	xv6-public/mmu.h	95;"	d
+STS_CG32	mmu.h	101;"	d
+STS_CG32	xv6-public/mmu.h	101;"	d
+STS_IG16	mmu.h	97;"	d
+STS_IG16	xv6-public/mmu.h	97;"	d
+STS_IG32	mmu.h	102;"	d
+STS_IG32	xv6-public/mmu.h	102;"	d
+STS_LDT	mmu.h	93;"	d
+STS_LDT	xv6-public/mmu.h	93;"	d
+STS_T16A	mmu.h	92;"	d
+STS_T16A	xv6-public/mmu.h	92;"	d
+STS_T16B	mmu.h	94;"	d
+STS_T16B	xv6-public/mmu.h	94;"	d
+STS_T32A	mmu.h	99;"	d
+STS_T32A	xv6-public/mmu.h	99;"	d
+STS_T32B	mmu.h	100;"	d
+STS_T32B	xv6-public/mmu.h	100;"	d
+STS_TG	mmu.h	96;"	d
+STS_TG	xv6-public/mmu.h	96;"	d
+STS_TG16	mmu.h	98;"	d
+STS_TG16	xv6-public/mmu.h	98;"	d
+STS_TG32	mmu.h	103;"	d
+STS_TG32	xv6-public/mmu.h	103;"	d
+SVR	lapic.c	18;"	d	file:
+SVR	xv6-public/lapic.c	18;"	d	file:
+SYSCALL	usys.S	/^#define SYSCALL(name) \\$/;"	d
+SYSCALL	xv6-public/usys.S	/^#define SYSCALL(name) \\$/;"	d
+SYS_chdir	syscall.h	11;"	d
+SYS_chdir	xv6-public/syscall.h	10;"	d
+SYS_close	syscall.h	23;"	d
+SYS_close	xv6-public/syscall.h	22;"	d
+SYS_dup	syscall.h	12;"	d
+SYS_dup	xv6-public/syscall.h	11;"	d
+SYS_exec	syscall.h	9;"	d
+SYS_exec	xv6-public/syscall.h	8;"	d
+SYS_exit	syscall.h	4;"	d
+SYS_exit	xv6-public/syscall.h	3;"	d
+SYS_fork	syscall.h	3;"	d
+SYS_fork	xv6-public/syscall.h	2;"	d
+SYS_fstat	syscall.h	10;"	d
+SYS_fstat	xv6-public/syscall.h	9;"	d
+SYS_getpid	syscall.h	13;"	d
+SYS_getpid	xv6-public/syscall.h	12;"	d
+SYS_kill	syscall.h	8;"	d
+SYS_kill	xv6-public/syscall.h	7;"	d
+SYS_link	syscall.h	21;"	d
+SYS_link	xv6-public/syscall.h	20;"	d
+SYS_mkdir	syscall.h	22;"	d
+SYS_mkdir	xv6-public/syscall.h	21;"	d
+SYS_mknod	syscall.h	19;"	d
+SYS_mknod	xv6-public/syscall.h	18;"	d
+SYS_open	syscall.h	17;"	d
+SYS_open	xv6-public/syscall.h	16;"	d
+SYS_pipe	syscall.h	6;"	d
+SYS_pipe	xv6-public/syscall.h	5;"	d
+SYS_read	syscall.h	7;"	d
+SYS_read	xv6-public/syscall.h	6;"	d
+SYS_sbrk	syscall.h	14;"	d
+SYS_sbrk	xv6-public/syscall.h	13;"	d
+SYS_sleep	syscall.h	15;"	d
+SYS_sleep	xv6-public/syscall.h	14;"	d
+SYS_unlink	syscall.h	20;"	d
+SYS_unlink	xv6-public/syscall.h	19;"	d
+SYS_uptime	syscall.h	16;"	d
+SYS_uptime	xv6-public/syscall.h	15;"	d
+SYS_wait	syscall.h	5;"	d
+SYS_wait	xv6-public/syscall.h	4;"	d
+SYS_waitpid	syscall.h	24;"	d
+SYS_write	syscall.h	18;"	d
+SYS_write	xv6-public/syscall.h	17;"	d
+TCCR	lapic.c	41;"	d	file:
+TCCR	xv6-public/lapic.c	41;"	d	file:
+TDCR	lapic.c	42;"	d	file:
+TDCR	xv6-public/lapic.c	42;"	d	file:
+TICR	lapic.c	40;"	d	file:
+TICR	xv6-public/lapic.c	40;"	d	file:
+TIMER	lapic.c	32;"	d	file:
+TIMER	xv6-public/lapic.c	32;"	d	file:
+TOOLPREFIX	Makefile	/^TOOLPREFIX := $(shell if i386-jos-elf-objdump -i 2>&1 | grep '^elf32-i386$$' >\/dev\/null 2>&1; \\$/;"	m
+TOOLPREFIX	xv6-public/Makefile	/^TOOLPREFIX := $(shell if i386-jos-elf-objdump -i 2>&1 | grep '^elf32-i386$$' >\/dev\/null 2>&1; \\$/;"	m
+TPR	lapic.c	16;"	d	file:
+TPR	xv6-public/lapic.c	16;"	d	file:
+T_ALIGN	traps.h	21;"	d
+T_ALIGN	xv6-public/traps.h	21;"	d
+T_BOUND	traps.h	9;"	d
+T_BOUND	xv6-public/traps.h	9;"	d
+T_BRKPT	traps.h	7;"	d
+T_BRKPT	xv6-public/traps.h	7;"	d
+T_DBLFLT	traps.h	12;"	d
+T_DBLFLT	xv6-public/traps.h	12;"	d
+T_DEBUG	traps.h	5;"	d
+T_DEBUG	xv6-public/traps.h	5;"	d
+T_DEFAULT	traps.h	28;"	d
+T_DEFAULT	xv6-public/traps.h	28;"	d
+T_DEV	stat.h	3;"	d
+T_DEV	xv6-public/stat.h	3;"	d
+T_DEVICE	traps.h	11;"	d
+T_DEVICE	xv6-public/traps.h	11;"	d
+T_DIR	stat.h	1;"	d
+T_DIR	xv6-public/stat.h	1;"	d
+T_DIVIDE	traps.h	4;"	d
+T_DIVIDE	xv6-public/traps.h	4;"	d
+T_FILE	stat.h	2;"	d
+T_FILE	xv6-public/stat.h	2;"	d
+T_FPERR	traps.h	20;"	d
+T_FPERR	xv6-public/traps.h	20;"	d
+T_GPFLT	traps.h	17;"	d
+T_GPFLT	xv6-public/traps.h	17;"	d
+T_ILLOP	traps.h	10;"	d
+T_ILLOP	xv6-public/traps.h	10;"	d
+T_IRQ0	traps.h	30;"	d
+T_IRQ0	xv6-public/traps.h	30;"	d
+T_MCHK	traps.h	22;"	d
+T_MCHK	xv6-public/traps.h	22;"	d
+T_NMI	traps.h	6;"	d
+T_NMI	xv6-public/traps.h	6;"	d
+T_OFLOW	traps.h	8;"	d
+T_OFLOW	xv6-public/traps.h	8;"	d
+T_PGFLT	traps.h	18;"	d
+T_PGFLT	xv6-public/traps.h	18;"	d
+T_SEGNP	traps.h	15;"	d
+T_SEGNP	xv6-public/traps.h	15;"	d
+T_SIMDERR	traps.h	23;"	d
+T_SIMDERR	xv6-public/traps.h	23;"	d
+T_STACK	traps.h	16;"	d
+T_STACK	xv6-public/traps.h	16;"	d
+T_SYSCALL	traps.h	27;"	d
+T_SYSCALL	xv6-public/traps.h	27;"	d
+T_TSS	traps.h	14;"	d
+T_TSS	xv6-public/traps.h	14;"	d
+ULIB	Makefile	/^ULIB = ulib.o usys.o printf.o umalloc.o$/;"	m
+ULIB	xv6-public/Makefile	/^ULIB = ulib.o usys.o printf.o umalloc.o$/;"	m
+UNUSED	proc.h	/^enum procstate { UNUSED, EMBRYO, SLEEPING, RUNNABLE, RUNNING, ZOMBIE };$/;"	e	enum:procstate
+UNUSED	xv6-public/proc.h	/^enum procstate { UNUSED, EMBRYO, SLEEPING, RUNNABLE, RUNNING, ZOMBIE };$/;"	e	enum:procstate
+UPROGS	Makefile	/^UPROGS=\\$/;"	m
+UPROGS	xv6-public/Makefile	/^UPROGS=\\$/;"	m
+V2P	memlayout.h	11;"	d
+V2P	xv6-public/memlayout.h	11;"	d
+V2P_WO	memlayout.h	14;"	d
+V2P_WO	xv6-public/memlayout.h	14;"	d
+VER	lapic.c	15;"	d	file:
+VER	xv6-public/lapic.c	15;"	d	file:
+X1	lapic.c	33;"	d	file:
+X1	xv6-public/lapic.c	33;"	d	file:
+YEAR	lapic.c	172;"	d	file:
+YEAR	xv6-public/lapic.c	172;"	d	file:
+ZOMBIE	proc.h	/^enum procstate { UNUSED, EMBRYO, SLEEPING, RUNNABLE, RUNNING, ZOMBIE };$/;"	e	enum:procstate
+ZOMBIE	xv6-public/proc.h	/^enum procstate { UNUSED, EMBRYO, SLEEPING, RUNNABLE, RUNNING, ZOMBIE };$/;"	e	enum:procstate
+_start	entry.S	/^_start = V2P_WO(entry)$/;"	d
+_start	xv6-public/entry.S	/^_start = V2P_WO(entry)$/;"	d
+acquire	spinlock.c	/^acquire(struct spinlock *lk)$/;"	f
+acquire	xv6-public/spinlock.c	/^acquire(struct spinlock *lk)$/;"	f
+acquiresleep	sleeplock.c	/^acquiresleep(struct sleeplock *lk)$/;"	f
+acquiresleep	xv6-public/sleeplock.c	/^acquiresleep(struct sleeplock *lk)$/;"	f
+addr	mp.h	/^  uint *addr;                  \/\/ I\/O APIC address$/;"	m	struct:mpioapic
+addr	xv6-public/mp.h	/^  uint *addr;                  \/\/ I\/O APIC address$/;"	m	struct:mpioapic
+addrs	file.h	/^  uint addrs[NDIRECT+1];$/;"	m	struct:inode
+addrs	fs.h	/^  uint addrs[NDIRECT+1];   \/\/ Data block addresses$/;"	m	struct:dinode
+addrs	xv6-public/file.h	/^  uint addrs[NDIRECT+1];$/;"	m	struct:inode
+addrs	xv6-public/fs.h	/^  uint addrs[NDIRECT+1];   \/\/ Data block addresses$/;"	m	struct:dinode
+align	elf.h	/^  uint align;$/;"	m	struct:proghdr
+align	xv6-public/elf.h	/^  uint align;$/;"	m	struct:proghdr
+allocproc	proc.c	/^allocproc(void)$/;"	f	file:
+allocproc	xv6-public/proc.c	/^allocproc(void)$/;"	f	file:
+allocuvm	vm.c	/^allocuvm(pde_t *pgdir, uint oldsz, uint newsz)$/;"	f
+allocuvm	xv6-public/vm.c	/^allocuvm(pde_t *pgdir, uint oldsz, uint newsz)$/;"	f
+alltraps	trapasm.S	/^alltraps:$/;"	l
+alltraps	xv6-public/trapasm.S	/^alltraps:$/;"	l
+apicid	mp.h	/^  uchar apicid;                 \/\/ local APIC id$/;"	m	struct:mpproc
+apicid	proc.h	/^  uchar apicid;                \/\/ Local APIC ID$/;"	m	struct:cpu
+apicid	xv6-public/mp.h	/^  uchar apicid;                 \/\/ local APIC id$/;"	m	struct:mpproc
+apicid	xv6-public/proc.h	/^  uchar apicid;                \/\/ Local APIC ID$/;"	m	struct:cpu
+apicno	mp.h	/^  uchar apicno;                 \/\/ I\/O APIC id$/;"	m	struct:mpioapic
+apicno	xv6-public/mp.h	/^  uchar apicno;                 \/\/ I\/O APIC id$/;"	m	struct:mpioapic
+argfd	sysfile.c	/^argfd(int n, int *pfd, struct file **pf)$/;"	f	file:
+argfd	xv6-public/sysfile.c	/^argfd(int n, int *pfd, struct file **pf)$/;"	f	file:
+argint	syscall.c	/^argint(int n, int *ip)$/;"	f
+argint	xv6-public/syscall.c	/^argint(int n, int *ip)$/;"	f
+argptest	xv6-public/usertests.c	/^void argptest()$/;"	f
+argptr	syscall.c	/^argptr(int n, char **pp, int size)$/;"	f
+argptr	xv6-public/syscall.c	/^argptr(int n, char **pp, int size)$/;"	f
+args	mmu.h	/^  uint args : 5;        \/\/ # args, 0 for interrupt\/trap gates$/;"	m	struct:gatedesc
+args	xv6-public/mmu.h	/^  uint args : 5;        \/\/ # args, 0 for interrupt\/trap gates$/;"	m	struct:gatedesc
+argstr	syscall.c	/^argstr(int n, char **pp)$/;"	f
+argstr	xv6-public/syscall.c	/^argstr(int n, char **pp)$/;"	f
+argv	init.c	/^char *argv[] = { "sh", 0 };$/;"	v
+argv	initcode.S	/^argv:$/;"	l
+argv	sh.c	/^  char *argv[MAXARGS];$/;"	m	struct:execcmd	file:
+argv	xv6-public/init.c	/^char *argv[] = { "sh", 0 };$/;"	v
+argv	xv6-public/initcode.S	/^argv:$/;"	l
+argv	xv6-public/sh.c	/^  char *argv[MAXARGS];$/;"	m	struct:execcmd	file:
+atoi	ulib.c	/^atoi(const char *s)$/;"	f
+atoi	xv6-public/ulib.c	/^atoi(const char *s)$/;"	f
+avl	mmu.h	/^  uint avl : 1;        \/\/ Unused (available for software use)$/;"	m	struct:segdesc
+avl	xv6-public/mmu.h	/^  uint avl : 1;        \/\/ Unused (available for software use)$/;"	m	struct:segdesc
+backcmd	sh.c	/^backcmd(struct cmd *subcmd)$/;"	f
+backcmd	sh.c	/^struct backcmd {$/;"	s	file:
+backcmd	xv6-public/sh.c	/^backcmd(struct cmd *subcmd)$/;"	f
+backcmd	xv6-public/sh.c	/^struct backcmd {$/;"	s	file:
+balloc	fs.c	/^balloc(uint dev)$/;"	f	file:
+balloc	mkfs.c	/^balloc(int used)$/;"	f
+balloc	xv6-public/fs.c	/^balloc(uint dev)$/;"	f	file:
+balloc	xv6-public/mkfs.c	/^balloc(int used)$/;"	f
+base	umalloc.c	/^static Header base;$/;"	v	file:
+base	xv6-public/umalloc.c	/^static Header base;$/;"	v	file:
+base_15_0	mmu.h	/^  uint base_15_0 : 16; \/\/ Low bits of segment base address$/;"	m	struct:segdesc
+base_15_0	xv6-public/mmu.h	/^  uint base_15_0 : 16; \/\/ Low bits of segment base address$/;"	m	struct:segdesc
+base_23_16	mmu.h	/^  uint base_23_16 : 8; \/\/ Middle bits of segment base address$/;"	m	struct:segdesc
+base_23_16	xv6-public/mmu.h	/^  uint base_23_16 : 8; \/\/ Middle bits of segment base address$/;"	m	struct:segdesc
+base_31_24	mmu.h	/^  uint base_31_24 : 8; \/\/ High bits of segment base address$/;"	m	struct:segdesc
+base_31_24	xv6-public/mmu.h	/^  uint base_31_24 : 8; \/\/ High bits of segment base address$/;"	m	struct:segdesc
+bcache	bio.c	/^} bcache;$/;"	v	typeref:struct:__anon1
+bcache	xv6-public/bio.c	/^} bcache;$/;"	v	typeref:struct:__anon4
+begin_op	log.c	/^begin_op(void)$/;"	f
+begin_op	xv6-public/log.c	/^begin_op(void)$/;"	f
+bfree	fs.c	/^bfree(int dev, uint b)$/;"	f	file:
+bfree	xv6-public/fs.c	/^bfree(int dev, uint b)$/;"	f	file:
+bget	bio.c	/^bget(uint dev, uint blockno)$/;"	f	file:
+bget	xv6-public/bio.c	/^bget(uint dev, uint blockno)$/;"	f	file:
+bigargtest	xv6-public/usertests.c	/^bigargtest(void)$/;"	f
+bigdir	xv6-public/usertests.c	/^bigdir(void)$/;"	f
+bigfile	xv6-public/usertests.c	/^bigfile(void)$/;"	f
+bigwrite	xv6-public/usertests.c	/^bigwrite(void)$/;"	f
+binit	bio.c	/^binit(void)$/;"	f
+binit	xv6-public/bio.c	/^binit(void)$/;"	f
+block	log.c	/^  int block[LOGSIZE];$/;"	m	struct:logheader	file:
+block	xv6-public/log.c	/^  int block[LOGSIZE];$/;"	m	struct:logheader	file:
+blockno	buf.h	/^  uint blockno;$/;"	m	struct:buf
+blockno	xv6-public/buf.h	/^  uint blockno;$/;"	m	struct:buf
+bmap	fs.c	/^bmap(struct inode *ip, uint bn)$/;"	f	file:
+bmap	xv6-public/fs.c	/^bmap(struct inode *ip, uint bn)$/;"	f	file:
+bmapstart	fs.h	/^  uint bmapstart;    \/\/ Block number of first free map block$/;"	m	struct:superblock
+bmapstart	xv6-public/fs.h	/^  uint bmapstart;    \/\/ Block number of first free map block$/;"	m	struct:superblock
+bootmain	bootmain.c	/^bootmain(void)$/;"	f
+bootmain	xv6-public/bootmain.c	/^bootmain(void)$/;"	f
+bread	bio.c	/^bread(uint dev, uint blockno)$/;"	f
+bread	xv6-public/bio.c	/^bread(uint dev, uint blockno)$/;"	f
+brelse	bio.c	/^brelse(struct buf *b)$/;"	f
+brelse	xv6-public/bio.c	/^brelse(struct buf *b)$/;"	f
+bsstest	xv6-public/usertests.c	/^bsstest(void)$/;"	f
+buf	bio.c	/^  struct buf buf[NBUF];$/;"	m	struct:__anon1	typeref:struct:__anon1::buf	file:
+buf	buf.h	/^struct buf {$/;"	s
+buf	cat.c	/^char buf[512];$/;"	v
+buf	console.c	/^  char buf[INPUT_BUF];$/;"	m	struct:__anon17	file:
+buf	grep.c	/^char buf[1024];$/;"	v
+buf	usertests.c	/^char buf[8192];$/;"	v
+buf	wc.c	/^char buf[512];$/;"	v
+buf	xv6-public/bio.c	/^  struct buf buf[NBUF];$/;"	m	struct:__anon4	typeref:struct:__anon4::buf	file:
+buf	xv6-public/buf.h	/^struct buf {$/;"	s
+buf	xv6-public/cat.c	/^char buf[512];$/;"	v
+buf	xv6-public/console.c	/^  char buf[INPUT_BUF];$/;"	m	struct:__anon11	file:
+buf	xv6-public/grep.c	/^char buf[1024];$/;"	v
+buf	xv6-public/usertests.c	/^char buf[8192];$/;"	v
+buf	xv6-public/wc.c	/^char buf[512];$/;"	v
+bwrite	bio.c	/^bwrite(struct buf *b)$/;"	f
+bwrite	xv6-public/bio.c	/^bwrite(struct buf *b)$/;"	f
+bzero	fs.c	/^bzero(int dev, int bno)$/;"	f	file:
+bzero	xv6-public/fs.c	/^bzero(int dev, int bno)$/;"	f	file:
+cat	cat.c	/^cat(int fd)$/;"	f
+cat	xv6-public/cat.c	/^cat(int fd)$/;"	f
+cgaputc	console.c	/^cgaputc(int c)$/;"	f	file:
+cgaputc	xv6-public/console.c	/^cgaputc(int c)$/;"	f	file:
+chan	proc.h	/^  void *chan;                  \/\/ If non-zero, sleeping on chan$/;"	m	struct:proc
+chan	xv6-public/proc.h	/^  void *chan;                  \/\/ If non-zero, sleeping on chan$/;"	m	struct:proc
+checksum	mp.h	/^  uchar checksum;               \/\/ all bytes must add up to 0$/;"	m	struct:mp
+checksum	mp.h	/^  uchar checksum;               \/\/ all bytes must add up to 0$/;"	m	struct:mpconf
+checksum	xv6-public/mp.h	/^  uchar checksum;               \/\/ all bytes must add up to 0$/;"	m	struct:mp
+checksum	xv6-public/mp.h	/^  uchar checksum;               \/\/ all bytes must add up to 0$/;"	m	struct:mpconf
+clearpteu	vm.c	/^clearpteu(pde_t *pgdir, char *uva)$/;"	f
+clearpteu	xv6-public/vm.c	/^clearpteu(pde_t *pgdir, char *uva)$/;"	f
+cli	x86.h	/^cli(void)$/;"	f
+cli	xv6-public/x86.h	/^cli(void)$/;"	f
+cmd	sh.c	/^  struct cmd *cmd;$/;"	m	struct:backcmd	typeref:struct:backcmd::cmd	file:
+cmd	sh.c	/^  struct cmd *cmd;$/;"	m	struct:redircmd	typeref:struct:redircmd::cmd	file:
+cmd	sh.c	/^struct cmd {$/;"	s	file:
+cmd	xv6-public/sh.c	/^  struct cmd *cmd;$/;"	m	struct:backcmd	typeref:struct:backcmd::cmd	file:
+cmd	xv6-public/sh.c	/^  struct cmd *cmd;$/;"	m	struct:redircmd	typeref:struct:redircmd::cmd	file:
+cmd	xv6-public/sh.c	/^struct cmd {$/;"	s	file:
+cmos_read	lapic.c	/^static uint cmos_read(uint reg)$/;"	f	file:
+cmos_read	xv6-public/lapic.c	/^static uint cmos_read(uint reg)$/;"	f	file:
+cmostime	lapic.c	/^void cmostime(struct rtcdate *r)$/;"	f
+cmostime	xv6-public/lapic.c	/^void cmostime(struct rtcdate *r)$/;"	f
+commit	log.c	/^commit()$/;"	f	file:
+commit	xv6-public/log.c	/^commit()$/;"	f	file:
+committing	log.c	/^  int committing;  \/\/ in commit(), please wait.$/;"	m	struct:log	file:
+committing	xv6-public/log.c	/^  int committing;  \/\/ in commit(), please wait.$/;"	m	struct:log	file:
+concreate	xv6-public/usertests.c	/^concreate(void)$/;"	f
+cons	console.c	/^} cons;$/;"	v	typeref:struct:__anon16	file:
+cons	xv6-public/console.c	/^} cons;$/;"	v	typeref:struct:__anon10	file:
+consoleinit	console.c	/^consoleinit(void)$/;"	f
+consoleinit	xv6-public/console.c	/^consoleinit(void)$/;"	f
+consoleintr	console.c	/^consoleintr(int (*getc)(void))$/;"	f
+consoleintr	xv6-public/console.c	/^consoleintr(int (*getc)(void))$/;"	f
+consoleread	console.c	/^consoleread(struct inode *ip, char *dst, int n)$/;"	f
+consoleread	xv6-public/console.c	/^consoleread(struct inode *ip, char *dst, int n)$/;"	f
+consolewrite	console.c	/^consolewrite(struct inode *ip, char *buf, int n)$/;"	f
+consolewrite	xv6-public/console.c	/^consolewrite(struct inode *ip, char *buf, int n)$/;"	f
+consputc	console.c	/^consputc(int c)$/;"	f
+consputc	xv6-public/console.c	/^consputc(int c)$/;"	f
+context	proc.h	/^  struct context *context;     \/\/ swtch() here to run process$/;"	m	struct:proc	typeref:struct:proc::context
+context	proc.h	/^struct context {$/;"	s
+context	xv6-public/proc.h	/^  struct context *context;     \/\/ swtch() here to run process$/;"	m	struct:proc	typeref:struct:proc::context
+context	xv6-public/proc.h	/^struct context {$/;"	s
+copyout	vm.c	/^copyout(pde_t *pgdir, uint va, void *p, uint len)$/;"	f
+copyout	xv6-public/vm.c	/^copyout(pde_t *pgdir, uint va, void *p, uint len)$/;"	f
+copyuvm	vm.c	/^copyuvm(pde_t *pgdir, uint sz)$/;"	f
+copyuvm	xv6-public/vm.c	/^copyuvm(pde_t *pgdir, uint sz)$/;"	f
+cprintf	console.c	/^cprintf(char *fmt, ...)$/;"	f
+cprintf	xv6-public/console.c	/^cprintf(char *fmt, ...)$/;"	f
+cpu	proc.h	/^struct cpu {$/;"	s
+cpu	spinlock.h	/^  struct cpu *cpu;   \/\/ The cpu holding the lock.$/;"	m	struct:spinlock	typeref:struct:spinlock::cpu
+cpu	xv6-public/proc.h	/^struct cpu {$/;"	s
+cpu	xv6-public/spinlock.h	/^  struct cpu *cpu;   \/\/ The cpu holding the lock.$/;"	m	struct:spinlock	typeref:struct:spinlock::cpu
+cpuid	proc.c	/^cpuid() {$/;"	f
+cpuid	xv6-public/proc.c	/^cpuid() {$/;"	f
+cpus	mp.c	/^struct cpu cpus[NCPU];$/;"	v	typeref:struct:cpu
+cpus	xv6-public/mp.c	/^struct cpu cpus[NCPU];$/;"	v	typeref:struct:cpu
+cr3	mmu.h	/^  void *cr3;         \/\/ Page directory base$/;"	m	struct:taskstate
+cr3	xv6-public/mmu.h	/^  void *cr3;         \/\/ Page directory base$/;"	m	struct:taskstate
+create	sysfile.c	/^create(char *path, short type, short major, short minor)$/;"	f	file:
+create	xv6-public/sysfile.c	/^create(char *path, short type, short major, short minor)$/;"	f	file:
+createdelete	xv6-public/usertests.c	/^createdelete(void)$/;"	f
+createtest	xv6-public/usertests.c	/^createtest(void)$/;"	f
+crt	console.c	/^static ushort *crt = (ushort*)P2V(0xb8000);  \/\/ CGA memory$/;"	v	file:
+crt	xv6-public/console.c	/^static ushort *crt = (ushort*)P2V(0xb8000);  \/\/ CGA memory$/;"	v	file:
+cs	mmu.h	/^  uint cs : 16;         \/\/ code segment selector$/;"	m	struct:gatedesc
+cs	mmu.h	/^  ushort cs;$/;"	m	struct:taskstate
+cs	x86.h	/^  ushort cs;$/;"	m	struct:trapframe
+cs	xv6-public/mmu.h	/^  uint cs : 16;         \/\/ code segment selector$/;"	m	struct:gatedesc
+cs	xv6-public/mmu.h	/^  ushort cs;$/;"	m	struct:taskstate
+cs	xv6-public/x86.h	/^  ushort cs;$/;"	m	struct:trapframe
+ctlmap	kbd.h	/^static uchar ctlmap[256] =$/;"	v
+ctlmap	xv6-public/kbd.h	/^static uchar ctlmap[256] =$/;"	v
+cwd	proc.h	/^  struct inode *cwd;           \/\/ Current directory$/;"	m	struct:proc	typeref:struct:proc::inode
+cwd	xv6-public/proc.h	/^  struct inode *cwd;           \/\/ Current directory$/;"	m	struct:proc	typeref:struct:proc::inode
+data	buf.h	/^  uchar data[BSIZE];$/;"	m	struct:buf
+data	ioapic.c	/^  uint data;$/;"	m	struct:ioapic	file:
+data	pipe.c	/^  char data[PIPESIZE];$/;"	m	struct:pipe	file:
+data	xv6-public/buf.h	/^  uchar data[BSIZE];$/;"	m	struct:buf
+data	xv6-public/ioapic.c	/^  uint data;$/;"	m	struct:ioapic	file:
+data	xv6-public/pipe.c	/^  char data[PIPESIZE];$/;"	m	struct:pipe	file:
+day	date.h	/^  uint day;$/;"	m	struct:rtcdate
+day	xv6-public/date.h	/^  uint day;$/;"	m	struct:rtcdate
+db	mmu.h	/^  uint db : 1;         \/\/ 0 = 16-bit segment, 1 = 32-bit segment$/;"	m	struct:segdesc
+db	xv6-public/mmu.h	/^  uint db : 1;         \/\/ 0 = 16-bit segment, 1 = 32-bit segment$/;"	m	struct:segdesc
+deallocuvm	vm.c	/^deallocuvm(pde_t *pgdir, uint oldsz, uint newsz)$/;"	f
+deallocuvm	xv6-public/vm.c	/^deallocuvm(pde_t *pgdir, uint oldsz, uint newsz)$/;"	f
+dev	buf.h	/^  uint dev;$/;"	m	struct:buf
+dev	file.h	/^  uint dev;           \/\/ Device number$/;"	m	struct:inode
+dev	log.c	/^  int dev;$/;"	m	struct:log	file:
+dev	stat.h	/^  int dev;     \/\/ File system's disk device$/;"	m	struct:stat
+dev	xv6-public/buf.h	/^  uint dev;$/;"	m	struct:buf
+dev	xv6-public/file.h	/^  uint dev;           \/\/ Device number$/;"	m	struct:inode
+dev	xv6-public/log.c	/^  int dev;$/;"	m	struct:log	file:
+dev	xv6-public/stat.h	/^  int dev;     \/\/ File system's disk device$/;"	m	struct:stat
+devsw	file.c	/^struct devsw devsw[NDEV];$/;"	v	typeref:struct:devsw
+devsw	file.h	/^struct devsw {$/;"	s
+devsw	xv6-public/file.c	/^struct devsw devsw[NDEV];$/;"	v	typeref:struct:devsw
+devsw	xv6-public/file.h	/^struct devsw {$/;"	s
+dinode	fs.h	/^struct dinode {$/;"	s
+dinode	xv6-public/fs.h	/^struct dinode {$/;"	s
+dirent	fs.h	/^struct dirent {$/;"	s
+dirent	xv6-public/fs.h	/^struct dirent {$/;"	s
+dirfile	xv6-public/usertests.c	/^dirfile(void)$/;"	f
+dirlink	fs.c	/^dirlink(struct inode *dp, char *name, uint inum)$/;"	f
+dirlink	xv6-public/fs.c	/^dirlink(struct inode *dp, char *name, uint inum)$/;"	f
+dirlookup	fs.c	/^dirlookup(struct inode *dp, char *name, uint *poff)$/;"	f
+dirlookup	xv6-public/fs.c	/^dirlookup(struct inode *dp, char *name, uint *poff)$/;"	f
+dirtest	xv6-public/usertests.c	/^void dirtest(void)$/;"	f
+disksize	memide.c	/^static int disksize;$/;"	v	file:
+disksize	xv6-public/memide.c	/^static int disksize;$/;"	v	file:
+dpl	mmu.h	/^  uint dpl : 2;         \/\/ descriptor(meaning new) privilege level$/;"	m	struct:gatedesc
+dpl	mmu.h	/^  uint dpl : 2;        \/\/ Descriptor Privilege Level$/;"	m	struct:segdesc
+dpl	xv6-public/mmu.h	/^  uint dpl : 2;         \/\/ descriptor(meaning new) privilege level$/;"	m	struct:gatedesc
+dpl	xv6-public/mmu.h	/^  uint dpl : 2;        \/\/ Descriptor Privilege Level$/;"	m	struct:segdesc
+ds	mmu.h	/^  ushort ds;$/;"	m	struct:taskstate
+ds	x86.h	/^  ushort ds;$/;"	m	struct:trapframe
+ds	xv6-public/mmu.h	/^  ushort ds;$/;"	m	struct:taskstate
+ds	xv6-public/x86.h	/^  ushort ds;$/;"	m	struct:trapframe
+e	console.c	/^  uint e;  \/\/ Edit index$/;"	m	struct:__anon17	file:
+e	xv6-public/console.c	/^  uint e;  \/\/ Edit index$/;"	m	struct:__anon11	file:
+eargv	sh.c	/^  char *eargv[MAXARGS];$/;"	m	struct:execcmd	file:
+eargv	xv6-public/sh.c	/^  char *eargv[MAXARGS];$/;"	m	struct:execcmd	file:
+eax	mmu.h	/^  uint eax;          \/\/ More saved state (registers)$/;"	m	struct:taskstate
+eax	x86.h	/^  uint eax;$/;"	m	struct:trapframe
+eax	xv6-public/mmu.h	/^  uint eax;          \/\/ More saved state (registers)$/;"	m	struct:taskstate
+eax	xv6-public/x86.h	/^  uint eax;$/;"	m	struct:trapframe
+ebp	mmu.h	/^  uint *ebp;$/;"	m	struct:taskstate
+ebp	proc.h	/^  uint ebp;$/;"	m	struct:context
+ebp	x86.h	/^  uint ebp;$/;"	m	struct:trapframe
+ebp	xv6-public/mmu.h	/^  uint *ebp;$/;"	m	struct:taskstate
+ebp	xv6-public/proc.h	/^  uint ebp;$/;"	m	struct:context
+ebp	xv6-public/x86.h	/^  uint ebp;$/;"	m	struct:trapframe
+ebx	mmu.h	/^  uint ebx;$/;"	m	struct:taskstate
+ebx	proc.h	/^  uint ebx;$/;"	m	struct:context
+ebx	x86.h	/^  uint ebx;$/;"	m	struct:trapframe
+ebx	xv6-public/mmu.h	/^  uint ebx;$/;"	m	struct:taskstate
+ebx	xv6-public/proc.h	/^  uint ebx;$/;"	m	struct:context
+ebx	xv6-public/x86.h	/^  uint ebx;$/;"	m	struct:trapframe
+echoargv	usertests.c	/^char *echoargv[] = { "echo", "ALL", "TESTS", "PASSED", 0 };$/;"	v
+echoargv	xv6-public/usertests.c	/^char *echoargv[] = { "echo", "ALL", "TESTS", "PASSED", 0 };$/;"	v
+ecx	mmu.h	/^  uint ecx;$/;"	m	struct:taskstate
+ecx	x86.h	/^  uint ecx;$/;"	m	struct:trapframe
+ecx	xv6-public/mmu.h	/^  uint ecx;$/;"	m	struct:taskstate
+ecx	xv6-public/x86.h	/^  uint ecx;$/;"	m	struct:trapframe
+edi	mmu.h	/^  uint edi;$/;"	m	struct:taskstate
+edi	proc.h	/^  uint edi;$/;"	m	struct:context
+edi	x86.h	/^  uint edi;$/;"	m	struct:trapframe
+edi	xv6-public/mmu.h	/^  uint edi;$/;"	m	struct:taskstate
+edi	xv6-public/proc.h	/^  uint edi;$/;"	m	struct:context
+edi	xv6-public/x86.h	/^  uint edi;$/;"	m	struct:trapframe
+edx	mmu.h	/^  uint edx;$/;"	m	struct:taskstate
+edx	x86.h	/^  uint edx;$/;"	m	struct:trapframe
+edx	xv6-public/mmu.h	/^  uint edx;$/;"	m	struct:taskstate
+edx	xv6-public/x86.h	/^  uint edx;$/;"	m	struct:trapframe
+efile	sh.c	/^  char *efile;$/;"	m	struct:redircmd	file:
+efile	xv6-public/sh.c	/^  char *efile;$/;"	m	struct:redircmd	file:
+eflags	mmu.h	/^  uint eflags;$/;"	m	struct:taskstate
+eflags	x86.h	/^  uint eflags;$/;"	m	struct:trapframe
+eflags	xv6-public/mmu.h	/^  uint eflags;$/;"	m	struct:taskstate
+eflags	xv6-public/x86.h	/^  uint eflags;$/;"	m	struct:trapframe
+ehsize	elf.h	/^  ushort ehsize;$/;"	m	struct:elfhdr
+ehsize	xv6-public/elf.h	/^  ushort ehsize;$/;"	m	struct:elfhdr
+eip	mmu.h	/^  uint *eip;         \/\/ Saved state from last task switch$/;"	m	struct:taskstate
+eip	proc.h	/^  uint eip;$/;"	m	struct:context
+eip	x86.h	/^  uint eip;$/;"	m	struct:trapframe
+eip	xv6-public/mmu.h	/^  uint *eip;         \/\/ Saved state from last task switch$/;"	m	struct:taskstate
+eip	xv6-public/proc.h	/^  uint eip;$/;"	m	struct:context
+eip	xv6-public/x86.h	/^  uint eip;$/;"	m	struct:trapframe
+elf	bootblock.asm	/^  elf = (struct elfhdr*)0x10000;  \/\/ scratch space$/;"	d
+elf	elf.h	/^  uchar elf[12];$/;"	m	struct:elfhdr
+elf	xv6-public/elf.h	/^  uchar elf[12];$/;"	m	struct:elfhdr
+elfhdr	elf.h	/^struct elfhdr {$/;"	s
+elfhdr	xv6-public/elf.h	/^struct elfhdr {$/;"	s
+end_op	log.c	/^end_op(void)$/;"	f
+end_op	xv6-public/log.c	/^end_op(void)$/;"	f
+entry	bootblock.asm	/^  entry = (void(*)(void))(elf->entry);$/;"	d
+entry	elf.h	/^  uint entry;$/;"	m	struct:elfhdr
+entry	entry.S	/^entry:$/;"	l
+entry	mp.h	/^  ushort entry;                 \/\/ entry count$/;"	m	struct:mpconf
+entry	xv6-public/elf.h	/^  uint entry;$/;"	m	struct:elfhdr
+entry	xv6-public/entry.S	/^entry:$/;"	l
+entry	xv6-public/mp.h	/^  ushort entry;                 \/\/ entry count$/;"	m	struct:mpconf
+entrypgdir	main.c	/^pde_t entrypgdir[NPDENTRIES] = {$/;"	v
+entrypgdir	main.c	/^pde_t entrypgdir[];  \/\/ For entry.S$/;"	v
+entrypgdir	xv6-public/main.c	/^pde_t entrypgdir[NPDENTRIES] = {$/;"	v
+entrypgdir	xv6-public/main.c	/^pde_t entrypgdir[];  \/\/ For entry.S$/;"	v
+epa	bootblock.asm	/^  epa = pa + count;$/;"	d
+eph	bootblock.asm	/^  eph = ph + elf->phnum;$/;"	d
+err	x86.h	/^  uint err;$/;"	m	struct:trapframe
+err	xv6-public/x86.h	/^  uint err;$/;"	m	struct:trapframe
+es	mmu.h	/^  ushort es;         \/\/ Even more saved state (segment selectors)$/;"	m	struct:taskstate
+es	x86.h	/^  ushort es;$/;"	m	struct:trapframe
+es	xv6-public/mmu.h	/^  ushort es;         \/\/ Even more saved state (segment selectors)$/;"	m	struct:taskstate
+es	xv6-public/x86.h	/^  ushort es;$/;"	m	struct:trapframe
+esi	mmu.h	/^  uint esi;$/;"	m	struct:taskstate
+esi	proc.h	/^  uint esi;$/;"	m	struct:context
+esi	x86.h	/^  uint esi;$/;"	m	struct:trapframe
+esi	xv6-public/mmu.h	/^  uint esi;$/;"	m	struct:taskstate
+esi	xv6-public/proc.h	/^  uint esi;$/;"	m	struct:context
+esi	xv6-public/x86.h	/^  uint esi;$/;"	m	struct:trapframe
+esp	mmu.h	/^  uint *esp;$/;"	m	struct:taskstate
+esp	x86.h	/^  uint esp;$/;"	m	struct:trapframe
+esp	xv6-public/mmu.h	/^  uint *esp;$/;"	m	struct:taskstate
+esp	xv6-public/x86.h	/^  uint esp;$/;"	m	struct:trapframe
+esp0	mmu.h	/^  uint esp0;         \/\/ Stack pointers and segment selectors$/;"	m	struct:taskstate
+esp0	xv6-public/mmu.h	/^  uint esp0;         \/\/ Stack pointers and segment selectors$/;"	m	struct:taskstate
+esp1	mmu.h	/^  uint *esp1;$/;"	m	struct:taskstate
+esp1	xv6-public/mmu.h	/^  uint *esp1;$/;"	m	struct:taskstate
+esp2	mmu.h	/^  uint *esp2;$/;"	m	struct:taskstate
+esp2	xv6-public/mmu.h	/^  uint *esp2;$/;"	m	struct:taskstate
+exec	exec.c	/^exec(char *path, char **argv)$/;"	f
+exec	xv6-public/exec.c	/^exec(char *path, char **argv)$/;"	f
+execcmd	sh.c	/^execcmd(void)$/;"	f
+execcmd	sh.c	/^struct execcmd {$/;"	s	file:
+execcmd	xv6-public/sh.c	/^execcmd(void)$/;"	f
+execcmd	xv6-public/sh.c	/^struct execcmd {$/;"	s	file:
+exectest	xv6-public/usertests.c	/^exectest(void)$/;"	f
+exit	initcode.S	/^exit:$/;"	l
+exit	proc.c	/^exit(int status)$/;"	f
+exit	xv6-public/initcode.S	/^exit:$/;"	l
+exit	xv6-public/proc.c	/^exit(void)$/;"	f
+exitiputtest	xv6-public/usertests.c	/^exitiputtest(void)$/;"	f
+exitstatus	proc.h	/^  int exitstatus;	       \/\/ ADDED save the child's exit status$/;"	m	struct:proc
+exitwait	xv6-public/usertests.c	/^exitwait(void)$/;"	f
+f	Makefile	/^	dd if=\/dev\/zero of=xv6.img count=10000$/;"	m
+f	Makefile	/^	dd if=\/dev\/zero of=xv6memfs.img count=10000$/;"	m
+f	Makefile	/^	dd if=bootblock of=xv6.img conv=notrunc$/;"	m
+f	Makefile	/^	dd if=bootblock of=xv6memfs.img conv=notrunc$/;"	m
+f	Makefile	/^	dd if=kernel of=xv6.img seek=1 conv=notrunc$/;"	m
+f	Makefile	/^	dd if=kernelmemfs of=xv6memfs.img seek=1 conv=notrunc$/;"	m
+f	xv6-public/Makefile	/^	dd if=\/dev\/zero of=xv6.img count=10000$/;"	m
+f	xv6-public/Makefile	/^	dd if=\/dev\/zero of=xv6memfs.img count=10000$/;"	m
+f	xv6-public/Makefile	/^	dd if=bootblock of=xv6.img conv=notrunc$/;"	m
+f	xv6-public/Makefile	/^	dd if=bootblock of=xv6memfs.img conv=notrunc$/;"	m
+f	xv6-public/Makefile	/^	dd if=kernel of=xv6.img seek=1 conv=notrunc$/;"	m
+f	xv6-public/Makefile	/^	dd if=kernelmemfs of=xv6memfs.img seek=1 conv=notrunc$/;"	m
+fd	sh.c	/^  int fd;$/;"	m	struct:redircmd	file:
+fd	xv6-public/sh.c	/^  int fd;$/;"	m	struct:redircmd	file:
+fdalloc	sysfile.c	/^fdalloc(struct file *f)$/;"	f	file:
+fdalloc	xv6-public/sysfile.c	/^fdalloc(struct file *f)$/;"	f	file:
+feature	mp.h	/^  uint feature;                 \/\/ feature flags from CPUID instruction$/;"	m	struct:mpproc
+feature	xv6-public/mp.h	/^  uint feature;                 \/\/ feature flags from CPUID instruction$/;"	m	struct:mpproc
+fetchint	syscall.c	/^fetchint(uint addr, int *ip)$/;"	f
+fetchint	xv6-public/syscall.c	/^fetchint(uint addr, int *ip)$/;"	f
+fetchstr	syscall.c	/^fetchstr(uint addr, char **pp)$/;"	f
+fetchstr	xv6-public/syscall.c	/^fetchstr(uint addr, char **pp)$/;"	f
+file	file.c	/^  struct file file[NFILE];$/;"	m	struct:__anon2	typeref:struct:__anon2::file	file:
+file	file.h	/^struct file {$/;"	s
+file	sh.c	/^  char *file;$/;"	m	struct:redircmd	file:
+file	xv6-public/file.c	/^  struct file file[NFILE];$/;"	m	struct:__anon5	typeref:struct:__anon5::file	file:
+file	xv6-public/file.h	/^struct file {$/;"	s
+file	xv6-public/sh.c	/^  char *file;$/;"	m	struct:redircmd	file:
+filealloc	file.c	/^filealloc(void)$/;"	f
+filealloc	xv6-public/file.c	/^filealloc(void)$/;"	f
+fileclose	file.c	/^fileclose(struct file *f)$/;"	f
+fileclose	xv6-public/file.c	/^fileclose(struct file *f)$/;"	f
+filedup	file.c	/^filedup(struct file *f)$/;"	f
+filedup	xv6-public/file.c	/^filedup(struct file *f)$/;"	f
+fileinit	file.c	/^fileinit(void)$/;"	f
+fileinit	xv6-public/file.c	/^fileinit(void)$/;"	f
+fileread	file.c	/^fileread(struct file *f, char *addr, int n)$/;"	f
+fileread	xv6-public/file.c	/^fileread(struct file *f, char *addr, int n)$/;"	f
+filestat	file.c	/^filestat(struct file *f, struct stat *st)$/;"	f
+filestat	xv6-public/file.c	/^filestat(struct file *f, struct stat *st)$/;"	f
+filesz	elf.h	/^  uint filesz;$/;"	m	struct:proghdr
+filesz	xv6-public/elf.h	/^  uint filesz;$/;"	m	struct:proghdr
+filewrite	file.c	/^filewrite(struct file *f, char *addr, int n)$/;"	f
+filewrite	xv6-public/file.c	/^filewrite(struct file *f, char *addr, int n)$/;"	f
+fill_rtcdate	lapic.c	/^static void fill_rtcdate(struct rtcdate *r)$/;"	f	file:
+fill_rtcdate	xv6-public/lapic.c	/^static void fill_rtcdate(struct rtcdate *r)$/;"	f	file:
+flags	buf.h	/^  int flags;$/;"	m	struct:buf
+flags	elf.h	/^  uint flags;$/;"	m	struct:elfhdr
+flags	elf.h	/^  uint flags;$/;"	m	struct:proghdr
+flags	mp.h	/^  uchar flags;                  \/\/ CPU flags$/;"	m	struct:mpproc
+flags	mp.h	/^  uchar flags;                  \/\/ I\/O APIC flags$/;"	m	struct:mpioapic
+flags	xv6-public/buf.h	/^  int flags;$/;"	m	struct:buf
+flags	xv6-public/elf.h	/^  uint flags;$/;"	m	struct:elfhdr
+flags	xv6-public/elf.h	/^  uint flags;$/;"	m	struct:proghdr
+flags	xv6-public/mp.h	/^  uchar flags;                  \/\/ CPU flags$/;"	m	struct:mpproc
+flags	xv6-public/mp.h	/^  uchar flags;                  \/\/ I\/O APIC flags$/;"	m	struct:mpioapic
+fmtname	ls.c	/^fmtname(char *path)$/;"	f
+fmtname	xv6-public/ls.c	/^fmtname(char *path)$/;"	f
+fork	proc.c	/^fork(void)$/;"	f
+fork	xv6-public/proc.c	/^fork(void)$/;"	f
+fork1	sh.c	/^fork1(void)$/;"	f
+fork1	xv6-public/sh.c	/^fork1(void)$/;"	f
+forkret	proc.c	/^forkret(void)$/;"	f
+forkret	xv6-public/proc.c	/^forkret(void)$/;"	f
+forktest	forktest.c	/^forktest(void)$/;"	f
+forktest	xv6-public/forktest.c	/^forktest(void)$/;"	f
+forktest	xv6-public/usertests.c	/^forktest(void)$/;"	f
+fourfiles	xv6-public/usertests.c	/^fourfiles(void)$/;"	f
+fourteen	xv6-public/usertests.c	/^fourteen(void)$/;"	f
+free	umalloc.c	/^free(void *ap)$/;"	f
+free	xv6-public/umalloc.c	/^free(void *ap)$/;"	f
+freeblock	mkfs.c	/^uint freeblock;$/;"	v
+freeblock	xv6-public/mkfs.c	/^uint freeblock;$/;"	v
+freeinode	mkfs.c	/^uint freeinode = 1;$/;"	v
+freeinode	xv6-public/mkfs.c	/^uint freeinode = 1;$/;"	v
+freelist	kalloc.c	/^  struct run *freelist;$/;"	m	struct:__anon13	typeref:struct:__anon13::run	file:
+freelist	xv6-public/kalloc.c	/^  struct run *freelist;$/;"	m	struct:__anon7	typeref:struct:__anon7::run	file:
+freep	umalloc.c	/^static Header *freep;$/;"	v	file:
+freep	xv6-public/umalloc.c	/^static Header *freep;$/;"	v	file:
+freerange	kalloc.c	/^freerange(void *vstart, void *vend)$/;"	f
+freerange	xv6-public/kalloc.c	/^freerange(void *vstart, void *vend)$/;"	f
+freevm	vm.c	/^freevm(pde_t *pgdir)$/;"	f
+freevm	xv6-public/vm.c	/^freevm(pde_t *pgdir)$/;"	f
+fs	mmu.h	/^  ushort fs;$/;"	m	struct:taskstate
+fs	x86.h	/^  ushort fs;$/;"	m	struct:trapframe
+fs	xv6-public/mmu.h	/^  ushort fs;$/;"	m	struct:taskstate
+fs	xv6-public/x86.h	/^  ushort fs;$/;"	m	struct:trapframe
+fsfd	mkfs.c	/^int fsfd;$/;"	v
+fsfd	xv6-public/mkfs.c	/^int fsfd;$/;"	v
+fsfull	xv6-public/usertests.c	/^fsfull()$/;"	f
+ftable	file.c	/^} ftable;$/;"	v	typeref:struct:__anon2
+ftable	xv6-public/file.c	/^} ftable;$/;"	v	typeref:struct:__anon5
+g	mmu.h	/^  uint g : 1;          \/\/ Granularity: limit scaled by 4K when set$/;"	m	struct:segdesc
+g	xv6-public/mmu.h	/^  uint g : 1;          \/\/ Granularity: limit scaled by 4K when set$/;"	m	struct:segdesc
+gatedesc	mmu.h	/^struct gatedesc {$/;"	s
+gatedesc	xv6-public/mmu.h	/^struct gatedesc {$/;"	s
+gdt	bootasm.S	/^gdt:$/;"	l
+gdt	entryother.S	/^gdt:$/;"	l
+gdt	proc.h	/^  struct segdesc gdt[NSEGS];   \/\/ x86 global descriptor table$/;"	m	struct:cpu	typeref:struct:cpu::segdesc
+gdt	xv6-public/bootasm.S	/^gdt:$/;"	l
+gdt	xv6-public/entryother.S	/^gdt:$/;"	l
+gdt	xv6-public/proc.h	/^  struct segdesc gdt[NSEGS];   \/\/ x86 global descriptor table$/;"	m	struct:cpu	typeref:struct:cpu::segdesc
+gdtdesc	bootasm.S	/^gdtdesc:$/;"	l
+gdtdesc	entryother.S	/^gdtdesc:$/;"	l
+gdtdesc	xv6-public/bootasm.S	/^gdtdesc:$/;"	l
+gdtdesc	xv6-public/entryother.S	/^gdtdesc:$/;"	l
+getcallerpcs	spinlock.c	/^getcallerpcs(void *v, uint pcs[])$/;"	f
+getcallerpcs	xv6-public/spinlock.c	/^getcallerpcs(void *v, uint pcs[])$/;"	f
+getcmd	sh.c	/^getcmd(char *buf, int nbuf)$/;"	f
+getcmd	xv6-public/sh.c	/^getcmd(char *buf, int nbuf)$/;"	f
+gets	ulib.c	/^gets(char *buf, int max)$/;"	f
+gets	xv6-public/ulib.c	/^gets(char *buf, int max)$/;"	f
+gettoken	sh.c	/^gettoken(char **ps, char *es, char **q, char **eq)$/;"	f
+gettoken	xv6-public/sh.c	/^gettoken(char **ps, char *es, char **q, char **eq)$/;"	f
+grep	grep.c	/^grep(char *pattern, int fd)$/;"	f
+grep	xv6-public/grep.c	/^grep(char *pattern, int fd)$/;"	f
+growproc	proc.c	/^growproc(int n)$/;"	f
+growproc	xv6-public/proc.c	/^growproc(int n)$/;"	f
+gs	mmu.h	/^  ushort gs;$/;"	m	struct:taskstate
+gs	x86.h	/^  ushort gs;$/;"	m	struct:trapframe
+gs	xv6-public/mmu.h	/^  ushort gs;$/;"	m	struct:taskstate
+gs	xv6-public/x86.h	/^  ushort gs;$/;"	m	struct:trapframe
+havedisk1	ide.c	/^static int havedisk1;$/;"	v	file:
+havedisk1	xv6-public/ide.c	/^static int havedisk1;$/;"	v	file:
+head	bio.c	/^  struct buf head;$/;"	m	struct:__anon1	typeref:struct:__anon1::buf	file:
+head	xv6-public/bio.c	/^  struct buf head;$/;"	m	struct:__anon4	typeref:struct:__anon4::buf	file:
+header	umalloc.c	/^union header {$/;"	u	file:
+header	xv6-public/umalloc.c	/^union header {$/;"	u	file:
+holding	spinlock.c	/^holding(struct spinlock *lock)$/;"	f
+holding	xv6-public/spinlock.c	/^holding(struct spinlock *lock)$/;"	f
+holdingsleep	sleeplock.c	/^holdingsleep(struct sleeplock *lk)$/;"	f
+holdingsleep	xv6-public/sleeplock.c	/^holdingsleep(struct sleeplock *lk)$/;"	f
+hour	date.h	/^  uint hour;$/;"	m	struct:rtcdate
+hour	xv6-public/date.h	/^  uint hour;$/;"	m	struct:rtcdate
+ialloc	fs.c	/^ialloc(uint dev, short type)$/;"	f
+ialloc	mkfs.c	/^ialloc(ushort type)$/;"	f
+ialloc	xv6-public/fs.c	/^ialloc(uint dev, short type)$/;"	f
+ialloc	xv6-public/mkfs.c	/^ialloc(ushort type)$/;"	f
+iappend	mkfs.c	/^iappend(uint inum, void *xp, int n)$/;"	f
+iappend	xv6-public/mkfs.c	/^iappend(uint inum, void *xp, int n)$/;"	f
+icache	fs.c	/^} icache;$/;"	v	typeref:struct:__anon14
+icache	xv6-public/fs.c	/^} icache;$/;"	v	typeref:struct:__anon8
+ideinit	ide.c	/^ideinit(void)$/;"	f
+ideinit	memide.c	/^ideinit(void)$/;"	f
+ideinit	xv6-public/ide.c	/^ideinit(void)$/;"	f
+ideinit	xv6-public/memide.c	/^ideinit(void)$/;"	f
+ideintr	ide.c	/^ideintr(void)$/;"	f
+ideintr	memide.c	/^ideintr(void)$/;"	f
+ideintr	xv6-public/ide.c	/^ideintr(void)$/;"	f
+ideintr	xv6-public/memide.c	/^ideintr(void)$/;"	f
+idelock	ide.c	/^static struct spinlock idelock;$/;"	v	typeref:struct:spinlock	file:
+idelock	xv6-public/ide.c	/^static struct spinlock idelock;$/;"	v	typeref:struct:spinlock	file:
+idequeue	ide.c	/^static struct buf *idequeue;$/;"	v	typeref:struct:buf	file:
+idequeue	xv6-public/ide.c	/^static struct buf *idequeue;$/;"	v	typeref:struct:buf	file:
+iderw	ide.c	/^iderw(struct buf *b)$/;"	f
+iderw	memide.c	/^iderw(struct buf *b)$/;"	f
+iderw	xv6-public/ide.c	/^iderw(struct buf *b)$/;"	f
+iderw	xv6-public/memide.c	/^iderw(struct buf *b)$/;"	f
+idestart	ide.c	/^idestart(struct buf *b)$/;"	f	file:
+idestart	xv6-public/ide.c	/^idestart(struct buf *b)$/;"	f	file:
+idewait	ide.c	/^idewait(int checkerr)$/;"	f	file:
+idewait	xv6-public/ide.c	/^idewait(int checkerr)$/;"	f	file:
+idt	trap.c	/^struct gatedesc idt[256];$/;"	v	typeref:struct:gatedesc
+idt	xv6-public/trap.c	/^struct gatedesc idt[256];$/;"	v	typeref:struct:gatedesc
+idtinit	trap.c	/^idtinit(void)$/;"	f
+idtinit	xv6-public/trap.c	/^idtinit(void)$/;"	f
+idup	fs.c	/^idup(struct inode *ip)$/;"	f
+idup	xv6-public/fs.c	/^idup(struct inode *ip)$/;"	f
+iget	fs.c	/^iget(uint dev, uint inum)$/;"	f	file:
+iget	xv6-public/fs.c	/^iget(uint dev, uint inum)$/;"	f	file:
+iinit	fs.c	/^iinit(int dev)$/;"	f
+iinit	xv6-public/fs.c	/^iinit(int dev)$/;"	f
+ilock	fs.c	/^ilock(struct inode *ip)$/;"	f
+ilock	xv6-public/fs.c	/^ilock(struct inode *ip)$/;"	f
+imcrp	mp.h	/^  uchar imcrp;$/;"	m	struct:mp
+imcrp	xv6-public/mp.h	/^  uchar imcrp;$/;"	m	struct:mp
+inb	x86.h	/^inb(ushort port)$/;"	f
+inb	xv6-public/x86.h	/^inb(ushort port)$/;"	f
+init	initcode.S	/^init:$/;"	l
+init	xv6-public/initcode.S	/^init:$/;"	l
+initlock	spinlock.c	/^initlock(struct spinlock *lk, char *name)$/;"	f
+initlock	xv6-public/spinlock.c	/^initlock(struct spinlock *lk, char *name)$/;"	f
+initlog	log.c	/^initlog(int dev)$/;"	f
+initlog	xv6-public/log.c	/^initlog(int dev)$/;"	f
+initproc	proc.c	/^static struct proc *initproc;$/;"	v	typeref:struct:proc	file:
+initproc	xv6-public/proc.c	/^static struct proc *initproc;$/;"	v	typeref:struct:proc	file:
+initsleeplock	sleeplock.c	/^initsleeplock(struct sleeplock *lk, char *name)$/;"	f
+initsleeplock	xv6-public/sleeplock.c	/^initsleeplock(struct sleeplock *lk, char *name)$/;"	f
+inituvm	vm.c	/^inituvm(pde_t *pgdir, char *init, uint sz)$/;"	f
+inituvm	xv6-public/vm.c	/^inituvm(pde_t *pgdir, char *init, uint sz)$/;"	f
+ino	stat.h	/^  uint ino;    \/\/ Inode number$/;"	m	struct:stat
+ino	xv6-public/stat.h	/^  uint ino;    \/\/ Inode number$/;"	m	struct:stat
+inode	file.h	/^struct inode {$/;"	s
+inode	fs.c	/^  struct inode inode[NINODE];$/;"	m	struct:__anon14	typeref:struct:__anon14::inode	file:
+inode	xv6-public/file.h	/^struct inode {$/;"	s
+inode	xv6-public/fs.c	/^  struct inode inode[NINODE];$/;"	m	struct:__anon8	typeref:struct:__anon8::inode	file:
+inodestart	fs.h	/^  uint inodestart;   \/\/ Block number of first inode block$/;"	m	struct:superblock
+inodestart	xv6-public/fs.h	/^  uint inodestart;   \/\/ Block number of first inode block$/;"	m	struct:superblock
+input	console.c	/^} input;$/;"	v	typeref:struct:__anon17
+input	xv6-public/console.c	/^} input;$/;"	v	typeref:struct:__anon11
+insl	x86.h	/^insl(int port, void *addr, int cnt)$/;"	f
+insl	xv6-public/x86.h	/^insl(int port, void *addr, int cnt)$/;"	f
+install_trans	log.c	/^install_trans(void)$/;"	f	file:
+install_trans	xv6-public/log.c	/^install_trans(void)$/;"	f	file:
+intena	proc.h	/^  int intena;                  \/\/ Were interrupts enabled before pushcli?$/;"	m	struct:cpu
+intena	xv6-public/proc.h	/^  int intena;                  \/\/ Were interrupts enabled before pushcli?$/;"	m	struct:cpu
+inum	file.h	/^  uint inum;          \/\/ Inode number$/;"	m	struct:inode
+inum	fs.h	/^  ushort inum;$/;"	m	struct:dirent
+inum	xv6-public/file.h	/^  uint inum;          \/\/ Inode number$/;"	m	struct:inode
+inum	xv6-public/fs.h	/^  ushort inum;$/;"	m	struct:dirent
+ioapic	ioapic.c	/^struct ioapic {$/;"	s	file:
+ioapic	ioapic.c	/^volatile struct ioapic *ioapic;$/;"	v	typeref:struct:ioapic
+ioapic	xv6-public/ioapic.c	/^struct ioapic {$/;"	s	file:
+ioapic	xv6-public/ioapic.c	/^volatile struct ioapic *ioapic;$/;"	v	typeref:struct:ioapic
+ioapicenable	ioapic.c	/^ioapicenable(int irq, int cpunum)$/;"	f
+ioapicenable	xv6-public/ioapic.c	/^ioapicenable(int irq, int cpunum)$/;"	f
+ioapicid	mp.c	/^uchar ioapicid;$/;"	v
+ioapicid	xv6-public/mp.c	/^uchar ioapicid;$/;"	v
+ioapicinit	ioapic.c	/^ioapicinit(void)$/;"	f
+ioapicinit	xv6-public/ioapic.c	/^ioapicinit(void)$/;"	f
+ioapicread	ioapic.c	/^ioapicread(int reg)$/;"	f	file:
+ioapicread	xv6-public/ioapic.c	/^ioapicread(int reg)$/;"	f	file:
+ioapicwrite	ioapic.c	/^ioapicwrite(int reg, uint data)$/;"	f	file:
+ioapicwrite	xv6-public/ioapic.c	/^ioapicwrite(int reg, uint data)$/;"	f	file:
+iomb	mmu.h	/^  ushort iomb;       \/\/ I\/O map base address$/;"	m	struct:taskstate
+iomb	xv6-public/mmu.h	/^  ushort iomb;       \/\/ I\/O map base address$/;"	m	struct:taskstate
+ip	file.h	/^  struct inode *ip;$/;"	m	struct:file	typeref:struct:file::inode
+ip	xv6-public/file.h	/^  struct inode *ip;$/;"	m	struct:file	typeref:struct:file::inode
+iput	fs.c	/^iput(struct inode *ip)$/;"	f
+iput	xv6-public/fs.c	/^iput(struct inode *ip)$/;"	f
+iputtest	usertests.c	/^iputtest(void)$/;"	f
+iputtest	xv6-public/usertests.c	/^iputtest(void)$/;"	f
+iref	xv6-public/usertests.c	/^iref(void)$/;"	f
+isdirempty	sysfile.c	/^isdirempty(struct inode *dp)$/;"	f	file:
+isdirempty	xv6-public/sysfile.c	/^isdirempty(struct inode *dp)$/;"	f	file:
+itrunc	fs.c	/^itrunc(struct inode *ip)$/;"	f	file:
+itrunc	xv6-public/fs.c	/^itrunc(struct inode *ip)$/;"	f	file:
+iunlock	fs.c	/^iunlock(struct inode *ip)$/;"	f
+iunlock	xv6-public/fs.c	/^iunlock(struct inode *ip)$/;"	f
+iunlockput	fs.c	/^iunlockput(struct inode *ip)$/;"	f
+iunlockput	xv6-public/fs.c	/^iunlockput(struct inode *ip)$/;"	f
+iupdate	fs.c	/^iupdate(struct inode *ip)$/;"	f
+iupdate	xv6-public/fs.c	/^iupdate(struct inode *ip)$/;"	f
+kalloc	kalloc.c	/^kalloc(void)$/;"	f
+kalloc	xv6-public/kalloc.c	/^kalloc(void)$/;"	f
+kbdgetc	kbd.c	/^kbdgetc(void)$/;"	f
+kbdgetc	xv6-public/kbd.c	/^kbdgetc(void)$/;"	f
+kbdintr	kbd.c	/^kbdintr(void)$/;"	f
+kbdintr	xv6-public/kbd.c	/^kbdintr(void)$/;"	f
+kfree	kalloc.c	/^kfree(char *v)$/;"	f
+kfree	xv6-public/kalloc.c	/^kfree(char *v)$/;"	f
+kill	proc.c	/^kill(int pid)$/;"	f
+kill	xv6-public/proc.c	/^kill(int pid)$/;"	f
+killed	proc.h	/^  int killed;                  \/\/ If non-zero, have been killed$/;"	m	struct:proc
+killed	xv6-public/proc.h	/^  int killed;                  \/\/ If non-zero, have been killed$/;"	m	struct:proc
+kinit1	kalloc.c	/^kinit1(void *vstart, void *vend)$/;"	f
+kinit1	xv6-public/kalloc.c	/^kinit1(void *vstart, void *vend)$/;"	f
+kinit2	kalloc.c	/^kinit2(void *vstart, void *vend)$/;"	f
+kinit2	xv6-public/kalloc.c	/^kinit2(void *vstart, void *vend)$/;"	f
+kmap	vm.c	/^static struct kmap {$/;"	s	file:
+kmap	vm.c	/^} kmap[] = {$/;"	v	typeref:struct:kmap	file:
+kmap	xv6-public/vm.c	/^static struct kmap {$/;"	s	file:
+kmap	xv6-public/vm.c	/^} kmap[] = {$/;"	v	typeref:struct:kmap	file:
+kmem	kalloc.c	/^} kmem;$/;"	v	typeref:struct:__anon13
+kmem	xv6-public/kalloc.c	/^} kmem;$/;"	v	typeref:struct:__anon7
+kpgdir	vm.c	/^pde_t *kpgdir;  \/\/ for use in scheduler()$/;"	v
+kpgdir	xv6-public/vm.c	/^pde_t *kpgdir;  \/\/ for use in scheduler()$/;"	v
+kstack	proc.h	/^  char *kstack;                \/\/ Bottom of kernel stack for this process$/;"	m	struct:proc
+kstack	xv6-public/proc.h	/^  char *kstack;                \/\/ Bottom of kernel stack for this process$/;"	m	struct:proc
+kvmalloc	vm.c	/^kvmalloc(void)$/;"	f
+kvmalloc	xv6-public/vm.c	/^kvmalloc(void)$/;"	f
+lapic	lapic.c	/^volatile uint *lapic;  \/\/ Initialized in mp.c$/;"	v
+lapic	xv6-public/lapic.c	/^volatile uint *lapic;  \/\/ Initialized in mp.c$/;"	v
+lapicaddr	mp.h	/^  uint *lapicaddr;              \/\/ address of local APIC$/;"	m	struct:mpconf
+lapicaddr	xv6-public/mp.h	/^  uint *lapicaddr;              \/\/ address of local APIC$/;"	m	struct:mpconf
+lapiceoi	lapic.c	/^lapiceoi(void)$/;"	f
+lapiceoi	xv6-public/lapic.c	/^lapiceoi(void)$/;"	f
+lapicid	lapic.c	/^lapicid(void)$/;"	f
+lapicid	xv6-public/lapic.c	/^lapicid(void)$/;"	f
+lapicinit	lapic.c	/^lapicinit(void)$/;"	f
+lapicinit	xv6-public/lapic.c	/^lapicinit(void)$/;"	f
+lapicstartap	lapic.c	/^lapicstartap(uchar apicid, uint addr)$/;"	f
+lapicstartap	xv6-public/lapic.c	/^lapicstartap(uchar apicid, uint addr)$/;"	f
+lapicw	lapic.c	/^lapicw(int index, int value)$/;"	f	file:
+lapicw	xv6-public/lapic.c	/^lapicw(int index, int value)$/;"	f	file:
+lcr3	x86.h	/^lcr3(uint val)$/;"	f
+lcr3	xv6-public/x86.h	/^lcr3(uint val)$/;"	f
+ldt	mmu.h	/^  ushort ldt;$/;"	m	struct:taskstate
+ldt	xv6-public/mmu.h	/^  ushort ldt;$/;"	m	struct:taskstate
+left	sh.c	/^  struct cmd *left;$/;"	m	struct:listcmd	typeref:struct:listcmd::cmd	file:
+left	sh.c	/^  struct cmd *left;$/;"	m	struct:pipecmd	typeref:struct:pipecmd::cmd	file:
+left	xv6-public/sh.c	/^  struct cmd *left;$/;"	m	struct:listcmd	typeref:struct:listcmd::cmd	file:
+left	xv6-public/sh.c	/^  struct cmd *left;$/;"	m	struct:pipecmd	typeref:struct:pipecmd::cmd	file:
+length	mp.h	/^  uchar length;                 \/\/ 1$/;"	m	struct:mp
+length	mp.h	/^  ushort length;                \/\/ total table length$/;"	m	struct:mpconf
+length	xv6-public/mp.h	/^  uchar length;                 \/\/ 1$/;"	m	struct:mp
+length	xv6-public/mp.h	/^  ushort length;                \/\/ total table length$/;"	m	struct:mpconf
+lgdt	x86.h	/^lgdt(struct segdesc *p, int size)$/;"	f
+lgdt	xv6-public/x86.h	/^lgdt(struct segdesc *p, int size)$/;"	f
+lh	log.c	/^  struct logheader lh;$/;"	m	struct:log	typeref:struct:log::logheader	file:
+lh	xv6-public/log.c	/^  struct logheader lh;$/;"	m	struct:log	typeref:struct:log::logheader	file:
+lidt	x86.h	/^lidt(struct gatedesc *p, int size)$/;"	f
+lidt	xv6-public/x86.h	/^lidt(struct gatedesc *p, int size)$/;"	f
+lim_15_0	mmu.h	/^  uint lim_15_0 : 16;  \/\/ Low bits of segment limit$/;"	m	struct:segdesc
+lim_15_0	xv6-public/mmu.h	/^  uint lim_15_0 : 16;  \/\/ Low bits of segment limit$/;"	m	struct:segdesc
+lim_19_16	mmu.h	/^  uint lim_19_16 : 4;  \/\/ High bits of segment limit$/;"	m	struct:segdesc
+lim_19_16	xv6-public/mmu.h	/^  uint lim_19_16 : 4;  \/\/ High bits of segment limit$/;"	m	struct:segdesc
+link	mmu.h	/^  uint link;         \/\/ Old ts selector$/;"	m	struct:taskstate
+link	xv6-public/mmu.h	/^  uint link;         \/\/ Old ts selector$/;"	m	struct:taskstate
+linktest	xv6-public/usertests.c	/^linktest(void)$/;"	f
+linkunlink	xv6-public/usertests.c	/^linkunlink()$/;"	f
+listcmd	sh.c	/^listcmd(struct cmd *left, struct cmd *right)$/;"	f
+listcmd	sh.c	/^struct listcmd {$/;"	s	file:
+listcmd	xv6-public/sh.c	/^listcmd(struct cmd *left, struct cmd *right)$/;"	f
+listcmd	xv6-public/sh.c	/^struct listcmd {$/;"	s	file:
+lk	sleeplock.h	/^  struct spinlock lk; \/\/ spinlock protecting this sleep lock$/;"	m	struct:sleeplock	typeref:struct:sleeplock::spinlock
+lk	xv6-public/sleeplock.h	/^  struct spinlock lk; \/\/ spinlock protecting this sleep lock$/;"	m	struct:sleeplock	typeref:struct:sleeplock::spinlock
+loadgs	x86.h	/^loadgs(ushort v)$/;"	f
+loadgs	xv6-public/x86.h	/^loadgs(ushort v)$/;"	f
+loaduvm	vm.c	/^loaduvm(pde_t *pgdir, char *addr, struct inode *ip, uint offset, uint sz)$/;"	f
+loaduvm	xv6-public/vm.c	/^loaduvm(pde_t *pgdir, char *addr, struct inode *ip, uint offset, uint sz)$/;"	f
+lock	bio.c	/^  struct spinlock lock;$/;"	m	struct:__anon1	typeref:struct:__anon1::spinlock	file:
+lock	buf.h	/^  struct sleeplock lock;$/;"	m	struct:buf	typeref:struct:buf::sleeplock
+lock	console.c	/^  struct spinlock lock;$/;"	m	struct:__anon16	typeref:struct:__anon16::spinlock	file:
+lock	file.c	/^  struct spinlock lock;$/;"	m	struct:__anon2	typeref:struct:__anon2::spinlock	file:
+lock	file.h	/^  struct sleeplock lock; \/\/ protects everything below here$/;"	m	struct:inode	typeref:struct:inode::sleeplock
+lock	fs.c	/^  struct spinlock lock;$/;"	m	struct:__anon14	typeref:struct:__anon14::spinlock	file:
+lock	kalloc.c	/^  struct spinlock lock;$/;"	m	struct:__anon13	typeref:struct:__anon13::spinlock	file:
+lock	log.c	/^  struct spinlock lock;$/;"	m	struct:log	typeref:struct:log::spinlock	file:
+lock	pipe.c	/^  struct spinlock lock;$/;"	m	struct:pipe	typeref:struct:pipe::spinlock	file:
+lock	proc.c	/^  struct spinlock lock;$/;"	m	struct:__anon15	typeref:struct:__anon15::spinlock	file:
+lock	xv6-public/bio.c	/^  struct spinlock lock;$/;"	m	struct:__anon4	typeref:struct:__anon4::spinlock	file:
+lock	xv6-public/buf.h	/^  struct sleeplock lock;$/;"	m	struct:buf	typeref:struct:buf::sleeplock
+lock	xv6-public/console.c	/^  struct spinlock lock;$/;"	m	struct:__anon10	typeref:struct:__anon10::spinlock	file:
+lock	xv6-public/file.c	/^  struct spinlock lock;$/;"	m	struct:__anon5	typeref:struct:__anon5::spinlock	file:
+lock	xv6-public/file.h	/^  struct sleeplock lock; \/\/ protects everything below here$/;"	m	struct:inode	typeref:struct:inode::sleeplock
+lock	xv6-public/fs.c	/^  struct spinlock lock;$/;"	m	struct:__anon8	typeref:struct:__anon8::spinlock	file:
+lock	xv6-public/kalloc.c	/^  struct spinlock lock;$/;"	m	struct:__anon7	typeref:struct:__anon7::spinlock	file:
+lock	xv6-public/log.c	/^  struct spinlock lock;$/;"	m	struct:log	typeref:struct:log::spinlock	file:
+lock	xv6-public/pipe.c	/^  struct spinlock lock;$/;"	m	struct:pipe	typeref:struct:pipe::spinlock	file:
+lock	xv6-public/proc.c	/^  struct spinlock lock;$/;"	m	struct:__anon9	typeref:struct:__anon9::spinlock	file:
+locked	sleeplock.h	/^  uint locked;       \/\/ Is the lock held?$/;"	m	struct:sleeplock
+locked	spinlock.h	/^  uint locked;       \/\/ Is the lock held?$/;"	m	struct:spinlock
+locked	xv6-public/sleeplock.h	/^  uint locked;       \/\/ Is the lock held?$/;"	m	struct:sleeplock
+locked	xv6-public/spinlock.h	/^  uint locked;       \/\/ Is the lock held?$/;"	m	struct:spinlock
+locking	console.c	/^  int locking;$/;"	m	struct:__anon16	file:
+locking	xv6-public/console.c	/^  int locking;$/;"	m	struct:__anon10	file:
+log	log.c	/^struct log log;$/;"	v	typeref:struct:log
+log	log.c	/^struct log {$/;"	s	file:
+log	xv6-public/log.c	/^struct log log;$/;"	v	typeref:struct:log
+log	xv6-public/log.c	/^struct log {$/;"	s	file:
+log_write	log.c	/^log_write(struct buf *b)$/;"	f
+log_write	xv6-public/log.c	/^log_write(struct buf *b)$/;"	f
+logheader	log.c	/^struct logheader {$/;"	s	file:
+logheader	xv6-public/log.c	/^struct logheader {$/;"	s	file:
+logstart	fs.h	/^  uint logstart;     \/\/ Block number of first log block$/;"	m	struct:superblock
+logstart	xv6-public/fs.h	/^  uint logstart;     \/\/ Block number of first log block$/;"	m	struct:superblock
+ls	ls.c	/^ls(char *path)$/;"	f
+ls	xv6-public/ls.c	/^ls(char *path)$/;"	f
+ltr	x86.h	/^ltr(ushort sel)$/;"	f
+ltr	xv6-public/x86.h	/^ltr(ushort sel)$/;"	f
+machine	elf.h	/^  ushort machine;$/;"	m	struct:elfhdr
+machine	xv6-public/elf.h	/^  ushort machine;$/;"	m	struct:elfhdr
+magic	elf.h	/^  uint magic;  \/\/ must equal ELF_MAGIC$/;"	m	struct:elfhdr
+magic	xv6-public/elf.h	/^  uint magic;  \/\/ must equal ELF_MAGIC$/;"	m	struct:elfhdr
+main	cat.c	/^main(int argc, char *argv[])$/;"	f
+main	echo.c	/^main(int argc, char *argv[])$/;"	f
+main	forktest.c	/^main(void)$/;"	f
+main	grep.c	/^main(int argc, char *argv[])$/;"	f
+main	init.c	/^main(void)$/;"	f
+main	kill.c	/^main(int argc, char **argv)$/;"	f
+main	ln.c	/^main(int argc, char *argv[])$/;"	f
+main	ls.c	/^main(int argc, char *argv[])$/;"	f
+main	main.c	/^main(void)$/;"	f
+main	mkdir.c	/^main(int argc, char *argv[])$/;"	f
+main	mkfs.c	/^main(int argc, char *argv[])$/;"	f
+main	rm.c	/^main(int argc, char *argv[])$/;"	f
+main	sh.c	/^main(void)$/;"	f
+main	stressfs.c	/^main(int argc, char *argv[])$/;"	f
+main	wc.c	/^main(int argc, char *argv[])$/;"	f
+main	xv6-public/cat.c	/^main(int argc, char *argv[])$/;"	f
+main	xv6-public/echo.c	/^main(int argc, char *argv[])$/;"	f
+main	xv6-public/forktest.c	/^main(void)$/;"	f
+main	xv6-public/grep.c	/^main(int argc, char *argv[])$/;"	f
+main	xv6-public/init.c	/^main(void)$/;"	f
+main	xv6-public/kill.c	/^main(int argc, char **argv)$/;"	f
+main	xv6-public/ln.c	/^main(int argc, char *argv[])$/;"	f
+main	xv6-public/ls.c	/^main(int argc, char *argv[])$/;"	f
+main	xv6-public/main.c	/^main(void)$/;"	f
+main	xv6-public/mkdir.c	/^main(int argc, char *argv[])$/;"	f
+main	xv6-public/mkfs.c	/^main(int argc, char *argv[])$/;"	f
+main	xv6-public/rm.c	/^main(int argc, char *argv[])$/;"	f
+main	xv6-public/sh.c	/^main(void)$/;"	f
+main	xv6-public/stressfs.c	/^main(int argc, char *argv[])$/;"	f
+main	xv6-public/usertests.c	/^main(int argc, char *argv[])$/;"	f
+main	xv6-public/wc.c	/^main(int argc, char *argv[])$/;"	f
+main	xv6-public/zombie.c	/^main(void)$/;"	f
+main	zombie.c	/^main(void)$/;"	f
+major	file.h	/^  short major;$/;"	m	struct:inode
+major	fs.h	/^  short major;          \/\/ Major device number (T_DEV only)$/;"	m	struct:dinode
+major	xv6-public/file.h	/^  short major;$/;"	m	struct:inode
+major	xv6-public/fs.h	/^  short major;          \/\/ Major device number (T_DEV only)$/;"	m	struct:dinode
+malloc	umalloc.c	/^malloc(uint nbytes)$/;"	f
+malloc	xv6-public/umalloc.c	/^malloc(uint nbytes)$/;"	f
+mappages	vm.c	/^mappages(pde_t *pgdir, void *va, uint size, uint pa, int perm)$/;"	f	file:
+mappages	xv6-public/vm.c	/^mappages(pde_t *pgdir, void *va, uint size, uint pa, int perm)$/;"	f	file:
+match	grep.c	/^match(char *re, char *text)$/;"	f
+match	xv6-public/grep.c	/^match(char *re, char *text)$/;"	f
+matchhere	grep.c	/^int matchhere(char *re, char *text)$/;"	f
+matchhere	xv6-public/grep.c	/^int matchhere(char *re, char *text)$/;"	f
+matchstar	grep.c	/^int matchstar(int c, char *re, char *text)$/;"	f
+matchstar	xv6-public/grep.c	/^int matchstar(int c, char *re, char *text)$/;"	f
+mem	xv6-public/usertests.c	/^mem(void)$/;"	f
+memcmp	string.c	/^memcmp(const void *v1, const void *v2, uint n)$/;"	f
+memcmp	xv6-public/string.c	/^memcmp(const void *v1, const void *v2, uint n)$/;"	f
+memcpy	string.c	/^memcpy(void *dst, const void *src, uint n)$/;"	f
+memcpy	xv6-public/string.c	/^memcpy(void *dst, const void *src, uint n)$/;"	f
+memdisk	memide.c	/^static uchar *memdisk;$/;"	v	file:
+memdisk	xv6-public/memide.c	/^static uchar *memdisk;$/;"	v	file:
+memmove	string.c	/^memmove(void *dst, const void *src, uint n)$/;"	f
+memmove	ulib.c	/^memmove(void *vdst, void *vsrc, int n)$/;"	f
+memmove	xv6-public/string.c	/^memmove(void *dst, const void *src, uint n)$/;"	f
+memmove	xv6-public/ulib.c	/^memmove(void *vdst, void *vsrc, int n)$/;"	f
+memset	string.c	/^memset(void *dst, int c, uint n)$/;"	f
+memset	ulib.c	/^memset(void *dst, int c, uint n)$/;"	f
+memset	xv6-public/string.c	/^memset(void *dst, int c, uint n)$/;"	f
+memset	xv6-public/ulib.c	/^memset(void *dst, int c, uint n)$/;"	f
+memsz	elf.h	/^  uint memsz;$/;"	m	struct:proghdr
+memsz	xv6-public/elf.h	/^  uint memsz;$/;"	m	struct:proghdr
+microdelay	lapic.c	/^microdelay(int us)$/;"	f
+microdelay	xv6-public/lapic.c	/^microdelay(int us)$/;"	f
+min	fs.c	24;"	d	file:
+min	mkfs.c	253;"	d	file:
+min	xv6-public/fs.c	24;"	d	file:
+min	xv6-public/mkfs.c	253;"	d	file:
+minor	file.h	/^  short minor;$/;"	m	struct:inode
+minor	fs.h	/^  short minor;          \/\/ Minor device number (T_DEV only)$/;"	m	struct:dinode
+minor	xv6-public/file.h	/^  short minor;$/;"	m	struct:inode
+minor	xv6-public/fs.h	/^  short minor;          \/\/ Minor device number (T_DEV only)$/;"	m	struct:dinode
+minute	date.h	/^  uint minute;$/;"	m	struct:rtcdate
+minute	xv6-public/date.h	/^  uint minute;$/;"	m	struct:rtcdate
+mode	sh.c	/^  int mode;$/;"	m	struct:redircmd	file:
+mode	xv6-public/sh.c	/^  int mode;$/;"	m	struct:redircmd	file:
+month	date.h	/^  uint month;$/;"	m	struct:rtcdate
+month	xv6-public/date.h	/^  uint month;$/;"	m	struct:rtcdate
+morecore	umalloc.c	/^morecore(uint nu)$/;"	f	file:
+morecore	xv6-public/umalloc.c	/^morecore(uint nu)$/;"	f	file:
+mp	mp.h	/^struct mp {             \/\/ floating pointer$/;"	s
+mp	xv6-public/mp.h	/^struct mp {             \/\/ floating pointer$/;"	s
+mpconf	mp.h	/^struct mpconf {         \/\/ configuration table header$/;"	s
+mpconf	xv6-public/mp.h	/^struct mpconf {         \/\/ configuration table header$/;"	s
+mpconfig	mp.c	/^mpconfig(struct mp **pmp)$/;"	f	file:
+mpconfig	xv6-public/mp.c	/^mpconfig(struct mp **pmp)$/;"	f	file:
+mpenter	main.c	/^mpenter(void)$/;"	f	file:
+mpenter	xv6-public/main.c	/^mpenter(void)$/;"	f	file:
+mpinit	mp.c	/^mpinit(void)$/;"	f
+mpinit	xv6-public/mp.c	/^mpinit(void)$/;"	f
+mpioapic	mp.h	/^struct mpioapic {       \/\/ I\/O APIC table entry$/;"	s
+mpioapic	xv6-public/mp.h	/^struct mpioapic {       \/\/ I\/O APIC table entry$/;"	s
+mpmain	main.c	/^mpmain(void)$/;"	f	file:
+mpmain	xv6-public/main.c	/^mpmain(void)$/;"	f	file:
+mpproc	mp.h	/^struct mpproc {         \/\/ processor table entry$/;"	s
+mpproc	xv6-public/mp.h	/^struct mpproc {         \/\/ processor table entry$/;"	s
+mpsearch	mp.c	/^mpsearch(void)$/;"	f	file:
+mpsearch	xv6-public/mp.c	/^mpsearch(void)$/;"	f	file:
+mpsearch1	mp.c	/^mpsearch1(uint a, int len)$/;"	f	file:
+mpsearch1	xv6-public/mp.c	/^mpsearch1(uint a, int len)$/;"	f	file:
+multiboot_header	entry.S	/^multiboot_header:$/;"	l
+multiboot_header	xv6-public/entry.S	/^multiboot_header:$/;"	l
+mycpu	proc.c	/^mycpu(void)$/;"	f
+mycpu	xv6-public/proc.c	/^mycpu(void)$/;"	f
+myproc	proc.c	/^myproc(void) {$/;"	f
+myproc	xv6-public/proc.c	/^myproc(void) {$/;"	f
+n	log.c	/^  int n;$/;"	m	struct:logheader	file:
+n	xv6-public/log.c	/^  int n;$/;"	m	struct:logheader	file:
+name	fs.h	/^  char name[DIRSIZ];$/;"	m	struct:dirent
+name	proc.h	/^  char name[16];               \/\/ Process name (debugging)$/;"	m	struct:proc
+name	sleeplock.h	/^  char *name;        \/\/ Name of lock.$/;"	m	struct:sleeplock
+name	spinlock.h	/^  char *name;        \/\/ Name of lock.$/;"	m	struct:spinlock
+name	usertests.c	/^char name[3];$/;"	v
+name	usys.S	/^  name: \\$/;"	l
+name	xv6-public/fs.h	/^  char name[DIRSIZ];$/;"	m	struct:dirent
+name	xv6-public/proc.h	/^  char name[16];               \/\/ Process name (debugging)$/;"	m	struct:proc
+name	xv6-public/sleeplock.h	/^  char *name;        \/\/ Name of lock.$/;"	m	struct:sleeplock
+name	xv6-public/spinlock.h	/^  char *name;        \/\/ Name of lock.$/;"	m	struct:spinlock
+name	xv6-public/usertests.c	/^char name[3];$/;"	v
+name	xv6-public/usys.S	/^  name: \\$/;"	l
+namecmp	fs.c	/^namecmp(const char *s, const char *t)$/;"	f
+namecmp	xv6-public/fs.c	/^namecmp(const char *s, const char *t)$/;"	f
+namei	fs.c	/^namei(char *path)$/;"	f
+namei	xv6-public/fs.c	/^namei(char *path)$/;"	f
+nameiparent	fs.c	/^nameiparent(char *path, char *name)$/;"	f
+nameiparent	xv6-public/fs.c	/^nameiparent(char *path, char *name)$/;"	f
+namex	fs.c	/^namex(char *path, int nameiparent, char *name)$/;"	f	file:
+namex	xv6-public/fs.c	/^namex(char *path, int nameiparent, char *name)$/;"	f	file:
+nbitmap	mkfs.c	/^int nbitmap = FSSIZE\/(BSIZE*8) + 1;$/;"	v
+nbitmap	xv6-public/mkfs.c	/^int nbitmap = FSSIZE\/(BSIZE*8) + 1;$/;"	v
+nblocks	fs.h	/^  uint nblocks;      \/\/ Number of data blocks$/;"	m	struct:superblock
+nblocks	mkfs.c	/^int nblocks;  \/\/ Number of data blocks$/;"	v
+nblocks	xv6-public/fs.h	/^  uint nblocks;      \/\/ Number of data blocks$/;"	m	struct:superblock
+nblocks	xv6-public/mkfs.c	/^int nblocks;  \/\/ Number of data blocks$/;"	v
+ncli	proc.h	/^  int ncli;                    \/\/ Depth of pushcli nesting.$/;"	m	struct:cpu
+ncli	xv6-public/proc.h	/^  int ncli;                    \/\/ Depth of pushcli nesting.$/;"	m	struct:cpu
+ncpu	mp.c	/^int ncpu;$/;"	v
+ncpu	xv6-public/mp.c	/^int ncpu;$/;"	v
+next	buf.h	/^  struct buf *next;$/;"	m	struct:buf	typeref:struct:buf::buf
+next	kalloc.c	/^  struct run *next;$/;"	m	struct:run	typeref:struct:run::run	file:
+next	xv6-public/buf.h	/^  struct buf *next;$/;"	m	struct:buf	typeref:struct:buf::buf
+next	xv6-public/kalloc.c	/^  struct run *next;$/;"	m	struct:run	typeref:struct:run::run	file:
+nextpid	proc.c	/^int nextpid = 1;$/;"	v
+nextpid	xv6-public/proc.c	/^int nextpid = 1;$/;"	v
+ninodeblocks	mkfs.c	/^int ninodeblocks = NINODES \/ IPB + 1;$/;"	v
+ninodeblocks	xv6-public/mkfs.c	/^int ninodeblocks = NINODES \/ IPB + 1;$/;"	v
+ninodes	fs.h	/^  uint ninodes;      \/\/ Number of inodes.$/;"	m	struct:superblock
+ninodes	xv6-public/fs.h	/^  uint ninodes;      \/\/ Number of inodes.$/;"	m	struct:superblock
+nlink	file.h	/^  short nlink;$/;"	m	struct:inode
+nlink	fs.h	/^  short nlink;          \/\/ Number of links to inode in file system$/;"	m	struct:dinode
+nlink	stat.h	/^  short nlink; \/\/ Number of links to file$/;"	m	struct:stat
+nlink	xv6-public/file.h	/^  short nlink;$/;"	m	struct:inode
+nlink	xv6-public/fs.h	/^  short nlink;          \/\/ Number of links to inode in file system$/;"	m	struct:dinode
+nlink	xv6-public/stat.h	/^  short nlink; \/\/ Number of links to file$/;"	m	struct:stat
+nlog	fs.h	/^  uint nlog;         \/\/ Number of log blocks$/;"	m	struct:superblock
+nlog	mkfs.c	/^int nlog = LOGSIZE;$/;"	v
+nlog	xv6-public/fs.h	/^  uint nlog;         \/\/ Number of log blocks$/;"	m	struct:superblock
+nlog	xv6-public/mkfs.c	/^int nlog = LOGSIZE;$/;"	v
+nmeta	mkfs.c	/^int nmeta;    \/\/ Number of meta blocks (boot, sb, nlog, inode, bitmap)$/;"	v
+nmeta	xv6-public/mkfs.c	/^int nmeta;    \/\/ Number of meta blocks (boot, sb, nlog, inode, bitmap)$/;"	v
+normalmap	kbd.h	/^static uchar normalmap[256] =$/;"	v
+normalmap	xv6-public/kbd.h	/^static uchar normalmap[256] =$/;"	v
+nread	pipe.c	/^  uint nread;     \/\/ number of bytes read$/;"	m	struct:pipe	file:
+nread	xv6-public/pipe.c	/^  uint nread;     \/\/ number of bytes read$/;"	m	struct:pipe	file:
+nulterminate	sh.c	/^nulterminate(struct cmd *cmd)$/;"	f
+nulterminate	xv6-public/sh.c	/^nulterminate(struct cmd *cmd)$/;"	f
+nwrite	pipe.c	/^  uint nwrite;    \/\/ number of bytes written$/;"	m	struct:pipe	file:
+nwrite	xv6-public/pipe.c	/^  uint nwrite;    \/\/ number of bytes written$/;"	m	struct:pipe	file:
+oemlength	mp.h	/^  ushort oemlength;             \/\/ OEM table length$/;"	m	struct:mpconf
+oemlength	xv6-public/mp.h	/^  ushort oemlength;             \/\/ OEM table length$/;"	m	struct:mpconf
+oemtable	mp.h	/^  uint *oemtable;               \/\/ OEM table pointer$/;"	m	struct:mpconf
+oemtable	xv6-public/mp.h	/^  uint *oemtable;               \/\/ OEM table pointer$/;"	m	struct:mpconf
+oesp	x86.h	/^  uint oesp;      \/\/ useless & ignored$/;"	m	struct:trapframe
+oesp	xv6-public/x86.h	/^  uint oesp;      \/\/ useless & ignored$/;"	m	struct:trapframe
+off	elf.h	/^  uint off;$/;"	m	struct:proghdr
+off	file.h	/^  uint off;$/;"	m	struct:file
+off	xv6-public/elf.h	/^  uint off;$/;"	m	struct:proghdr
+off	xv6-public/file.h	/^  uint off;$/;"	m	struct:file
+off_15_0	mmu.h	/^  uint off_15_0 : 16;   \/\/ low 16 bits of offset in segment$/;"	m	struct:gatedesc
+off_15_0	xv6-public/mmu.h	/^  uint off_15_0 : 16;   \/\/ low 16 bits of offset in segment$/;"	m	struct:gatedesc
+off_31_16	mmu.h	/^  uint off_31_16 : 16;  \/\/ high bits of offset in segment$/;"	m	struct:gatedesc
+off_31_16	xv6-public/mmu.h	/^  uint off_31_16 : 16;  \/\/ high bits of offset in segment$/;"	m	struct:gatedesc
+offset	bootblock.asm	/^  offset = (offset \/ SECTSIZE) + 1;$/;"	d
+ofile	proc.h	/^  struct file *ofile[NOFILE];  \/\/ Open files$/;"	m	struct:proc	typeref:struct:proc::file
+ofile	xv6-public/proc.h	/^  struct file *ofile[NOFILE];  \/\/ Open files$/;"	m	struct:proc	typeref:struct:proc::file
+openiputtest	xv6-public/usertests.c	/^openiputtest(void)$/;"	f
+opentest	xv6-public/usertests.c	/^opentest(void)$/;"	f
+outb	x86.h	/^outb(ushort port, uchar data)$/;"	f
+outb	xv6-public/x86.h	/^outb(ushort port, uchar data)$/;"	f
+outsl	x86.h	/^outsl(int port, const void *addr, int cnt)$/;"	f
+outsl	xv6-public/x86.h	/^outsl(int port, const void *addr, int cnt)$/;"	f
+outstanding	log.c	/^  int outstanding; \/\/ how many FS sys calls are executing.$/;"	m	struct:log	file:
+outstanding	xv6-public/log.c	/^  int outstanding; \/\/ how many FS sys calls are executing.$/;"	m	struct:log	file:
+outw	x86.h	/^outw(ushort port, ushort data)$/;"	f
+outw	xv6-public/x86.h	/^outw(ushort port, ushort data)$/;"	f
+p	mmu.h	/^  uint p : 1;           \/\/ Present$/;"	m	struct:gatedesc
+p	mmu.h	/^  uint p : 1;          \/\/ Present$/;"	m	struct:segdesc
+p	xv6-public/mmu.h	/^  uint p : 1;           \/\/ Present$/;"	m	struct:gatedesc
+p	xv6-public/mmu.h	/^  uint p : 1;          \/\/ Present$/;"	m	struct:segdesc
+pa	bootblock.asm	/^    pa = (uchar*)ph->paddr;$/;"	d
+pad	ioapic.c	/^  uint pad[3];$/;"	m	struct:ioapic	file:
+pad	runoff	/^pad()$/;"	f
+pad	xv6-public/ioapic.c	/^  uint pad[3];$/;"	m	struct:ioapic	file:
+pad	xv6-public/runoff	/^pad()$/;"	f
+padding1	mmu.h	/^  ushort padding1;$/;"	m	struct:taskstate
+padding1	x86.h	/^  ushort padding1;$/;"	m	struct:trapframe
+padding1	xv6-public/mmu.h	/^  ushort padding1;$/;"	m	struct:taskstate
+padding1	xv6-public/x86.h	/^  ushort padding1;$/;"	m	struct:trapframe
+padding10	mmu.h	/^  ushort padding10;$/;"	m	struct:taskstate
+padding10	xv6-public/mmu.h	/^  ushort padding10;$/;"	m	struct:taskstate
+padding2	mmu.h	/^  ushort padding2;$/;"	m	struct:taskstate
+padding2	x86.h	/^  ushort padding2;$/;"	m	struct:trapframe
+padding2	xv6-public/mmu.h	/^  ushort padding2;$/;"	m	struct:taskstate
+padding2	xv6-public/x86.h	/^  ushort padding2;$/;"	m	struct:trapframe
+padding3	mmu.h	/^  ushort padding3;$/;"	m	struct:taskstate
+padding3	x86.h	/^  ushort padding3;$/;"	m	struct:trapframe
+padding3	xv6-public/mmu.h	/^  ushort padding3;$/;"	m	struct:taskstate
+padding3	xv6-public/x86.h	/^  ushort padding3;$/;"	m	struct:trapframe
+padding4	mmu.h	/^  ushort padding4;$/;"	m	struct:taskstate
+padding4	x86.h	/^  ushort padding4;$/;"	m	struct:trapframe
+padding4	xv6-public/mmu.h	/^  ushort padding4;$/;"	m	struct:taskstate
+padding4	xv6-public/x86.h	/^  ushort padding4;$/;"	m	struct:trapframe
+padding5	mmu.h	/^  ushort padding5;$/;"	m	struct:taskstate
+padding5	x86.h	/^  ushort padding5;$/;"	m	struct:trapframe
+padding5	xv6-public/mmu.h	/^  ushort padding5;$/;"	m	struct:taskstate
+padding5	xv6-public/x86.h	/^  ushort padding5;$/;"	m	struct:trapframe
+padding6	mmu.h	/^  ushort padding6;$/;"	m	struct:taskstate
+padding6	x86.h	/^  ushort padding6;$/;"	m	struct:trapframe
+padding6	xv6-public/mmu.h	/^  ushort padding6;$/;"	m	struct:taskstate
+padding6	xv6-public/x86.h	/^  ushort padding6;$/;"	m	struct:trapframe
+padding7	mmu.h	/^  ushort padding7;$/;"	m	struct:taskstate
+padding7	xv6-public/mmu.h	/^  ushort padding7;$/;"	m	struct:taskstate
+padding8	mmu.h	/^  ushort padding8;$/;"	m	struct:taskstate
+padding8	xv6-public/mmu.h	/^  ushort padding8;$/;"	m	struct:taskstate
+padding9	mmu.h	/^  ushort padding9;$/;"	m	struct:taskstate
+padding9	xv6-public/mmu.h	/^  ushort padding9;$/;"	m	struct:taskstate
+paddr	elf.h	/^  uint paddr;$/;"	m	struct:proghdr
+paddr	xv6-public/elf.h	/^  uint paddr;$/;"	m	struct:proghdr
+panic	console.c	/^panic(char *s)$/;"	f
+panic	sh.c	/^panic(char *s)$/;"	f
+panic	xv6-public/console.c	/^panic(char *s)$/;"	f
+panic	xv6-public/sh.c	/^panic(char *s)$/;"	f
+panicked	console.c	/^static int panicked = 0;$/;"	v	file:
+panicked	xv6-public/console.c	/^static int panicked = 0;$/;"	v	file:
+parent	proc.h	/^  struct proc *parent;         \/\/ Parent process$/;"	m	struct:proc	typeref:struct:proc::proc
+parent	xv6-public/proc.h	/^  struct proc *parent;         \/\/ Parent process$/;"	m	struct:proc	typeref:struct:proc::proc
+parseblock	sh.c	/^parseblock(char **ps, char *es)$/;"	f
+parseblock	xv6-public/sh.c	/^parseblock(char **ps, char *es)$/;"	f
+parsecmd	sh.c	/^parsecmd(char *s)$/;"	f
+parsecmd	xv6-public/sh.c	/^parsecmd(char *s)$/;"	f
+parseexec	sh.c	/^parseexec(char **ps, char *es)$/;"	f
+parseexec	xv6-public/sh.c	/^parseexec(char **ps, char *es)$/;"	f
+parseline	sh.c	/^parseline(char **ps, char *es)$/;"	f
+parseline	xv6-public/sh.c	/^parseline(char **ps, char *es)$/;"	f
+parsepipe	sh.c	/^parsepipe(char **ps, char *es)$/;"	f
+parsepipe	xv6-public/sh.c	/^parsepipe(char **ps, char *es)$/;"	f
+parseredirs	sh.c	/^parseredirs(struct cmd *cmd, char **ps, char *es)$/;"	f
+parseredirs	xv6-public/sh.c	/^parseredirs(struct cmd *cmd, char **ps, char *es)$/;"	f
+pcs	spinlock.h	/^  uint pcs[10];      \/\/ The call stack (an array of program counters)$/;"	m	struct:spinlock
+pcs	xv6-public/spinlock.h	/^  uint pcs[10];      \/\/ The call stack (an array of program counters)$/;"	m	struct:spinlock
+pde_t	types.h	/^typedef uint pde_t;$/;"	t
+pde_t	xv6-public/types.h	/^typedef uint pde_t;$/;"	t
+peek	sh.c	/^peek(char **ps, char *es, char *toks)$/;"	f
+peek	xv6-public/sh.c	/^peek(char **ps, char *es, char *toks)$/;"	f
+perm	vm.c	/^  int perm;$/;"	m	struct:kmap	file:
+perm	xv6-public/vm.c	/^  int perm;$/;"	m	struct:kmap	file:
+pgdir	proc.h	/^  pde_t* pgdir;                \/\/ Page table$/;"	m	struct:proc
+pgdir	xv6-public/proc.h	/^  pde_t* pgdir;                \/\/ Page table$/;"	m	struct:proc
+ph	bootblock.asm	/^  ph = (struct proghdr*)((uchar*)elf + elf->phoff);$/;"	d
+phentsize	elf.h	/^  ushort phentsize;$/;"	m	struct:elfhdr
+phentsize	xv6-public/elf.h	/^  ushort phentsize;$/;"	m	struct:elfhdr
+phnum	elf.h	/^  ushort phnum;$/;"	m	struct:elfhdr
+phnum	xv6-public/elf.h	/^  ushort phnum;$/;"	m	struct:elfhdr
+phoff	elf.h	/^  uint phoff;$/;"	m	struct:elfhdr
+phoff	xv6-public/elf.h	/^  uint phoff;$/;"	m	struct:elfhdr
+phys_end	vm.c	/^  uint phys_end;$/;"	m	struct:kmap	file:
+phys_end	xv6-public/vm.c	/^  uint phys_end;$/;"	m	struct:kmap	file:
+phys_start	vm.c	/^  uint phys_start;$/;"	m	struct:kmap	file:
+phys_start	xv6-public/vm.c	/^  uint phys_start;$/;"	m	struct:kmap	file:
+physaddr	mp.h	/^  void *physaddr;               \/\/ phys addr of MP config table$/;"	m	struct:mp
+physaddr	xv6-public/mp.h	/^  void *physaddr;               \/\/ phys addr of MP config table$/;"	m	struct:mp
+picinit	picirq.c	/^picinit(void)$/;"	f
+picinit	xv6-public/picirq.c	/^picinit(void)$/;"	f
+pid	proc.h	/^  int pid;                     \/\/ Process ID$/;"	m	struct:proc
+pid	sleeplock.h	/^  int pid;           \/\/ Process holding lock$/;"	m	struct:sleeplock
+pid	xv6-public/proc.h	/^  int pid;                     \/\/ Process ID$/;"	m	struct:proc
+pid	xv6-public/sleeplock.h	/^  int pid;           \/\/ Process holding lock$/;"	m	struct:sleeplock
+pinit	proc.c	/^pinit(void)$/;"	f
+pinit	xv6-public/proc.c	/^pinit(void)$/;"	f
+pipe	file.h	/^  struct pipe *pipe;$/;"	m	struct:file	typeref:struct:file::pipe
+pipe	pipe.c	/^struct pipe {$/;"	s	file:
+pipe	xv6-public/file.h	/^  struct pipe *pipe;$/;"	m	struct:file	typeref:struct:file::pipe
+pipe	xv6-public/pipe.c	/^struct pipe {$/;"	s	file:
+pipe1	xv6-public/usertests.c	/^pipe1(void)$/;"	f
+pipealloc	pipe.c	/^pipealloc(struct file **f0, struct file **f1)$/;"	f
+pipealloc	xv6-public/pipe.c	/^pipealloc(struct file **f0, struct file **f1)$/;"	f
+pipeclose	pipe.c	/^pipeclose(struct pipe *p, int writable)$/;"	f
+pipeclose	xv6-public/pipe.c	/^pipeclose(struct pipe *p, int writable)$/;"	f
+pipecmd	sh.c	/^pipecmd(struct cmd *left, struct cmd *right)$/;"	f
+pipecmd	sh.c	/^struct pipecmd {$/;"	s	file:
+pipecmd	xv6-public/sh.c	/^pipecmd(struct cmd *left, struct cmd *right)$/;"	f
+pipecmd	xv6-public/sh.c	/^struct pipecmd {$/;"	s	file:
+piperead	pipe.c	/^piperead(struct pipe *p, char *addr, int n)$/;"	f
+piperead	xv6-public/pipe.c	/^piperead(struct pipe *p, char *addr, int n)$/;"	f
+pipewrite	pipe.c	/^pipewrite(struct pipe *p, char *addr, int n)$/;"	f
+pipewrite	xv6-public/pipe.c	/^pipewrite(struct pipe *p, char *addr, int n)$/;"	f
+popcli	spinlock.c	/^popcli(void)$/;"	f
+popcli	xv6-public/spinlock.c	/^popcli(void)$/;"	f
+preempt	xv6-public/usertests.c	/^preempt(void)$/;"	f
+prev	buf.h	/^  struct buf *prev; \/\/ LRU cache list$/;"	m	struct:buf	typeref:struct:buf::buf
+prev	xv6-public/buf.h	/^  struct buf *prev; \/\/ LRU cache list$/;"	m	struct:buf	typeref:struct:buf::buf
+printf	forktest.c	/^printf(int fd, char *s, ...)$/;"	f
+printf	printf.c	/^printf(int fd, char *fmt, ...)$/;"	f
+printf	xv6-public/forktest.c	/^printf(int fd, char *s, ...)$/;"	f
+printf	xv6-public/printf.c	/^printf(int fd, char *fmt, ...)$/;"	f
+printint	console.c	/^printint(int xx, int base, int sign)$/;"	f	file:
+printint	printf.c	/^printint(int fd, int xx, int base, int sgn)$/;"	f	file:
+printint	xv6-public/console.c	/^printint(int xx, int base, int sign)$/;"	f	file:
+printint	xv6-public/printf.c	/^printint(int fd, int xx, int base, int sgn)$/;"	f	file:
+proc	proc.c	/^  struct proc proc[NPROC];$/;"	m	struct:__anon15	typeref:struct:__anon15::proc	file:
+proc	proc.h	/^  struct proc *proc;           \/\/ The process running on this cpu or null$/;"	m	struct:cpu	typeref:struct:cpu::proc
+proc	proc.h	/^struct proc {$/;"	s
+proc	xv6-public/proc.c	/^  struct proc proc[NPROC];$/;"	m	struct:__anon9	typeref:struct:__anon9::proc	file:
+proc	xv6-public/proc.h	/^  struct proc *proc;           \/\/ The process running on this cpu or null$/;"	m	struct:cpu	typeref:struct:cpu::proc
+proc	xv6-public/proc.h	/^struct proc {$/;"	s
+procdump	proc.c	/^procdump(void)$/;"	f
+procdump	xv6-public/proc.c	/^procdump(void)$/;"	f
+procstate	proc.h	/^enum procstate { UNUSED, EMBRYO, SLEEPING, RUNNABLE, RUNNING, ZOMBIE };$/;"	g
+procstate	xv6-public/proc.h	/^enum procstate { UNUSED, EMBRYO, SLEEPING, RUNNABLE, RUNNING, ZOMBIE };$/;"	g
+product	mp.h	/^  uchar product[20];            \/\/ product id$/;"	m	struct:mpconf
+product	xv6-public/mp.h	/^  uchar product[20];            \/\/ product id$/;"	m	struct:mpconf
+proghdr	elf.h	/^struct proghdr {$/;"	s
+proghdr	xv6-public/elf.h	/^struct proghdr {$/;"	s
+ptable	proc.c	/^} ptable;$/;"	v	typeref:struct:__anon15
+ptable	xv6-public/proc.c	/^} ptable;$/;"	v	typeref:struct:__anon9
+pte_t	mmu.h	/^typedef uint pte_t;$/;"	t
+pte_t	xv6-public/mmu.h	/^typedef uint pte_t;$/;"	t
+ptr	umalloc.c	/^    union header *ptr;$/;"	m	struct:header::__anon18	typeref:union:header::__anon18::header	file:
+ptr	xv6-public/umalloc.c	/^    union header *ptr;$/;"	m	struct:header::__anon12	typeref:union:header::__anon12::header	file:
+pushcli	spinlock.c	/^pushcli(void)$/;"	f
+pushcli	xv6-public/spinlock.c	/^pushcli(void)$/;"	f
+putc	printf.c	/^putc(int fd, char c)$/;"	f	file:
+putc	xv6-public/printf.c	/^putc(int fd, char c)$/;"	f	file:
+qnext	buf.h	/^  struct buf *qnext; \/\/ disk queue$/;"	m	struct:buf	typeref:struct:buf::buf
+qnext	xv6-public/buf.h	/^  struct buf *qnext; \/\/ disk queue$/;"	m	struct:buf	typeref:struct:buf::buf
+r	console.c	/^  uint r;  \/\/ Read index$/;"	m	struct:__anon17	file:
+r	xv6-public/console.c	/^  uint r;  \/\/ Read index$/;"	m	struct:__anon11	file:
+rand	xv6-public/usertests.c	/^rand()$/;"	f
+randstate	xv6-public/usertests.c	/^unsigned long randstate = 1;$/;"	v
+rcr2	x86.h	/^rcr2(void)$/;"	f
+rcr2	xv6-public/x86.h	/^rcr2(void)$/;"	f
+read	file.h	/^  int (*read)(struct inode*, char*, int);$/;"	m	struct:devsw
+read	xv6-public/file.h	/^  int (*read)(struct inode*, char*, int);$/;"	m	struct:devsw
+read_head	log.c	/^read_head(void)$/;"	f	file:
+read_head	xv6-public/log.c	/^read_head(void)$/;"	f	file:
+readable	file.h	/^  char readable;$/;"	m	struct:file
+readable	xv6-public/file.h	/^  char readable;$/;"	m	struct:file
+readeflags	x86.h	/^readeflags(void)$/;"	f
+readeflags	xv6-public/x86.h	/^readeflags(void)$/;"	f
+readi	fs.c	/^readi(struct inode *ip, char *dst, uint off, uint n)$/;"	f
+readi	xv6-public/fs.c	/^readi(struct inode *ip, char *dst, uint off, uint n)$/;"	f
+readopen	pipe.c	/^  int readopen;   \/\/ read fd is still open$/;"	m	struct:pipe	file:
+readopen	xv6-public/pipe.c	/^  int readopen;   \/\/ read fd is still open$/;"	m	struct:pipe	file:
+readsb	fs.c	/^readsb(int dev, struct superblock *sb)$/;"	f
+readsb	xv6-public/fs.c	/^readsb(int dev, struct superblock *sb)$/;"	f
+readsect	bootmain.c	/^readsect(void *dst, uint offset)$/;"	f
+readsect	xv6-public/bootmain.c	/^readsect(void *dst, uint offset)$/;"	f
+readseg	bootmain.c	/^readseg(uchar* pa, uint count, uint offset)$/;"	f
+readseg	xv6-public/bootmain.c	/^readseg(uchar* pa, uint count, uint offset)$/;"	f
+recover_from_log	log.c	/^recover_from_log(void)$/;"	f	file:
+recover_from_log	xv6-public/log.c	/^recover_from_log(void)$/;"	f	file:
+redircmd	sh.c	/^redircmd(struct cmd *subcmd, char *file, char *efile, int mode, int fd)$/;"	f
+redircmd	sh.c	/^struct redircmd {$/;"	s	file:
+redircmd	xv6-public/sh.c	/^redircmd(struct cmd *subcmd, char *file, char *efile, int mode, int fd)$/;"	f
+redircmd	xv6-public/sh.c	/^struct redircmd {$/;"	s	file:
+ref	file.h	/^  int ref;            \/\/ Reference count$/;"	m	struct:inode
+ref	file.h	/^  int ref; \/\/ reference count$/;"	m	struct:file
+ref	xv6-public/file.h	/^  int ref;            \/\/ Reference count$/;"	m	struct:inode
+ref	xv6-public/file.h	/^  int ref; \/\/ reference count$/;"	m	struct:file
+refcnt	buf.h	/^  uint refcnt;$/;"	m	struct:buf
+refcnt	xv6-public/buf.h	/^  uint refcnt;$/;"	m	struct:buf
+reg	ioapic.c	/^  uint reg;$/;"	m	struct:ioapic	file:
+reg	xv6-public/ioapic.c	/^  uint reg;$/;"	m	struct:ioapic	file:
+release	spinlock.c	/^release(struct spinlock *lk)$/;"	f
+release	xv6-public/spinlock.c	/^release(struct spinlock *lk)$/;"	f
+releasesleep	sleeplock.c	/^releasesleep(struct sleeplock *lk)$/;"	f
+releasesleep	xv6-public/sleeplock.c	/^releasesleep(struct sleeplock *lk)$/;"	f
+reserved	mp.h	/^  uchar reserved;$/;"	m	struct:mpconf
+reserved	mp.h	/^  uchar reserved[3];$/;"	m	struct:mp
+reserved	mp.h	/^  uchar reserved[8];$/;"	m	struct:mpproc
+reserved	xv6-public/mp.h	/^  uchar reserved;$/;"	m	struct:mpconf
+reserved	xv6-public/mp.h	/^  uchar reserved[3];$/;"	m	struct:mp
+reserved	xv6-public/mp.h	/^  uchar reserved[8];$/;"	m	struct:mpproc
+right	sh.c	/^  struct cmd *right;$/;"	m	struct:listcmd	typeref:struct:listcmd::cmd	file:
+right	sh.c	/^  struct cmd *right;$/;"	m	struct:pipecmd	typeref:struct:pipecmd::cmd	file:
+right	xv6-public/sh.c	/^  struct cmd *right;$/;"	m	struct:listcmd	typeref:struct:listcmd::cmd	file:
+right	xv6-public/sh.c	/^  struct cmd *right;$/;"	m	struct:pipecmd	typeref:struct:pipecmd::cmd	file:
+rinode	mkfs.c	/^rinode(uint inum, struct dinode *ip)$/;"	f
+rinode	xv6-public/mkfs.c	/^rinode(uint inum, struct dinode *ip)$/;"	f
+rmdot	xv6-public/usertests.c	/^rmdot(void)$/;"	f
+rsect	mkfs.c	/^rsect(uint sec, void *buf)$/;"	f
+rsect	xv6-public/mkfs.c	/^rsect(uint sec, void *buf)$/;"	f
+rsv1	mmu.h	/^  uint rsv1 : 1;       \/\/ Reserved$/;"	m	struct:segdesc
+rsv1	mmu.h	/^  uint rsv1 : 3;        \/\/ reserved(should be zero I guess)$/;"	m	struct:gatedesc
+rsv1	xv6-public/mmu.h	/^  uint rsv1 : 1;       \/\/ Reserved$/;"	m	struct:segdesc
+rsv1	xv6-public/mmu.h	/^  uint rsv1 : 3;        \/\/ reserved(should be zero I guess)$/;"	m	struct:gatedesc
+rtcdate	date.h	/^struct rtcdate {$/;"	s
+rtcdate	xv6-public/date.h	/^struct rtcdate {$/;"	s
+run	kalloc.c	/^struct run {$/;"	s	file:
+run	xv6-public/kalloc.c	/^struct run {$/;"	s	file:
+runcmd	sh.c	/^runcmd(struct cmd *cmd)$/;"	f
+runcmd	xv6-public/sh.c	/^runcmd(struct cmd *cmd)$/;"	f
+s	mmu.h	/^  uint s : 1;           \/\/ must be 0 (system)$/;"	m	struct:gatedesc
+s	mmu.h	/^  uint s : 1;          \/\/ 0 = system, 1 = application$/;"	m	struct:segdesc
+s	umalloc.c	/^  } s;$/;"	m	union:header	typeref:struct:header::__anon18	file:
+s	xv6-public/mmu.h	/^  uint s : 1;           \/\/ must be 0 (system)$/;"	m	struct:gatedesc
+s	xv6-public/mmu.h	/^  uint s : 1;          \/\/ 0 = system, 1 = application$/;"	m	struct:segdesc
+s	xv6-public/umalloc.c	/^  } s;$/;"	m	union:header	typeref:struct:header::__anon12	file:
+safestrcpy	string.c	/^safestrcpy(char *s, const char *t, int n)$/;"	f
+safestrcpy	xv6-public/string.c	/^safestrcpy(char *s, const char *t, int n)$/;"	f
+sb	fs.c	/^struct superblock sb; $/;"	v	typeref:struct:superblock
+sb	mkfs.c	/^struct superblock sb;$/;"	v	typeref:struct:superblock
+sb	xv6-public/fs.c	/^struct superblock sb; $/;"	v	typeref:struct:superblock
+sb	xv6-public/mkfs.c	/^struct superblock sb;$/;"	v	typeref:struct:superblock
+sbrktest	xv6-public/usertests.c	/^sbrktest(void)$/;"	f
+sched	proc.c	/^sched(void)$/;"	f
+sched	xv6-public/proc.c	/^sched(void)$/;"	f
+scheduler	proc.c	/^scheduler(void)$/;"	f
+scheduler	proc.h	/^  struct context *scheduler;   \/\/ swtch() here to enter scheduler$/;"	m	struct:cpu	typeref:struct:cpu::context
+scheduler	xv6-public/proc.c	/^scheduler(void)$/;"	f
+scheduler	xv6-public/proc.h	/^  struct context *scheduler;   \/\/ swtch() here to enter scheduler$/;"	m	struct:cpu	typeref:struct:cpu::context
+second	date.h	/^  uint second;$/;"	m	struct:rtcdate
+second	xv6-public/date.h	/^  uint second;$/;"	m	struct:rtcdate
+segdesc	mmu.h	/^struct segdesc {$/;"	s
+segdesc	xv6-public/mmu.h	/^struct segdesc {$/;"	s
+seginit	vm.c	/^seginit(void)$/;"	f
+seginit	xv6-public/vm.c	/^seginit(void)$/;"	f
+setupkvm	vm.c	/^setupkvm(void)$/;"	f
+setupkvm	xv6-public/vm.c	/^setupkvm(void)$/;"	f
+sharedfd	xv6-public/usertests.c	/^sharedfd(void)$/;"	f
+shentsize	elf.h	/^  ushort shentsize;$/;"	m	struct:elfhdr
+shentsize	xv6-public/elf.h	/^  ushort shentsize;$/;"	m	struct:elfhdr
+shiftcode	kbd.h	/^static uchar shiftcode[256] =$/;"	v
+shiftcode	xv6-public/kbd.h	/^static uchar shiftcode[256] =$/;"	v
+shiftmap	kbd.h	/^static uchar shiftmap[256] =$/;"	v
+shiftmap	xv6-public/kbd.h	/^static uchar shiftmap[256] =$/;"	v
+shnum	elf.h	/^  ushort shnum;$/;"	m	struct:elfhdr
+shnum	xv6-public/elf.h	/^  ushort shnum;$/;"	m	struct:elfhdr
+shoff	elf.h	/^  uint shoff;$/;"	m	struct:elfhdr
+shoff	xv6-public/elf.h	/^  uint shoff;$/;"	m	struct:elfhdr
+shstrndx	elf.h	/^  ushort shstrndx;$/;"	m	struct:elfhdr
+shstrndx	xv6-public/elf.h	/^  ushort shstrndx;$/;"	m	struct:elfhdr
+signature	mp.h	/^  uchar signature[4];           \/\/ "PCMP"$/;"	m	struct:mpconf
+signature	mp.h	/^  uchar signature[4];           \/\/ "_MP_"$/;"	m	struct:mp
+signature	mp.h	/^  uchar signature[4];           \/\/ CPU signature$/;"	m	struct:mpproc
+signature	xv6-public/mp.h	/^  uchar signature[4];           \/\/ "PCMP"$/;"	m	struct:mpconf
+signature	xv6-public/mp.h	/^  uchar signature[4];           \/\/ "_MP_"$/;"	m	struct:mp
+signature	xv6-public/mp.h	/^  uchar signature[4];           \/\/ CPU signature$/;"	m	struct:mpproc
+size	file.h	/^  uint size;$/;"	m	struct:inode
+size	fs.h	/^  uint size;            \/\/ Size of file (bytes)$/;"	m	struct:dinode
+size	fs.h	/^  uint size;         \/\/ Size of file system image (blocks)$/;"	m	struct:superblock
+size	log.c	/^  int size;$/;"	m	struct:log	file:
+size	stat.h	/^  uint size;   \/\/ Size of file in bytes$/;"	m	struct:stat
+size	umalloc.c	/^    uint size;$/;"	m	struct:header::__anon18	file:
+size	xv6-public/file.h	/^  uint size;$/;"	m	struct:inode
+size	xv6-public/fs.h	/^  uint size;            \/\/ Size of file (bytes)$/;"	m	struct:dinode
+size	xv6-public/fs.h	/^  uint size;         \/\/ Size of file system image (blocks)$/;"	m	struct:superblock
+size	xv6-public/log.c	/^  int size;$/;"	m	struct:log	file:
+size	xv6-public/stat.h	/^  uint size;   \/\/ Size of file in bytes$/;"	m	struct:stat
+size	xv6-public/umalloc.c	/^    uint size;$/;"	m	struct:header::__anon12	file:
+skipelem	fs.c	/^skipelem(char *path, char *name)$/;"	f	file:
+skipelem	xv6-public/fs.c	/^skipelem(char *path, char *name)$/;"	f	file:
+sleep	proc.c	/^sleep(void *chan, struct spinlock *lk)$/;"	f
+sleep	xv6-public/proc.c	/^sleep(void *chan, struct spinlock *lk)$/;"	f
+sleeplock	sleeplock.h	/^struct sleeplock {$/;"	s
+sleeplock	xv6-public/sleeplock.h	/^struct sleeplock {$/;"	s
+specrev	mp.h	/^  uchar specrev;                \/\/ [14]$/;"	m	struct:mp
+specrev	xv6-public/mp.h	/^  uchar specrev;                \/\/ [14]$/;"	m	struct:mp
+spin	bootasm.S	/^spin:$/;"	l
+spin	bootblock.asm	/^spin:$/;"	l
+spin	entryother.S	/^spin:$/;"	l
+spin	xv6-public/bootasm.S	/^spin:$/;"	l
+spin	xv6-public/entryother.S	/^spin:$/;"	l
+spinlock	spinlock.h	/^struct spinlock {$/;"	s
+spinlock	xv6-public/spinlock.h	/^struct spinlock {$/;"	s
+ss	mmu.h	/^  ushort ss;$/;"	m	struct:taskstate
+ss	x86.h	/^  ushort ss;$/;"	m	struct:trapframe
+ss	xv6-public/mmu.h	/^  ushort ss;$/;"	m	struct:taskstate
+ss	xv6-public/x86.h	/^  ushort ss;$/;"	m	struct:trapframe
+ss0	mmu.h	/^  ushort ss0;        \/\/   after an increase in privilege level$/;"	m	struct:taskstate
+ss0	xv6-public/mmu.h	/^  ushort ss0;        \/\/   after an increase in privilege level$/;"	m	struct:taskstate
+ss1	mmu.h	/^  ushort ss1;$/;"	m	struct:taskstate
+ss1	xv6-public/mmu.h	/^  ushort ss1;$/;"	m	struct:taskstate
+ss2	mmu.h	/^  ushort ss2;$/;"	m	struct:taskstate
+ss2	xv6-public/mmu.h	/^  ushort ss2;$/;"	m	struct:taskstate
+start	bootasm.S	/^start:$/;"	l
+start	bootblock.asm	/^start:$/;"	l
+start	entryother.S	/^start:$/;"	l
+start	initcode.S	/^start:$/;"	l
+start	log.c	/^  int start;$/;"	m	struct:log	file:
+start	xv6-public/bootasm.S	/^start:$/;"	l
+start	xv6-public/entryother.S	/^start:$/;"	l
+start	xv6-public/initcode.S	/^start:$/;"	l
+start	xv6-public/log.c	/^  int start;$/;"	m	struct:log	file:
+start32	bootasm.S	/^start32:$/;"	l
+start32	bootblock.asm	/^start32:$/;"	l
+start32	entryother.S	/^start32:$/;"	l
+start32	xv6-public/bootasm.S	/^start32:$/;"	l
+start32	xv6-public/entryother.S	/^start32:$/;"	l
+started	proc.h	/^  volatile uint started;       \/\/ Has the CPU started?$/;"	m	struct:cpu
+started	xv6-public/proc.h	/^  volatile uint started;       \/\/ Has the CPU started?$/;"	m	struct:cpu
+startothers	main.c	/^startothers(void)$/;"	f	file:
+startothers	xv6-public/main.c	/^startothers(void)$/;"	f	file:
+stat	mkfs.c	8;"	d	file:
+stat	stat.h	/^struct stat {$/;"	s
+stat	ulib.c	/^stat(char *n, struct stat *st)$/;"	f
+stat	xv6-public/mkfs.c	8;"	d	file:
+stat	xv6-public/stat.h	/^struct stat {$/;"	s
+stat	xv6-public/ulib.c	/^stat(char *n, struct stat *st)$/;"	f
+state	proc.h	/^  enum procstate state;        \/\/ Process state$/;"	m	struct:proc	typeref:enum:proc::procstate
+state	xv6-public/proc.h	/^  enum procstate state;        \/\/ Process state$/;"	m	struct:proc	typeref:enum:proc::procstate
+stati	fs.c	/^stati(struct inode *ip, struct stat *st)$/;"	f
+stati	xv6-public/fs.c	/^stati(struct inode *ip, struct stat *st)$/;"	f
+static	bootblock.asm	/^static inline uchar$/;"	l
+static	bootblock.asm	/^static inline void$/;"	l
+static_assert	mkfs.c	15;"	d	file:
+static_assert	xv6-public/mkfs.c	15;"	d	file:
+stdout	usertests.c	/^int stdout = 1;$/;"	v
+stdout	xv6-public/usertests.c	/^int stdout = 1;$/;"	v
+sti	x86.h	/^sti(void)$/;"	f
+sti	xv6-public/x86.h	/^sti(void)$/;"	f
+stosb	x86.h	/^stosb(void *addr, int data, int cnt)$/;"	f
+stosb	xv6-public/x86.h	/^stosb(void *addr, int data, int cnt)$/;"	f
+stosl	x86.h	/^stosl(void *addr, int data, int cnt)$/;"	f
+stosl	xv6-public/x86.h	/^stosl(void *addr, int data, int cnt)$/;"	f
+strchr	ulib.c	/^strchr(const char *s, char c)$/;"	f
+strchr	xv6-public/ulib.c	/^strchr(const char *s, char c)$/;"	f
+strcmp	ulib.c	/^strcmp(const char *p, const char *q)$/;"	f
+strcmp	xv6-public/ulib.c	/^strcmp(const char *p, const char *q)$/;"	f
+strcpy	ulib.c	/^strcpy(char *s, char *t)$/;"	f
+strcpy	xv6-public/ulib.c	/^strcpy(char *s, char *t)$/;"	f
+strlen	string.c	/^strlen(const char *s)$/;"	f
+strlen	ulib.c	/^strlen(char *s)$/;"	f
+strlen	xv6-public/string.c	/^strlen(const char *s)$/;"	f
+strlen	xv6-public/ulib.c	/^strlen(char *s)$/;"	f
+strncmp	string.c	/^strncmp(const char *p, const char *q, uint n)$/;"	f
+strncmp	xv6-public/string.c	/^strncmp(const char *p, const char *q, uint n)$/;"	f
+strncpy	string.c	/^strncpy(char *s, const char *t, int n)$/;"	f
+strncpy	xv6-public/string.c	/^strncpy(char *s, const char *t, int n)$/;"	f
+subdir	xv6-public/usertests.c	/^subdir(void)$/;"	f
+sum	mp.c	/^sum(uchar *addr, int len)$/;"	f	file:
+sum	xv6-public/mp.c	/^sum(uchar *addr, int len)$/;"	f	file:
+superblock	fs.h	/^struct superblock {$/;"	s
+superblock	xv6-public/fs.h	/^struct superblock {$/;"	s
+switchkvm	vm.c	/^switchkvm(void)$/;"	f
+switchkvm	xv6-public/vm.c	/^switchkvm(void)$/;"	f
+switchuvm	vm.c	/^switchuvm(struct proc *p)$/;"	f
+switchuvm	xv6-public/vm.c	/^switchuvm(struct proc *p)$/;"	f
+swtch	swtch.S	/^swtch:$/;"	l
+swtch	xv6-public/swtch.S	/^swtch:$/;"	l
+symbols	sh.c	/^char symbols[] = "<|>&;()";$/;"	v
+symbols	xv6-public/sh.c	/^char symbols[] = "<|>&;()";$/;"	v
+sys_chdir	sysfile.c	/^sys_chdir(void)$/;"	f
+sys_chdir	xv6-public/sysfile.c	/^sys_chdir(void)$/;"	f
+sys_close	sysfile.c	/^sys_close(void)$/;"	f
+sys_close	xv6-public/sysfile.c	/^sys_close(void)$/;"	f
+sys_dup	sysfile.c	/^sys_dup(void)$/;"	f
+sys_dup	xv6-public/sysfile.c	/^sys_dup(void)$/;"	f
+sys_exec	sysfile.c	/^sys_exec(void)$/;"	f
+sys_exec	xv6-public/sysfile.c	/^sys_exec(void)$/;"	f
+sys_exit	sysproc.c	/^sys_exit(void)$/;"	f
+sys_exit	xv6-public/sysproc.c	/^sys_exit(void)$/;"	f
+sys_fork	sysproc.c	/^sys_fork(void)$/;"	f
+sys_fork	xv6-public/sysproc.c	/^sys_fork(void)$/;"	f
+sys_fstat	sysfile.c	/^sys_fstat(void)$/;"	f
+sys_fstat	xv6-public/sysfile.c	/^sys_fstat(void)$/;"	f
+sys_getpid	sysproc.c	/^sys_getpid(void)$/;"	f
+sys_getpid	xv6-public/sysproc.c	/^sys_getpid(void)$/;"	f
+sys_kill	sysproc.c	/^sys_kill(void)$/;"	f
+sys_kill	xv6-public/sysproc.c	/^sys_kill(void)$/;"	f
+sys_link	sysfile.c	/^sys_link(void)$/;"	f
+sys_link	xv6-public/sysfile.c	/^sys_link(void)$/;"	f
+sys_mkdir	sysfile.c	/^sys_mkdir(void)$/;"	f
+sys_mkdir	xv6-public/sysfile.c	/^sys_mkdir(void)$/;"	f
+sys_mknod	sysfile.c	/^sys_mknod(void)$/;"	f
+sys_mknod	xv6-public/sysfile.c	/^sys_mknod(void)$/;"	f
+sys_open	sysfile.c	/^sys_open(void)$/;"	f
+sys_open	xv6-public/sysfile.c	/^sys_open(void)$/;"	f
+sys_pipe	sysfile.c	/^sys_pipe(void)$/;"	f
+sys_pipe	xv6-public/sysfile.c	/^sys_pipe(void)$/;"	f
+sys_read	sysfile.c	/^sys_read(void)$/;"	f
+sys_read	xv6-public/sysfile.c	/^sys_read(void)$/;"	f
+sys_sbrk	sysproc.c	/^sys_sbrk(void)$/;"	f
+sys_sbrk	xv6-public/sysproc.c	/^sys_sbrk(void)$/;"	f
+sys_sleep	sysproc.c	/^sys_sleep(void)$/;"	f
+sys_sleep	xv6-public/sysproc.c	/^sys_sleep(void)$/;"	f
+sys_unlink	sysfile.c	/^sys_unlink(void)$/;"	f
+sys_unlink	xv6-public/sysfile.c	/^sys_unlink(void)$/;"	f
+sys_uptime	sysproc.c	/^sys_uptime(void)$/;"	f
+sys_uptime	xv6-public/sysproc.c	/^sys_uptime(void)$/;"	f
+sys_wait	sysproc.c	/^sys_wait(void)$/;"	f
+sys_wait	xv6-public/sysproc.c	/^sys_wait(void)$/;"	f
+sys_write	sysfile.c	/^sys_write(void)$/;"	f
+sys_write	xv6-public/sysfile.c	/^sys_write(void)$/;"	f
+syscall	syscall.c	/^syscall(void)$/;"	f
+syscall	xv6-public/syscall.c	/^syscall(void)$/;"	f
+syscalls	syscall.c	/^static int (*syscalls[])(void) = {$/;"	v	file:
+syscalls	xv6-public/syscall.c	/^static int (*syscalls[])(void) = {$/;"	v	file:
+sz	proc.h	/^  uint sz;                     \/\/ Size of process memory (bytes)$/;"	m	struct:proc
+sz	xv6-public/proc.h	/^  uint sz;                     \/\/ Size of process memory (bytes)$/;"	m	struct:proc
+t	mmu.h	/^  ushort t;          \/\/ Trap on task switch$/;"	m	struct:taskstate
+t	xv6-public/mmu.h	/^  ushort t;          \/\/ Trap on task switch$/;"	m	struct:taskstate
+taskstate	mmu.h	/^struct taskstate {$/;"	s
+taskstate	xv6-public/mmu.h	/^struct taskstate {$/;"	s
+tf	proc.h	/^  struct trapframe *tf;        \/\/ Trap frame for current syscall$/;"	m	struct:proc	typeref:struct:proc::trapframe
+tf	xv6-public/proc.h	/^  struct trapframe *tf;        \/\/ Trap frame for current syscall$/;"	m	struct:proc	typeref:struct:proc::trapframe
+ticks	trap.c	/^uint ticks;$/;"	v
+ticks	xv6-public/trap.c	/^uint ticks;$/;"	v
+tickslock	trap.c	/^struct spinlock tickslock;$/;"	v	typeref:struct:spinlock
+tickslock	xv6-public/trap.c	/^struct spinlock tickslock;$/;"	v	typeref:struct:spinlock
+togglecode	kbd.h	/^static uchar togglecode[256] =$/;"	v
+togglecode	xv6-public/kbd.h	/^static uchar togglecode[256] =$/;"	v
+trap	trap.c	/^trap(struct trapframe *tf)$/;"	f
+trap	xv6-public/trap.c	/^trap(struct trapframe *tf)$/;"	f
+trapframe	x86.h	/^struct trapframe {$/;"	s
+trapframe	xv6-public/x86.h	/^struct trapframe {$/;"	s
+trapno	x86.h	/^  uint trapno;$/;"	m	struct:trapframe
+trapno	xv6-public/x86.h	/^  uint trapno;$/;"	m	struct:trapframe
+trapret	trapasm.S	/^trapret:$/;"	l
+trapret	xv6-public/trapasm.S	/^trapret:$/;"	l
+ts	proc.h	/^  struct taskstate ts;         \/\/ Used by x86 to find stack for interrupt$/;"	m	struct:cpu	typeref:struct:cpu::taskstate
+ts	xv6-public/proc.h	/^  struct taskstate ts;         \/\/ Used by x86 to find stack for interrupt$/;"	m	struct:cpu	typeref:struct:cpu::taskstate
+tvinit	trap.c	/^tvinit(void)$/;"	f
+tvinit	xv6-public/trap.c	/^tvinit(void)$/;"	f
+type	elf.h	/^  uint type;$/;"	m	struct:proghdr
+type	elf.h	/^  ushort type;$/;"	m	struct:elfhdr
+type	file.h	/^  enum { FD_NONE, FD_PIPE, FD_INODE } type;$/;"	m	struct:file	typeref:enum:file::__anon3
+type	file.h	/^  short type;         \/\/ copy of disk inode$/;"	m	struct:inode
+type	fs.h	/^  short type;           \/\/ File type$/;"	m	struct:dinode
+type	mmu.h	/^  uint type : 4;        \/\/ type(STS_{TG,IG32,TG32})$/;"	m	struct:gatedesc
+type	mmu.h	/^  uint type : 4;       \/\/ Segment type (see STS_ constants)$/;"	m	struct:segdesc
+type	mp.h	/^  uchar type;                   \/\/ MP system config type$/;"	m	struct:mp
+type	mp.h	/^  uchar type;                   \/\/ entry type (0)$/;"	m	struct:mpproc
+type	mp.h	/^  uchar type;                   \/\/ entry type (2)$/;"	m	struct:mpioapic
+type	sh.c	/^  int type;$/;"	m	struct:backcmd	file:
+type	sh.c	/^  int type;$/;"	m	struct:cmd	file:
+type	sh.c	/^  int type;$/;"	m	struct:execcmd	file:
+type	sh.c	/^  int type;$/;"	m	struct:listcmd	file:
+type	sh.c	/^  int type;$/;"	m	struct:pipecmd	file:
+type	sh.c	/^  int type;$/;"	m	struct:redircmd	file:
+type	stat.h	/^  short type;  \/\/ Type of file$/;"	m	struct:stat
+type	xv6-public/elf.h	/^  uint type;$/;"	m	struct:proghdr
+type	xv6-public/elf.h	/^  ushort type;$/;"	m	struct:elfhdr
+type	xv6-public/file.h	/^  enum { FD_NONE, FD_PIPE, FD_INODE } type;$/;"	m	struct:file	typeref:enum:file::__anon6
+type	xv6-public/file.h	/^  short type;         \/\/ copy of disk inode$/;"	m	struct:inode
+type	xv6-public/fs.h	/^  short type;           \/\/ File type$/;"	m	struct:dinode
+type	xv6-public/mmu.h	/^  uint type : 4;        \/\/ type(STS_{TG,IG32,TG32})$/;"	m	struct:gatedesc
+type	xv6-public/mmu.h	/^  uint type : 4;       \/\/ Segment type (see STS_ constants)$/;"	m	struct:segdesc
+type	xv6-public/mp.h	/^  uchar type;                   \/\/ MP system config type$/;"	m	struct:mp
+type	xv6-public/mp.h	/^  uchar type;                   \/\/ entry type (0)$/;"	m	struct:mpproc
+type	xv6-public/mp.h	/^  uchar type;                   \/\/ entry type (2)$/;"	m	struct:mpioapic
+type	xv6-public/sh.c	/^  int type;$/;"	m	struct:backcmd	file:
+type	xv6-public/sh.c	/^  int type;$/;"	m	struct:cmd	file:
+type	xv6-public/sh.c	/^  int type;$/;"	m	struct:execcmd	file:
+type	xv6-public/sh.c	/^  int type;$/;"	m	struct:listcmd	file:
+type	xv6-public/sh.c	/^  int type;$/;"	m	struct:pipecmd	file:
+type	xv6-public/sh.c	/^  int type;$/;"	m	struct:redircmd	file:
+type	xv6-public/stat.h	/^  short type;  \/\/ Type of file$/;"	m	struct:stat
+uart	uart.c	/^static int uart;    \/\/ is there a uart?$/;"	v	file:
+uart	xv6-public/uart.c	/^static int uart;    \/\/ is there a uart?$/;"	v	file:
+uartgetc	uart.c	/^uartgetc(void)$/;"	f	file:
+uartgetc	xv6-public/uart.c	/^uartgetc(void)$/;"	f	file:
+uartinit	uart.c	/^uartinit(void)$/;"	f
+uartinit	xv6-public/uart.c	/^uartinit(void)$/;"	f
+uartintr	uart.c	/^uartintr(void)$/;"	f
+uartintr	xv6-public/uart.c	/^uartintr(void)$/;"	f
+uartputc	uart.c	/^uartputc(int c)$/;"	f
+uartputc	xv6-public/uart.c	/^uartputc(int c)$/;"	f
+uchar	types.h	/^typedef unsigned char  uchar;$/;"	t
+uchar	xv6-public/types.h	/^typedef unsigned char  uchar;$/;"	t
+uint	types.h	/^typedef unsigned int   uint;$/;"	t
+uint	xv6-public/types.h	/^typedef unsigned int   uint;$/;"	t
+uio	xv6-public/usertests.c	/^uio()$/;"	f
+uninit	xv6-public/usertests.c	/^char uninit[10000];$/;"	v
+unlinkread	xv6-public/usertests.c	/^unlinkread(void)$/;"	f
+use_lock	kalloc.c	/^  int use_lock;$/;"	m	struct:__anon13	file:
+use_lock	xv6-public/kalloc.c	/^  int use_lock;$/;"	m	struct:__anon7	file:
+userinit	proc.c	/^userinit(void)$/;"	f
+userinit	xv6-public/proc.c	/^userinit(void)$/;"	f
+ushort	types.h	/^typedef unsigned short ushort;$/;"	t
+ushort	xv6-public/types.h	/^typedef unsigned short ushort;$/;"	t
+uva2ka	vm.c	/^uva2ka(pde_t *pgdir, char *uva)$/;"	f
+uva2ka	xv6-public/vm.c	/^uva2ka(pde_t *pgdir, char *uva)$/;"	f
+vaddr	elf.h	/^  uint vaddr;$/;"	m	struct:proghdr
+vaddr	xv6-public/elf.h	/^  uint vaddr;$/;"	m	struct:proghdr
+valid	file.h	/^  int valid;          \/\/ inode has been read from disk?$/;"	m	struct:inode
+valid	xv6-public/file.h	/^  int valid;          \/\/ inode has been read from disk?$/;"	m	struct:inode
+validateint	xv6-public/usertests.c	/^validateint(int *p)$/;"	f
+validatetest	xv6-public/usertests.c	/^validatetest(void)$/;"	f
+version	elf.h	/^  uint version;$/;"	m	struct:elfhdr
+version	mp.h	/^  uchar version;                \/\/ I\/O APIC version$/;"	m	struct:mpioapic
+version	mp.h	/^  uchar version;                \/\/ [14]$/;"	m	struct:mpconf
+version	mp.h	/^  uchar version;                \/\/ local APIC verison$/;"	m	struct:mpproc
+version	xv6-public/elf.h	/^  uint version;$/;"	m	struct:elfhdr
+version	xv6-public/mp.h	/^  uchar version;                \/\/ I\/O APIC version$/;"	m	struct:mpioapic
+version	xv6-public/mp.h	/^  uchar version;                \/\/ [14]$/;"	m	struct:mpconf
+version	xv6-public/mp.h	/^  uchar version;                \/\/ local APIC verison$/;"	m	struct:mpproc
+virt	vm.c	/^  void *virt;$/;"	m	struct:kmap	file:
+virt	xv6-public/vm.c	/^  void *virt;$/;"	m	struct:kmap	file:
+void	bootblock.asm	/^void readseg(uchar*, uint, uint);$/;"	l
+void	bootblock.asm	/^void$/;"	l
+w	console.c	/^  uint w;  \/\/ Write index$/;"	m	struct:__anon17	file:
+w	xv6-public/console.c	/^  uint w;  \/\/ Write index$/;"	m	struct:__anon11	file:
+wait	proc.c	/^wait(int *status)$/;"	f
+wait	xv6-public/proc.c	/^wait(void)$/;"	f
+waitdisk	bootmain.c	/^waitdisk(void)$/;"	f
+waitdisk	xv6-public/bootmain.c	/^waitdisk(void)$/;"	f
+wakeup	proc.c	/^wakeup(void *chan)$/;"	f
+wakeup	xv6-public/proc.c	/^wakeup(void *chan)$/;"	f
+wakeup1	proc.c	/^wakeup1(void *chan)$/;"	f	file:
+wakeup1	xv6-public/proc.c	/^wakeup1(void *chan)$/;"	f	file:
+walkpgdir	vm.c	/^walkpgdir(pde_t *pgdir, const void *va, int alloc)$/;"	f	file:
+walkpgdir	xv6-public/vm.c	/^walkpgdir(pde_t *pgdir, const void *va, int alloc)$/;"	f	file:
+wc	wc.c	/^wc(int fd, char *name)$/;"	f
+wc	xv6-public/wc.c	/^wc(int fd, char *name)$/;"	f
+whitespace	sh.c	/^char whitespace[] = " \\t\\r\\n\\v";$/;"	v
+whitespace	xv6-public/sh.c	/^char whitespace[] = " \\t\\r\\n\\v";$/;"	v
+winode	mkfs.c	/^winode(uint inum, struct dinode *ip)$/;"	f
+winode	xv6-public/mkfs.c	/^winode(uint inum, struct dinode *ip)$/;"	f
+writable	file.h	/^  char writable;$/;"	m	struct:file
+writable	xv6-public/file.h	/^  char writable;$/;"	m	struct:file
+write	file.h	/^  int (*write)(struct inode*, char*, int);$/;"	m	struct:devsw
+write	xv6-public/file.h	/^  int (*write)(struct inode*, char*, int);$/;"	m	struct:devsw
+write_head	log.c	/^write_head(void)$/;"	f	file:
+write_head	xv6-public/log.c	/^write_head(void)$/;"	f	file:
+write_log	log.c	/^write_log(void)$/;"	f	file:
+write_log	xv6-public/log.c	/^write_log(void)$/;"	f	file:
+writefile	cuth	/^sub writefile($@){$/;"	s
+writefile	xv6-public/cuth	/^sub writefile($@){$/;"	s
+writei	fs.c	/^writei(struct inode *ip, char *src, uint off, uint n)$/;"	f
+writei	xv6-public/fs.c	/^writei(struct inode *ip, char *src, uint off, uint n)$/;"	f
+writeopen	pipe.c	/^  int writeopen;  \/\/ write fd is still open$/;"	m	struct:pipe	file:
+writeopen	xv6-public/pipe.c	/^  int writeopen;  \/\/ write fd is still open$/;"	m	struct:pipe	file:
+writetest	xv6-public/usertests.c	/^writetest(void)$/;"	f
+writetest1	xv6-public/usertests.c	/^writetest1(void)$/;"	f
+wsect	mkfs.c	/^wsect(uint sec, void *buf)$/;"	f
+wsect	xv6-public/mkfs.c	/^wsect(uint sec, void *buf)$/;"	f
+x	umalloc.c	/^  Align x;$/;"	m	union:header	file:
+x	xv6-public/umalloc.c	/^  Align x;$/;"	m	union:header	file:
+xchecksum	mp.h	/^  uchar xchecksum;              \/\/ extended table checksum$/;"	m	struct:mpconf
+xchecksum	xv6-public/mp.h	/^  uchar xchecksum;              \/\/ extended table checksum$/;"	m	struct:mpconf
+xchg	x86.h	/^xchg(volatile uint *addr, uint newval)$/;"	f
+xchg	xv6-public/x86.h	/^xchg(volatile uint *addr, uint newval)$/;"	f
+xint	mkfs.c	/^xint(uint x)$/;"	f
+xint	xv6-public/mkfs.c	/^xint(uint x)$/;"	f
+xlength	mp.h	/^  ushort xlength;               \/\/ extended table length$/;"	m	struct:mpconf
+xlength	xv6-public/mp.h	/^  ushort xlength;               \/\/ extended table length$/;"	m	struct:mpconf
+xshort	mkfs.c	/^xshort(ushort x)$/;"	f
+xshort	xv6-public/mkfs.c	/^xshort(ushort x)$/;"	f
+year	date.h	/^  uint year;$/;"	m	struct:rtcdate
+year	xv6-public/date.h	/^  uint year;$/;"	m	struct:rtcdate
+yield	proc.c	/^yield(void)$/;"	f
+yield	xv6-public/proc.c	/^yield(void)$/;"	f
+zeroes	mkfs.c	/^char zeroes[BSIZE];$/;"	v
+zeroes	xv6-public/mkfs.c	/^char zeroes[BSIZE];$/;"	v
