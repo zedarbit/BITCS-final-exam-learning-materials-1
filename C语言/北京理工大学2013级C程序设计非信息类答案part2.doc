@@ -1,0 +1,3942 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List href="北京理工大学2013级C程序设计非信息类答案part2.files/filelist.xml">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>lenovo</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>lenovo</o:LastAuthor>
+  <o:Revision>3</o:Revision>
+  <o:TotalTime>14</o:TotalTime>
+  <o:Created>2015-06-19T10:58:00Z</o:Created>
+  <o:LastSaved>2015-06-19T11:17:00Z</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>7565</o:Words>
+  <o:Characters>43127</o:Characters>
+  <o:Lines>359</o:Lines>
+  <o:Paragraphs>101</o:Paragraphs>
+  <o:CharactersWithSpaces>50591</o:CharactersWithSpaces>
+  <o:Version>15.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="北京理工大学2013级C程序设计非信息类答案part2.files/themedata.thmx">
+<link rel=colorSchemeMapping
+href="北京理工大学2013级C程序设计非信息类答案part2.files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:Zoom>90</w:Zoom>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>ZH-CN</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:BreakWrappedTables/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="371">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-format:other;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-priority:99;
+	mso-style-link:"页眉 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-priority:99;
+	mso-style-link:"页脚 Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+a:link, span.MsoHyperlink
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char
+	{mso-style-name:"页眉 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页眉;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+span.Char0
+	{mso-style-name:"页脚 Char";
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:页脚;
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;
+	font-family:宋体;
+	mso-ascii-font-family:宋体;
+	mso-fareast-font-family:宋体;
+	mso-hansi-font-family:宋体;
+	mso-bidi-font-family:宋体;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	mso-ascii-font-family:"Times New Roman";
+	mso-hansi-font-family:"Times New Roman";
+	mso-font-kerning:0pt;}
+ /* Page Definitions */
+ @page
+	{mso-footnote-separator:url("北京理工大学2013级C程序设计非信息类答案part2.files/header.htm") fs;
+	mso-footnote-continuation-separator:url("北京理工大学2013级C程序设计非信息类答案part2.files/header.htm") fcs;
+	mso-endnote-separator:url("北京理工大学2013级C程序设计非信息类答案part2.files/header.htm") es;
+	mso-endnote-continuation-separator:url("北京理工大学2013级C程序设计非信息类答案part2.files/header.htm") ecs;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2049"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ZH-CN link=blue vlink=purple style='tab-interval:21.0pt'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal>内容来自：<span lang=EN-US><a href="http://9512.net"><span
+lang=EN-US><span lang=EN-US>甜梦文库</span></span></a><br>
+<br>
+</span>更多<span lang=EN-US>&quot;</span>北京理工大学<span lang=EN-US>2013</span>级<span
+lang=EN-US>C</span>程序设计非信息类答案<span lang=EN-US>part2&quot;</span>相关资料请点击<span
+lang=EN-US><a
+href="http://9512.net/search/%B1%B1%BE%A9%C0%ED%B9%A4%B4%F3%D1%A72013%BC%B6C%B3%CC%D0%F2%C9%E8%BC%C6%B7%C7%D0%C5%CF%A2%C0%E0%B4%F0%B0%B8part2"><span
+lang=EN-US><span lang=EN-US>这里</span></span></a></span></p>
+
+<p style='margin-bottom:12.0pt'>北京理工大学<span lang=EN-US> 2013 </span>级<span
+lang=EN-US> C </span>程序设计非信息类答案<span lang=EN-US> part 2<br>
+49. </span>【小学递归】杀鸡用牛刀<span lang=EN-US>——</span>要用递归啊！ 成绩<span lang=EN-US> 5 </span>开启时间<span
+lang=EN-US> 2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 10 </span>日
+星期六<span lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 24 </span>日 星期六<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 1 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>背景： 哈哈！我们终于学了递归了，现在大家一定感到非常有意思吧，那个典型的<span lang=EN-US>―</span>汉诺塔<span
+lang=EN-US>‖</span>问题，一个非常短的程序居然 可以完成如此复杂的工作，真是神奇啊！来吧，让我们也动手编写一个递归程序，当然，我们要编写的不可能太复杂。
+功能： 求整数<span lang=EN-US> n </span>到<span lang=EN-US> m </span>区间的累加和，其中<span
+lang=EN-US> n&lt;=m</span>。输入： 区间的起始点<span lang=EN-US> n </span>区间的终止点<span
+lang=EN-US> m </span>输出： 要求： 使用递归算法完成。如此简单的题目当然要有隐含的测试用例啦，就<span lang=EN-US> 3 </span>个，看看谁能猜出来。
+测试输入 期待的输出 时间限制 内存限制 额外进程 累加和<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1<br>
+<br>
+1.<br>
+<br>
+1 10?<br>
+<br>
+1.<br>
+<br>
+The sum from 1 to 10 is 55.?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 2 1. 2. 3. 4. 5.<br>
+<br>
+1.<br>
+<br>
+10 15?<br>
+<br>
+1.<br>
+<br>
+The sum from 10 to 15 is 75.?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+int sum(int m,int n) {if(m==n) return m;int i;for(i=n;i&gt;=m;i--) return
+i+sum(m,i-1);} #include &lt;stdio.h&gt; int main(){int
+m,n,s=0;scanf(&quot;%d%d&quot;,&amp;m,&amp;n);s=sum(m,n); printf(&quot;The sum
+from %d to %d is %d.\n&quot;,m,n,s);return 0;}<br>
+<br>
+50. </span>【中学】求最大公约数<span lang=EN-US>——</span>递归 成绩<span lang=EN-US> 5 </span>开启时间<span
+lang=EN-US> 2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 10 </span>日
+星期六<span lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 24 </span>日 星期六<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 1 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>请使用递归算法计算正整数<span lang=EN-US> n </span>和<span lang=EN-US> m </span>的最大公约数<span
+lang=EN-US> GCD(n,m)</span>。<span lang=EN-US> =m </span>当<span lang=EN-US>
+m&lt;=n </span>且<span lang=EN-US> n mod m =0 GCD(N,M) = GCD(m,n) </span>当<span
+lang=EN-US> n&lt;m </span>时<span lang=EN-US> = GCD(m, n mod m) </span>其他 输入：<span
+lang=EN-US> n </span>和<span lang=EN-US> m </span>输出：<span lang=EN-US> n </span>和<span
+lang=EN-US> m </span>的最大公约数<span lang=EN-US><br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>测试输入<span lang=EN-US><br>
+<br>
+</span>期待的输出<span lang=EN-US><br>
+<br>
+</span>时间限制<span lang=EN-US><br>
+<br>
+</span>内存限制<span lang=EN-US><br>
+<br>
+</span>额外进程<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1<br>
+<br>
+1.<br>
+<br>
+24 48?<br>
+<br>
+1.<br>
+<br>
+24?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 2 1. 2. 3. 4. 5. 6. 7. 8.<br>
+<br>
+1.<br>
+<br>
+13 15?<br>
+<br>
+1.<br>
+<br>
+1?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+#include &lt;stdio.h&gt; int f(int x,int y) {int s,t;t=x%y; if(t==0) s=y;else
+s=f(y,t); return s;} int main() {int m,n;scanf(&quot;%d%d&quot;,&amp;m,&amp;n);
+printf(&quot;%d\n&quot;,f(m,n));return 0;}<br>
+<br>
+51. </span>【数列递归】求序列之和<span lang=EN-US>——</span>递归 成绩<span lang=EN-US> 5 </span>开启时间<span
+lang=EN-US> 2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 10 </span>日
+星期六<span lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 24 </span>日 星期六<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 1 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>请使用递归算法求序列<span lang=EN-US> 1 + 1/2 - 1/3 + 1/4 -1/5 ......</span>的前<span
+lang=EN-US> n </span>项之和。 输入：<span lang=EN-US>n </span>输出：序列的前<span lang=EN-US>
+n </span>项和（精确到小数点之后第<span lang=EN-US> 6 </span>位） 测试输入 期待的输出 时间限制 内存限制 额外进程<span
+lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1<br>
+<br>
+1.<br>
+<br>
+1?<br>
+<br>
+1.<br>
+<br>
+1?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 2<br>
+<br>
+1.<br>
+<br>
+2?<br>
+<br>
+1.<br>
+<br>
+1.500000?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 3 1. 2. 3. 4. 5. 6. 7. 8.<br>
+<br>
+1.<br>
+<br>
+3?<br>
+<br>
+1.<br>
+<br>
+1.166667?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+#include&lt;stdio.h&gt; float sum(int n) {float s;if(n==1) s=1.0; else
+if(n%2==0) s=sum(n-1)+1.0/n; else s=sum(n-1)-1.0/n;return s;} int main() {int
+n;float s;scanf(&quot;%d&quot;,&amp;n); if(n==1) printf(&quot;1\n&quot;);<br>
+<br>
+<br clear=all style='page-break-before:always'>
+9.<br>
+<br>
+else {s=sum(n);printf(&quot;%.6f\n&quot;,s);}}<br>
+<br>
+52. </span>【大学】函数递归<span lang=EN-US>* </span>成绩<span lang=EN-US> 5 </span>开启时间<span
+lang=EN-US> 2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 10 </span>日
+星期六<span lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 24 </span>日 星期六<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 1 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>编写一个函数，使用递归算法求满足下述定义的整数序列的第<span lang=EN-US> n </span>项。<span
+lang=EN-US> 1 f( n ) = f(n-1) + f(n-3) f(n-2) + f(n-4) -1 </span>当<span
+lang=EN-US> n &gt;= 0 </span>且<span lang=EN-US> n &lt;= 4 </span>时 当<span
+lang=EN-US> n &gt; 4 </span>且<span lang=EN-US> n </span>为偶数 时 当<span
+lang=EN-US> n &gt; 4 </span>且<span lang=EN-US> n </span>为奇数 时 其他<span
+lang=EN-US><br>
+<br>
+</span>函数原型如下：<span lang=EN-US>int findf(int n);</span>参数说明：<span lang=EN-US>n </span>项数；返回值是第<span
+lang=EN-US> n </span>项值。例如输入：<span lang=EN-US>10</span>，输出：<span lang=EN-US>8<br>
+<br>
+</span>预设代码 前置代码<span lang=EN-US> 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. /* PRESET CODE
+BEGIN - NEVER TOUCH CODE BELOW */ #include &lt;stdio.h&gt; int main() { int
+n,s, findf( int ); scanf(&quot;%d&quot;, &amp;n); s = findf(n);
+printf(&quot;%d\n&quot;, s); return 0; } /* PRESET CODE END - NEVER TOUCH CODE
+ABOVE */ </span>测试输入 期待的输出 时间限制 内存限制 额外进程<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1 1. 2. 3. 4.<br>
+<br>
+1.<br>
+<br>
+10?<br>
+<br>
+1.<br>
+<br>
+8?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+int findf(int n) {if(n&gt;=0&amp;&amp;n&lt;=4) return 1;if(n&lt;0) return -1;
+if(n&gt;4&amp;&amp;n%2==0) return findf(n-1)+findf(n-3);
+if(n&gt;4&amp;&amp;n%2==1) return findf(n-2)+findf(n-4);}<br>
+<br>
+53.</span>【大学递归】求解平方根<span lang=EN-US><br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>成绩<span lang=EN-US><br>
+<br>
+5<br>
+<br>
+</span>开启时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 10 </span>日 星期六<span
+lang=EN-US> 11:35<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 24 </span>日 星期六<span
+lang=EN-US> 11:35<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 1 </span>日 星期日<span
+lang=EN-US> 11:35<br>
+<br>
+? p, p 2 ? x ? e ? ? </span>小明上了大学，学习了用求解平方根的迭代公式。<span lang=EN-US> Sqrt ? x,
+p, e ? ? ? ? 1? x? ? 2 ? sqrt ? x, ? p ? ? , e ? , p ? x ? e p? ? ? ? 2? ?<br>
+</span>其中：<span lang=EN-US>p </span>为<span lang=EN-US> x </span>的近似平方根，<span
+lang=EN-US>e </span>是结果允许的误差。<span lang=EN-US> 1. 2. 3. 4. 5. </span>输入：<span
+lang=EN-US>x, e </span>输出：<span lang=EN-US>p </span>保留小数点后<span lang=EN-US> 8 </span>位。<span
+lang=EN-US><br>
+<br>
+#include&lt;stdio.h&gt; #include&lt;math.h&gt; float f(float x,float p,float e)
+{if(fabs(p*p-x)&lt;e) return p; else return f(x,(p+x/p)/2,e);} int main()
+{float p,e,x;scanf(&quot;%f%f&quot;,&amp;x,&amp;e);
+p=f(x,x,e);printf(&quot;%.8f\n&quot;,p);return 0;}<br>
+<br>
+H12</span>：安全的密码（选做） 成绩<span lang=EN-US> 5 </span>开启时间<span lang=EN-US> 2014 </span>年<span
+lang=EN-US> 05 </span>月<span lang=EN-US> 10 </span>日 星期六<span lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 24 </span>日 星期六<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 1 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>随着电子设备的广泛运用，密码也渐渐融入每个人的生活。保护好密码，不仅关系到个人隐私，更关系到个人的财产和安 全。一个安全的密码，最好由大小写字母、数字或符号组成。包含越多种类的字符，其安全性就越高。同时密码还需要有
+一定的长度，通常至少要由六个以上的字符组成。 并不是每个人都喜欢这样复杂的密码，很多人在设置密码的时候，喜欢使用自己的名字或者生日，但这是很大的安全隐患。<span
+lang=EN-US><br>
+<br>
+</span>任务 林晓炜正在设计一个网络交易系统，为了保证用户的密码安全，他需要一个程序，判断用户自己设置的密码是否安 全，如果不安全，则给出提示。现在他向你求助，请你帮忙设计一个程序来解决这个问题。
+应当按照以下的规则来判断密码是否安全： 如果密码长度小于<span lang=EN-US> 6 </span>位， 则不安全； 如果组成密码的字符只有一类， 则不安全；
+如果组成密码的字符有两类，则为中度安全；如果组成密码的字符有三类或以上，则为安全 通常，可以认为数字、大写字母、小写字母和其它符号为四类不同的字符。<span
+lang=EN-US><br>
+<br>
+</span>输入 输入的第一行是一个整数<span lang=EN-US> N</span>， 表明后面有多少组密码。 随后的<span
+lang=EN-US> N </span>行输入包括<span lang=EN-US> N </span>个密码， 每个密码的长度均小于<span
+lang=EN-US> 20 </span>个字符。<span lang=EN-US><br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>输出 针对每一个密码判断并输出它是否安全。对于不安全的密码输出<span lang=EN-US> &quot;Not Safe&quot;</span>，对于中度安全的密码输出<span
+lang=EN-US> &quot;Medium Safe&quot;</span>，对于安全的密码输出<span lang=EN-US> &quot;Safe&quot;
+</span>输入样例<span lang=EN-US> 4 1234 abcdef ABC123 1#c3Gh<br>
+<br>
+</span>输出样例<span lang=EN-US> Not Safe Not Safe Medium Safe Safe </span>测试输入 期待的输出
+时间限制 内存限制 额外进程<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 1. 2. 3. 4.
+5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 10? abcDEF? ABC? qw? `?
+ABCDEFGHIJKLMNOPQRST? 12345678901234567890? 1aB? 1 B? aX ? qwe123%^&amp;ABC? 1.
+2. 3. 4. 5. 6. 7. 8. 9. 10. Medium Safe? Not Safe? Not Safe? Not Safe? Not
+Safe? Not Safe? Safe? Not Safe? Safe? Safe?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+#include &lt;stdio.h&gt; #include &lt;string.h&gt; int main(void) {int
+n,i,j,x,m,b[4];char a[100];scanf(&quot;%d&quot;,&amp;n); for
+(i=1;i&lt;=n;i++){gets(a);if (i==1) gets(a);x=strlen(a); if (x&lt;6)
+{printf(&quot;Not Safe\n&quot;);continue;} b[0]=0;b[1]=0;b[2]=0;b[3]=0;for
+(j=0;j&lt;=x-1;j++) {if (48&lt;=a[j]&amp;&amp;a[j]&lt;=57) b[0]=1; else if (65&lt;=a[j]&amp;&amp;a[j]&lt;=91)
+b[1]=1; else if (97&lt;=a[j]&amp;&amp;a[j]&lt;=123) b[2]=1; else b[3]=1; if
+(a[0]+a[1]+a[2]+a[3]==4) break;}m=b[0]+b[1]+b[2]+b[3]; switch (m) {case
+1:printf(&quot;Not Safe\n&quot;);break;case 2:printf(&quot;Medium
+Safe\n&quot;);break;<br>
+<br>
+<br clear=all style='page-break-before:always'>
+15. case 3:printf(&quot;Safe\n&quot;);break;case
+4:printf(&quot;Safe\n&quot;);}}return 0;}<br>
+<br>
+H13</span>：编码问题（选作） 成绩<span lang=EN-US> 5 </span>开启时间<span lang=EN-US> 2014 </span>年<span
+lang=EN-US> 05 </span>月<span lang=EN-US> 10 </span>日 星期六<span lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 24 </span>日 星期六<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 1 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>设有一个整形数组<span lang=EN-US> A[0..N-1]</span>；存放的元素为<span lang=EN-US> 0</span>～<span
+lang=EN-US>N-1 (1&lt;N&lt;=10)</span>之间的整数，且<span lang=EN-US> A[i]≠A[j]</span>（<span
+lang=EN-US>i≠j</span>）。例如，当<span lang=EN-US> N=6 </span>时， 有：<span lang=EN-US>A=</span>（<span
+lang=EN-US>4</span>，<span lang=EN-US>3</span>，<span lang=EN-US>0</span>，<span
+lang=EN-US>5</span>，<span lang=EN-US>1</span>，<span lang=EN-US>2</span>）。此时，数组<span
+lang=EN-US> A </span>的编码定义如下：<span lang=EN-US>A[0]</span>编码为<span lang=EN-US> 0</span>；<span
+lang=EN-US>A[i]</span>编码为：在<span lang=EN-US> A[0]</span>，<span lang=EN-US>A[1]</span>，<span
+lang=EN-US>…</span>，<span lang=EN-US>A[i-1] </span>中比<span lang=EN-US> A[i]</span>的值小的个数
+（<span lang=EN-US>i=1</span>，<span lang=EN-US>2</span>，<span lang=EN-US>…</span>，<span
+lang=EN-US>N-1</span>） 例如上面数组<span lang=EN-US> A </span>的编码为：<span lang=EN-US>B=</span>（<span
+lang=EN-US>0</span>，<span lang=EN-US>0</span>，<span lang=EN-US>0</span>，<span
+lang=EN-US>3</span>，<span lang=EN-US>1</span>，<span lang=EN-US>2</span>） 若给出数组<span
+lang=EN-US> A</span>，则可求出其编码。同理，若给出数组<span lang=EN-US> A </span>的编码，可求出<span
+lang=EN-US> A </span>中的原数据。 输入：推导方向（取值为<span lang=EN-US> 1 </span>或<span
+lang=EN-US> 2</span>，如为<span lang=EN-US> 1</span>，则表示根据数组求数组编码；如为<span
+lang=EN-US> 2</span>，则表示根据编码反求数组） 数组个数 数组或数组编码元素 输出：数组编码、或数组本身（元素之间以空格分隔） 测试输入 期待的输出
+时间限制 内存限制 额外进程<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1 1. 2. 3. 1? 6? 4 3 0 5 1 2?<br>
+<br>
+1.<br>
+<br>
+0 0 0 3 1 2?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 2 1. 2. 3. 1? 8? 1 0 3 2 5 6 7 4?<br>
+<br>
+1.<br>
+<br>
+0 0 2 2 4 5 6 4?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 4 1. 2. 3. 1. 2. 3. 4. 5. 2? 6? 0 0 2 3 1 3?<br>
+<br>
+1.<br>
+<br>
+2 0 4 5 1 3?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+#include&lt;stdio.h&gt; int main() {int mode,n,i,j,s,a[100],b[100]; static int
+c[100]; scanf(&quot;%d&quot;,&amp;mode);scanf(&quot;%d&quot;,&amp;n);
+for(i=0;i&lt;n;i++) scanf(&quot;%d&quot;, &amp;a[i]);
+if(mode==1){for(i=1,b[0]=0;i&lt;n;i++)<br>
+<br>
+<br clear=all style='page-break-before:always'>
+6. 7. 8. 9. 10.<br>
+<br>
+for(j=0,b[i]=0;j&lt;i;j++) if(a[i]&gt;a[j]) b[i]++;} else
+{for(i=n-1;i&gt;=0;i--){for(j=0,s=0;s&lt;a[i]+1;j++) if (c[j]==0)
+s++;b[i]=j-1;c[b[i]]=1;}} for(i=0;i&lt;n-1;i++) printf(&quot;%d &quot;,b[i]);
+printf(&quot;%d\n&quot;,b[n-1]);return 0;}<br>
+<br>
+54. </span>回文字符串<span lang=EN-US>——</span>递归（请使用递归算法实现。） 成绩<span lang=EN-US> 5 </span>开启时间<span
+lang=EN-US> 2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 10 </span>日
+星期六<span lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 24 </span>日 星期六<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 1 </span>日 星期日<span
+lang=EN-US> 23:00<br>
+<br>
+</span>有一种特殊形式的字符串，其正反序相同，被称为<span lang=EN-US>―</span>回文字符串<span lang=EN-US>‖</span>。例如<span
+lang=EN-US> LeveL </span>就是一个回文字符串。 输入：字符串 输出：<span lang=EN-US> Yes </span>或者<span
+lang=EN-US> No<br>
+<br>
+</span>说明：如输出<span lang=EN-US> Yes</span>，说明输入的字符串是一个回文字符串。输出<span lang=EN-US>
+No</span>，说明输入的字符串不是一个回文字符串 测试输入 期待的输出 时间限制 内存限制 额外进程<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1<br>
+<br>
+1.<br>
+<br>
+LeveL?<br>
+<br>
+1.<br>
+<br>
+Yes?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 10 1. 2. 3. 4. 5. 6. 7.<br>
+<br>
+1.<br>
+<br>
+?<br>
+<br>
+1.<br>
+<br>
+Yes?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+#include &lt;stdio.h&gt; #include &lt;string.h&gt; int f(char x,char y) {int
+p=x==y;return p;} int main(){char a[500];int i,j=1,k;
+fgets(a,500,stdin);k=strlen(a)-1;if(k==0) printf(&quot;Yes\n&quot;); else
+{for(i=0;i&lt;=k/2;i++) j*=f(a[i],a[k-1-i]); if(j==1)
+printf(&quot;Yes\n&quot;);else printf(&quot;No\n&quot;);}}<br>
+<br>
+55. </span>子串反向<span lang=EN-US>——</span>递归 成绩<span lang=EN-US> 5 </span>开启时间<span
+lang=EN-US> 2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 10 </span>日
+星期六<span lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 24 </span>日 星期六<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 1 </span>日 星期日<span
+lang=EN-US> 23:00<br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>请编写一个递归函数<span lang=EN-US> reverse(char str[], int start, int end ) </span>，
+该函数的功能是将串<span lang=EN-US> str </span>中下标从<span lang=EN-US> start </span>开始到<span
+lang=EN-US> end </span>结束的字符 颠倒顺序。假设 <span lang=EN-US>start </span>和<span
+lang=EN-US> end </span>都在合理的取值范围。 例如：执行前：<span lang=EN-US>str[]=&quot;0123456&quot;</span>；<span
+lang=EN-US>start=1 </span>；<span lang=EN-US>end=4 </span>执行后：<span lang=EN-US>strr[]=&quot;0432156&quot;<br>
+<br>
+</span>要求在该函数中不使用新的数组，没有循环。注意：只需要编写递归函数<span lang=EN-US> reverse</span>，系统中已经设置好了<span
+lang=EN-US> main </span>函数。<span lang=EN-US><br>
+<br>
+</span>预设代码 前置代码<span lang=EN-US> 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13.
+14. /* PRESET CODE BEGIN - NEVER TOUCH CODE BELOW */ #include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt; void reverse( ); int main( ) { char str[100]; int
+start, end; gets(str); scanf(&quot;%d%d&quot;, &amp;start, &amp;end); reverse(
+str, start, end ); printf(&quot;%s\n&quot;, str); return 0; } /* PRESET CODE
+END - NEVER TOUCH CODE ABOVE */ </span>测试输入 期待的输出 时间限制 内存限制 额外进程<span
+lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1 1. 2. 0123456? 1 4?<br>
+<br>
+1.<br>
+<br>
+0432156?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 6 1. 2. 0123456? 6 10?<br>
+<br>
+1.<br>
+<br>
+0123456?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 7 1. 2. 1. 2. 3. 4. 5. 0123456? 0 10?<br>
+<br>
+1.<br>
+<br>
+6543210?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+#include&lt;string.h&gt; void reverse(char str[],int start,int end) {char
+t;if(end&gt;=strlen(str)) reverse(str,start,end-1); else if(start&lt;end)
+{t=str[start];str[start]=str[end];str[end]=t; reverse(str,start+1,end-1);}}<br>
+<br>
+<br clear=all style='page-break-before:always'>
+56. </span>【字符】单词排序 成绩<span lang=EN-US> 5 </span>开启时间<span lang=EN-US> 2014 </span>年<span
+lang=EN-US> 05 </span>月<span lang=EN-US> 10 </span>日 星期六<span lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 24 </span>日 星期六<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>是<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 1 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>输入<span lang=EN-US> 5 </span>个单词，将它们按从大到小的顺序排列后输出。 输入：<span lang=EN-US>
+5 </span>个单词 输出：排序后的顺序 测试输入 期待的输出 时间限制 内存限制 额外进程<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1 1. 2. 3. 4. 5. 1. 2. 3. 4. 5. 6. 7. 8. BASIC?
+C++? Pascal? C? Fortran? 1. 2. 3. 4. 5. Pascal? Fortran? C++? C? BASIC?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+#include&lt;stdio.h&gt; #include&lt;string.h&gt; int main(){char
+ch[5][26],c[26];int i,j,k; for(i=0;i&lt;5;i++) gets(ch[i]); for(i=0;i&lt;4;i++)
+{k=i;for(j=i+1;j&lt;5;j++) if(strcmp(ch[k],ch[j])&lt;0) k=j; if(k!=i)
+{strcpy(c,ch[i]);strcpy(ch[i],ch[k]);strcpy(ch[k],c);}} for(i=0;i&lt;5;i++)
+puts(ch[i]);}<br>
+<br>
+57. </span>【日期】车辆限行 成绩<span lang=EN-US> 5 </span>开启时间<span lang=EN-US> 2014 </span>年<span
+lang=EN-US> 05 </span>月<span lang=EN-US> 10 </span>日 星期六<span lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 24 </span>日 星期六<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 1 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+2012 </span>年<span lang=EN-US> 4 </span>月<span lang=EN-US> 1 </span>日，北京是人民政府根据《中华人民共和国道路交通安全法》和《北京市实施〈中华人民共和国大气污染
+防治法〉 办法》 有关规定， 自<span lang=EN-US> 2012 </span>年<span lang=EN-US> 4 </span>月<span
+lang=EN-US> 11 </span>日起， 继续对机动车实施按车牌尾号工作日高峰时段 区域限行交通管理措施。 根据规定，按车牌尾号限行的机动车车牌尾号分为五组，每<span
+lang=EN-US> 13 </span>周轮换一次限行日，分别为：<span lang=EN-US> (1) </span>自<span
+lang=EN-US> 2012 </span>年<span lang=EN-US> 4 </span>月<span lang=EN-US> 9 </span>日至<span
+lang=EN-US> 2012 </span>年<span lang=EN-US> 7 </span>月<span lang=EN-US> 7 </span>日，星期一至星期五限行机动车车牌尾号分别为：<span
+lang=EN-US>3 </span>和<span lang=EN-US> 8</span>、<span lang=EN-US>4 </span>和<span
+lang=EN-US> 9</span>、<span lang=EN-US>5 </span>和<span lang=EN-US> 0</span>、<span
+lang=EN-US>1 </span>和<span lang=EN-US> 6</span>、<span lang=EN-US> 2 </span>和<span
+lang=EN-US> 7(</span>含临时号牌，机动车车牌尾号为英文字母的按<span lang=EN-US> 0 </span>号管理，下同<span
+lang=EN-US>)</span>；<span lang=EN-US> (2) </span>自<span lang=EN-US> 2012 </span>年<span
+lang=EN-US> 7 </span>月<span lang=EN-US> 8 </span>日至<span lang=EN-US> 2012 </span>年<span
+lang=EN-US> 10 </span>月<span lang=EN-US> 6 </span>日，星期一至星期五限行机动车车牌尾号分别为：<span
+lang=EN-US>2 </span>和<span lang=EN-US> 7</span>、<span lang=EN-US>3 </span>和<span
+lang=EN-US> 8</span>、<span lang=EN-US>4 </span>和 <span lang=EN-US>9</span>、<span
+lang=EN-US>5 </span>和<span lang=EN-US> 0</span>、<span lang=EN-US> 1 </span>和<span
+lang=EN-US> 6</span>；<span lang=EN-US><br>
+<br>
+<br clear=all style='page-break-before:always'>
+(3) </span>自<span lang=EN-US> 2012 </span>年<span lang=EN-US> 10 </span>月<span
+lang=EN-US> 7 </span>日至<span lang=EN-US> 2013 </span>年<span lang=EN-US> 1 </span>月<span
+lang=EN-US> 5 </span>日，星期一至星期五限行机动车车牌尾号分别为：<span lang=EN-US>1 </span>和<span
+lang=EN-US> 6</span>、<span lang=EN-US>2 </span>和<span lang=EN-US> 7</span>、<span
+lang=EN-US>3 </span>和<span lang=EN-US> 8</span>、<span lang=EN-US>4 </span>和<span
+lang=EN-US> 9</span>、<span lang=EN-US> 5 </span>和<span lang=EN-US> 0</span>；<span
+lang=EN-US> (4) </span>自<span lang=EN-US> 2013 </span>年<span lang=EN-US> 1 </span>月<span
+lang=EN-US> 6 </span>日至<span lang=EN-US> 2013 </span>年<span lang=EN-US> 4 </span>月<span
+lang=EN-US> 10 </span>日，星期一至星期五限行机动车车牌尾号分别为：<span lang=EN-US>5 </span>和<span
+lang=EN-US> 0</span>、<span lang=EN-US>1 </span>和<span lang=EN-US> 6</span>、<span
+lang=EN-US>2 </span>和<span lang=EN-US> 7</span>、<span lang=EN-US>3 </span>和<span
+lang=EN-US> 8</span>、<span lang=EN-US> 4 </span>和<span lang=EN-US> 9</span>。 现给出<span
+lang=EN-US> 2012 </span>年<span lang=EN-US> 4 </span>月<span lang=EN-US> 9 </span>日之后的任意日期，如果不考虑国家统一的公假，只考虑日期一个因素，请计算指定日期要限行
+的车牌尾号。 （政府的公告确实有点意思，在时间衔接上和限号安排上公告（<span lang=EN-US>http://unn.people.com.cn/GB/14748/17574443.html</span>）与公告
+（<span lang=EN-US>http://www.gov.cn/gzdt/2013-04/02/content_2367908.htm</span>）之间有重叠，显然，后面的公告是覆盖前面的公告的，我们计算
+的时候，只能是<span lang=EN-US>―</span>理论<span lang=EN-US>‖</span>上的事情，咱严格按照从<span
+lang=EN-US> 2012 </span>年<span lang=EN-US> 4 </span>月<span lang=EN-US> 9 </span>日
+星期一 开始，每<span lang=EN-US> 13 </span>周进行一次轮换计算就可以了。） 测试输入 期待的输出 时间限制 内存限制 额外进程<span
+lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1<br>
+<br>
+1.<br>
+<br>
+2012 7 9?<br>
+<br>
+1.<br>
+<br>
+2 and 7.?<br>
+<br>
+</span>无限制<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 2<br>
+<br>
+1.<br>
+<br>
+2012 7 12?<br>
+<br>
+1.<br>
+<br>
+5 and 0.?<br>
+<br>
+</span>无限制<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 3<br>
+<br>
+1.<br>
+<br>
+2012 7 14?<br>
+<br>
+1.<br>
+<br>
+Free.?<br>
+<br>
+</span>无限制<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 5<br>
+<br>
+1.<br>
+<br>
+2013 4 11?<br>
+<br>
+1.<br>
+<br>
+2 and 7.?<br>
+<br>
+</span>无限制<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 6<br>
+<br>
+1.<br>
+<br>
+2014 4 4?<br>
+<br>
+1.<br>
+<br>
+5 and 0.?<br>
+<br>
+</span>无限制<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 9 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14.
+15. 16. 17. 18. 19. 20. 21. 22.<br>
+<br>
+1.<br>
+<br>
+2014 3 31?<br>
+<br>
+1.<br>
+<br>
+1 and 6.?<br>
+<br>
+</span>无限制<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+#include&lt;stdio.h&gt; int leap_year(int);int year_days(int);int
+days(int,int,int); int leap_year(int year) {return ((year%4==0&amp;&amp;year%100!=0)||year%400==0)?1:0;}
+int year_days(int year) {return leap_year(year)?366:365;} int days(int year,int
+month,int day) {int months[13]={0,31,28,31,30,31,30,31,31,30,31,30,31},i;
+if(leap_year(year)&amp;&amp;month&gt;2) day++; for (i=1;i&lt;month;i++) day+=months[i];
+return day;} int main() {int
+a,b,c,i,d=0,m;scanf(&quot;%d%d%d&quot;,&amp;a,&amp;b,&amp;c); for
+(i=2012;i&lt;a;i++) d+=year_days(i); d+=days(a,b,c)-days(2012,4,9);m=(d/91)%5;
+switch(m) {case 0:switch((d%91)%7) {case 0:printf(&quot;3 and 8.\n&quot;);break;
+case 1:printf(&quot;4 and 9.\n&quot;);break; case 2:printf(&quot;5 and
+0.\n&quot;);break; case 3:printf(&quot;1 and 6.\n&quot;);break; case
+4:printf(&quot;2 and 7.\n&quot;);break; case
+5:printf(&quot;Free.\n&quot;);break; case
+6:printf(&quot;Free.\n&quot;);break;};break; case 1:switch((d%91)%7)<br>
+<br>
+<br clear=all style='page-break-before:always'>
+23. 24. 25. 26. 27. 28. 29. 30. 31. 32. 33. 34. 35. 36. 37. 38. 39. 40. 41. 42.
+43. 44. 45. 46. 47. 48. 49. 50. 51. 52. 53. 54.<br>
+<br>
+{case 0:printf(&quot;2 and 7.\n&quot;);break; case 1:printf(&quot;3 and
+8.\n&quot;);break; case 2:printf(&quot;4 and 9.\n&quot;);break; case
+3:printf(&quot;5 and 0.\n&quot;);break; case 4:printf(&quot;1 and 6.\n&quot;);break;
+case 5:printf(&quot;Free.\n&quot;);break; case
+6:printf(&quot;Free.\n&quot;);break;};break; case 2:switch((d%91)%7) {case
+0:printf(&quot;1 and 6.\n&quot;);break; case 1:printf(&quot;2 and
+7.\n&quot;);break; case 2:printf(&quot;3 and 8.\n&quot;);break; case
+3:printf(&quot;4 and 9.\n&quot;);break; case 4:printf(&quot;5 and
+0.\n&quot;);break; case 5:printf(&quot;Free.\n&quot;);break; case
+6:printf(&quot;Free.\n&quot;);break;};break; case 3:switch((d%91)%7) {case
+0:printf(&quot;5 and 0.\n&quot;);break; case 1:printf(&quot;1 and
+6.\n&quot;);break; case 2:printf(&quot;2 and 7.\n&quot;);break; case
+3:printf(&quot;3 and 8.\n&quot;);break; case 4:printf(&quot;4 and
+9.\n&quot;);break; case 5:printf(&quot;Free.\n&quot;);break; case
+6:printf(&quot;Free.\n&quot;);break;};break; case 4:switch((d%91)%7) {case
+0:printf(&quot;4 and 9.\n&quot;);break; case 1:printf(&quot;5 and
+0.\n&quot;);break; case 2:printf(&quot;1 and 6.\n&quot;);break; case 3:printf(&quot;2
+and 7.\n&quot;);break; case 4:printf(&quot;3 and 8.\n&quot;);break; case
+5:printf(&quot;Free.\n&quot;);break; case
+6:printf(&quot;Free.\n&quot;);break;};break;} return 0;}<br>
+<br>
+58. </span>缩写展开 成绩<span lang=EN-US> 5 </span>开启时间<span lang=EN-US> 2014 </span>年<span
+lang=EN-US> 05 </span>月<span lang=EN-US> 10 </span>日 星期六<span lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 24 </span>日 星期六<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>是<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 1 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>在保存字符串时，对出现在连续位置的若干个字符，如这些字符在<span lang=EN-US> ASCII </span>表中也是连续出现，则可以将这些字符使用缩写
+形式进行保存，以节省保存空间。例如用<span lang=EN-US> A-Z </span>表示<span lang=EN-US> ABCD...XYZ</span>，<span
+lang=EN-US>1-5 </span>表示<span lang=EN-US> 12345</span>，<span lang=EN-US>c-f </span>表示<span
+lang=EN-US> cdef</span>。 输入：包含缩写形式的字符串 输出：将缩写形式进行还原后的字符串 说明：只处理大小写字母和数字，即对于形如<span
+lang=EN-US> A-9</span>，<span lang=EN-US>a-C </span>这样的缩写不进行处理<span lang=EN-US><br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>测试输入<span lang=EN-US><br>
+<br>
+</span>期待的输出<span lang=EN-US><br>
+<br>
+</span>时 间 限 制<span lang=EN-US><br>
+<br>
+</span>内 存 限制<span lang=EN-US><br>
+<br>
+</span>额 外 进 程<span lang=EN-US><br>
+<br>
+</span>测 试 用 例<span lang=EN-US> 1<br>
+<br>
+1.<br>
+<br>
+0-9?<br>
+<br>
+1.<br>
+<br>
+0123456789?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测 试 用 例<span lang=EN-US> 2 </span>测 试 用 例<span lang=EN-US> 3 </span>测 试 用
+例<span lang=EN-US> 4 </span>测 试 用 例<span lang=EN-US> 5 </span>测 试 用 例<span
+lang=EN-US> 6 </span>测 试 用 例<span lang=EN-US> 7 </span>测 试 用 例<span lang=EN-US>
+8 </span>测 试 用 例<span lang=EN-US> 9 </span>测 试 用 例<span lang=EN-US> 10 </span>测
+试 用 例<span lang=EN-US> 11 1. 2. 3.<br>
+<br>
+1.<br>
+<br>
+a-z?<br>
+<br>
+1.<br>
+<br>
+abcdefghijklmnopqrstuvwxyz?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+1.<br>
+<br>
+G-I?<br>
+<br>
+1.<br>
+<br>
+GHI?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+1.<br>
+<br>
+ABDG-K035-9abd-h?<br>
+<br>
+1.<br>
+<br>
+ABDGHIJK0356789abdefgh?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+1.<br>
+<br>
+2-9a0-77cbdj?<br>
+<br>
+1.<br>
+<br>
+23456789a012345677cbdj?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+1.<br>
+<br>
+asasdasdasdasdA-H987?<br>
+<br>
+1.<br>
+<br>
+asasdasdasdasdABCDEFGH987?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+1.<br>
+<br>
+A-9A-0c-80-A9-0z-aZ-A?<br>
+<br>
+1.<br>
+<br>
+A-9A-0c-80-A9-0z-aZ-A?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+1.<br>
+<br>
+abcdef ghi jkl mn?<br>
+<br>
+1.<br>
+<br>
+abcdef ghi jkl mn?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+1</span>秒<span lang=EN-US> 1.asjfdhlkdsa-7812389=-ert=9-1,..;[[]1`=-=43?
+1.asjfdhlkdsa-7812389=-ert=9-1,..;[[]1`=-=43?<br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+1.A-Z? 1.ABCDEFGHIJKLMNOPQRSTUVWXYZ?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+1.<br>
+<br>
+1-1?<br>
+<br>
+1.<br>
+<br>
+1-1?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+#include&lt;stdio.h&gt; #include&lt;string.h&gt; int main(){char a[200];int
+i,j;fgets(a,200,stdin);<br>
+<br>
+<br clear=all style='page-break-before:always'>
+4. 5. 6. 7. 8. 9. 10. 11. 12.<br>
+<br>
+for(i=0;i&lt;strlen(a);i++) if(a[i]=='-'){if(a[i-1]==a[i+1])
+printf(&quot;%c&quot;,a[i]); else
+if(a[i-1]&gt;='A'&amp;&amp;a[i+1]&lt;='Z'&amp;&amp;a[i-1]&lt;a[i+1])
+for(j=a[i-1]+1;j&lt;=a[i+1]-1;j++) printf(&quot;%c&quot;,j); else
+if(a[i-1]&gt;='a'&amp;&amp;a[i+1]&lt;='z'&amp;&amp;a[i-1]&lt;a[i+1])
+for(j=a[i-1]+1;j&lt;=a[i+1]-1;j++) printf(&quot;%c&quot;,j); else
+if(a[i-1]&gt;='0'&amp;&amp;a[i+1]&lt;='9'&amp;&amp;a[i-1]&lt;a[i+1])
+for(j=a[i-1]+1;j&lt;=a[i+1]-1;j++) printf(&quot;%c&quot;,j); else
+printf(&quot;%c&quot;,a[i]);}else printf(&quot;%c&quot;,a[i]);}<br>
+<br>
+H14</span>：洗牌（选作） 成绩<span lang=EN-US> 5 </span>开启时间<span lang=EN-US> 2014 </span>年<span
+lang=EN-US> 05 </span>月<span lang=EN-US> 10 </span>日 星期六<span lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 24 </span>日 星期六<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 1 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>假设我们有<span lang=EN-US> 2n </span>张牌，它们以<span lang=EN-US> 1, 2, ..., n,
+n+1, ..., 2n </span>编号并在开始时保持着这种顺序。一次洗牌就是将牌原来的次序变 为<span lang=EN-US> n+1, 1,
+n+2, 2, ..., 2n, n</span>， 也就是将原来的前<span lang=EN-US> n </span>张牌放到位置<span
+lang=EN-US> 2, 4, ..., 2n</span>， 并且将余下的<span lang=EN-US> n </span>张牌按照他们原来的次序放到
+奇数位置<span lang=EN-US> 1, 3, ..., 2n-1</span>。已经证明对于任何一个自然数<span lang=EN-US> n</span>，这<span
+lang=EN-US> 2n </span>张牌经过一定次数的洗牌就回到原来的次序。但我们不知 道对于一个特定的<span lang=EN-US> n</span>，需要几次洗牌才能将牌洗回原来的次序。
+输入：牌张数的一半<span lang=EN-US> n</span>，即初始情况下一共有<span lang=EN-US> 2n </span>张牌，<span
+lang=EN-US>n </span>为<span lang=EN-US> int </span>型整数 输出：将牌洗回原来的次序所需要的洗牌次数 测试输入
+期待的输出 时间限制 内存限制 额外进程<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1<br>
+<br>
+1.<br>
+<br>
+10?<br>
+<br>
+1.<br>
+<br>
+6?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 2<br>
+<br>
+1.<br>
+<br>
+20?<br>
+<br>
+1.<br>
+<br>
+20?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 3<br>
+<br>
+1.<br>
+<br>
+3?<br>
+<br>
+1.<br>
+<br>
+3?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 4<br>
+<br>
+1.<br>
+<br>
+30?<br>
+<br>
+1.<br>
+<br>
+60?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 5<br>
+<br>
+1.<br>
+<br>
+1?<br>
+<br>
+1.<br>
+<br>
+2?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 6<br>
+<br>
+1.<br>
+<br>
+10000?<br>
+<br>
+1.<br>
+<br>
+812?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 7 1. 2.<br>
+<br>
+1.<br>
+<br>
+4500?<br>
+<br>
+1.<br>
+<br>
+2250?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+#include &lt;stdio.h&gt; int main(void)<br>
+<br>
+<br clear=all style='page-break-before:always'>
+3. 4. 5. 6.<br>
+<br>
+{int n,x,total=1;scanf(&quot;%d&quot;,&amp;n);x=2; while (x!=1){if (x&lt;=n)
+x=x*2; else x=2*(x-n)-1; total=total+1;} printf(&quot;%d\n&quot;,total);return
+0;}<br>
+<br>
+H15</span>：高精度加减法（选作） 成绩<span lang=EN-US> 10 </span>开启时间<span lang=EN-US> 2014 </span>年<span
+lang=EN-US> 05 </span>月<span lang=EN-US> 10 </span>日 星期六<span lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 24 </span>日 星期六<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 1 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>背景： 计算机所能完成的一个基本功能就是完成数据的计算，譬如加法、减法等等。但是在任何一种计算机上，计算中 能够使用的数字都是有一定范围的，超过了范围，就没法得到精确的结果。你现在接受了一个任务，要编写一个高精度计
+算器的核心部分。所谓高精度计算器，就是可以计算很大很大的数据的计算器。<span lang=EN-US><br>
+<br>
+</span>输入：输入的第一行是一个正整数，表示下面有几组数据需要计算。之后的每一行是两个十进制的正整数和一个运算符， 每个整数可以由最多<span
+lang=EN-US> 500 </span>个数字组成。运算符可以是加号或者减号。 输出：对应着输入的每一行数据，输出计算的结果，每个结果占一行。 时间限 制
+内存限 制 额外进 程<span lang=EN-US><br>
+<br>
+</span>测试输入<span lang=EN-US><br>
+<br>
+</span>期待的输出<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1 1. 2. 3. 2? 213914+23466123? 32862934-23481243?
+1. 2. 23680037? 9381691?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 2 1.3? 2.483291674192731231+1236187236812735123?
+3.123129678463287562378-28935687264871236? 4.999999999+1?
+1.1719478911005466354? 2.123100742776022691142? 3.1000000000?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>测试输入<span lang=EN-US><br>
+<br>
+</span>期待的输出<span lang=EN-US><br>
+<br>
+</span>时间限 制<span lang=EN-US><br>
+<br>
+</span>内存限 制<span lang=EN-US><br>
+<br>
+</span>额外进 程<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 3 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 1. 2. 3.
+4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. 17. 18. 19. 20. 21. 22. 23. 24.
+25. 26. 27. 28. 29. 30. 31. 32. 11? 56789+56789? 45555+44445? 1+12345? 12345+1?
+98765-98760? 12345-9876? 12345-12345? 12345-12346? 1-54321? 0-0? 0+0? 1. 2. 3.
+4. 5. 6. 7. 8. 9. 10. 11. 113578? 90000? 12346? 12346? 5? 2469? 0? -1? -54320?
+0? 0?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+#include&lt;stdio.h&gt; #include&lt;string.h&gt; void main() {char z,sign,
+a[1010];int n, i, j, f, x, b[1010], c[1010]; void add(int b[1010],int
+c[1010],int f);void sub(int b[1010],int c[1010],int f); scanf(
+&quot;%d%c&quot;, &amp;n, &amp;z ); for(;n&gt;0;n--,printf(&quot;\n&quot;) ) {
+gets(a);x=strlen(a); for(i=0;i&lt;1010;i++) b[i]=c[i]=0;
+for(i=x-1,j=0;'0'&lt;=a[i]&amp;&amp;a[i]&lt;='9';i--,j++) c[j]=a[i]-'0';
+f=j;sign=a[i]; for(i--,j=0;i&gt;=0;i--,j++) b[j]=a[i]-'0'; if(f&lt;j) f=j; if(
+sign=='+') add(b,c,f); else sub(b,c,f);}} void add(int b[1010], int c[1010],
+int f) {int i,r,d[1010]; for(i=0,r=0;i&lt;f;i++) {d[i]=(b[i]+c[i]+r)%10;
+r=(b[i]+c[i]+r)/10;} if(r==1) printf(&quot;1&quot;); for( i--; i&gt;=0; i--)
+printf(&quot;%d&quot;, d[i]);} void sub( int b[1010], int c[1010], int f) {int
+i,r,flag, d[1010]; for(i=f-1,flag=1;i&gt;=0;i--) {if(b[i]&gt;c[i])
+{flag=1;break;} else if(b[i]&lt;c[i]) {flag=-1;break;}} if(flag==1)
+{for(i=0,r=0;i&lt;f;i++) {d[i]=b[i]-c[i]+r; if(d[i]&lt;0) {d[i]=d[i]+10;r=-1;}<br>
+<br>
+<br clear=all style='page-break-before:always'>
+33. 34. 35. 36. 37. 38. 39. 40. 41. 42. 43.<br>
+<br>
+else r=0;}} if(flag==-1) {printf(&quot;-&quot;); for(i=0,r=0;i&lt;f;i++)
+{d[i]=c[i]-b[i]+r; if(d[i]&lt;0) {d[i]=d[i]+10;r=-1;} else r=0;}}
+for(i--;d[i]==0&amp;&amp;i&gt;0;i--) ; for(;i&gt;=0;i--) printf(&quot;%d&quot;,
+d[i]);}<br>
+<br>
+H16</span>：拱猪计分（选作） 成绩<span lang=EN-US> 5 </span>开启时间<span lang=EN-US> 2014 </span>年<span
+lang=EN-US> 05 </span>月<span lang=EN-US> 10 </span>日 星期六<span lang=EN-US> 14:35<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 24 </span>日 星期六<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>是<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 1 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>背景：拱猪是一种很有趣的扑克牌游戏。即使你不知道它的玩法，你也可以由它的计分方式来了解它的趣味性。 假设在此 我们仅考虑四个人的拱猪牌局，本题要求你根据下面的计分规则，在牌局结束时计算四位玩家所得分数。<span
+lang=EN-US> 1. 2. 3. 4. 5. </span>我们分别以<span lang=EN-US> S</span>、<span
+lang=EN-US>H</span>、<span lang=EN-US>D </span>及<span lang=EN-US> C </span>来代表黑桃，红心，方块及梅花，并以数字<span
+lang=EN-US> 1 </span>至<span lang=EN-US> 13 </span>来代表<span lang=EN-US> A</span>、<span
+lang=EN-US>2</span>、<span lang=EN-US>…</span>、<span lang=EN-US>Q</span>、<span
+lang=EN-US>K </span>等牌点， 例如：<span lang=EN-US>H1 </span>为红心<span lang=EN-US> A</span>，<span
+lang=EN-US>S13 </span>为黑桃<span lang=EN-US> K</span>。 牌局结束时，由各玩家持有的有关计分的牌<span
+lang=EN-US>(</span>计分牌<span lang=EN-US>)</span>仅有<span lang=EN-US> S12(</span>猪<span
+lang=EN-US>)</span>，所有红心牌，<span lang=EN-US>D11(</span>羊<span lang=EN-US>)</span>及<span
+lang=EN-US> C10(</span>加倍<span lang=EN-US>)</span>等<span lang=EN-US> 16 </span>张牌。
+其它牌均弃置不计。若未持有这<span lang=EN-US> 16 </span>张牌之任一张则以得零分计算。 若持有<span lang=EN-US>
+C10 </span>的玩家只有该张牌而没有任何其它牌则得<span lang=EN-US>+50 </span>分，若除了<span lang=EN-US>
+C10 </span>还有其它计分牌，则将其它计分牌所得 分数加倍计算。 若红心牌不在同一家，则<span lang=EN-US> H1 </span>至<span
+lang=EN-US> H13 </span>等<span lang=EN-US> 13 </span>张牌均以负分计，其数值为<span
+lang=EN-US>-50</span>，<span lang=EN-US> -2</span>，<span lang=EN-US>-3</span>，<span
+lang=EN-US>-4</span>，<span lang=EN-US>-5</span>，<span lang=EN-US>-6</span>，<span
+lang=EN-US>-7</span>，<span lang=EN-US>-8</span>，<span lang=EN-US>-9</span>，<span
+lang=EN-US>-10</span>，<span lang=EN-US> -20</span>，<span lang=EN-US>-30</span>，<span
+lang=EN-US>-40</span>。而且<span lang=EN-US> S12 </span>与<span lang=EN-US> D11 </span>分别以<span
+lang=EN-US>-100 </span>及<span lang=EN-US>+100 </span>分计算。 若红心牌<span lang=EN-US>
+H1 </span>至<span lang=EN-US> H13 </span>均在同一家，有下列情形： 所有红心牌以<span lang=EN-US>+200
+</span>分计算。若<span lang=EN-US> S12</span>、<span lang=EN-US>D11 </span>皆在吃下所有红心牌之
+一家，则此玩家得<span lang=EN-US>+500 </span>分。而<span lang=EN-US> C10 </span>还是以前面所述原则计算之。<span
+lang=EN-US><br>
+<br>
+</span>例一：若各玩家持有计分牌如下：<span lang=EN-US> ( </span>每列代表一玩家所持有之牌<span lang=EN-US>
+) S12 H3 H5 H13 D11 H8 H9 C10 H1 H2 H4 H6 H7 H10 H11 H12 </span>则各家之得分依序为：<span
+lang=EN-US> -148 </span>、<span lang=EN-US> +83 </span>、<span lang=EN-US> -138 </span>及<span
+lang=EN-US> -60 </span>。 例二：若各玩家持有计分牌如下：<span lang=EN-US>(</span>第四家未持有任何计分牌<span
+lang=EN-US>) H1 H2 H3 H4 H5 H6 H7 H8 H9 H10 H11 H12 H13 S12 C10 D11 </span>则各家之得分依序为：<span
+lang=EN-US> +200 </span>、<span lang=EN-US> -200 </span>、<span lang=EN-US> +100 </span>及<span
+lang=EN-US> 0 </span>。<span lang=EN-US><br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>例三：若有一玩家持有所有<span lang=EN-US> 16 </span>张计分牌，则得<span lang=EN-US> +1000 </span>分。其余三家均得零分。
+输入： 每个输入文件由多组测试数据构成，每组测试数据有四行，每一行第一个数为该玩家所持有计分牌总数，而后列 出其所持有之所有计分牌，牌数与各计分牌均以一个以上的空格分开。相邻两组测试数据之间不会有空白行，读到四家持
+牌数都为 <span lang=EN-US>0 </span>表示文件结束。 输出： 每一行输出一组测试数据对应的结果，依次输出各家所得分数，共四个整数<span
+lang=EN-US> ( </span>含正负号，<span lang=EN-US>0 </span>除外<span lang=EN-US>)</span>，相邻两个整
+数之间以一个空格分开，符号和数字间不可以有空格。每组输出间不需要有空白行。 时间 限制 内 存 限制 额外 进程<span lang=EN-US><br>
+<br>
+</span>测试输入<span lang=EN-US><br>
+<br>
+</span>期待的输出<span lang=EN-US><br>
+<br>
+</span>测 试 用 例<span lang=EN-US> 1<br>
+<br>
+1</span>秒<span lang=EN-US> 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 4 S12 H3 H5
+H13? 3 D11 H8 H9? 6 C10 H1 H2 H4 H6 H7? 3 H10 H11 H12? 13 H1 H2 H3 H4 H5 H6 H7
+H8 H9 H10 H11 H12 H13? 2 S12 C10? 1 D11? 0? 0? 0? 0? 0? 1. 2. -148 +83 -138
+-60? +200 -200 +100 0?<br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. 17. 18. 19. 20. 21. 22.
+23. 24. 25.<br>
+<br>
+#include &lt;stdio.h&gt; int myinput(int card[],int number[]) {int i,n;char
+s[5]; for(i=0;i&lt;4;i++) {scanf(&quot;%d&quot;,&amp;n);number[i]=n; while(n--)
+{scanf(&quot;%s&quot;,s); switch(s[0]) {case 'S':card[13]=i;break; case
+'D':card[14]=i;break; case 'C':card[15]=i;break; case 'H':s[2]=='\0'?(card[s[1]-'1']=i):(card[s[2]-'1'+10]=i);}}}
+return number[0]+number[1]+number[2]+number[3];} int main() {int
+value[15]={-50,-2,-3,-4,-5,-6,-7,-8,-9,-10,-20,-30,-40,-100,100},card[16],
+score[4]={0,0,0,0},number[4],i,s, input(); while(myinput(card,number))
+{for(i=0,s=0;i&lt;13;i++) s+=card[i]; if(s%13) {for(i=0;i&lt;15;i++)
+score[card[i]]+=value[i];} else
+{if(card[0]==card[13]&amp;&amp;card[13]==card[14]) score[card[0]]+=500; else<br>
+<br>
+<br clear=all style='page-break-before:always'>
+26. 27. 28. 29. 30. 31. 32. 33. 34.<br>
+<br>
+{score[card[0]]+=200; score[card[14]]+=value[14]; score[card[13]]+=value[13];}}
+score[card[15]]+=number[card[15]]==1?50:score[card[15]]; for(i=0;i&lt;4;i++)
+printf(&quot;%s%d%s&quot;,score[i]&gt;0?&quot;+&quot;:&quot;&quot;,score[i],i==3?&quot;\n&quot;:&quot;
+&quot;); for(i=0;i&lt;4;i++) score[i]=0;} return 0;}<br>
+<br>
+59. </span>【大学】恭喜发财 利是窦来 成绩<span lang=EN-US> 5 </span>开启时间<span lang=EN-US>
+2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 26 </span>日 星期一<span
+lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 8 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 15 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>在中国，过春节时人们有给孩子压岁钱（粤语称为利是）的习俗。 最早的压岁钱出现于汉代，又叫压胜钱，并不在市面上流通，而是铸成钱币形式的玩赏物，有避邪的功能。钱币正面一般
+铸有<span lang=EN-US>―</span>万岁千秋<span lang=EN-US>‖</span>、<span lang=EN-US>―</span>去殃除凶<span
+lang=EN-US>‖</span>等吉祥话和龙凤、龟蛇、双鱼等吉祥图案。 据说嘉兴府有一户姓管的人家，夫妻老年得子，十分珍爱。在年三十晚上，为防止<span
+lang=EN-US>―</span>祟<span lang=EN-US>‖</span>来侵扰一直逗孩子玩，小孩用红纸 包了八枚铜钱，包了又拆，拆了又包，睡下以后，包着的八枚铜钱就放在枕边。半夜里，一阵阴风吹过，黑矮的小人正要
+用他的白手摸孩子的头，突然孩子枕边迸出一道金光，祟尖叫着逃跑了。 于是这件事传扬开来， 大家纷纷效仿， 在大年夜用红纸包上钱给孩子， 祟就不敢再来侵扰了。 因而人们把这种钱叫<span
+lang=EN-US>―</span>压祟钱<span lang=EN-US>‖</span>，<span lang=EN-US> ―</span>祟<span
+lang=EN-US>‖</span>与<span lang=EN-US>―</span>岁<span lang=EN-US>‖</span>发音相同，日久天长，就被称为<span
+lang=EN-US> ―</span>压岁钱<span lang=EN-US>‖</span>了。 现在有<span lang=EN-US> N </span>个人，他们都有小孩，春节来了，他们要发压岁钱给朋友的小孩，而他们自己的小孩也会收到压岁钱。为了简
+单，他们在发压岁钱的时候，使用以下的计算方法，譬如某甲有<span lang=EN-US> 100 </span>块，它要给另外三个人的小孩发压岁钱，则每个小孩
+会分到<span lang=EN-US> 100/3 = 33 </span>块，剩余的<span lang=EN-US> 1 </span>块就不发了。 给你这<span
+lang=EN-US> N </span>个人的信息，以及他们把压岁钱发给了谁的小孩，请你计算他们每个人的小孩收到的压岁钱和他们发出去的压 岁钱的差额是多少。<span
+lang=EN-US><br>
+<br>
+</span>输入 第<span lang=EN-US> 1 </span>行<span lang=EN-US>: </span>第<span
+lang=EN-US> 2..N+1 </span>行<span lang=EN-US>: </span>第<span lang=EN-US> N+2..</span>结束<span
+lang=EN-US>: </span>一个整数<span lang=EN-US> N</span>（<span lang=EN-US>2 &lt;= N
+&lt;= 10) </span>每行是一个人名，每个名字不超过<span lang=EN-US> 14 </span>个字符<span
+lang=EN-US> N </span>组按照以下规则组织的数据： 组中的第一行为送出压岁钱的人名。 第二行包括两个数字，第一个是该人有多少钱（<span
+lang=EN-US>0~2000</span>） ，第二个是它要把钱发给几个人的小孩， 用<span lang=EN-US> NGi </span>表示<span
+lang=EN-US>(0 ≤ NGi ≤ N-1). </span>如果<span lang=EN-US> NGi </span>为非零，则下面的<span
+lang=EN-US> NGi </span>行会列出接受压岁钱的人的名字。<span lang=EN-US><br>
+<br>
+</span>输入样例<span lang=EN-US><br>
+<br>
+<br clear=all style='page-break-before:always'>
+5 dave laura owen vick amr dave 200 3 laura owen vick owen 500 1 dave amr 150 2
+vick owen laura 0 2 amr vick vick 0 0<br>
+<br>
+</span>输出格式 输出为<span lang=EN-US> N </span>行，每行上是一个人名与它收到和送出的压岁钱之差额，这两项之间有一个空格。这<span
+lang=EN-US> N </span>行的顺序应 该和输入中第<span lang=EN-US> 2~N+1 </span>行的顺序相同。 输出样例<span
+lang=EN-US> dave 302 laura 66 owen -359 vick 141 amr -150 </span>测试输入 期待的输出 时间限制
+内存限制 额外进程<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 2 1. 2. 3. 4. 5. 6. 7. 5? dave? laura? owen? vick?
+amr? dave? 1. 2. 3. 4. 5. dave 302? laura 66? owen -359? vick 141? amr -150?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>测试输入<span lang=EN-US><br>
+<br>
+</span>期待的输出<span lang=EN-US><br>
+<br>
+</span>时间限制<span lang=EN-US><br>
+<br>
+</span>内存限制<span lang=EN-US><br>
+<br>
+</span>额外进程<span lang=EN-US><br>
+<br>
+8. 9. 10. 11. 12. 13. 14. 15. 16. 17. 18. 19. 20. 21. 22. 23. 24. 1. 2. 3. 4.
+5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. 17. 18. 19. 20. 21. 22. 23. 24. 25.
+26. 27. 28. 29. 30.<br>
+<br>
+200 3? laura? owen? vick? owen? 500 1? dave? amr? 150 2? vick? owen? laura? 0
+2? amr? vick? vick? 0 0?<br>
+<br>
+#include&lt;stdio.h&gt; #include&lt;string.h&gt; #include&lt;stdlib.h&gt;
+struct date {char name[15];int money; int get;int num;int res;}; int main()
+{struct date people[10]; for(int x=0;x&lt;10;x++) {people[x].get=0;} int n,itemp,ktemp,ntemp,moneytemp;char
+temp[20]; scanf(&quot;%d&quot;,&amp;n); for(int i=0;i&lt;n;i++)
+{scanf(&quot;%s&quot;,people[i].name);} for(int a=0;a&lt;n;a++)
+{scanf(&quot;%s&quot;,temp);
+for(itemp=0;strcmp(temp,people[itemp].name);itemp++) {;} scanf(&quot;%d%d&quot;,&amp;people[itemp].money,&amp;ntemp);
+if(ntemp!=0) moneytemp=people[itemp].money/ntemp; people[itemp].num=ntemp;
+while(ntemp--) {scanf(&quot;%s&quot;,temp);
+for(ktemp=0;strcmp(temp,people[ktemp].name);ktemp++) {;}
+people[ktemp].get+=moneytemp;}} for(int a=0;a&lt;n;a++) {if(people[a].num)
+{people[a].res=people[a].get-people[a].money+people[a].money%people[a].num;}
+else{people[a].res=people[a].get;}} for (int a=0;a&lt;n;a++)<br>
+<br>
+<br clear=all style='page-break-before:always'>
+31. {printf(&quot;%s %d\n&quot;,people[a].name,people[a].res);}}<br>
+<br>
+60. </span>【中学】求特定三位数 成绩<span lang=EN-US> 5 </span>开启时间<span lang=EN-US> 2014 </span>年<span
+lang=EN-US> 05 </span>月<span lang=EN-US> 26 </span>日 星期一<span lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 8 </span>日 星期日 <span
+lang=EN-US>23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 15 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>将数字<span lang=EN-US> 1</span>～<span lang=EN-US> 9 </span>分成<span
+lang=EN-US> 3 </span>个三位数，要求第<span lang=EN-US> 2 </span>个三位数是第<span lang=EN-US>
+1 </span>个三位数的两倍，第<span lang=EN-US> 3 </span>个三位数是第<span lang=EN-US> 1 </span>个的三倍。即假定<span
+lang=EN-US> m </span>为第<span lang=EN-US> 1 </span>个三位数，则第<span lang=EN-US> 2 </span>个恰好为<span
+lang=EN-US> 2*m</span>， 第<span lang=EN-US> 3 </span>个为<span lang=EN-US> 3*m</span>，请输出这几个三位数。
+输入：第一个三位数的数字 输出：满足题目条件的所有三位数 测试输入 期待的输出 时间限制 内存限制 额外进程<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1 1. 2? 1. 2. 219,438,657? 273,546,819?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 2 1. 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 9? 1.
+0,0,0?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+#include&lt;stdio.h&gt; #include&lt;stdlib.h&gt; int main() {int
+p[9],a,m,n,k,r,t,s=0;scanf(&quot;%d&quot;,&amp;p[0]);
+for(p[1]=1;p[1]&lt;10;p[1]++){for(p[2]=1;p[2]&lt;10;p[2]++) {k=1; m=p[0]*100+p[1]*10+p[2];
+n=m*2;r=m*3;
+if(r&lt;1000){t=n;p[5]=t%10;t/=10;p[4]=t%10;p[3]=t/10;t=r;p[8]=t%10;t/=10;p[7]=t%10;p[6]=t/10;
+for(a=0;a&lt;9&amp;&amp;k==1;a++) for(t=a+1;t&lt;9&amp;&amp;k==1;t++)
+if(p[a]==p[t]) k=0;for(t=0;t&lt;9;++t) {if(p[t]==0)k=0;}} else k=0; if(k==1)
+{s=1;printf(&quot;%d,%d,%d\n&quot;,m,n,r);}}} if(s==0)
+printf(&quot;0,0,0\n&quot;);return 0;}<br>
+<br>
+61. </span>【字符】压缩文本文件 成绩<span lang=EN-US> 5 </span>开启时间<span lang=EN-US> 2014 </span>年<span
+lang=EN-US> 05 </span>月<span lang=EN-US> 26 </span>日 星期一<span lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 8 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 15 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>背景：压缩是一种有效的减小数据量的方法，目前已经被广泛应用于各种类型的信息系统之中。 一种压缩文本文件（假设文件中不包含数字）的方法如下：<span
+lang=EN-US> 1. </span>原始文本文件中的非字母的字符，直接拷贝到压缩文件中；<span lang=EN-US> 2. </span>原始文件中的词（全部由字母组成），如果是第一次出现，则将该词加入到一个词的列表中，并拷贝到压缩文件中；
+否则该词不拷贝到压缩文件中，而是将该词在词的列表中的位置拷贝到压缩文件中。<span lang=EN-US> 3. </span>词的列表的起始位置为<span
+lang=EN-US> 1 </span>。 词的定义为文本中由大小写字母组成的最大序列。大写字母和小写字母认为是不同的字 母，即<span
+lang=EN-US> abc </span>和<span lang=EN-US> Abc </span>是不同的词。词的例子如下：<span
+lang=EN-US> x-ray </span>包括两个词<span lang=EN-US> x </span>和<span lang=EN-US> ray</span>；<span
+lang=EN-US>mary's </span>包括两个词<span lang=EN-US> mary </span>和<span lang=EN-US>
+s</span>；<span lang=EN-US>a c-Dec </span>包 括三个词<span lang=EN-US> a </span>和<span
+lang=EN-US> c </span>和<span lang=EN-US> Dec </span>编写一个程序，输入为一组字符串，输出为压缩后的文本。 输入：输入为一段文本，可以假设输入中不会出现数字、每行的长度不会超过<span
+lang=EN-US> 80 </span>个字符，并且输入文本的大小不会超过<span lang=EN-US> 10M</span>。 输出：压缩后的文本。
+额 外 进 程 内存限 制<span lang=EN-US><br>
+<br>
+</span>测试输入<span lang=EN-US><br>
+<br>
+</span>期待的输出<span lang=EN-US><br>
+<br>
+</span>时 间 限 制<span lang=EN-US><br>
+<br>
+</span>测 试 用 例<span lang=EN-US> 1<br>
+<br>
+1 </span>秒<span lang=EN-US> 1. Please, please do it--it would please Mary ve
+ry,? 2. very much.? 3. ? 4. Thanks? 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13.
+1. y,? 2. 3. 4. 7 much.? ? Thanks? Please, please do it--4 would 2 Mary ver<br>
+<br>
+1024K B<br>
+<br>
+0<br>
+<br>
+#include&lt;stdio.h&gt; #include&lt;string.h&gt; int main(){char
+s[10000][80];int k=1,l=1,r=1; for(;;r++){k=1;char a[90]={0};char
+b[90][100],c[100]; int i=1;scanf(&quot;%c&quot;,&amp;a[0]);if(a[0]==0)break;do
+scanf(&quot;%c&quot;,&amp;a[i]);while(a[i++]!='\n'); int j=0;int
+n=0;if(a[0]!=0) {for(j=0;a[j]!=0;j++)
+{if((a[j]&gt;='a'&amp;&amp;a[j]&lt;='z')||(a[j]&gt;='A'&amp;&amp;a[j]&lt;='Z')){b[k][n]=a[j];n++;}
+else {c[k]=a[j];b[k][n]=0;k++;n=0;}}} char
+d[100];for(n=1;n&lt;k;n++){j=1;for(;j&lt;l;j++)
+if(strcmp(s[j],b[n])==0){sprintf(d,&quot;%d&quot;,j); strcpy(b[n],d);break;}
+if(j==l&amp;&amp;b[n][0]!=0){strcpy(s[l],b[n]);l++;}
+printf(&quot;%s&quot;,b[n]);printf(&quot;%c&quot;,c[n]);}}}<br>
+<br>
+62. </span>【大学】求表示方法<span lang=EN-US><br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>成绩<span lang=EN-US><br>
+<br>
+5<br>
+<br>
+</span>开启时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 05 </span>月 <span lang=EN-US>26 </span>日 星期一<span
+lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 8 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 15 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>设<span lang=EN-US> m</span>、<span lang=EN-US>n </span>均为大于<span
+lang=EN-US> 0 </span>的整数，<span lang=EN-US>m </span>可表示为一些不超过<span lang=EN-US> n
+</span>的整数之和，<span lang=EN-US>f(m,n) </span>为这种表示方式的数目。 例如，<span lang=EN-US>f(5,3)=5</span>，有<span
+lang=EN-US> 5 </span>种表示方法：<span lang=EN-US>3+2</span>，<span lang=EN-US>3+1+1</span>，<span
+lang=EN-US>2+2+1</span>，<span lang=EN-US>2+1+1+1</span>，<span lang=EN-US>1+1+1+1+1</span>。
+请编写程序，计算<span lang=EN-US> f(m,n) </span>的值。 输入：<span lang=EN-US> m n </span>输出：<span
+lang=EN-US>f(m,n)</span>的值 测试输入 期待的输出 时间限制 内存限制 额外进程<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1 1. 5 3? 1. 5?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 2 1. 1. 2. 3. 4. 5. 6. 7. 6 4? 1. 9?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+#include&lt;stdio.h&gt;</span></p>
+
+<p style='margin-bottom:12.0pt'><span lang=EN-US><span
+style='mso-spacerun:yes'>&nbsp;</span>int f(int y,int x) {if(y==1) return
+1;if(x==1) return 1;if(y&lt;x) return f(y,y); if(x==y) return 1+f(y,x-1);return
+f(y,x-1)+f(y-x,x);} int main() {int m,n;scanf(&quot;%d%d&quot;,&amp;m,&amp;n);
+printf(&quot;%d\n&quot;,f(m,n));}<br>
+<br>
+H17</span>：逆波兰算术表达式（选作） 成绩<span lang=EN-US> 5 </span>开启时间<span lang=EN-US> 2014
+</span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 26 </span>日 星期一<span
+lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 8 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 15 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>传统的算术表达式是由操作数（又叫运算对象或运算量）和运算符以及改变运算次序的圆括号连接而成的式子。 其运 算规则如下：<span
+lang=EN-US>(1) </span>先计算括号内，后计算括号外；<span lang=EN-US>(2) </span>在无括号或同层括号内，先进行乘除运算，后进行加减运算，即乘除
+运算的优先级高于加减运算的优先级；<span lang=EN-US>(3) </span>同一优先级运算，从左向右依次进行。 在这种表达式的计算过程中，既要考虑括号的作用，又要考虑运算符的优先级，还要考虑运算符出现的先后次序。<span
+lang=EN-US><br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>波兰科学家卢卡谢维奇<span lang=EN-US>(Lukasiewicz)</span>提出了算术表达式的另一种表示，即后缀表示，又称逆波兰式，其定义是把运算符
+放在两个运算对象的后面。在后缀表达式中，不存在括号，也不存在优先级的差别，计算过程完全按照运算符出现的先后 次序进行，整个计算过程仅需一遍扫描便可完成。 例如：<span
+lang=EN-US>3/5+6 </span>的逆波兰表达式为<span lang=EN-US> 3 5 / 6 + 2*(3+4)</span>的逆波兰表达式为<span
+lang=EN-US> 2 3 4 + *<br>
+<br>
+</span>输入：一个只包含加、减、乘、除和数字的逆波兰表达式 输出：该表达式的值 说明：题目中涉及的数据全部为整型。 测试输入 期待的输出 时间限制 内存限制
+额外进程<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1<br>
+<br>
+1.<br>
+<br>
+2 3 + 5 *?<br>
+<br>
+1.<br>
+<br>
+25?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 2 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14.
+15. 16. 17. 18. 19.<br>
+<br>
+1.<br>
+<br>
+16 9 4 3 + * -?<br>
+<br>
+1.<br>
+<br>
+-47?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+#include &lt;stdio.h&gt;</span></p>
+
+<p style='margin-bottom:12.0pt'><span lang=EN-US><span
+style='mso-spacerun:yes'>&nbsp;</span>#include &lt;stdlib.h&gt;</span></p>
+
+<p style='margin-bottom:12.0pt'><span lang=EN-US><span
+style='mso-spacerun:yes'>&nbsp;</span>int operation(char ch,int *k) {switch
+(ch){case '+':return(*k +*(k+1)); case '-':return(*k-*(k+1)); case
+'*':return(*k * *(k+1)); case '/':return(*k / *(k+1)); default:return 0;}} int
+main() {int operation(char,int *); static int number[50];int i=0;char
+sign[50],*p=sign; gets(sign); while(*p) {if(*p&lt;='9'&amp;&amp;*p&gt;='0')
+number[i++]=atoi(p); else {number[i-2]=operation(*p,&amp;number[i-2]);i--; }
+for(p++;!(*p!=' '&amp;&amp;*(p-1)==' ')&amp;&amp;*p;p++);} printf
+(&quot;%d\n&quot;,number[0]); return 0;}<br>
+<br>
+63. </span>【大学】撞球 成绩<span lang=EN-US> 5 </span>开启时间<span lang=EN-US> 2014 </span>年<span
+lang=EN-US> 05 </span>月<span lang=EN-US> 26 </span>日 星期一<span lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 8 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 15 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>一天，丁俊晖编一整天的程序，突然觉得累了，于是便决定在房间内四处走走。他的房间是矩形的，他从电脑开始随便选 了一个角度开始行走。由于职业习 惯，丁俊晖走路始终是直线，而且碰到墙以后会反弹，入射角度与出射角度完全相同。
+丁俊晖会一直行走，直到灵感再次迸发。假设他的行走速度是匀速的，现在， 丁俊晖的母亲想知道他一共休息了多长时间 以便提醒他继续工作。<span
+lang=EN-US><br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>丁俊晖想考考他的母亲，于是他记录了自己碰到墙壁的序列并且告诉了她，你有没有办法能够帮助她计算出小丁所走的路 程？<span
+lang=EN-US><br>
+<br>
+</span>输入 输入包括多个测试用例，每个测试用例如下： 第一行包含两个数字<span lang=EN-US> w, l(0&lt;w,
+l&lt;=1000)</span>，分别代表房间的宽度和长度； 第二行包括两个数字<span lang=EN-US> x0, y0</span>，代表电脑的位置坐标<span
+lang=EN-US> (x0, y0)</span>； 第三行包含两个数字<span lang=EN-US> x1, y1</span>，代表丁俊晖的位置坐标<span
+lang=EN-US> (x1, y1)</span>； 最后一行是一个包含<span lang=EN-US>'F', 'B', 'L', 'R'</span>四种字符的字符串，分别代表墙在前面、后面、左边或是右边，字符串的长度小于等于<span
+lang=EN-US> 1000</span>； 我们约定，左上角的坐标为<span lang=EN-US> 0,0</span>，所有的坐标都是浮点型数字。<span
+lang=EN-US><br>
+<br>
+</span>输出 一个浮点型数字，代表总路程，结果精确到小数点后<span lang=EN-US> 4 </span>位。 测试输入 期待的输出 时间限制 内存限制
+额外进程<span lang=EN-US><br>
+<br>
+</span>测试用<span lang=EN-US><br>
+<br>
+1.<br>
+<br>
+63.7809?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>测试输入<span lang=EN-US><br>
+<br>
+</span>期待的输出<span lang=EN-US><br>
+<br>
+</span>时间限制<span lang=EN-US><br>
+<br>
+</span>内存限制<span lang=EN-US><br>
+<br>
+</span>额外进程<span lang=EN-US><br>
+<br>
+</span>例<span lang=EN-US> 1<br>
+<br>
+1. 2. 3. 4.<br>
+<br>
+10 20? 9 11? 1 9? FLRLRB?<br>
+<br>
+</span>测试用 例<span lang=EN-US> 2 1. 2. 3. 4. 11 22? 8 12? 2 10? FLRLRB?<br>
+<br>
+1.<br>
+<br>
+67.9412?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用 例<span lang=EN-US> 3 1. 2. 3. 4. 7 8? 2 4? 2 5? R?<br>
+<br>
+1.<br>
+<br>
+10.0499?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用 例<span lang=EN-US> 7 1. 2. 3. 4. ? 43 87? 12 15? 35 37? FRLRLRLB<br>
+<br>
+1.<br>
+<br>
+319.4761?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用 例<span lang=EN-US> 8 1. 2. 3. 4. 3 3? 2 2? 2 3? 250 </span>个<span
+lang=EN-US> FLBR?<br>
+<br>
+1.<br>
+<br>
+2120.6134?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11.<br>
+<br>
+#include&lt;stdio.h&gt; </span></p>
+
+<p style='margin-bottom:12.0pt'><span lang=EN-US>#include&lt;string.h&gt; </span></p>
+
+<p style='margin-bottom:12.0pt'><span lang=EN-US>#include&lt;math.h&gt; </span></p>
+
+<p style='margin-bottom:12.0pt'><span lang=EN-US>int main() </span></p>
+
+<p style='margin-bottom:12.0pt'><span lang=EN-US>{char a[2000];int
+w,l,x0,y0,x1,y1,i,k,r=0,f=0,n=0,m=0;double c,d,s;
+scanf(&quot;%d%d&quot;,&amp;w,&amp;l);scanf(&quot;%d%d&quot;,&amp;x0,&amp;y0);scanf(&quot;%d%d&quot;,&amp;x1,&amp;y1);scanf(&quot;%s&quot;,a);
+k=strlen(a);for(i=0;i&lt;k;i++) {if(a[i]=='R'||a[i]=='L') m++;
+if(a[i]=='F'||a[i]=='B') n++;} for(i=0;i&lt;k;i++) {if(a[i]=='R') r=1;<br>
+<br>
+<br clear=all style='page-break-before:always'>
+12. 13. 14. 15. 16. 17. 18. 19. 20. 21. 22. 23. 24. 25.<br>
+<br>
+if(a[i]=='L') r=2; if(r&gt;0) break;} for(i=0;i&lt;k;i++) {if(a[i]=='F') f=1;
+if(a[i]=='B') f=2; if(f&gt;0) break;} if(m%2==0) d=m*w+(x0-x1)*pow(-1,r); else
+d=m*w+w-x0-x1; if(n%2==0) c=n*l+(-y0+y1)*pow(-1,f); else c=n*l-l+y0+y1;
+s=sqrt(pow(d,2)+pow(c,2)); printf(&quot;%.4f\n&quot;,s);}<br>
+<br>
+1. 2. 3. 4. 5. 6. 7. 8.<br>
+<br>
+#include&lt;stdio.h&gt; #include&lt;string.h&gt; #include&lt;math.h&gt; int
+main() {char a[2000];int w,l,x0,y0,x1,y1,i;double s;
+scanf(&quot;%d%d%d%d%d%d&quot;,&amp;w,&amp;l,&amp;x0,&amp;y0,&amp;x1,&amp;y1);scanf(&quot;%s&quot;,a);for(i=0;i&lt;strlen(a);i++)
+{if(a[i]=='F')y0=-y0;if(a[i]=='B')y0=2*l-y0;if(a[i]=='L')x0=-x0;if(a[i]=='R')x0=2*w-x0;}
+s=sqrt((x1-x0)*(x1-x0)+(y1-y0)*(y1-y0));printf(&quot;%.4f\n&quot;,s);return 0;}<br>
+<br>
+64. </span>拆分整数<span lang=EN-US> * </span>成绩<span lang=EN-US> 5 </span>开启时间<span
+lang=EN-US> 2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 26 </span>日
+星期一<span lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 8 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 15 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>一个正整数可以拆分成若干个正整数的和。例如正整数<span lang=EN-US> 4</span>，可以有<span lang=EN-US>
+4 </span>种拆分方法：<span lang=EN-US> 4=3+1</span>、<span lang=EN-US>4=2+2</span>、<span
+lang=EN-US>4=2+1+1</span>，<span lang=EN-US>4=1+1+1+1 </span>用<span lang=EN-US>
+n </span>表示待拆分的正整数，用<span lang=EN-US> m </span>表示从<span lang=EN-US> n </span>中拆出的最大正整数，则计算对正整数<span
+lang=EN-US> n </span>共有多少种拆分方法可以下列递归 公式：<span lang=EN-US> 0 ( </span>当<span
+lang=EN-US> n&lt;1 </span>或<span lang=EN-US> m&lt;1 </span>时<span lang=EN-US> )
+1 ( </span>当<span lang=EN-US> n=1 </span>或<span lang=EN-US> m=1 </span>时<span
+lang=EN-US> ) count(n,m)= count(n, n) ( </span>当<span lang=EN-US> n&lt;m </span>时<span
+lang=EN-US> ) count(n, m-1) + 1 ( </span>当<span lang=EN-US> n=m </span>时<span
+lang=EN-US> ) count(n-m, m) + count(n, m-1) ( </span>其他情况<span lang=EN-US> ) </span>编写递归函数，计算一个正整数有多少种拆分方法。函数原型如下：<span
+lang=EN-US>int count( int n, int m) </span>参数说明：<span lang=EN-US>n </span>待拆分的正整数，<span
+lang=EN-US>m </span>表示从<span lang=EN-US> n </span>中拆出的最大正整数；函数返回值是拆分方法数。例如输入：<span
+lang=EN-US>4</span>， 输出：<span lang=EN-US>4 </span>注意：仅提交自编的<span lang=EN-US>
+count </span>函数，不提交<span lang=EN-US> main </span>函数。 预设代码<span lang=EN-US><br>
+<br>
+<br clear=all style='page-break-before:always'>
+a3_3.c 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. /* PRESET CODE BEGIN
+- NEVER TOUCH CODE BELOW */ #include &lt;stdio.h&gt; int main() { int n, count(
+); scanf(&quot;%d&quot;, &amp;n); printf(&quot;%d\n&quot;, count (n, n-1));
+return 0; } /* </span>请编写递归函数<span lang=EN-US> int count( int n, int m ) { } */
+/* PRESET CODE END - NEVER TOUCH CODE ABOVE */ </span>测试输入 期待的输出 时间限制 内存限制 额外进程<span
+lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1 1. 2. 3.<br>
+<br>
+1.<br>
+<br>
+4?<br>
+<br>
+1.<br>
+<br>
+4?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+int count(int n,int m) {if(n&lt;1||m&lt;1)return 0;if(n==1||m==1)return
+1;if(n&lt;m)return count(n,n); if(n==m) return count(n,m-1)+1;else return count(n-m,m)+count(n,m-1);}<br>
+<br>
+65. </span>【字符】计算子字符串个数 成绩<span lang=EN-US> 5 </span>开启时间<span lang=EN-US> 2014
+</span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 26 </span>日 星期一<span
+lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 8 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 15 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>字符串匹配问题：输入一个字符串，计算其中包含的连续给定的子字符串的个数。 例如输入字符串<span lang=EN-US>―
+EFABCABCABCDABCDD ‖ , </span>给定子字符串<span lang=EN-US>― ABC‖ </span>，输出是<span
+lang=EN-US> 3 </span>。 函数原型：<span lang=EN-US> int countsub( char *str, char
+*subs ) </span>。参数说明：<span lang=EN-US>str </span>保存输入的字符串的首地址，<span lang=EN-US>subs
+</span>保存需要统计的子字符 串的首地址。返回值：包含的连续子字符串的个数。<span lang=EN-US><br>
+<br>
+</span>预设代码<span lang=EN-US> countsub_H20.c 1. 2. 3. 4. /* PRESET CODE BEGIN -
+NEVER TOUCH CODE BELOW */ #include &lt;stdio.h&gt; int countsub( char *str,
+char *ss ); main( )<br>
+<br>
+<br clear=all style='page-break-before:always'>
+5. { 6. char s1[1000] = {0}, s2[100] = {0}; 7. gets(s1); 8. gets(s2); 9.
+printf(&quot;%d\n&quot;, countsub( s1, s2 ) ); 10. } 11. /* PRESET CODE END -
+NEVER TOUCH CODE ABOVE */ </span>测试输入 期待的输出 时间限制 内存限制 额外进程<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1 1. 2. EFABCABCABCDABCDD? ABC?<br>
+<br>
+1.<br>
+<br>
+3?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 2 1. 2. 1. 2. 3. 4. 5. 6. 7. 8. 9. abcdefghi? xyz?<br>
+<br>
+1.<br>
+<br>
+0?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+int countsub(char *str,char *ss) {int i,j,q,k=0,r,max=0,flag=1,h;
+for(r=0;str[r]!='\0';r++); for(i=0;i&lt;=r;) {for(j=i,q=0;j&lt;=r;j++)
+{if(ss[q]=='\0') {h=q;k++;flag=0;break;} if(str[j]==ss[q]) q++;
+else{if(k&gt;max) max=k;k=0;flag=1;break;}} if(flag) i++;else i=i+h;} return
+max;}<br>
+<br>
+66. </span>整数分解<span lang=EN-US> * </span>成绩<span lang=EN-US> 5 </span>开启时间<span
+lang=EN-US> 2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 26 </span>日
+星期一<span lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 8 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 15 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>例如：<span lang=EN-US>1998+1999+2000+2001+2002=10000</span>，是一个累加和等于<span
+lang=EN-US> N </span>的连续的自然数段。 输出每个累加和等于<span lang=EN-US> N </span>的连续的自然数段的第一个数和最后一个数，两数之间用符号～隔开，每段一行，所有行按每行
+的第一个数从小到大升序排列。如果没有符合条件的自然数段，则输出<span lang=EN-US> None</span>。 输入：<span
+lang=EN-US>N</span>（例如：<span lang=EN-US>N=10000</span>） 输出：<span lang=EN-US> 18</span>～<span
+lang=EN-US>143 297</span>～<span lang=EN-US>329<br>
+<br>
+<br clear=all style='page-break-before:always'>
+388</span>～<span lang=EN-US>413 1998</span>～<span lang=EN-US>2003 </span>测试输入 期待的输出
+时间限制 内存限制 额外进程<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1<br>
+<br>
+1.<br>
+<br>
+10000? 1. 2. 3. 4. 18~142? 297~328? 388~412? 1998~2002?<br>
+<br>
+</span>无限制<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+1. 2. 3. 4.<br>
+<br>
+#include&lt;stdio.h&gt; int main() {int
+n,i,j,m,a=0;scanf(&quot;%d&quot;,&amp;n);
+for(i=1;i&lt;=n/2+1;i++){m=i;for(j=i+1;j&lt;=n/2+1;j++){m+=j;if(m&gt;=n){if(m==n){printf(&quot;%d~%d\n&quot;,i,j);a=1;}break;}}}if(a=
+=0)printf(&quot;None.\n&quot;);return 0;}<br>
+<br>
+H18</span>：数码管（选作） 成绩<span lang=EN-US> 5 </span>开启时间<span lang=EN-US> 2014 </span>年<span
+lang=EN-US> 05 </span>月<span lang=EN-US> 26 </span>日 星期一<span lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 8 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 15 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>背景 数码管是一种廉价的十进制数字显示装置，它的基本工作原理是：一个数码管有<span lang=EN-US> 7 </span>段，我们将它对应成八位二进制
+的<span lang=EN-US> 8 </span>位。这<span lang=EN-US> 8 </span>位的编号从左向右分别是<span
+lang=EN-US> 7</span>、<span lang=EN-US>6</span>、<span lang=EN-US>5</span>、<span
+lang=EN-US>4</span>、<span lang=EN-US>3</span>、<span lang=EN-US>2</span>、<span
+lang=EN-US>1</span>、<span lang=EN-US>0</span>。数码管的一段对应二进制的一位，如果要点亮某一段， 则需要将相应的二进制位置<span
+lang=EN-US> 1</span>，其余不亮的段要将对应的位置<span lang=EN-US> 0</span>。下图表示了<span
+lang=EN-US> 7 </span>个二进制在数码管上对应的位置：<span lang=EN-US> 2 +---+ 3| |4 | 1 | +---+
+5| |6 | 0 | +---+ </span>例如，我们要显示出数字<span lang=EN-US>―1‖</span>，则应该点亮数码管的第<span
+lang=EN-US> 4 </span>和<span lang=EN-US> 6 </span>段。这样对应的<span lang=EN-US> 8 </span>位二进制数就是：<span
+lang=EN-US>0101 0000</span>。如果用十六进 方式表示出来就是<span lang=EN-US> 50</span>。 同理，要显示出<span
+lang=EN-US>―3‖</span>，应该点亮：<span lang=EN-US>0</span>、<span lang=EN-US>1</span>、<span
+lang=EN-US>2</span>、<span lang=EN-US>4</span>、<span lang=EN-US>6</span>；对应的二进表示为：<span
+lang=EN-US>0101 0111</span>，用十六进制表示就是<span lang=EN-US> 57</span>。<span
+lang=EN-US><br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>请编写一个程序，用<span lang=EN-US> 5 </span>个数码管显示一个<span lang=EN-US> 16 </span>位<span
+lang=EN-US> (bit) </span>的正整数。 说明：如果需要显示的数据不足<span lang=EN-US> 5 </span>位，则在数据前面补<span
+lang=EN-US> 0</span>。例如<span lang=EN-US> 120 </span>要显示为<span lang=EN-US> 00120</span>。<span
+lang=EN-US><br>
+<br>
+</span>输入 程序的输入是一系列<span lang=EN-US> 16 </span>位<span lang=EN-US>(bit)</span>的正整数
+（<span lang=EN-US>10 </span>进制形式） ， 数与数之间允许用空白符隔开， 当数字为<span lang=EN-US> 0 </span>时程序结束。
+输出 针对每个正整数，输出<span lang=EN-US> 5 </span>个字节的十六进制数，它们可以表示<span lang=EN-US> 5 </span>个数码管的状态。其中右侧第<span
+lang=EN-US> 1 </span>个数表示输入数 字的个位，第<span lang=EN-US> 2 </span>个数表示十位，以此类推。 测试输入
+期待的输出 时间限制 内存限制 额外进程<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1 1. 2. 3. 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12.
+13. 14. 15. 16. 17. 18. 19. 20. 21. 22. 23. 24. 25. 10103? 30301? 0? 1. 2. 50
+7D 50 7D 57? 57 7D 57 7D 50?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+#include&lt;stdio.h&gt; #include&lt;string.h&gt; int main() {char w[100];int
+num[10]={125,80,55,87,90,79,111,84,127,95};int s=4,l=0; int
+n[9]={0,0,0,0,0,0,0,0,0}; for(;1;) {s=4;gets(w); if(w[0]=='0') break;
+l=strlen(w); for(int i=0;i&lt;=l;i++) {if(w[i]==' '&amp;&amp;s==4) continue;
+else if(w[i]==' '||s==9) {for(int q=s-4;q&lt;s+1;q++) {printf(&quot;%X&quot;,num[n[q-1]]);
+if(q!=s) printf(&quot; &quot;);}printf(&quot;\n&quot;); for(int x=0;x&lt;9;x++)
+n[x]=0;s=4;} else if(w[i]=='\0'&amp;&amp;s==4) continue; else if(w[i]=='\0')
+{for(int q=s-4;q&lt;s+1;q++) {printf(&quot;%X&quot;,num[n[q-1]]); if(q!=s)
+printf(&quot; &quot;);} printf(&quot;\n&quot;); for(int x=0;x&lt;9;x++)
+n[x]=0;s=4;continue;} else {n[s]=w[i]-'0';s++;}}}}<br>
+<br>
+H19</span>：编码（选作） 成绩<span lang=EN-US> 5 </span>开启时间<span lang=EN-US> 2014 </span>年<span
+lang=EN-US> 05 </span>月<span lang=EN-US> 26 </span>日 星期一<span lang=EN-US> 14:00<br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 8 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 15 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>描述 为了最大程度地节约存储空间，经常需要把信息进行编码。一种很有效的编码方法是用数字来表示一串字符。假设这些字 符串都是由不重复的英文小写字母组成的，且每个字符串中的英文字母都是从小到大排列的。
+这个编码系统按照如下的方式工作：字符串是按照长度从小到大的顺序排列的，长度相同的字符串，是按照字典需排列的 则根据这个编码系统，所有的字符串从<span
+lang=EN-US> a </span>开始可以编码如下：<span lang=EN-US> a - 1 b - 2 ... z - 26 ab - 27
+... az - 51 bc - 52 ... vwxyz - 83681 ... </span>那么，请编程计算出一个字符串在这个编码系统下编码后的值是多少。<span
+lang=EN-US><br>
+<br>
+</span>输入 输入的第一行为<span lang=EN-US> N</span>，表示有<span lang=EN-US> N </span>组数据。后面的<span
+lang=EN-US> N </span>行每行包含一个不超过<span lang=EN-US> 10 </span>个字母的字符串。 输出 输出字符串所对应的编码，如果该字符串不能被编码，则输出<span
+lang=EN-US> 0</span>。 测试输入 期待的输出 时间限制 内存限制 额外进程<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1 1. 2. 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13.
+14. 15. 16. 17. 18. 19. 20. 1? bf?<br>
+<br>
+1.<br>
+<br>
+55?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+30720KB<br>
+<br>
+0<br>
+<br>
+#include&lt;stdio.h&gt; #include&lt;stdlib.h&gt; unsigned long f(unsigned long
+a,unsigned long b) {unsigned long c=1,i; for(i=1;i&lt;=a;i++)
+{c*=(b-i+1);c=c/i;}return(c);} unsigned long m(unsigned long a,unsigned long n)
+{unsigned long b=0,i; for(i=1;i&lt;=a;i++){b+=f(i,26);} if(a==0)return 0;else
+return b;} int main() {int n;scanf(&quot;%d\n&quot;,&amp;n); unsigned long
+i,j,k,c[n],a,d; for(i=0;i&lt;n;i++)c[i]=0; char b[n][27]; for(i=0;i&lt;n;i++){
+a=0;d=0;b[i][0]=96; for(j=1;j&lt;28;j++){scanf(&quot;%c&quot;,&amp;b[i][j]);
+if(b[i][j]=='\n')break;c[i]++;} for(j=0;j&lt;=c[i];j++){<br>
+<br>
+<br clear=all style='page-break-before:always'>
+21. 22. 23. 24. 25. 26. 27. 28.<br>
+<br>
+for(k=j+1;k&lt;=c[i];k++){ if(b[i][j]&gt;=b[i][k])d=1;}}
+if(d==1)printf(&quot;0\n&quot;);else{a+=m(c[i]-1,26);
+if(c[i]&gt;1){for(k=1;k&lt;b[i][1]-96;k++)a+=f(c[i]-1,26-k);
+for(j=2;j&lt;c[i];j++){
+for(k=b[i][j-1]+1;k&lt;b[i][j];k++){a+=f(c[i]-j,122-k);}}
+a+=b[i][c[i]]-b[i][c[i]-1];} else a+=b[i][1]-96;printf(&quot;%d\n&quot;,a);}}return
+0;}<br>
+<br>
+H20</span>：水王争霸（选作） 成绩<span lang=EN-US> 5 </span>开启时间<span lang=EN-US> 2014 </span>年<span
+lang=EN-US> 05 </span>月<span lang=EN-US> 26 </span>日 星期一<span lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 8 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 15 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+Description </span>众所周知，联盟有很多水王，他们的发贴数是如此之多，以至于必须要用高精度数才能保存。 为了迎接国庆，联盟决定举行一次水王争霸赛，比赛的规则是将这些水王截止到<span
+lang=EN-US> 2030 </span>年<span lang=EN-US> 9 </span>月<span lang=EN-US> 30 </span>日<span
+lang=EN-US> 23 </span>时<span lang=EN-US> 59 </span>分<span lang=EN-US> 59 </span>秒这一刻
+所发的总贴数从大到小进行排序。每个水王当然都想取得尽量靠前的名次，所以他们竭尽全力，不择手段地进行灌水。 终于，激动人心的一刻到来了，<span
+lang=EN-US>2030 </span>年<span lang=EN-US> 10 </span>月<span lang=EN-US> 1 </span>日<span
+lang=EN-US> 0 </span>时<span lang=EN-US> 0 </span>分<span lang=EN-US> 0 </span>秒，你作为裁判得到了每个水王的发贴数，现在，你的任务
+是公正地把这些水王按照发贴数从大到小进行排序。<span lang=EN-US><br>
+<br>
+Input </span>输入的第一行是一个<span lang=EN-US> 1 </span>到<span lang=EN-US> 1000 </span>的整数<span
+lang=EN-US> N</span>，表示总共有<span lang=EN-US> N </span>位水王参加了争霸赛。 以下依次给出每位水王的描述，一位水王的描述占据两行，第一行为一个仅由字母和数字组成的长度不超过<span
+lang=EN-US> 20 </span>的字符串， 代表这个水王的<span lang=EN-US> ID</span>，第二行一个高精度的整数<span
+lang=EN-US>(</span>非负数<span lang=EN-US>)</span>，代表这个水王的发贴数。注意，这个整数的首位没有不必要的<span
+lang=EN-US> 0</span>。 所有水王发贴数数字的总长度（注意，是总长度而不是总和）不会超过<span lang=EN-US> 10000</span>。除了子母、数字和必要的换行，输入中不
+会出现空格等字符。<span lang=EN-US><br>
+<br>
+Output </span>依次输出按照发贴数从大到小排好序的各位水王的<span lang=EN-US> ID</span>，每个<span
+lang=EN-US> ID </span>占据单独的一行。不能有任何多余的字符。若几个<span lang=EN-US> ID </span>的发贴数相同，则按照<span
+lang=EN-US> ID </span>的字典顺序先后排列。 测试输入 期待的输出 时间限制 内存限制 额外进程<span lang=EN-US><br>
+<br>
+</span>测试用例 <span lang=EN-US>1 1. 2. 3. 4. 5. 6? lowai? 1534534124561243453?
+zhouyuan? 23453265344? 1. 2. 3. 4. 5. lowai? ArthurKing? Maolaoda?
+BuTaoCaiGuai? zhouyuan?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+320KB<br>
+<br>
+0<br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>测试输入<span lang=EN-US><br>
+<br>
+</span>期待的输出<span lang=EN-US><br>
+<br>
+</span>时间限制<span lang=EN-US><br>
+<br>
+</span>内存限制<span lang=EN-US><br>
+<br>
+</span>额外进程<span lang=EN-US><br>
+<br>
+6. 7. 8. 9. 10. 11. 12. 13. 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15.<br>
+<br>
+Maolaoda? 23442353452342? BuTaoCaiGuai? 7568784573464? ArthurKing?
+97534892734723947? hyyylr? 623893451?<br>
+<br>
+6.<br>
+<br>
+hyyylr?<br>
+<br>
+#include&lt;stdio.h&gt; #include&lt;string.h&gt; int main(){char
+a[1000][25],b[11000],x[10000]; int c,d[1000],e[1000],i,j,k=0,w,z,s,y,m,n[1002],p=0,q,g;
+static int P[1000];scanf(&quot;%d&quot;,&amp;c);b[0]=' ';for(i=0;i&lt;c;i++)
+{scanf(&quot;%s&quot;,a[i]);scanf(&quot;%s&quot;,x); m=strlen(x);x[m]='
+';x[m+1]='\0'; strcat(b,x);}m=strlen(b);for(i=0;i&lt;m;i++){if(b[i]=='
+'){n[p]=i;p++;}} for(i=0;i&lt;c;i++){d[i]=n[i+1]-n[i]-1;} for(i=0;i&lt;c;){q=0;g=0;s=0;w=i;
+for(j=0;j&lt;c;j++){if(P[j]==0&amp;&amp;i!=j){if(d[w]==d[j]){for(z=0;z&lt;d[w];z++)
+{if(b[n[w]+1+z]&lt;b[n[j]+1+z]){q++;break;}
+if(b[n[w]+1+z]&gt;b[n[j]+1+z]){g++;break;}}
+if(q==0&amp;&amp;g==0){if(strcmp(a[w],a[j])&gt;0) w=j;}
+if(q&gt;0)w=j;}if(d[w]&lt;d[j])w=j;}} e[k]=w;k++;P[w]=1;
+if(w==i){for(z=i;z&lt;c;z++){if(P[z]==0){i=z;break;}}
+for(y=0;y&lt;c;y++)s+=P[y];if(s==c)
+i=c;}}for(i=0;i&lt;c;i++)printf(&quot;%s\n&quot;,a[e[i]]);}<br>
+<br>
+67. </span>三角形是一个永不过时的话题 成绩<span lang=EN-US> 5 </span>开启时间<span lang=EN-US>
+2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 26 </span>日 星期一<span
+lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 8 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 15 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>题目描述 欢迎参加程序设计竞赛<span lang=EN-US>~ </span>程序设计竞赛中有着很多有意思的问题，其中，与三角形有关的问题就经常出现。今
+天你要解决的，就是其中最简单的一个问题：给定平面直角坐标系上的<span lang=EN-US> N </span>个点，保证这<span
+lang=EN-US> N </span>个点中任意三点都不共线。求任 意三点能够构成的三角形中，面积最大的三角形的面积。 输入 输入的第一行是一个整数<span
+lang=EN-US> T</span>（<span lang=EN-US>1 &lt;= T &lt;= 10</span>），表示一共有<span
+lang=EN-US> T </span>组用例。 每组用例的第一行为一个整数<span lang=EN-US> N</span>（<span
+lang=EN-US>3 &lt;= n &lt;= 100</span>），表示平面上点的个数。接下来的<span lang=EN-US> N </span>行，每行包含两个用空格隔开的整
+数<span lang=EN-US> Xi </span>和<span lang=EN-US> Yi</span>（<span lang=EN-US>-1000
+&lt;= Xi, Yi &lt;= 1000</span>），表示第<span lang=EN-US> i </span>个点的坐标（<span
+lang=EN-US>Xi, Yi</span>）。 输出 每组用例输出一个数，表示最大的三角形的面积，结果保留一位小数。 输入样例<span
+lang=EN-US><br>
+<br>
+<br clear=all style='page-break-before:always'>
+2 4 -1 1 11 1 -1 -1 -1 3 -1 -1 30 00 </span>输出样例<span lang=EN-US> 2.0 1.5 </span>测试输入
+期待的输出 时间限制 内存限制 额外进程<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 1. 2. 3. 4. 5. 6.
+7. 8. 2? 4? -1 1? 1 1? 1 -1? -1 -1? 3? -1 -1? 3 0? 0 0? 1. 2. 2.0? 1.5?<br>
+<br>
+</span>无限制<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+#include&lt;stdio.h&gt; #include&lt;math.h&gt; int main() {int
+i,n;scanf(&quot;%d&quot;,&amp;n);for(i=0;i&lt;n;i++){int m,x[100],y[100];int
+j,a,b,c;double s,d=0;scanf(&quot;%d&quot;,&amp;m); for(j=0;j&lt;m;j++) {scanf(&quot;%d&quot;,&amp;x[j]);scanf(&quot;%d&quot;,&amp;y[j]);}
+for(a=0;a&lt;m-2;a++) for(b=a+1;b&lt;m-1;b++) for(c=b+1;c&lt;m;c++)
+{s=(double)((x[b]-x[a])*(y[c]-y[a])-(x[c]-x[a])*(y[b]-y[a]))/2.0;s=fabs(s);if(s&gt;d)d=s;}printf(&quot;%.1f\n&quot;,d);}}<br>
+<br>
+68. </span>安排比赛 成绩<span lang=EN-US> 5 </span>开启时间<span lang=EN-US> 2014 </span>年<span
+lang=EN-US> 05 </span>月<span lang=EN-US> 26 </span>日 星期一<span lang=EN-US> 14:00<br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 8 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 15 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>题目描述 篮球赛即将打响，<span lang=EN-US>cmonkey </span>负责组织篮球赛的对抗安排。现在一共有<span
+lang=EN-US> n </span>支队伍，要求每两支队都要打一场比赛， 但是每天一支队只能打一场比赛。为了完成比赛，<span lang=EN-US>cmonkey
+</span>希望知道最少需要打多少天？ 输入 输入的第一行是一个整数<span lang=EN-US> T</span>，表示有<span
+lang=EN-US> T </span>组用例（<span lang=EN-US>T &lt;= 110</span>）。每组用例为一个整数<span
+lang=EN-US> n(1 &lt;= n &lt;= 10000)</span>，表示队伍的 数量。 输出 每组用例输出一行，为最少需要比赛的天数。 输入样例<span
+lang=EN-US> 3 1 2 3 </span>输出样例<span lang=EN-US> 0 1 3 </span>说明：只有<span
+lang=EN-US> 1 </span>支队伍则无需比赛。<span lang=EN-US>2 </span>支队伍比赛一天：<span
+lang=EN-US>1 – 2 3 </span>支队伍比赛三天：<span lang=EN-US>Player Day 1 2 3
+-------------------------------12123-1 3-32 </span>测试输入 期待的输出 时间限制 内存限制 额外进程<span
+lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1 1. 2. 3. 4. 1. 2. 3. 4. 3? 1? 2? 3? 1. 2. 3. 0?
+1? 3?<br>
+<br>
+</span>无限制<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+#include&lt;stdio.h&gt; int main(){int i,n;scanf(&quot;%d&quot;,&amp;n);
+for(i=0;i&lt;n;i++){int a;scanf(&quot;%d&quot;,&amp;a);
+if(a&gt;1)printf(&quot;%d\n&quot;,a*(a-1)/2/(a/2));else
+printf(&quot;0\n&quot;);}}<br>
+<br>
+<br clear=all style='page-break-before:always'>
+69. </span>学生成绩排序 成绩<span lang=EN-US> 5 </span>开启时间<span lang=EN-US> 2014 </span>年<span
+lang=EN-US> 05 </span>月<span lang=EN-US> 26 </span>日 星期一<span lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 8 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>是<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 15 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>大家参加了期末考试，成绩出来后老师要对<span lang=EN-US> n </span>个学生进行成绩汇总和排序。要求程序按成绩降序进行排序。在排序过
+程中对于成绩相同的学生，要按照输入数据的顺序进行排列。例如：有<span lang=EN-US> 5 </span>名学生的成绩：<span
+lang=EN-US> zhang1,90 zhang2,91 zhang3,99 zhang4,91 zhang5,98 </span>则排序结果应该为：<span
+lang=EN-US> zhang3,99 zhang5,98 zhang2,91 zhang4,91 zhang1,90 </span>请注意例题中<span
+lang=EN-US>―zhang2‖</span>和<span lang=EN-US>―zhang4‖</span>的排列顺序。 输入：第一行为将要输入的学生数量<span
+lang=EN-US> n</span>，从第二行起后面连续<span lang=EN-US> n </span>行数据，每行为一名学生的姓名（长度不超过<span
+lang=EN-US> 20 </span>个字符， 不包括空格），考试成绩（<span lang=EN-US>int</span>） 输出： 排序后的结果。每行为一名学生的姓名和成绩。
+测试输入 期待的输出 时间限制 内存限制 额外进程<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1 1. 2. 3. 4. 5. 6. 5? zhang1,90? zhang2,91?
+zhang3,99? zhang4,91? zhang5,98? 1. 2. 3. 4. 5. zhang3,99? zhang5,98?
+zhang2,91? zhang4,91? zhang1,90?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 2 1. 2. 3. 4. 5. 6. 5? zhang31,90? zhang51,90?
+zhang2,90? zhang42,90? zhang1,90? 1. 2. 3. 4. 5. zhang31,90? zhang51,90?
+zhang2,90? zhang42,90? zhang1,90?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>测试输入<span lang=EN-US><br>
+<br>
+</span>期待的输出<span lang=EN-US><br>
+<br>
+</span>时间限制<span lang=EN-US><br>
+<br>
+</span>内存限制<span lang=EN-US><br>
+<br>
+</span>额外进程<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 3 1. 2. 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13.
+1? wang,100?<br>
+<br>
+1.<br>
+<br>
+wang,100?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+#include&lt;string.h&gt; #include &lt;stdio.h&gt; struct nn {char no[30];int
+num;}; typedef struct nn DATA; int main() {char str[30];int
+i,j,n,k;scanf(&quot;%d\n&quot;,&amp;n);DATA b[n]; for(i=0;i&lt;n;i++)
+{scanf(&quot;%s&quot;,&amp;str);k=strlen(str)-1; if(str[k-2]==',')
+b[i].num=(str[k]-'0')+(str[k-1]-'0')*10; else
+b[i].num=(str[k]-'0')+(str[k-1]-'0')*10+(str[k-2]-'0')*100;
+strcpy(b[i].no,str);} for(i=1;i&lt;n;i++)for(j=0;j&lt;n-i;j++)
+if(b[j].num&lt;b[j+1].num){strcpy(str,b[j].no);strcpy(b[j].no,b[j+1].no);
+strcpy(b[j+1].no,str);k=b[j].num;b[j].num=b[j+1].num;b[j+1].num=k;}
+for(i=0;i&lt;n;i++) printf(&quot;%s\n&quot;,b[i].no);}<br>
+<br>
+70. </span>买东西<span lang=EN-US>* </span>成绩<span lang=EN-US> 5 </span>开启时间<span
+lang=EN-US> 2014 </span>年<span lang=EN-US> 05 </span>月<span lang=EN-US> 26 </span>日
+星期一<span lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 8 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 15 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>有<span lang=EN-US> 3 </span>种商品在<span lang=EN-US> N </span>个商店出售，同样商品在不同商店的售价各不相同，假定商店名称用数字<span
+lang=EN-US> 1</span>、<span lang=EN-US>2</span>、<span lang=EN-US>3</span>、<span
+lang=EN-US>4</span>、<span lang=EN-US>......</span>来表示，商 品的名称用<span lang=EN-US>
+A</span>、<span lang=EN-US>B</span>、<span lang=EN-US>C </span>来表示。 如果按照最先购买商品<span
+lang=EN-US> A</span>、再购买商品<span lang=EN-US> B</span>、最后购买商品<span lang=EN-US> C </span>的顺序购买商品，且在一个商店只能购买一种商品。请编程设
+计一个购物方案，用最少的钱购得<span lang=EN-US> 3 </span>种商品。 编写求购物方案的函数：<span lang=EN-US>int
+findm(int n, double gp[ ][3], BUY schm[ ] ); </span>其中：<span lang=EN-US>n </span>是商店数量，<span
+lang=EN-US>gp[][] </span>是保存商品价格表的数组名，<span lang=EN-US>schm[ ] </span>是保存求得购物方案的数组名；函数的返回值是购得<span
+lang=EN-US> 3 </span>种商品的总钱数。 保存求得购物方案的是一个结构类型为<span lang=EN-US> BUY </span>的结构数组，结构<span
+lang=EN-US> BUY </span>的定义如下：<span lang=EN-US> typedef struct buy {char gname;
+/* </span>商品名称<span lang=EN-US> */ int sname; /* </span>商店名称<span lang=EN-US>
+*/<br>
+<br>
+<br clear=all style='page-break-before:always'>
+int gprice; /* </span>商品价格<span lang=EN-US> */ } BUY; </span>例如：有<span
+lang=EN-US> 3 </span>种商品，在<span lang=EN-US> 5 </span>个商店出售，商品在各商店的售价如下表所示：<span
+lang=EN-US> A 1 2 3 4 5 12 10 11 10 12 B 29 30 35 28 31 B 9 8 12 11 8<br>
+<br>
+</span>程序运行后输出是：<span lang=EN-US> Total Money are: 46 Goods-Name Shop-Name
+Goods-Price A: 2 10 B: 4 28 C: 5 8 </span>其中第一行是购物的总钱数，第二行是购物方案的表头，从第三行起每行为一种商品名和商店名、该种商品在该店的价格。
+商品名用大写英文字母表示<span lang=EN-US>,</span>从<span lang=EN-US> A </span>开始， 商店名用数字表示， 从<span
+lang=EN-US> 1 </span>开始。 购物方案的输出顺序按商品名英文字母升序排列。 注意：只提交自编的函数<span lang=EN-US>
+findm</span>，不要提交主函数。给定的程序已经控制好了输出的格式，你只要你的方案按要求放入数 组即可<span lang=EN-US><br>
+<br>
+</span>预设代码 前置代码<span lang=EN-US> 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13.
+14. 15. 16. 17. 18. 19. 20. 21. 22. 23. 24. 25. /* PRESET CODE BEGIN - NEVER
+TOUCH CODE BELOW */ #include &lt;stdio.h&gt; typedef struct buy { char gname;
+int sname; int gprice; } BUY; int main( ) { int i, j, n; int min, price[10][3];
+int findm( int n, int price[][3], BUY scheme[] ); static BUY scheme[3]={ {'A',
+0, 0}, {'B', 0, 0}, {'C', 0, 0} }; scanf( &quot;%d&quot;, &amp;n ); for( i = 0;
+i &lt; n; i++ ) for( j = 0; j &lt; 3; j++ ) scanf( &quot;%d&quot;,
+&amp;price[i][j] ); min = findm( n, price, scheme ); printf(&quot;Total Money
+are : %d\nGoods-Name Shop-Name Goods-Price\n&quot;, min ); for ( i=0; i &lt; 3;
+i++ ) printf(&quot; %c:%10d%13d\n&quot;, scheme[i].gname, scheme[i].sname,
+scheme[i].gprice ); return 0; } /* int findm( int n, double gp[ ][3] </span>，<span
+lang=EN-US>BUY schm[ ] ) */ /* { */ /* { */<br>
+<br>
+<br clear=all style='page-break-before:always'>
+26. /* PRESET CODE END - NEVER TOUCH CODE ABOVE */ </span>测试输入 期待的输出 时间限制 内存限制 额外进程<span
+lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1 1. 2. 3. 4. 5. 6. 7. 5? 12 10 11 10 12 ? 1. 2.
+3. 4. 5. Total Money are : 46? Goods-Name Shop-Name Goods-Price? A: 2 10? B: 4
+28? C: 5 8?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+29 30 35 28 31<br>
+<br>
+9? 8? 12? 11? 8?<br>
+<br>
+</span>测试用例<span lang=EN-US> 2 1. 2. 3. 4. 3? 1 2 3? 1 2 3? 1 2 3? 1. 2. 3. 4.
+5. Total Money are : 6? Goods-Name Shop-Name Goods-Price? A: 1 1? B: 2 2? C: 3
+3?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+1. 2. 3. 4. 5. 6. 7. 8. 9. 10.<br>
+<br>
+int findm(int n,int gp[][3],BUY schm[]) {int i,j,k,m,a=0,b=1,c=2;int
+s=gp[0][0]+gp[1][1]+gp[2][2];
+for(i=0;i&lt;n;i++)for(k=0;k&lt;n;k++)for(j=0;j&lt;n;j++){
+m=gp[i][0]+gp[k][1]+gp[j][2];if(s&gt;m&amp;&amp;i!=j&amp;&amp;i!=k&amp;&amp;k!=j){a=i;b=k;c=j;s=m;}}
+schm[0].sname=a+1;schm[0].gprice=gp[a][0]; schm[1].sname=b+1;
+schm[1].gprice=gp[b][1]; schm[2].sname=c+1; schm[2].gprice=gp[c][2]; return s;}<br>
+<br>
+71.</span>为整数编号 成绩<span lang=EN-US> 5 </span>开启时间<span lang=EN-US> 2014 </span>年<span
+lang=EN-US> 05 </span>月<span lang=EN-US> 26 </span>日 星期一<span lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 8 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交 使用以下结构<span lang=EN-US> struct nn { int no; int num;};<br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 15 </span>日 星期日<span
+lang=EN-US> 23:55<br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>建立一个结构数组，从键盘输入若干个整数，保存在数组元素的<span lang=EN-US> num </span>成员中，并根据输入的数按从小到大进行编号，将编
+号保存在<span lang=EN-US> no </span>成员中。按整数的输入顺序输出整数及其编号。输入的整数不超过<span lang=EN-US>
+100 </span>个，每个整数的绝对值不大于<span lang=EN-US> 1000</span>， 输入时以空格分隔整数。 例如输入：<span
+lang=EN-US>4 3 6 8 2 3 9 </span>输出：<span lang=EN-US> 44 32 65 86 21 33 97 </span>要求：当两个整数相等时，整数的排列顺序由输入的先后次序决定。例如：输入的第<span
+lang=EN-US> 2 </span>个整数为<span lang=EN-US> 3</span>，第<span lang=EN-US> 6 </span>个整数也为<span
+lang=EN-US> 3</span>，则 将先输入的整数<span lang=EN-US> 3 </span>的编号在前，后输入的整数<span
+lang=EN-US> 3 </span>的编号在后。编写函数完成为整数编号。 函数原型：<span lang=EN-US>int number( char
+*str, struct nn a[] );</span>其中：<span lang=EN-US>str</span>：保存以字符串方式接收的键盘输入，<span
+lang=EN-US>a</span>：保存整数及编号的结构数 组的首地址，函数返回值：已输入的整数的个数。<span lang=EN-US><br>
+<br>
+</span>预设代码 前置代码<span lang=EN-US> 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13.
+14. 15. 16. 17. 18. 19. 20. 21. 22. 23. 24. 25. 26. /* PRESET CODE BEGIN -
+NEVER TOUCH CODE BELOW */ #include &lt;stdio.h&gt; struct nn { int no; int num;
+}; typedef struct nn DATA; int number( char * , DATA []); int main( ) { DATA
+b[100]; char sa[500]; int i, n; gets( sa ); n = number( sa, b ); for ( i=0;
+i&lt;n; i++ ) printf(&quot;%d %d\n&quot;, b[i].num, b[i].no ); return 0; } /*
+Here is waiting for you int number( char * str, DATA a[] ) { .... } */ /*
+PRESET CODE END - NEVER TOUCH CODE ABOVE */ </span>测试输入 期待的输出 时间限制 内存限制 额外进程<span
+lang=EN-US><br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>测试输入<span lang=EN-US><br>
+<br>
+</span>期待的输出<span lang=EN-US><br>
+<br>
+</span>时间限制<span lang=EN-US><br>
+<br>
+</span>内存限制<span lang=EN-US><br>
+<br>
+</span>额外进程<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1<br>
+<br>
+1.<br>
+<br>
+4 3 6 8 2 3 9? 1. 2. 3. 4. 5. 6. 7. 4 4? 3 2? 6 5? 8 6? 2 1? 3 3? 9 7?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 2<br>
+<br>
+1.<br>
+<br>
+1 1 1 1 1? 1. 2. 3. 4. 5. 1 1? 1 2? 1 3? 1 4? 1 5?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+1. 2. 3. 4. 5.<br>
+<br>
+int number(char * str,DATA a[]) {int n=0,x,y=0;for(x=0;*(str)!=0;x++)
+{a[x].num=atoi(str);for(;*str&lt;='9'&amp;&amp;*str&gt;='0';str++);n++;a[x].no=1;if(*str==0)break;str++;}
+for(x=0;x&lt;n;x++)for(y=0;y&lt;n;y++) {if(a[x].num&gt;a[y].num) a[x].no++;
+else if(a[x].num==a[y].num&amp;&amp;(x&gt;y)) a[x].no++;else ;}return(n);}<br>
+<br>
+72. </span>猜猜我是谁 成绩<span lang=EN-US> 5 </span>开启时间<span lang=EN-US> 2014 </span>年<span
+lang=EN-US> 06 </span>月<span lang=EN-US> 9 </span>日 星期一<span lang=EN-US> 14:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 20 </span>日 星期五<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 28 </span>日 星期六<span
+lang=EN-US> 23:55<br>
+<br>
+</span>在指定的文本文件中包含了我需要的信息，请从指定文件中读取指定的行。如果文件中没有指定的行，则显示<span lang=EN-US>―Line
+No Error.‖</span>。如果文件不存在，则显示<span lang=EN-US>―File Name Error.‖</span>。 输入：第一行为要以只读方式打开的文本文件名，第二行要读取的行号（从<span
+lang=EN-US> 1 </span>开始） 输出：文件中指定行号的内容（完整一行的内容） 测试输入 期待的输出 数据文件<span
+lang=EN-US> data1.txt </span>时间限制 内存限制 额外进程<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1<br>
+<br>
+1.<br>
+<br>
+Mary?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>测试输入<span lang=EN-US><br>
+<br>
+</span>期待的输出<span lang=EN-US><br>
+<br>
+</span>时间限制<span lang=EN-US><br>
+<br>
+</span>内存限制<span lang=EN-US><br>
+<br>
+</span>额外进程<span lang=EN-US><br>
+<br>
+1. 2.<br>
+<br>
+data1.txt? 2?<br>
+<br>
+</span>测试用例<span lang=EN-US> 3 1. 2. data1.txt? 10?<br>
+<br>
+1.<br>
+<br>
+Line No Error.?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 4 1. 2. 1. 2. 3. 4. 5. 6. 7. 8. data.txt? 2?<br>
+<br>
+1.<br>
+<br>
+File Name Error.?<br>
+<br>
+1</span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+#include&lt;stdio.h&gt; int main() {FILE * p;int l,i,flag=0;char
+file[30],s[20];scanf(&quot;%s&quot;,file);
+if((p=fopen(file,&quot;r&quot;))==NULL) {printf(&quot;File Name
+Error.\n&quot;);exit(0);} scanf(&quot;%d&quot;,&amp;l);
+if(l&gt;4){flag=1;printf(&quot;Line No Error.\n&quot;);}
+if(flag==0){for(i=0;i&lt;l;i++)
+{fgets(s,17,p);}printf(&quot;%s&quot;,s);}fclose(p);}<br>
+<br>
+</span>编程复习一：输出图形 成绩<span lang=EN-US> 0 </span>开启时间<span lang=EN-US> 2014 </span>年<span
+lang=EN-US> 06 </span>月<span lang=EN-US> 9 </span>日 星期一<span lang=EN-US> 08:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 20 </span>日 星期五<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 28 </span>日 星期六<span
+lang=EN-US> 23:55<br>
+<br>
+</span>输入图形的行数、以及大写英文字母，输出由字母组成的以下图形。例如输入<span lang=EN-US>: 6 W </span>输出<span
+lang=EN-US>: W W KX XK J Y Y J I Z Z I H A A H GFEDCBCDEFG<br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>测试输入<span lang=EN-US><br>
+<br>
+</span>期待的输出<span lang=EN-US><br>
+<br>
+</span>时间 限制<span lang=EN-US><br>
+<br>
+</span>内 存 限制<span lang=EN-US><br>
+<br>
+</span>额外 进程<span lang=EN-US><br>
+<br>
+</span>测试 用例<span lang=EN-US> 1<br>
+<br>
+1.<br>
+<br>
+6 W? 1. 2. 3. 4. 5. 6. W W? KX X K? J Y Y J? I Z Z I? H A A H? G F E D C B C D
+E F G?<br>
+<br>
+</span>无限 制<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试 用例<span lang=EN-US> 5<br>
+<br>
+1.<br>
+<br>
+30 A?<br>
+<br>
+1. A A I B B I H C C G D D F E E E F F D G G C H H B I I A J J Z K K Y L L X M
+M W N N O O V X Y Z A B C D E F G H<br>
+<br>
+</span>无限 制<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+W<br>
+<br>
+V<br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>测试输入<span lang=EN-US><br>
+<br>
+</span>期待的输出<span lang=EN-US><br>
+<br>
+</span>时间 限制<span lang=EN-US><br>
+<br>
+</span>内 存 限制<span lang=EN-US><br>
+<br>
+</span>额外 进程<span lang=EN-US><br>
+<br>
+U P T Q S R R S Q T P U O V N W M X L Y K Z J A I<br>
+<br>
+P U Q T R S S R T Q U P V O W N X M Y L Z K A J B I B<br>
+<br>
+H H<br>
+<br>
+C<br>
+<br>
+C<br>
+<br>
+G F E D C B A Z Y X W V U T S R Q P O N M L K J I H G F E D E F G H I J K L M N
+O P Q R S T U V W X Y Z A B C D E F G 1. 2. 3. 4. 5. 6. 7. 8.
+#include&lt;stdio.h&gt; int main() {int n,i,j,k;char
+b,c,m,p,q;scanf(&quot;%d%c%c&quot;,&amp;n,&amp;b,&amp;c);k=3*n-4;k=k%26;
+if(n==1) printf(&quot;%c&quot;,c); else
+{printf(&quot;%c&quot;,c);for(i=1;i&lt;=4*n-5;i++)printf(&quot;
+&quot;);printf(&quot;%c\n&quot;,c); m=c+k;for(;m&gt;90;) m-=26;
+for(i=1;i&lt;=n-2;i++) {p=m-i+1;q=c+i;for(;p&lt;65;) p+=26;for(;q&gt;90;)
+q-=26;printf(&quot;%c&quot;,p); for(j=1;j&lt;=2*i-1;j++)printf(&quot;
+&quot;);printf(&quot;%c&quot;,q);<br>
+<br>
+<br clear=all style='page-break-before:always'>
+9. 10. 11. 12. 13. 14.<br>
+<br>
+for(j=1;j&lt;=4*n-4*i-5;j++)printf(&quot; &quot;);printf(&quot;%c&quot;,q);
+for(j=1;j&lt;=2*i-1;j++)printf(&quot; &quot;);printf(&quot;%c\n&quot;,p);}
+for(i=1;i&lt;=n-1;i++){p=m-n+3-i;for(;p&lt;65;) p+=26;printf(&quot;%c
+&quot;,p);} q=c+n-1;for(;q&gt;90;) q-=26;printf(&quot;%c&quot;,q);
+for(i=1;i&lt;=n-1;i++){q=c+n-1+i;for(;q&gt;90;) q-=26;printf(&quot;
+%c&quot;,q);}} printf(&quot;\n&quot;);return 0;}<br>
+<br>
+</span>编程复习二：全能战士 成绩<span lang=EN-US> 0 </span>开启时间<span lang=EN-US> 2014 </span>年<span
+lang=EN-US> 06 </span>月<span lang=EN-US> 9 </span>日 星期一<span lang=EN-US> 08:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 20 </span>日 星期五<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 28 </span>日 星期六<span
+lang=EN-US> 23:55<br>
+<br>
+</span>全排有<span lang=EN-US> n </span>名战士，其中会骑马的有<span lang=EN-US> n1 </span>人，会摔跤的有<span
+lang=EN-US> n2 </span>人，会拳击的有<span lang=EN-US> n3 </span>人。还知道不少人是多面手，其中会骑马和摔 跤的有<span
+lang=EN-US> n12 </span>人，会摔跤和拳击的有<span lang=EN-US> n23 </span>人，会拳击和骑马的有<span
+lang=EN-US> n13</span>，还有若干三项全会。编程，输出三项全能的有几人？ 例如：输入：<span lang=EN-US>n=50,
+n1=30, n2=28, n3=20, n12=14</span>，<span lang=EN-US>n23=12, n31 = 8</span>。 测试输入
+输出：<span lang=EN-US>6&lt;</span>回车<span lang=EN-US>&gt; </span>时间限制 内存限制 额外进程<span
+lang=EN-US><br>
+<br>
+</span>期待的输出<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1<br>
+<br>
+1.<br>
+<br>
+50 30 28 20 14 12 8?<br>
+<br>
+1.<br>
+<br>
+6?<br>
+<br>
+30 </span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 2<br>
+<br>
+1.<br>
+<br>
+29 18 20 16 12 11 7?<br>
+<br>
+1.<br>
+<br>
+5?<br>
+<br>
+30 </span>秒<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+</span>测试用例<span lang=EN-US> 3 1. 2. 3. 4.<br>
+<br>
+1.<br>
+<br>
+7 4 4 4 2 2 2?<br>
+<br>
+1.<br>
+<br>
+1?<br>
+<br>
+</span>无限制<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+#include &lt;stdio.h&gt; int main(){int a,b,c,d,e,f,g;
+scanf(&quot;%d%d%d%d%d%d%d&quot;,&amp;a,&amp;b,&amp;c,&amp;d,&amp;e,&amp;f,&amp;g);
+printf(&quot;%d\n&quot;,a+e+f+g-b-c-d);return 0;}<br>
+<br>
+</span>编程复习三：求函数的第<span lang=EN-US> n </span>项 成绩<span lang=EN-US> 0 </span>开启时间<span
+lang=EN-US> 2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 9 </span>日
+星期一<span lang=EN-US> 08:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 20 </span>日 星期五<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 28 </span>日 星期六<span
+lang=EN-US> 23:55<br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>已知：<span lang=EN-US>f(n) = 1×2 + 2×3 + 3×4 + …… + n×(n+1) </span>编写递归函数，输入<span
+lang=EN-US> n </span>值，求<span lang=EN-US> f(n)</span>。 函数原型：<span lang=EN-US>int
+sumn( int n, int *flag ) </span>参数<span lang=EN-US> n: </span>输入；参数<span
+lang=EN-US> flag</span>：测试编写是函数是否为递归。在自己编写的<span lang=EN-US> sumn </span>函数中， 写入以下语句：（<span
+lang=EN-US> *flag </span>）<span lang=EN-US>++;</span>注意：仅提交自己编写的<span
+lang=EN-US> sumn </span>函数。<span lang=EN-US><br>
+<br>
+</span>预设代码 前置代码<span lang=EN-US> 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. /*
+PRESET CODE BEGIN - NEVER TOUCH CODE BELOW */ #include &lt;stdio.h&gt; int
+sumn( int n, int *flag); int main() { int n, nf=0;
+scanf(&quot;%d&quot;,&amp;n); printf(&quot;%d\n&quot;,sumn(n, &amp;nf) );
+if(nf!=n) printf(&quot;Error:%d\n&quot;,nf); return 0; } /* PRESET CODE END -
+NEVER TOUCH CODE ABOVE */ </span>测试输入 期待的输出 时间限制 内存限制 额外进程<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 2 1.<br>
+<br>
+1.<br>
+<br>
+3?<br>
+<br>
+1.<br>
+<br>
+20?<br>
+<br>
+</span>无限制<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+int sumn(int n,int *flag) {if(n==1){++*flag;return
+2;};if(n&gt;1){++*flag;return n*(n+1)+sumn(n-1,flag);}}<br>
+<br>
+</span>编程复习四：链表移动 成绩<span lang=EN-US> 0 </span>开启时间<span lang=EN-US> 2014 </span>年<span
+lang=EN-US> 06 </span>月<span lang=EN-US> 5 </span>日 星期四<span lang=EN-US> 12:00<br>
+<br>
+</span>折扣<span lang=EN-US><br>
+<br>
+0.8<br>
+<br>
+</span>折扣时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 21 </span>日 星期六<span
+lang=EN-US> 23:55<br>
+<br>
+</span>允许迟交<span lang=EN-US><br>
+<br>
+</span>否<span lang=EN-US><br>
+<br>
+</span>关闭时间<span lang=EN-US><br>
+<br>
+2014 </span>年<span lang=EN-US> 06 </span>月<span lang=EN-US> 21 </span>日 星期六<span
+lang=EN-US> 23:55<br>
+<br>
+</span>编写一个函数，将给定的带有头结点的单向链表的前<span lang=EN-US> m </span>个节点移到链尾。 结构的定义：<span
+lang=EN-US> struct node { int num; struct node *next;} </span>函数的原型：<span
+lang=EN-US>struct node *monenode( struct node *head,int m )</span>， 其中：参数<span
+lang=EN-US> head </span>是单向链表的头指针；参数<span lang=EN-US> m </span>是要移动的 节点数。函数的返回值是单向链表的头指针。<span
+lang=EN-US><br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>例如当<span lang=EN-US> m=4 </span>时：<span lang=EN-US><br>
+<br>
+</span>预设代码 前置代码<span lang=EN-US> 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13.
+14. 15. 16. 17. 18. 19. /* PRESET CODE BEGIN - NEVER TOUCH CODE BELOW */
+#include &lt;stdio.h&gt; #include &lt;stdlib.h&gt; typedef struct numLink { int
+no; struct numLink *next;}NODE; NODE *monenode( NODE *head, int m ); void
+SetLink( NODE *h, int n ) {NODE *p=NULL, *q=NULL;int i;for( i=0; i&lt;n; i++)
+{p = (NODE *)malloc(sizeof(NODE)); p-&gt;no = i+1;p-&gt;next = NULL; if(
+h-&gt;next == NULL ) { h-&gt;next = p; q = p;} else {q-&gt;next = p; q =
+q-&gt;next; } } return;} int main(){int n,m; NODE *head=NULL, *q=NULL;
+scanf(&quot;%d%d&quot;,&amp;n,&amp;m);head = (NODE *)malloc(sizeof(NODE));
+head-&gt;no = -1; head-&gt;next = NULL;SetLink( head, n ); q = monenode( head,
+m ); do {printf(&quot;%d &quot;,q-&gt;next-&gt;no);q = q-&gt;next; } while(
+q-&gt;next != NULL ); printf(&quot;\n&quot;);return 0;} /* PRESET CODE END -
+NEVER TOUCH CODE ABOVE */ </span>测试输入 期待的输出 时间限制 内存限制 额外进程<span lang=EN-US><br>
+<br>
+</span>测试用例<span lang=EN-US> 1 1. 2. 3. 4. 5. 6. 7.<br>
+<br>
+1.<br>
+<br>
+7 4?<br>
+<br>
+1.<br>
+<br>
+5671234?<br>
+<br>
+</span>无限制<span lang=EN-US><br>
+<br>
+64M<br>
+<br>
+0<br>
+<br>
+NODE *monenode( NODE *head,int m ) {NODE *p,*q=NULL,*r=NULL,*h=NULL; int
+k=0;h=head;for(k=1;k&lt;=m;k++)h=h-&gt;next;r=h;while(h-&gt;next!=NULL)
+h=h-&gt;next;for(k=0; k&lt;m;k++) {p = (NODE *)malloc(sizeof(NODE)); p-&gt;no
+=k+1;p-&gt;next = NULL; if(h-&gt;next == NULL) {h-&gt;next = p;q=p;} else
+{q-&gt;next = p;q = p;}} head-&gt;next=r-&gt;next;return head;}<br>
+<br>
+</span>期末上机编程题<span lang=EN-US> I </span>卷（是字母<span lang=EN-US> I</span>，不是罗马数字）<span
+lang=EN-US> 1.</span>一个简单的函数递归题，不记得了，总之很简单。<span lang=EN-US> 2.</span>已知直角三角形的一条直角边长<span
+lang=EN-US> a</span>，其余边长均为正整数，斜边长不超过<span lang=EN-US> n</span>。 输入：<span
+lang=EN-US>a,n? </span>输出：所有符合条件的直角三角形的直角边长<span lang=EN-US> a</span>，直角边长<span
+lang=EN-US> b</span>，斜边长<span lang=EN-US> c</span>。若没有符合条件的，输出<span lang=EN-US>
+No output. ?</span>。<span lang=EN-US> (</span>注意最后有个点，很坑人的<span lang=EN-US>)<br>
+<br>
+<br clear=all style='page-break-before:always'>
+</span>例如：输入<span lang=EN-US> 24,50? </span>输出：<span lang=EN-US>24,7,25?
+24,10,26? 24,18,30? 24,32,40? #include&lt;stdio.h&gt; int main(){int
+n,a,b,c,k=0;scanf(&quot;%d,%d&quot;,&amp;a,&amp;n); for(c=a+1;c&lt;=n;c++)
+{for(b=c-a+1;b&lt;n;b++) if(c*c-a*a-b*b==0)
+{++k;printf(&quot;%d,%d,%d\n&quot;,a,b,c);}} if(k==0)printf(&quot;No output.\n&quot;);
+return 0;} 3.</span>打印菱形图形。输入：菱形边长，第一个字母 输出：如下图所示 例如输入<span lang=EN-US> 4 W </span>输出：<span
+lang=EN-US> W? X X X? Y Y Y Y Y? Z Z Z Z Z Z Z? A A A A A? B B B? C?
+#include&lt;stdio.h&gt; #include&lt;math.h&gt; main(){int n,i,j;char
+a;scanf(&quot;%d %c&quot;,&amp;n,&amp;a);
+for(i=1-n;i&lt;n;i++){for(j=1;j&lt;=fabs(i);j++) printf(&quot; &quot;);
+for(j=1;j&lt;=2*n-1-2*fabs(i);j++)printf(&quot;%c&quot;,a);++a; if(a&gt;'Z')
+a-=26;printf(&quot;\n&quot;);}return 0;}</span></p>
+
+<p class=MsoNormal>内容来自：<span lang=EN-US><a href="http://9512.net"><span
+lang=EN-US><span lang=EN-US>甜梦文库</span></span></a></span>更多<span lang=EN-US>&quot;</span>北京理工大学<span
+lang=EN-US>2013</span>级<span lang=EN-US>C</span>程序设计非信息类答案<span lang=EN-US>part2&quot;</span>相关资料请点击<span
+lang=EN-US><a
+href="http://9512.net/search/%B1%B1%BE%A9%C0%ED%B9%A4%B4%F3%D1%A72013%BC%B6C%B3%CC%D0%F2%C9%E8%BC%C6%B7%C7%D0%C5%CF%A2%C0%E0%B4%F0%B0%B8part2"><span
+lang=EN-US><span lang=EN-US>这里</span></span></a></span></p>
+
+</div>
+
+</body>
+
+</html>
